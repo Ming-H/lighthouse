@@ -50,7 +50,6 @@ draft: false
 layout: "daily"
 economy_count: {economy_count}
 total_count: {len(articles)}
-summary: "{sanitize_for_yaml(analytics.get('summary', ''))}"
 ---
 """
 

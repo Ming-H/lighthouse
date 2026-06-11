@@ -17,17 +17,17 @@ ignoreLogs = ['warning-goldmark-raw-html']
   pagerSize = 30
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [params]
   defaultTheme = "auto"
   ShowReadingTime = false
   ShowShareButtons = false
-  ShowPostNavLinks = true
+  ShowPostNavLinks = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
   ShowToc = false
-  description = "新闻联播经济信号 · 辅助投资决策"
+  description = "新闻联播经济信号辅助投资决策"
 
   [params.homeInfoParams]
     Title = "📺 央视联播 · 投资参考"
@@ -63,11 +63,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url = "/alerts/"
 
 [[menu.main]]
-  name = "📊 生命周期"
+  name = "🔄 生命周期"
   weight = 6
   url = "/lifecycle/"
-
-[[menu.main]]
-  name = "📜 政策信号"
-  weight = 7
-  url = "/signals/"
