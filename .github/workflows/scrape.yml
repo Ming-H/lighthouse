@@ -7,13 +7,20 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Date to scrape (YYYYMMDD), empty for today'
+        description: 'Date (YYYYMMDD), empty for today'
         required: false
         default: ''
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  scrape:
+  scrape-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.155.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,11 +32,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: |
-          pip install jieba pyyaml
+      - name: Install Python deps
+        run: pip install jieba pyyaml
 
-      - name: Run pipeline
+      - name: Run scrape pipeline
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python scraper/run_daily.py --date=${{ github.event.inputs.date }}
@@ -40,13 +46,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 0.155.0
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
       - name: Build Hugo
         run: cd site && hugo --minify
 
-      - name: Commit and push
+      - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -54,6 +60,10 @@ jobs:
           git diff --staged --quiet || git commit -m "📰 daily update $(date +%Y-%m-%d) [skip ci]"
           git push
 
-  deploy:
-    needs: scrape
-    uses: ./.github/workflows/deploy.yml
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site/public
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
