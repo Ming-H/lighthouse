@@ -521,9 +521,10 @@ def render_brief(date_str: str) -> str:
 
     sent = brief.get("sentiment", "中性")
     sent_lvl = {"积极": "green", "中性": "gold", "谨慎": "red"}.get(sent, "gold")
+    model_tag = (data.get("model") or "GLM").upper()
     parts = ['<section class="brief">']
     parts.append(
-        '<div class="brief-head"><span class="brief-kicker">AI 投资解读 · GLM</span>'
+        f'<div class="brief-head"><span class="brief-kicker">AI 投资解读 · {esc(model_tag)}</span>'
         + badge(sent, level=sent_lvl, kind="sentiment") + '</div>'
     )
     if brief.get("thesis"):
