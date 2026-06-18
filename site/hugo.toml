@@ -44,34 +44,34 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[menu.main]]
   name = "首页"
   weight = 1
-  url = "/"
+  url = ""
 
 [[menu.main]]
   name = "每日新闻"
   weight = 2
-  url = "/daily/"
+  url = "daily/"
 
 [[menu.main]]
   name = "经济热点"
   weight = 3
-  url = "/hotspots/"
+  url = "hotspots/"
 
 [[menu.main]]
   name = "板块热力"
   weight = 4
-  url = "/sectors/"
+  url = "sectors/"
 
 [[menu.main]]
   name = "异动预警"
   weight = 5
-  url = "/alerts/"
+  url = "alerts/"
 
 [[menu.main]]
   name = "生命周期"
   weight = 6
-  url = "/lifecycle/"
+  url = "lifecycle/"
 
 [[menu.main]]
   name = "热点图表"
   weight = 7
-  url = "/charts/"
+  url = "charts/"
