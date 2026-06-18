@@ -44,7 +44,8 @@ def line_chart_svg(title: str, x_labels: list, series: list, h: int = 320) -> st
         return PT + plot_h - (plot_h * (v / vmax) if vmax else 0)
 
     parts = [f'<svg class="chart line" viewBox="0 0 {W} {h}" role="img" aria-label="{_t(title)}" preserveAspectRatio="xMidYMid meet">']
-    parts.append(f'<text class="ch-title" x="0" y="20">{_t(title)}</text>')
+    if title:
+        parts.append(f'<text class="ch-title" x="0" y="20">{_t(title)}</text>')
 
     # grid + y labels
     for g in range(5):
@@ -96,7 +97,8 @@ def heatmap_svg(title: str, row_labels: list, col_labels: list, matrix: list, h=
     vmax = max(flat) if flat else 1
 
     parts = [f'<svg class="chart heat" viewBox="0 0 {W} {Hh}" role="img" aria-label="{_t(title)}" preserveAspectRatio="xMidYMid meet">']
-    parts.append(f'<text class="ch-title" x="0" y="16">{_t(title)}</text>')
+    if title:
+        parts.append(f'<text class="ch-title" x="0" y="16">{_t(title)}</text>')
 
     # col labels (dates)
     for c, lab in enumerate(col_labels):
@@ -128,7 +130,8 @@ def bar_chart_svg(title: str, items: list, w: int = 600, top: int = 12) -> str:
     bar_max = w - lab_w - val_w - 8
 
     parts = [f'<svg class="chart bar" viewBox="0 0 {w} {Hh}" role="img" aria-label="{_t(title)}" preserveAspectRatio="xMidYMid meet">']
-    parts.append(f'<text class="ch-title" x="0" y="18">{_t(title)}</text>')
+    if title:
+        parts.append(f'<text class="ch-title" x="0" y="18">{_t(title)}</text>')
 
     for i, (label, val) in enumerate(items):
         y = pt + i * (row_h + gap)

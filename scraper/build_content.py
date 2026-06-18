@@ -649,8 +649,8 @@ def build_charts_page(date_str: str) -> bool:
         items = [(k, c) for k, c in p.get("top_keywords", [])[:10]]
         return charts.bar_chart_svg(title, items)
 
-    trend_svg = charts.line_chart_svg("关键词日度趋势（Top 6）", xlab, kw_series)
-    heat_svg = charts.heatmap_svg("板块热度热力图（板块 × 日期）", top_sec, xlab, matrix)
+    trend_svg = charts.line_chart_svg("", xlab, kw_series)
+    heat_svg = charts.heatmap_svg("", top_sec, xlab, matrix)
     wk_sec = period_bars("weekly", "板块热度排行 · 近一周")
     mo_sec = period_bars("monthly", "板块热度排行 · 近一月")
     hy_sec = period_bars("half_year", "板块热度排行 · 近半年")
