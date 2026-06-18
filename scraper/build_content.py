@@ -13,13 +13,17 @@ import html
 import json
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
+from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).parent))
+
+import charts
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 ANALYTICS_DIR = DATA_DIR / "analytics"
 DAILY_DIR = DATA_DIR / "daily"
+BRIEF_DIR = ANALYTICS_DIR / "briefs"
 CONTENT_DIR = Path(__file__).parent.parent / "site" / "content"
 
 
@@ -121,6 +125,9 @@ total_count: {total}
         f'</div>\n\n'
     )
     body = stat
+    ds = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+    body += f"[📖 完整文字稿 · 原文存档](/transcript/{ds}/)\n\n"
+    body += render_brief(date_str)
     body += "---\n\n"
 
     intensity_map = {
@@ -391,6 +398,7 @@ layout: "hotspots"
         'daily': ('今日热点', '当日出现的经济关键词'),
         'weekly': ('本周热点', '近 7 天高频关键词'),
         'monthly': ('本月热点', '近 30 天趋势'),
+        'half_year': ('近半年热点', '近 180 天趋势'),
         'yearly': ('年度热点', '近 365 天 Top 关键词'),
     }
 
@@ -494,30 +502,193 @@ layout: "home"
                 )
             body += '</ol>\n\n'
 
-    # 导航
-    body += "## 板块导航\n\n"
-    nav = [
-        ("每日新闻", "/daily/", "每日《新闻联播》经济信号逐条解析"),
-        ("经济热点", "/hotspots/", "日 / 周 / 月 / 年 高频关键词"),
-        ("板块热力", "/sectors/", "板块分数排行与龙头股"),
-        ("异动预警", "/alerts/", "关键词频次异动监测"),
-        ("生命周期", "/lifecycle/", "政策从探索到退潮的轨迹"),
-    ]
-    body += '<nav class="navcards">\n'
-    for label, url, desc in nav:
-        body += (
-            f'  <a class="navcard" href="{esc(url)}">\n'
-            f'    <span class="navcard-title">{esc(label)}</span>\n'
-            f'    <span class="navcard-desc">{esc(desc)}</span>\n'
-            f'  </a>\n'
-        )
-    body += '</nav>\n\n'
+    # 板块导航由 layouts/index.html 用 relURL 渲染（保证子路径下链接正确）
 
     out_path = CONTENT_DIR / "_index.md"
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(fm + body)
 
     print(f'  ✅ 首页: _index.md')
+    return True
+
+
+def render_brief(date_str: str) -> str:
+    """渲染当日 LLM 投资解读（无则返回空串）。"""
+    data = load_json(BRIEF_DIR / f"{date_str}.json")
+    brief = data.get("brief", data) if data else None
+    if not brief or not isinstance(brief, dict) or not brief.get("thesis"):
+        return ""
+
+    sent = brief.get("sentiment", "中性")
+    sent_lvl = {"积极": "green", "中性": "gold", "谨慎": "red"}.get(sent, "gold")
+    parts = ['<section class="brief">']
+    parts.append(
+        '<div class="brief-head"><span class="brief-kicker">AI 投资解读 · GLM</span>'
+        + badge(sent, level=sent_lvl, kind="sentiment") + '</div>'
+    )
+    if brief.get("thesis"):
+        parts.append(f'<p class="brief-thesis">{esc(brief["thesis"])}</p>')
+
+    hls = [h for h in brief.get("highlights", []) if isinstance(h, dict) and h.get("sector")]
+    if hls:
+        parts.append('<div class="brief-highlights">')
+        for h in hls:
+            parts.append('<div class="hl-card">')
+            parts.append(f'<div class="hl-sector">{dot("red")}<span>{esc(h.get("sector", ""))}</span></div>')
+            if h.get("angle"):
+                parts.append(f'<p class="hl-angle">{esc(h["angle"])}</p>')
+            meta = []
+            if h.get("catalyst"):
+                meta.append(kv("催化", h["catalyst"]))
+            if h.get("stocks"):
+                meta.append(kv("龙头", h["stocks"]))
+            if h.get("watch"):
+                meta.append(kv("关注", h["watch"]))
+            if meta:
+                parts.append(f'<div class="hl-meta">{"".join(meta)}</div>')
+            parts.append('</div>')
+        parts.append('</div>')
+
+    risks = [r for r in brief.get("risks", []) if r]
+    if risks:
+        parts.append('<div class="brief-risks"><span class="brief-label">风险提示</span>'
+                     + '<ul>' + "".join(f'<li>{esc(r)}</li>' for r in risks) + '</ul></div>')
+    if brief.get("data_read"):
+        parts.append(f'<div class="brief-data"><span class="brief-label">数据解读</span>'
+                     f'<p>{esc(brief["data_read"])}</p></div>')
+    parts.append('</section>')
+    return "\n".join(parts) + "\n\n"
+
+
+def build_daily_full_page(date_str: str) -> bool:
+    """生成当日《新闻联播》完整文字稿存档页（一字不改）。"""
+    analytics = load_json(ANALYTICS_DIR / f"{date_str}.json")
+    if not analytics:
+        return False
+
+    date_fmt = f"{date_str[:4]}年{int(date_str[4:6])}月{int(date_str[6:8])}日"
+    articles = analytics.get('articles', [])
+    total = len(articles)
+
+    fm = f"""---
+title: "新闻联播完整文字稿 · {date_fmt}"
+date: "{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+draft: false
+layout: "transcript"
+---
+"""
+
+    body = f'<p class="lead">《新闻联播》{date_fmt} 全部 {total} 条文字稿，原文完整保留。</p>\n\n'
+    for art in articles:
+        title = esc(art.get('title', '') or '（无标题）')
+        body += f"### {title}\n\n"
+        url = art.get('url', '')
+        if url:
+            body += f"[查看视频 ↗]({url})\n\n"
+        text = (art.get('text') or '').strip()
+        if text:
+            body += f"{text}\n\n"
+        body += "---\n\n"
+
+    out_dir = CONTENT_DIR / "transcript"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}.md"
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(fm + body)
+    print(f'  ✅ 完整文字稿: transcript/{out_path.name}')
+    return True
+
+
+def _window_dates(date_str: str, days: int = 30) -> list:
+    base = datetime.strptime(date_str, '%Y%m%d')
+    out = []
+    for d in range(days):
+        ds = (base - timedelta(days=d)).strftime('%Y%m%d')
+        if (ANALYTICS_DIR / f"{ds}.json").exists():
+            out.append(ds)
+    return sorted(out)
+
+
+def build_charts_page(date_str: str) -> bool:
+    """生成热点图表页（纯 SVG，构建期生成）。"""
+    multi = load_json(ANALYTICS_DIR / "multi_period.json")
+    dates = _window_dates(date_str, days=30)
+    if not dates:
+        dates = [date_str]
+    xlab = [f"{d[4:6]}-{d[6:8]}" for d in dates]
+
+    # 日度关键词 / 板块
+    daily_kw = {ds: load_json(ANALYTICS_DIR / f"{ds}.json").get("daily_keywords", {}) for ds in dates}
+    daily_sec = {ds: load_json(ANALYTICS_DIR / f"{ds}.json").get("daily_sectors", {}) for ds in dates}
+
+    kw_agg = defaultdict(int)
+    for ds in dates:
+        for k, c in daily_kw[ds].items():
+            kw_agg[k] += c
+    top_kw = [k for k, _ in sorted(kw_agg.items(), key=lambda x: -x[1])[:6]]
+    kw_series = [{"label": k, "values": [daily_kw[ds].get(k, 0) for ds in dates]} for k in top_kw]
+
+    sec_agg = defaultdict(int)
+    for ds in dates:
+        for name, sd in daily_sec[ds].items():
+            sec_agg[name] += sd.get("count", 0)
+    top_sec = [n for n, _ in sorted(sec_agg.items(), key=lambda x: -x[1])[:10]]
+    matrix = [[daily_sec[ds].get(sec, {}).get("count", 0) for ds in dates] for sec in top_sec]
+
+    # 多周期排行（来自 multi_period）
+    periods = multi.get("periods", {})
+
+    def period_bars(key, title):
+        p = periods.get(key, {})
+        items = [(s["name"], s["count"]) for s in p.get("sectors", [])[:10]]
+        return charts.bar_chart_svg(title, items)
+
+    def kw_bars(key, title):
+        p = periods.get(key, {})
+        items = [(k, c) for k, c in p.get("top_keywords", [])[:10]]
+        return charts.bar_chart_svg(title, items)
+
+    trend_svg = charts.line_chart_svg("关键词日度趋势（Top 6）", xlab, kw_series)
+    heat_svg = charts.heatmap_svg("板块热度热力图（板块 × 日期）", top_sec, xlab, matrix)
+    wk_sec = period_bars("weekly", "板块热度排行 · 近一周")
+    mo_sec = period_bars("monthly", "板块热度排行 · 近一月")
+    hy_sec = period_bars("half_year", "板块热度排行 · 近半年")
+    wk_kw = kw_bars("weekly", "高频关键词 · 近一周")
+
+    start = dates[0]
+    start_fmt = f"{start[:4]}年{int(start[4:6])}月{int(start[6:8])}日"
+    end_fmt = f"{dates[-1][:4]}年{int(dates[-1][4:6])}月{int(dates[-1][6:8])}日"
+
+    fm = f"""---
+title: "热点图表 · {end_fmt}"
+date: "{dates[-1][:4]}-{dates[-1][4:6]}-{dates[-1][6:8]}"
+draft: false
+layout: "charts"
+---
+"""
+    body = (
+        f'<p class="lead">数据自 <b>{start_fmt}</b> 起逐日累积，共 {len(dates)} 天。'
+        f'月度 / 半年排行会随每日自动抓取逐步丰满——当前样本尚少，仅供趋势参考。</p>\n\n'
+    )
+    body += "## 板块 × 日期 热度\n\n"
+    body += f'<div class="chart-card">{heat_svg}</div>\n\n'
+    body += "## 关键词日度趋势\n\n"
+    body += f'<div class="chart-card">{trend_svg}</div>\n\n'
+    body += "## 板块热度排行（周 / 月 / 半年 对比）\n\n"
+    body += f'<div class="chart-periods">'
+    body += f'<div class="chart-card">{wk_sec}</div>'
+    body += f'<div class="chart-card">{mo_sec}</div>'
+    body += f'<div class="chart-card">{hy_sec}</div>'
+    body += f'</div>\n\n'
+    body += "## 高频关键词排行\n\n"
+    body += f'<div class="chart-card">{wk_kw}</div>\n\n'
+
+    out_dir = CONTENT_DIR / "charts"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "_index.md"
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(fm + body)
+    print(f'  ✅ 热点图表: charts/_index.md')
     return True
 
 
@@ -531,10 +702,12 @@ def build_all(date_str: str = None):
 
     build_homepage(date_str)
     build_daily_page(date_str)
+    build_daily_full_page(date_str)
     build_hotspots_page(date_str)
     build_sectors_page(date_str)
     build_alerts_page(date_str)
     build_lifecycle_page(date_str)
+    build_charts_page(date_str)
 
     print(f'\n✅ 内容生成完成')
 

@@ -50,28 +50,3 @@ layout: "home"
   </li>
 </ol>
 
-## 板块导航
-
-<nav class="navcards">
-  <a class="navcard" href="/daily/">
-    <span class="navcard-title">每日新闻</span>
-    <span class="navcard-desc">每日《新闻联播》经济信号逐条解析</span>
-  </a>
-  <a class="navcard" href="/hotspots/">
-    <span class="navcard-title">经济热点</span>
-    <span class="navcard-desc">日 / 周 / 月 / 年 高频关键词</span>
-  </a>
-  <a class="navcard" href="/sectors/">
-    <span class="navcard-title">板块热力</span>
-    <span class="navcard-desc">板块分数排行与龙头股</span>
-  </a>
-  <a class="navcard" href="/alerts/">
-    <span class="navcard-title">异动预警</span>
-    <span class="navcard-desc">关键词频次异动监测</span>
-  </a>
-  <a class="navcard" href="/lifecycle/">
-    <span class="navcard-title">生命周期</span>
-    <span class="navcard-desc">政策从探索到退潮的轨迹</span>
-  </a>
-</nav>
-

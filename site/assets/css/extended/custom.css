@@ -24,6 +24,10 @@
   --gold-soft:      rgba(149, 106, 28, .13);
   --growth:         #3c6a36;
   --growth-soft:    rgba(60, 106, 54, .12);
+  /* chart series */
+  --c-teal:         #1f7a7a;
+  --c-violet:       #6d4b9a;
+  --c-amber:        #c98a1a;
 
   --shadow:     0 1px 0 rgba(33, 28, 21, .04), 0 18px 40px -28px rgba(33, 28, 21, .35);
   --shadow-lift:0 2px 0 rgba(33, 28, 21, .05), 0 30px 60px -30px rgba(168, 40, 30, .30);
@@ -61,6 +65,10 @@
   --gold-soft:      rgba(214, 164, 74, .14);
   --growth:         #71b160;
   --growth-soft:    rgba(113, 177, 96, .14);
+  /* chart series */
+  --c-teal:         #3aa6a6;
+  --c-violet:       #b08fe0;
+  --c-amber:        #e3ad4e;
 
   --shadow:     0 1px 0 rgba(0, 0, 0, .30), 0 22px 50px -30px rgba(0, 0, 0, .8);
   --shadow-lift:0 2px 0 rgba(0, 0, 0, .30), 0 34px 70px -34px rgba(227, 86, 74, .35);
@@ -988,13 +996,13 @@ code {
 .post-content .lc-stats { display: flex; flex-direction: column; gap: .42em; }
 
 /* homepage nav card grid */
-.post-content .navcards {
+.navcards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 12px;
   margin: 0 0 1.6em;
 }
-.post-content .navcard {
+.navcard {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -1009,7 +1017,7 @@ code {
   overflow: hidden;
   transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
 }
-.post-content .navcard::before {
+.navcard::before {
   content: "";
   position: absolute;
   left: 0; top: 0; bottom: 0;
@@ -1019,19 +1027,19 @@ code {
   transform-origin: top;
   transition: transform .25s ease;
 }
-.post-content .navcard:hover {
+.navcard:hover {
   transform: translateY(-3px);
   border-color: var(--rule-strong);
   box-shadow: var(--shadow-lift);
 }
-.post-content .navcard:hover::before { transform: scaleY(1); }
-.post-content .navcard-title {
+.navcard:hover::before { transform: scaleY(1); }
+.navcard-title {
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.08rem;
   color: var(--ink);
 }
-.post-content .navcard-desc {
+.navcard-desc {
   font-family: var(--font-mono);
   font-size: .71rem;
   line-height: 1.5;
@@ -1058,6 +1066,171 @@ code {
   color: var(--ink-faint);
   margin-right: .3em;
 }
+
+/* ---------- 16. Home nav section + navcards (layout-level) ------------- */
+.home-nav { margin: 8px 0 36px; }
+.nav-heading {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 14px;
+}
+.navcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+.navcard {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px 18px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  background-image: none;
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  position: relative;
+  overflow: hidden;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.navcard::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--crimson);
+  transform: scaleY(.25);
+  transform-origin: top;
+  transition: transform .25s ease;
+}
+.navcard:hover { transform: translateY(-3px); border-color: var(--rule-strong); box-shadow: var(--shadow-lift); }
+.navcard:hover::before { transform: scaleY(1); }
+.navcard-title { font-family: var(--font-display); font-weight: 600; font-size: 1.08rem; color: var(--ink); }
+.navcard-desc { font-family: var(--font-mono); font-size: .71rem; line-height: 1.5; color: var(--ink-faint); }
+
+/* ---------- 17. AI investment brief ----------------------------------- */
+.post-content .brief {
+  margin: 0 0 1.6em;
+  padding: 18px 20px;
+  background: linear-gradient(180deg, var(--crimson-soft), transparent 40%), var(--paper-2);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--crimson);
+  border-radius: var(--radius-lg);
+}
+.post-content .brief-head {
+  display: flex;
+  align-items: center;
+  gap: .7em;
+  margin-bottom: .8em;
+}
+.post-content .brief-kicker {
+  font-family: var(--font-mono);
+  font-size: .66rem;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--crimson);
+}
+.post-content .brief-thesis {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0 0 1em;
+}
+.post-content .brief-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+  margin-bottom: 1em;
+}
+.post-content .hl-card {
+  padding: 12px 14px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+.post-content .hl-sector {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: .98rem;
+  color: var(--ink);
+  margin-bottom: .3em;
+}
+.post-content .hl-angle {
+  font-size: .86rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 .5em;
+}
+.post-content .hl-meta { display: flex; flex-direction: column; gap: .3em; }
+.post-content .brief-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: .64rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: .35em;
+}
+.post-content .brief-risks ul { margin: 0; border: 0; }
+.post-content .brief-risks li { font-size: .86rem; }
+.post-content .brief-data p { font-size: .88rem; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+
+/* ---------- 18. Charts (pure SVG, theme-aware via CSS vars) ------------ */
+.post-content .chart-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px 8px;
+  margin: 0 0 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.post-content .chart-periods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+  margin-bottom: 8px;
+}
+svg.chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: var(--font-mono);
+}
+svg.chart .ch-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+  fill: var(--ink);
+}
+svg.chart .ch-axis { font-size: 10px; fill: var(--ink-faint); }
+svg.chart .ch-grid { stroke: var(--rule); stroke-width: 1; }
+svg.chart .ch-rowlabel { font-size: 11px; fill: var(--ink-soft); font-family: var(--font-display); }
+svg.chart .ch-value { font-size: 11px; fill: var(--crimson); font-weight: 600; }
+svg.chart .ch-line { stroke: var(--sc, var(--crimson)); stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+svg.chart .ch-pt { fill: var(--sc, var(--crimson)); stroke: var(--paper); stroke-width: 1.5; }
+svg.chart .ch-cell { fill: var(--crimson); }
+svg.chart .ch-bar-track { fill: var(--paper-3); }
+svg.chart .ch-bar { fill: var(--crimson); }
+svg.chart .ch-legend { font-size: 10px; fill: var(--ink-soft); }
+svg.chart .ch-legend-swatch { fill: var(--sc, var(--crimson)); }
+svg.chart .ch-empty { font-size: 12px; fill: var(--ink-faint); }
+
+/* ---------- 19. Transcript (full text archive) ------------------------ */
+.post-content.transcript { max-width: 100%; }
+.post-content.transcript h3 { border-left-color: var(--crimson); }
+.post-content.transcript hr::after { content: "❧"; }
 
 /* ---------- 14. Responsive --------------------------------------------- */
 

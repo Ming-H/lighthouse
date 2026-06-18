@@ -1,0 +1,9 @@
+{{- define "main" -}}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . -}}
+  <h1>{{ .Title }}</h1>
+</header>
+<div class="post-content md-content charts">
+  {{- .Content -}}
+</div>
+{{- end -}}

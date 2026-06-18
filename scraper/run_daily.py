@@ -14,6 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from fetch_xwlb import fetch_daily
 from extract_keywords import analyze_daily, analyze_multi_period
 from signal_tracker import run_signal_analysis
+from llm_brief import generate_brief
 from build_content import build_all
 
 
@@ -53,8 +54,14 @@ def run_pipeline(date_str: str = None):
     run_signal_analysis(date_str)
     print()
 
-    # Step 5: 生成 Hugo 内容
-    print('📝 Step 5: 生成 Hugo 内容')
+    # Step 5: AI 投资解读（智谱 GLM；无 key 自动跳过）
+    print('🤖 Step 5: AI 投资解读')
+    print('-' * 30)
+    generate_brief(date_str)
+    print()
+
+    # Step 6: 生成 Hugo 内容
+    print('📝 Step 6: 生成 Hugo 内容')
     print('-' * 30)
     build_all(date_str)
     print()

@@ -6,6 +6,7 @@ theme = 'PaperMod'
 
 enableRobotsTXT = true
 summaryLength = 0
+canonifyURLs = true
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [markup]
@@ -69,3 +70,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   name = "生命周期"
   weight = 6
   url = "/lifecycle/"
+
+[[menu.main]]
+  name = "热点图表"
+  weight = 7
+  url = "/charts/"

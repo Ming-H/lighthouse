@@ -313,6 +313,7 @@ def analyze_multi_period(date_str: str = None) -> dict:
         'daily': 1,
         'weekly': 7,
         'monthly': 30,
+        'half_year': 180,
         'yearly': 365,
     }
 
