@@ -37,10 +37,9 @@ jobs:
 
       - name: Run scrape pipeline
         env:
-          # 智谱 GLM key（在仓库 Settings → Secrets 配置 ZHIPUAI_API_KEY 后启用 AI 解读；未配置则自动跳过）
+          # 智谱 GLM key（已配置 ZHIPUAI_API_KEY secret；未配置则 AI 解读自动跳过）
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
           LLM_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python scraper/run_daily.py --date=${{ github.event.inputs.date }}

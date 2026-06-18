@@ -126,9 +126,9 @@ def _call_llm(prompt: str) -> str:
 
     client = anthropic.Anthropic(
         api_key=key,
-        base_url=os.environ.get("LLM_BASE_URL", DEFAULT_BASE_URL),
+        base_url=os.environ.get("LLM_BASE_URL") or DEFAULT_BASE_URL,
     )
-    model = os.environ.get("LLM_MODEL", DEFAULT_MODEL)
+    model = os.environ.get("LLM_MODEL") or DEFAULT_MODEL
     resp = client.messages.create(
         model=model,
         max_tokens=1400,
@@ -186,7 +186,7 @@ def generate_brief(date_str: str, force: bool = False) -> dict | None:
             raw = _call_llm(prompt)
             brief = _validate(_extract_json(raw))
             with open(out_path, "w", encoding="utf-8") as f:
-                json.dump({"date": date_str, "model": os.environ.get("LLM_MODEL", DEFAULT_MODEL), "brief": brief},
+                json.dump({"date": date_str, "model": os.environ.get("LLM_MODEL") or DEFAULT_MODEL, "brief": brief},
                           f, ensure_ascii=False, indent=2)
             print(f"  ✅ 投资解读已生成: briefs/{date_str}.json (情绪={brief['sentiment']})")
             return brief
