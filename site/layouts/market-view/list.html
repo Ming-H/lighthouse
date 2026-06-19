@@ -1,0 +1,42 @@
+{{- define "main" -}}
+{{- $s := .Site.Data.signal -}}
+<header class="page-header">
+  <h1>大盘视野 · 灯塔信号</h1>
+</header>
+
+{{- with $s -}}
+<div class="beacon-strip" data-state="{{ .market_state }}">
+  <span class="beacon-lamp" data-state="{{ .market_state }}"></span>
+  <span class="bs-verdict">
+    {{ if eq .market_state "offense" }}🟢 进攻{{ else if eq .market_state "watch" }}🟡 观望{{ else }}🔴 防守{{ end }}
+    　{{ .verdict }}
+  </span>
+  <span class="bs-meta">{{ .date }} · GLM 基于新闻联播研判（CAN SLIM 的 M）</span>
+</div>
+
+<div class="post-content">
+  <p style="font-size:1.05rem;line-height:1.8">{{ .reason }}</p>
+  {{- with .key_catalysts -}}
+  <h3>关键催化 / 风险</h3>
+  <ul>
+    {{- range . -}}<li>{{ . }}</li>{{- end -}}
+  </ul>
+  {{- end -}}
+</div>
+{{- else -}}
+<div class="beacon-strip" data-state="watch">
+  <span class="beacon-lamp" data-state="watch"></span>
+  <span class="bs-verdict">灯塔信号生成中</span>
+  <span class="bs-meta">每晚 21:45 由 GLM 基于新闻联播研判</span>
+</div>
+{{- end -}}
+
+<h2>宏观仪表盘</h2>
+<p class="lead">央行流动性 · 利率汇率外资 · 景气价格 · 市场情绪异动 —— 数据接入中（P3 阶段）。信号三态：</p>
+<ul>
+  <li>🟢 <strong>进攻</strong>：政策利好+景气主线强势+资金流入 → 选股激进</li>
+  <li>🟡 <strong>观望</strong>：信号矛盾/震荡 → 多看少动</li>
+  <li>🔴 <strong>防守</strong>：政策收紧/破位 → 暂停买入、执行止损</li>
+</ul>
+<p class="lead">约 3/4 个股跟随大盘——先看信号色，再看个股。新闻联播解读见 <a href="{{ "daily/" | relURL }}">新闻存档</a>，政策催化见 <a href="{{ "daily-picks/" | relURL }}">每日选股</a>。</p>
+{{- end -}}

@@ -5,10 +5,11 @@
 </header>
 
 {{- with $p -}}
-<div class="beacon-strip" data-state="{{ .market_state }}">
-  <span class="beacon-lamp" data-state="{{ .market_state }}"></span>
+{{- $sig := $.Site.Data.signal -}}
+<div class="beacon-strip" data-state="{{ ($sig).market_state | default .market_state }}">
+  <span class="beacon-lamp" data-state="{{ ($sig).market_state | default .market_state }}"></span>
   <span class="bs-verdict">
-    大盘 {{ if eq .market_state "offense" }}🟢 进攻{{ else if eq .market_state "watch" }}🟡 观望{{ else }}🔴 防守{{ end }}
+    大盘 {{ if eq (($sig).market_state) "offense" }}🟢 进攻{{ else if eq (($sig).market_state) "defense" }}🔴 防守{{ else }}🟡 观望{{ end }}
     · 扫描 {{ .count }} 只 A 股
   </span>
   <span class="bs-meta">更新 {{ .updated }} · 每交易日 18:00</span>

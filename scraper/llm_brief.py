@@ -200,6 +200,69 @@ def generate_brief(date_str: str, force: bool = False) -> dict | None:
     return None
 
 
+SIGNAL_OUT = Path(__file__).parent.parent / "site" / "data" / "signal.json"
+
+
+def _build_signal_prompt(date_str: str, analytics: dict) -> str:
+    date_fmt = f"{date_str[:4]}年{int(date_str[4:6])}月{int(date_str[6:8])}日"
+    secs = sorted((analytics.get("daily_sectors") or {}).items(),
+                  key=lambda x: (x[1].get("count", 0) if isinstance(x[1], dict) else x[1]), reverse=True)
+    sec_line = "、".join(n for n, _ in secs[:12])
+    econ = [a for a in analytics.get("articles", []) if a.get("is_economy")]
+    titles = "；".join(a.get("title", "").replace("[视频]", "").strip() for a in econ[:10])
+    digest = f"日期{date_fmt}，板块热度：{sec_line}。经济要闻：{titles}"
+    schema = json.dumps({
+        "market_state": "offense 或 watch 或 defense 三选一",
+        "verdict": "一句话研判",
+        "reason": "80-150字：政策面/资金面/板块结构/风险的综合判断",
+        "key_catalysts": ["1-3条当日关键催化或风险"],
+    }, ensure_ascii=False)
+    return f"""你是资深A股策略分析师。基于当日《新闻联播》信号，判断A股大盘短期方向（CAN SLIM 的 M 总开关）。
+
+判断标准：
+- offense 进攻：政策明确利好+景气主线(半导体/AI等)强势+资金流入
+- watch 观望：信号矛盾/偏谨慎/震荡市
+- defense 防守：政策收紧/外部风险/破位迹象
+
+严格输出 JSON（不要 markdown、不要解释）：
+{schema}
+
+{digest}
+"""
+
+
+def generate_signal(date_str: str, force: bool = False):
+    """生成灯塔信号（大盘 M 三色），写 site/data/signal.json。"""
+    if SIGNAL_OUT.exists() and not force and _load_json(SIGNAL_OUT).get("date") == date_str:
+        return _load_json(SIGNAL_OUT)
+    if not _get_key():
+        print("  ⏭️ 无 key，跳过灯塔信号")
+        return None
+    analytics = _load_json(ANALYTICS_DIR / f"{date_str}.json")
+    if not analytics:
+        print(f"  ⏭️ 无 {date_str} 分析数据")
+        return None
+    prompt = _build_signal_prompt(date_str, analytics)
+    print(f"  🤖 生成灯塔信号 {date_str}…")
+    for attempt in range(2):
+        try:
+            raw = _call_llm(prompt)
+            sig = _extract_json(raw)
+            ms = sig.get("market_state", "watch")
+            if ms not in ("offense", "watch", "defense"):
+                ms = "watch"
+            sig["market_state"] = ms
+            sig["date"] = date_str
+            SIGNAL_OUT.parent.mkdir(parents=True, exist_ok=True)
+            with open(SIGNAL_OUT, "w", encoding="utf-8") as f:
+                json.dump(sig, f, ensure_ascii=False, indent=2)
+            print(f"  ✅ 灯塔信号：{ms} — {sig.get('verdict', '')[:50]}")
+            return sig
+        except Exception as e:  # noqa: BLE001
+            print(f"  ⚠️ 第{attempt + 1}次失败：{str(e)[:120]}")
+    return None
+
+
 def generate_all(date_str: str = None, force: bool = False):
     """为某个日期生成解读（run_daily 调用）。"""
     import datetime as _dt
@@ -210,5 +273,10 @@ def generate_all(date_str: str = None, force: bool = False):
 
 
 if __name__ == "__main__":
-    d = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else None
-    generate_all(d, force="--force" in sys.argv)
+    args = sys.argv[1:]
+    d = args[0] if args and not args[0].startswith("--") else None
+    if "--signal" in args:
+        import datetime as _dt
+        generate_signal(d or _dt.datetime.now().strftime("%Y%m%d"), force="--force" in args)
+    else:
+        generate_all(d, force="--force" in args)

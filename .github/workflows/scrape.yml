@@ -47,6 +47,14 @@ jobs:
             python scraper/run_daily.py --today
           fi
 
+      - name: Generate lighthouse signal (M)
+        env:
+          ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
+        run: |
+          D="${{ github.event.inputs.date }}"
+          python scraper/llm_brief.py ${D:-$(date +%Y%m%d)} --signal --force || true
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -60,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ site/content/
+          git add data/ site/content/ site/data/
           git diff --staged --quiet || git commit -m "📰 daily update $(date +%Y-%m-%d) [skip ci]"
           git push
 

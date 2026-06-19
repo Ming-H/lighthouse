@@ -32,10 +32,11 @@
 {{- /* 灯塔信号 · 大盘方向（M） */ -}}
 <section class="home-nav">
   <h2 class="nav-heading">灯塔信号 · 大盘方向（M）</h2>
-  <div class="beacon-strip" data-state="watch">
-    <span class="beacon-lamp" data-state="watch"></span>
-    <span class="bs-verdict">当前研判：观望（示例）</span>
-    <span class="bs-meta">信号每日 21:45 更新 · 对应 CAN SLIM 的 M</span>
+  {{- $sig := .Site.Data.signal -}}
+  <div class="beacon-strip" data-state="{{ ($sig).market_state | default "watch" }}">
+    <span class="beacon-lamp" data-state="{{ ($sig).market_state | default "watch" }}"></span>
+    <span class="bs-verdict">{{ if eq (($sig).market_state) "offense" }}🟢 进攻{{ else if eq (($sig).market_state) "defense" }}🔴 防守{{ else }}🟡 观望{{ end }}　{{ ($sig).verdict | default "灯塔信号生成中" }}</span>
+    <span class="bs-meta">{{ ($sig).date }} · 信号每日 21:45 更新（M）</span>
   </div>
 </section>
 
