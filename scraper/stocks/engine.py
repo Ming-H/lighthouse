@@ -180,7 +180,8 @@ if __name__ == "__main__":
     try:
         cal = ak.tool_trade_date_hist_sina()
         today = pd.Timestamp.now().strftime("%Y-%m-%d")
-        if today not in set(cal["trade_date"].astype(str).tolist()):
+        dates = set(pd.to_datetime(cal["trade_date"]).dt.strftime("%Y-%m-%d"))
+        if today not in dates:
             print(f"{today} 非交易日，跳过。")
             sys.exit(0)
     except Exception as e:
