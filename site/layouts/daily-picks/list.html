@@ -14,6 +14,22 @@
   <span class="bs-meta">更新 {{ .updated }} · 每交易日 18:00</span>
 </div>
 
+{{- with $.Site.Data.picks.policy -}}
+<h2>🚩 今日政策催化 · {{ .date }}</h2>
+<p class="lead">当日《新闻联播》提及的板块及其代表股——CAN SLIM 的 N 催化，宏观政策直接点亮个股。</p>
+{{- range .sectors -}}
+<div class="beacon-strip" style="display:block;border-left-color:var(--brand);margin-bottom:10px">
+  <div style="display:flex;align-items:baseline;gap:.6em;flex-wrap:wrap">
+    <span class="bs-verdict">{{ .sector }}</span>
+    <span class="bs-meta">新闻联播提及 · 强度 {{ printf "%.0f" .weight }}</span>
+  </div>
+  <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+    {{- range .stocks -}}<span class="chip">{{ .name }} <b>{{ .code }}</b></span>{{- end -}}
+  </div>
+</div>
+{{- end -}}
+{{- end -}}
+
 <h2>灯塔分 TOP {{ len .top20 }}</h2>
 <table class="scoreboard">
   <thead><tr><th>#</th><th>股票</th><th>灯塔分</th><th>C·A·N·S·L·I</th><th>催化</th><th>60日</th></tr></thead>
