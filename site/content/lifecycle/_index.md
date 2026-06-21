@@ -1,6 +1,6 @@
 ---
-title: "政策生命周期 · 2026年6月20日"
-date: "2026-06-20"
+title: "政策生命周期 · 2026年6月21日"
+date: "2026-06-21"
 draft: false
 layout: "lifecycle"
 ---
@@ -29,7 +29,7 @@ layout: "lifecycle"
       <span class="badge" data-lvl="red" data-kind="stage">密集政策期</span>
     </header>
     <div class="lc-stats">
-      <span class="kv"><i>首次出现</i><b>20260615</b></span>      <span class="kv"><i>近7天</i><b>4次</b></span>      <span class="kv"><i>累计</i><b>4次</b></span>    </div>
+      <span class="kv"><i>首次出现</i><b>20260615</b></span>      <span class="kv"><i>近7天</i><b>5次</b></span>      <span class="kv"><i>累计</i><b>5次</b></span>    </div>
   </article>
   <article class="lc-card" data-lvl="red">
     <header class="lc-head">
@@ -37,15 +37,15 @@ layout: "lifecycle"
       <span class="badge" data-lvl="red" data-kind="stage">密集政策期</span>
     </header>
     <div class="lc-stats">
-      <span class="kv"><i>首次出现</i><b>20260615</b></span>      <span class="kv"><i>近7天</i><b>3次</b></span>      <span class="kv"><i>累计</i><b>3次</b></span>    </div>
+      <span class="kv"><i>首次出现</i><b>20260615</b></span>      <span class="kv"><i>近7天</i><b>4次</b></span>      <span class="kv"><i>累计</i><b>4次</b></span>    </div>
   </article>
   <article class="lc-card" data-lvl="red">
     <header class="lc-head">
-      <span class="dot" data-lvl="red" aria-hidden="true"></span>      <h2>房地产</h2>
+      <span class="dot" data-lvl="red" aria-hidden="true"></span>      <h2>基建投资</h2>
       <span class="badge" data-lvl="red" data-kind="stage">密集政策期</span>
     </header>
     <div class="lc-stats">
-      <span class="kv"><i>首次出现</i><b>20260611</b></span>      <span class="kv"><i>近7天</i><b>6次</b></span>      <span class="kv"><i>累计</i><b>6次</b></span>    </div>
+      <span class="kv"><i>首次出现</i><b>20260611</b></span>      <span class="kv"><i>近7天</i><b>7次</b></span>      <span class="kv"><i>累计</i><b>11次</b></span>    </div>
   </article>
 </div>
 
