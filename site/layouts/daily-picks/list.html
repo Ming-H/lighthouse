@@ -6,30 +6,7 @@
 
 {{- with $p -}}
 {{- $sig := $.Site.Data.signal -}}
-<div class="beacon-strip" data-state="{{ ($sig).market_state | default .market_state }}">
-  <span class="beacon-lamp" data-state="{{ ($sig).market_state | default .market_state }}"></span>
-  <span class="bs-verdict">
-    大盘 {{ if eq (($sig).market_state) "offense" }}🟢 进攻{{ else if eq (($sig).market_state) "defense" }}🔴 防守{{ else }}🟡 观望{{ end }}
-    · 扫描 {{ .count }} 只 A 股
-  </span>
-  <span class="bs-meta">更新 {{ .updated }} · 每交易日 18:00</span>
-</div>
-
-{{- with $.Site.Data.picks.policy -}}
-<h2>🚩 今日政策催化 · {{ .date }}</h2>
-<p class="lead">当日《新闻联播》提及的板块及其代表股——CAN SLIM 的 N 催化，宏观政策直接点亮个股。</p>
-{{- range .sectors -}}
-<div class="beacon-strip" style="display:block;border-left-color:var(--brand);margin-bottom:10px">
-  <div style="display:flex;align-items:baseline;gap:.6em;flex-wrap:wrap">
-    <span class="bs-verdict">{{ .sector }}</span>
-    <span class="bs-meta">新闻联播提及 · 强度 {{ printf "%.0f" .weight }}</span>
-  </div>
-  <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
-    {{- range .stocks -}}<span class="chip">{{ .name }} <b>{{ .code }}</b></span>{{- end -}}
-  </div>
-</div>
-{{- end -}}
-{{- end -}}
+<p class="lead">大盘 {{ if eq (($sig).market_state) "offense" }}🟢 进攻{{ else if eq (($sig).market_state) "defense" }}🔴 防守{{ else }}🟡 观望{{ end }} · 扫描 {{ .count }} 只 A 股 · 更新 {{ .updated }}<br>大盘研判看 <a href="{{ "market-view/" | relURL }}">大盘视野</a>，板块政策催化看 <a href="{{ "sectors/" | relURL }}">板块景气</a>。</p>
 
 <h2>灯塔分 TOP {{ len .top20 }}</h2>
 <table class="scoreboard">
@@ -61,7 +38,7 @@
 
 <p class="lead">
   灯塔分 = 七要素加权（C 收益 · A 年度 · N 催化 · S 供需 · L 强度 · I 机构 · M 大盘），0–100。
-  M 为总开关：防守市整体压低 ×0.6。🚩 表示当日新闻联播提及该股所在板块。
+  M 为总开关：防守市整体压低 ×0.6。🚩 表示该股处于静水景气主线（半导体/电子/新能源等）。
   <strong>非投资建议，不给买卖点。</strong>
 </p>
 {{- else -}}

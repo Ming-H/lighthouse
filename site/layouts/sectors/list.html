@@ -21,14 +21,6 @@
   </div>
 {{- end -}}
 
-{{- with .strong -}}
-<h2>🎯 今日 CAN SLIM 强势股</h2>
-<p class="lead">全市场打分最强的个股，集中在景气主线（静水 α）——点开看七要素体检。这就是「宏观政策点亮板块 → 静水判断景气 → CAN SLIM 确认个股」链路的终点。</p>
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:1.6em">
-{{- range . -}}<a class="chip" href="{{ "checkup/" | relURL }}?code={{ .code }}" style="border-color:var(--brand);color:var(--brand);font-size:.85rem;padding:.4em .9em">{{ if .catalyst }}🚩 {{ end }}{{ .name }} <b>{{ .score }}</b></a>{{- end -}}
-</div>
-{{- end -}}
-
 {{- with .alerts -}}
 <h2>⚡ 板块异动</h2>
 {{- range . -}}
