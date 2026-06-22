@@ -1,0 +1,462 @@
+{
+  "date": "20260621",
+  "sectors": [
+    {
+      "sector": "半导体",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 81,
+      "week_count": 4,
+      "trend": "NEW",
+      "intensity": "intensive",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "688981",
+          "name": "中芯国际"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "新能源汽车",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 70,
+      "week_count": 4,
+      "trend": "+100%",
+      "intensity": "intensive",
+      "policy_level": "财政部",
+      "leaders": [
+        {
+          "code": "300750",
+          "name": "宁德时代"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "AI人工智能",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 60,
+      "week_count": 11,
+      "trend": "+-21%",
+      "intensity": "intensive",
+      "policy_level": "央行",
+      "leaders": [
+        {
+          "code": "002230",
+          "name": "科大讯飞"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声"
+        },
+        {
+          "code": "300454",
+          "name": "深信服"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "新能源",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 60,
+      "week_count": 10,
+      "trend": "+-17%",
+      "intensity": "intensive",
+      "policy_level": "财政部",
+      "leaders": [
+        {
+          "code": "601012",
+          "name": "隆基绿能"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "机器人",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 56,
+      "week_count": 5,
+      "trend": "+0%",
+      "intensity": "intensive",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "601689",
+          "name": "拓普集团"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "数据要素",
+      "hot_label": "主线",
+      "tone": "offense",
+      "lvl": "green",
+      "policy_score": 48,
+      "week_count": 2,
+      "trend": "+-60%",
+      "intensity": "intensive",
+      "policy_level": "国务院",
+      "leaders": [
+        {
+          "code": "603138",
+          "name": "海量数据"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "煤炭",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 81,
+      "week_count": 2,
+      "trend": "NEW",
+      "intensity": "intensive",
+      "policy_level": "国家发改委",
+      "leaders": [
+        {
+          "code": "601088",
+          "name": "中国神华"
+        },
+        {
+          "code": "601898",
+          "name": "中煤能源"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "钢铁",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 76,
+      "week_count": 1,
+      "trend": "NEW",
+      "intensity": "intensive",
+      "policy_level": "国家发改委",
+      "leaders": [
+        {
+          "code": "600019",
+          "name": "宝钢股份"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "基建投资",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 73,
+      "week_count": 26,
+      "trend": "+73%",
+      "intensity": "intensive",
+      "policy_level": "国务院",
+      "leaders": [
+        {
+          "code": "601186",
+          "name": "中国铁建"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "石油能源",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 65,
+      "week_count": 11,
+      "trend": "+0%",
+      "intensity": "intensive",
+      "policy_level": "财政部",
+      "leaders": [
+        {
+          "code": "601857",
+          "name": "中国石油"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "地下管网",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 36,
+      "week_count": 2,
+      "trend": "+-50%",
+      "intensity": "intensive",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "603958",
+          "name": "哈空调"
+        },
+        {
+          "code": "300055",
+          "name": "万邦达"
+        },
+        {
+          "code": "002671",
+          "name": "龙泉股份"
+        },
+        {
+          "code": "300334",
+          "name": "津膜科技"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "黄金",
+      "hot_label": "周期",
+      "tone": "watch",
+      "lvl": "yellow",
+      "policy_score": 17,
+      "week_count": 1,
+      "trend": "+-50%",
+      "intensity": "",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "600547",
+          "name": "山东黄金"
+        },
+        {
+          "code": "600489",
+          "name": "中金黄金"
+        },
+        {
+          "code": "002155",
+          "name": "湖南黄金"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "军工",
+      "hot_label": "中性",
+      "tone": "watch",
+      "lvl": "muted",
+      "policy_score": 56,
+      "week_count": 7,
+      "trend": "+0%",
+      "intensity": "intensive",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "600893",
+          "name": "航发动力"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "医药",
+      "hot_label": "防御",
+      "tone": "defense",
+      "lvl": "red",
+      "policy_score": 86,
+      "week_count": 6,
+      "trend": "NEW",
+      "intensity": "intensive",
+      "policy_level": "",
+      "leaders": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    },
+    {
+      "sector": "房地产",
+      "hot_label": "防御",
+      "tone": "defense",
+      "lvl": "red",
+      "policy_score": 70,
+      "week_count": 8,
+      "trend": "+60%",
+      "intensity": "intensive",
+      "policy_level": "央行",
+      "leaders": [
+        {
+          "code": "001979",
+          "name": "招商蛇口"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展"
+        },
+        {
+          "code": "000002",
+          "name": "万科A"
+        }
+      ],
+      "candidates": [],
+      "has_canslim": false
+    }
+  ],
+  "alerts": [
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "新能源",
+      "detail": "连续4天出现"
+    },
+    {
+      "type": "突发升温",
+      "level": "red",
+      "sector": "医药",
+      "detail": "上周0次→本周6次"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "医药",
+      "detail": "连续4天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "AI人工智能",
+      "detail": "连续5天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "消费",
+      "detail": "连续4天出现"
+    }
+  ]
+}

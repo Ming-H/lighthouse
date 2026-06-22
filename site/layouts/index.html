@@ -62,10 +62,8 @@
 
 {{- /* 新闻与板块（现有数据） */ -}}
 {{- $sec := slice
+  (dict "title" "板块景气"     "url" ("sectors/" | relURL)   "desc" "静水景气 × CAN SLIM 板块强度 × 政策催化" "tag" "CAN SLIM×静水")
   (dict "title" "新闻联播存档" "url" ("daily/" | relURL)     "desc" "逐条解析当日经济信号 + AI 投资解读")
-  (dict "title" "板块热力"     "url" ("sectors/" | relURL)   "desc" "板块分数排行与龙头股")
-  (dict "title" "热点图表"     "url" ("charts/" | relURL)    "desc" "板块热力图 / 关键词趋势 / 多周期排行")
-  (dict "title" "经济热点"     "url" ("hotspots/" | relURL)  "desc" "日 / 周 / 月 / 半年 高频关键词")
 -}}
 <section class="home-nav">
   <h2 class="nav-heading">新闻与板块</h2>

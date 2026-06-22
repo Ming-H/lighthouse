@@ -1,0 +1,42 @@
+{{- define "main" -}}
+{{- $s := .Site.Data.picks.sectors -}}
+<header class="page-header">
+  <h1>板块景气 · CAN SLIM × 静水</h1>
+</header>
+
+<p class="lead">每个热门板块不再是单纯的「新闻频次」，而是 <b>静水景气标签</b>（时代主线 α / 周期 / 防御）× <b>政策催化强度</b>（新闻联播）× <b>CAN SLIM 板块强度</b>（板块内候选）—— 把宏观政策、景气判断、个股确认打通。</p>
+
+{{- with $s -}}
+{{- range .sectors -}}
+<div class="beacon-strip" data-state="{{ .tone }}" style="display:block;margin-bottom:12px">
+  <div style="display:flex;align-items:baseline;gap:.6em;flex-wrap:wrap">
+    <span class="bs-verdict">{{ .sector }}</span>
+    <span class="badge" data-lvl="{{ .lvl }}">{{ .hot_label }}</span>
+    <span class="bs-meta">政策强度 {{ .policy_score }} · {{ .intensity }} · 本周 {{ .week_count }} 次</span>
+  </div>
+  {{- with .policy_level }}<div class="ck-meta" style="font-family:var(--font-mono);font-size:.72rem;color:var(--ink-faint);margin:4px 0 0">最高政策级：{{ . }}</div>{{- end -}}
+  <div style="margin-top:9px;display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+    {{- range .candidates -}}<a class="chip" href="{{ "checkup/" | relURL }}?code={{ .code }}" style="border-color:var(--brand);color:var(--brand)">🎯 {{ .name }} <b>{{ .score }}</b></a>{{- end -}}
+    {{- range .leaders -}}<a class="chip" href="{{ "checkup/" | relURL }}?code={{ .code }}">{{ .name }}</a>{{- end -}}
+  </div>
+  {{- if not .has_canslim -}}<div class="ck-meta" style="font-family:var(--font-mono);font-size:.7rem;color:var(--ink-faint);margin-top:6px">该板块暂无今日 CAN SLIM 候选（龙头可点开体检）</div>{{- end -}}
+</div>
+{{- end -}}
+
+{{- with .alerts -}}
+<h2>⚡ 板块异动</h2>
+{{- range . -}}
+<div class="beacon-strip" data-state="{{ if eq .level "green" }}offense{{ else if eq .level "red" }}defense{{ else }}watch{{ end }}" style="display:block;border-left-color:var(--rule-strong);margin-bottom:8px">
+  <span class="bs-verdict" style="font-size:.98rem">{{ .sector }}</span>
+  <span class="badge" data-lvl="{{ .level }}">{{ .type }}</span>
+  <span class="bs-meta">{{ .detail }}</span>
+</div>
+{{- end -}}
+{{- end -}}
+
+{{- else -}}
+<p>板块景气数据生成中（每交易日随选股更新）。</p>
+{{- end -}}
+
+<p class="lead" style="margin-top:1.6em">📐 <b>怎么看</b>：先找「主线」标签的板块（静水时代 α）→ 看政策强度（新闻联播催化）→ 看有没有 🎯 CAN SLIM 候选（板块内七要素过硬的）→ 点进体检确认。非投资建议。</p>
+{{- end -}}
