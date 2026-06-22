@@ -55,4 +55,6 @@ function ckGo(){var s=find(document.getElementById("ck-code").value);if(s)render
 document.getElementById("ck-code").addEventListener("keydown",function(e){if(e.key==="Enter")ckGo()});
 var m=/code=([^&]+)/.exec(location.search);if(m){var s=find(decodeURIComponent(m[1]));if(s)render(s)}
 </script>
+
+<p class="lead" style="margin-top:1.8em">📊 <b>下一步</b>：选得准不准？去 <a href="{{ "hit-rate/" | relURL }}">命中回看</a> 看历史候选表现与胜率——灯塔把成绩单亮出来，让结果说话。非投资建议。</p>
 {{- end -}}
