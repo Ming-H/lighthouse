@@ -42,10 +42,10 @@
 
 {{- /* 核心终端 4 模块 */ -}}
 {{- $nav := slice
-  (dict "title" "大盘视野" "url" ("market-view/" | relURL) "desc" "新闻联播 + 宏观四板块 + 灯塔信号三色，判断该不该进场" "tag" "The Big Picture")
-  (dict "title" "每日选股" "url" ("daily-picks/" | relURL) "desc" "全市场 CAN SLIM 打分 · TOP20 候选 · 七要素体检卡" "tag" "IBD 50")
-  (dict "title" "个股体检" "url" ("checkup/" | relURL) "desc" "输入代码 → 七要素深度体检 + 趋势图" "tag" "Stock Checkup")
-  (dict "title" "命中回看" "url" ("hit-rate/" | relURL) "desc" "历史候选表现追踪 · 胜率与超额净值曲线" "tag" "独创验证")
+  (dict "title" "市场全景" "url" ("market/" | relURL) "desc" "灯塔信号定大势 + 板块景气选方向，一页完成「做不做 + 做哪个方向」" "tag" "定方向")
+  (dict "title" "选股工作台" "url" ("stocks/" | relURL) "desc" "全市场 CAN SLIM TOP20 排行 + 点选个股七要素体检" "tag" "筛 + 确认")
+  (dict "title" "命中回看" "url" ("hit-rate/" | relURL) "desc" "历史候选表现追踪 · 胜率与超额净值" "tag" "独创验证")
+  (dict "title" "新闻联播存档" "url" ("daily/" | relURL) "desc" "逐条解析当日经济信号 + AI 投资解读" "tag" "原文")
 -}}
 <section class="home-nav">
   <h2 class="nav-heading">核心终端</h2>
@@ -53,23 +53,6 @@
     {{- range $nav -}}
     <a class="navcard fade-up" href="{{ .url }}">
       <span class="navcard-tag">{{ .tag }}</span>
-      <span class="navcard-title">{{ .title }}</span>
-      <span class="navcard-desc">{{ .desc }}</span>
-    </a>
-    {{- end -}}
-  </nav>
-</section>
-
-{{- /* 新闻与板块（现有数据） */ -}}
-{{- $sec := slice
-  (dict "title" "板块景气"     "url" ("sectors/" | relURL)   "desc" "静水景气 × CAN SLIM 板块强度 × 政策催化" "tag" "CAN SLIM×静水")
-  (dict "title" "新闻联播存档" "url" ("daily/" | relURL)     "desc" "逐条解析当日经济信号 + AI 投资解读")
--}}
-<section class="home-nav">
-  <h2 class="nav-heading">新闻与板块</h2>
-  <nav class="navcards">
-    {{- range $sec -}}
-    <a class="navcard" href="{{ .url }}">
       <span class="navcard-title">{{ .title }}</span>
       <span class="navcard-desc">{{ .desc }}</span>
     </a>

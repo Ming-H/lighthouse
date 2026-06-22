@@ -686,7 +686,7 @@ def build_all(date_str: str = None):
     build_homepage(date_str)
     build_daily_page(date_str)
     build_daily_full_page(date_str)
-    build_sectors_page(date_str)  # 板块景气（已合并 charts/hotspots/alerts/lifecycle）
+    # 板块景气已并入「市场全景」页（由 sector_outlook.py 生成 sectors.json，无需单独 _index.md）
 
     print(f'\n✅ 内容生成完成')
 

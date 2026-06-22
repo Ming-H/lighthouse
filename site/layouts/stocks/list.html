@@ -1,0 +1,58 @@
+{{- define "main" -}}
+{{- $l := .Site.Data.picks.latest -}}
+<header class="page-header">
+  <h1>选股工作台 · 筛 + 确认</h1>
+</header>
+<p class="lead">全市场 CAN SLIM TOP20 排行，点任一行或输入代码 → 下方即时看七要素体检，不必跳页。</p>
+
+{{- with $l -}}
+<h2>① 全市场 TOP20 排行</h2>
+<table class="scoreboard">
+  <thead><tr><th>#</th><th>股票</th><th>灯塔分</th><th>C·A·N·S·L·I</th><th>催化</th><th>近年</th></tr></thead>
+  <tbody>
+  {{- range $i, $s := .top20 -}}
+  {{- $f := $s.factors -}}
+  <tr style="cursor:pointer" onclick="pickStock('{{ $s.code }}')">
+    <td class="sb-rank">{{ add $i 1 }}</td>
+    <td><span class="sb-name">{{ $s.name }}</span><span class="sb-code">{{ $s.code }}</span></td>
+    <td class="sb-score">{{ $s.score }}</td>
+    <td><span class="sb-bars">{{ range $k := slice "C" "A" "N" "S" "L" "I" }}{{ $v := int (index $f $k) }}<span class="b {{ if ge $v 70 }}high{{ else }}mid{{ end }}" style="height:{{ $v }}%"></span>{{ end }}</span></td>
+    <td>{{ if $s.catalyst }}<span class="catalyst">🚩主线</span>{{ else }}—{{ end }}</td>
+    <td class="sb-delta {{ if ge $s.ch60d 0 }}up{{ else }}down{{ end }}">{{ printf "%.1f" $s.ch60d }}%</td>
+  </tr>
+  {{- end -}}
+  </tbody>
+</table>
+<p class="lead">灯塔分 = 七要素加权（C 收益·A 年度·N 催化·S 供需·L 强度·I 机构·M 大盘），M 为总开关。🚩 景气主线。<strong>非投资建议。</strong></p>
+{{- end -}}
+
+<h2>② 个股体检</h2>
+<style>
+.ck-search{display:flex;gap:10px;margin:0 0 14px;flex-wrap:wrap}
+.ck-search input{flex:1 1 220px;padding:11px 14px;font-family:var(--font-mono);font-size:.95rem;border:1px solid var(--rule-strong);border-radius:var(--radius-lg);background:var(--paper);color:var(--ink)}
+.ck-search button{padding:11px 22px;font-family:var(--font-mono);font-weight:600;background:var(--brand);color:#fff8ec;border:0;border-radius:var(--radius-lg);cursor:pointer}
+.ck-card{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:start}
+@media(max-width:640px){.ck-card{grid-template-columns:1fr}}
+.ck-meta{font-family:var(--font-mono);font-size:.78rem;color:var(--ink-faint);margin:6px 0 0}
+.ck-hint{font-family:var(--font-mono);font-size:.84rem;color:var(--ink-soft);padding:13px 16px;background:var(--paper-2);border:1px solid var(--rule);border-left:3px solid var(--brand);border-radius:var(--radius)}
+.scoreboard tbody tr:hover{background:var(--beacon-glow)}
+</style>
+<div class="ck-search">
+  <input id="ck-code" type="text" placeholder="输入代码或名称，如 300475 / 香农芯创">
+  <button onclick="ckGo()">体检</button>
+</div>
+<div id="ck-result" class="ck-hint">点上方任一候选，或输入代码看七要素体检。</div>
+
+<script>
+window.LH = {{ $l.top20 | jsonify | safeJS }};
+var P = window.LH; if(typeof P==="string"){try{P=JSON.parse(P)}catch(e){P=[]}}
+var F=[["C","当季收益"],["A","年度收益"],["N","新催化"],["S","供需"],["L","领涨强度"],["I","机构"],["M","大盘"]];
+function find(q){q=(q||"").trim();if(!q)return null;return P.find(function(s){return s.code===q||s.name===q||(s.name||"").indexOf(q)>=0||(s.code||"").indexOf(q)>=0})}
+function ring(sc){var r=42,c=2*Math.PI*r,o=c*(1-sc/100);return '<div class="score-ring" style="width:110px;height:110px"><svg width="110" height="110" viewBox="0 0 110 110"><circle class="sr-track" cx="55" cy="55" r="'+r+'" stroke-width="8" fill="none"/><circle class="sr-prog" cx="55" cy="55" r="'+r+'" stroke-width="8" fill="none" stroke-dasharray="'+c.toFixed(1)+'" stroke-dashoffset="'+o.toFixed(1)+'"/></svg><span class="sr-num">'+sc+'</span></div>'}
+function render(s){var f=s.factors||{};var rows=F.map(function(k){var v=Math.round(f[k[0]]||0);return '<div class="factor-row"><span class="f-letter">'+k[0]+'</span><span class="f-name">'+k[1]+'<div class="factor-track"><div class="f-fill" style="width:'+v+'%"></div></div></span><span class="f-val">'+v+'</span></div>'}).join("");document.getElementById("ck-result").innerHTML='<div class="ck-card">'+ring(s.score)+'<div><span class="sb-name" style="font-size:1.3rem">'+s.name+'</span> <span class="sb-code">'+s.code+'</span><p class="ck-meta">灯塔分 '+s.score+' · 近一年 '+(s.ch60d||0).toFixed(1)+'%</p>'+rows+'</div></div>'}
+function pickStock(c){var s=find(c);if(s)render(s)}
+function ckGo(){var s=find(document.getElementById("ck-code").value);if(s)render(s);else document.getElementById("ck-result").textContent="未在今日候选中找到「"+(document.getElementById("ck-code").value||"")+"」。完整全市场体检需 serverless。"}
+document.getElementById("ck-code").addEventListener("keydown",function(e){if(e.key==="Enter")ckGo()});
+var m=/code=([^&]+)/.exec(location.search);if(m){var s=find(decodeURIComponent(m[1]));if(s)render(s)}
+</script>
+{{- end -}}

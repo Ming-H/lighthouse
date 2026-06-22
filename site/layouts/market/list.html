@@ -1,0 +1,54 @@
+{{- define "main" -}}
+{{- $sig := .Site.Data.signal -}}
+{{- $sec := .Site.Data.picks.sectors -}}
+<header class="page-header">
+  <h1>市场全景 · 定方向</h1>
+</header>
+<p class="lead">一页完成「今天做不做 + 做哪个方向」：灯塔信号定大势 → 板块景气选方向，自上而下递进，不再两页跳着看重复的政策。</p>
+
+{{- with $sig -}}
+<h2>① 灯塔信号 · 今天能做吗？</h2>
+<div class="beacon-strip" data-state="{{ .market_state }}">
+  <span class="beacon-lamp" data-state="{{ .market_state }}"></span>
+  <span class="bs-verdict">{{ if eq .market_state "offense" }}🟢 进攻{{ else if eq .market_state "watch" }}🟡 观望{{ else }}🔴 防守{{ end }}　{{ .verdict }}</span>
+  <span class="bs-meta">{{ .date }} · GLM 基于新闻联播研判（CAN SLIM 的 M）</span>
+</div>
+<div class="post-content">
+  <p style="font-size:1.05rem;line-height:1.8">{{ .reason }}</p>
+  {{- with .key_catalysts -}}<h3>关键催化 / 风险</h3><ul>{{- range . -}}<li>{{ . }}</li>{{- end -}}</ul>{{- end -}}
+</div>
+{{- end -}}
+
+<h2>② 宏观仪表盘</h2>
+<p class="lead">央行流动性 · 利率汇率外资 · 景气价格 · 市场情绪异动 —— 硬数据接入中。信号三态：🟢进攻（政策利好+主线强势+资金流入）/ 🟡观望（震荡）/ 🔴防守（破位或流出）。</p>
+
+{{- with $sec -}}
+<h2>③ 板块景气 · 做哪个方向？</h2>
+{{- range .sectors -}}
+<div class="beacon-strip" data-state="{{ .tone }}" style="display:block;margin-bottom:12px">
+  <div style="display:flex;align-items:baseline;gap:.6em;flex-wrap:wrap">
+    <span class="bs-verdict">{{ .sector }}</span>
+    <span class="badge" data-lvl="{{ .lvl }}">{{ .hot_label }}</span>
+    <span class="bs-meta">政策强度 {{ .policy_score }} · {{ .intensity }} · 本周 {{ .week_count }} 次</span>
+  </div>
+  {{- with .policy_level }}<div style="font-family:var(--font-mono);font-size:.72rem;color:var(--ink-faint);margin:4px 0 0">最高政策级：{{ . }}</div>{{- end -}}
+  <div style="margin-top:9px;display:flex;flex-wrap:wrap;gap:6px">
+    {{- range .candidates -}}<a class="chip" href="{{ "stocks/" | relURL }}?code={{ .code }}" style="border-color:var(--brand);color:var(--brand)">🎯 {{ .name }} <b>{{ .score }}</b></a>{{- end -}}
+    {{- range .leaders -}}<a class="chip" href="{{ "stocks/" | relURL }}?code={{ .code }}">{{ .name }}</a>{{- end -}}
+  </div>
+</div>
+{{- end -}}
+{{- with .alerts -}}
+<h2>⚡ 板块异动</h2>
+{{- range . -}}
+<div class="beacon-strip" data-state="{{ if eq .level "green" }}offense{{ else if eq .level "red" }}defense{{ else }}watch{{ end }}" style="display:block;border-left-color:var(--rule-strong);margin-bottom:8px">
+  <span class="bs-verdict" style="font-size:.98rem">{{ .sector }}</span>
+  <span class="badge" data-lvl="{{ .level }}">{{ .type }}</span>
+  <span class="bs-meta">{{ .detail }}</span>
+</div>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+<p class="lead" style="margin-top:1.6em">📐 <b>用法</b>：先看①灯塔信号（能不能做）→ 再看③板块（做哪个方向）→ 去 <a href="{{ "stocks/" | relURL }}">选股工作台</a> 挑个股。非投资建议。</p>
+{{- end -}}
