@@ -1,49 +1,60 @@
 {{- define "main" -}}
 {{- $m := .Site.Data.picks.movers -}}
 <header class="page-header">
-  <h1>涨幅榜 · 三周期动量 + 真实走势</h1>
+  <h1>疯涨榜 · 三周期共振 + 真实走势</h1>
 </header>
 
 <style>
 .spark{width:150px;height:38px;display:block}
 .spark polyline{vector-effect:non-scaling-stroke}
-.mover-row{display:grid;grid-template-columns:24px 1fr 70px 170px auto;gap:14px;align-items:center;padding:11px 14px;border-bottom:1px solid var(--rule)}
+.mover-row{display:grid;grid-template-columns:auto 1fr auto 160px;gap:14px;align-items:center;padding:11px 14px;border-bottom:1px solid var(--rule)}
 .mover-row:hover{background:var(--paper-2)}
-@media(max-width:640px){.mover-row{grid-template-columns:24px 1fr 70px;}.mover-row .sp,.mover-row .tg{grid-column:1/-1}}
-.mv-rank{font-family:var(--font-mono);color:var(--ink-faint)}
-.mv-ch{font-family:var(--font-mono);font-weight:700;font-size:1.05rem;color:var(--crimson)}
+.mover-row:last-child{border-bottom:0}
+@media(max-width:640px){.mover-row{grid-template-columns:1fr auto}.mover-row .sp{grid-column:1/-1}}
+.mv-rank{font-family:var(--font-mono);color:var(--ink-faint);font-size:.8rem;white-space:nowrap}
+.mv-ch{font-family:var(--font-mono);font-weight:700;color:var(--crimson);white-space:nowrap}
+.card{border:1px solid var(--rule);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.4em;box-shadow:var(--shadow)}
+.resonance .mover-row{background:linear-gradient(90deg,var(--beacon-glow),transparent 40%)}
 </style>
 
-<p class="lead">近<b>一周 / 1 月 / 3 月</b>涨幅 top5 + <b>真实股价走势</b>（akshare 前复权 K 线 sparkline，A 股涨红跌绿）。《笑傲股市》L 领涨强度 + 走势确认：看图找「刚突破上行」的，避开「超买⚠冲高」的。</p>
+<p class="lead">找<b>近期疯狂涨价</b>的股票：先看 🔥 <b>多周期共振</b>（横跨周/月/3月的持续疯涨主线）→ 再看三周期涨幅 top5 + 真实 K 线走势。</p>
 
-{{- with $m -}}
-{{- range $key, $per := . -}}
-<h2>{{ $per.label }} TOP 5</h2>
-<div style="border:1px solid var(--rule);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.4em;box-shadow:var(--shadow)">
-  {{- range $i, $s := $per.stocks -}}
-  <div class="mover-row">
-    <span class="mv-rank">{{ add $i 1 }}</span>
-    <span><a class="sb-name" href="{{ "workbench/" | relURL }}?code={{ $s.code }}">{{ $s.name }}</a> <span class="sb-code">{{ $s.code }}</span></span>
-    <span class="mv-ch">+{{ $s.ch }}%</span>
-    <span class="sp">{{- $s.spark | safeHTML -}}</span>
-    <span class="tg">
-      {{- range $s.tags -}}
-        {{- if hasPrefix . "超买" }}<span class="badge" data-lvl="red">超买⚠</span>
-        {{- else if eq . "强势" }}<span class="badge" data-lvl="green">强势</span>
-        {{- end -}}
-      {{- else -}}<span class="bs-meta">—</span>{{- end -}}
-    </span>
-  </div>
-  {{- end -}}
+{{- with $m.resonance -}}
+<h2>🔥 疯涨共振 · 横跨多周期的主线（最值得关注）</h2>
+<div class="card resonance">
+{{- range . -}}
+<div class="mover-row">
+  <span class="mv-rank">共振 {{ .n }} 周期</span>
+  <span>
+    <a class="sb-name" href="{{ "workbench/" | relURL }}?code={{ .code }}">{{ .name }}</a>
+    <span class="sb-code">{{ .code }}</span>
+    {{- range .period_ch -}}&nbsp;<span class="chip">{{ .p }} +{{ .ch }}%</span>{{- end -}}
+  </span>
+  <span></span>
+  <span class="sp">{{- .spark | safeHTML -}}</span>
+</div>
+{{- end -}}
+</div>
+<p class="lead" style="font-size:.85rem;color:var(--ink-soft);margin-top:-.6em">这些股在多个周期都领涨 = 持续疯涨主线，非一日脉冲。</p>
+{{- end -}}
+
+{{- range $m.periods -}}
+<h2>{{ .label }} TOP 5</h2>
+<div class="card">
+{{- range $i, $s := .stocks -}}
+<div class="mover-row">
+  <span class="mv-rank">{{ add $i 1 }}</span>
+  <span><a class="sb-name" href="{{ "workbench/" | relURL }}?code={{ $s.code }}">{{ $s.name }}</a> <span class="sb-code">{{ $s.code }}</span></span>
+  <span class="mv-ch">+{{ $s.ch }}%</span>
+  <span class="sp">{{- $s.spark | safeHTML -}}</span>
+</div>
+{{- end -}}
 </div>
 {{- end -}}
 
-<div class="beacon-strip" data-state="watch" style="display:block;border-left-color:var(--gold)">
-  <span class="bs-verdict">📐 怎么用这页</span>
-  <p class="lead" style="margin:.4em 0 0;font-size:.88rem">
-  三周期对比：<b>短期(周)+中期(月)+长期(3月)都强</b>的 = 持续领涨主线；只在某周期出现的 = 可能题材脉冲。<b>走势线</b>要找「稳步上行 / 创新高」的，回避「垂直拉升超买」的。再点进 <a href="{{ "workbench/" | relURL }}">工作台</a> 看 CAN SLIM 盈利(C/A)确认。<strong>非投资建议。</strong></p>
+<div class="beacon-strip" data-state="watch" style="display:block;border-left-color:var(--gold);margin-top:1.6em">
+  <span class="bs-verdict">📐 怎么筛疯涨股</span>
+  <p class="lead" style="margin:.4em 0 0;font-size:.86rem">
+  ① 先看<b>共振区</b>（多周期都强=主线）；② 三周期对比看<b>加速</b>（近一周比近一月日均更强=还在加速）；③ 走势线要<b>稳步上行</b>，回避垂直拉升的<b>超买</b>；④ 进 <a href="{{ "workbench/" | relURL }}">工作台</a> 看 CAN SLIM 盈利(C/A)——疯涨要有业绩支撑才是真成长，否则只是题材。<strong>非投资建议。</strong></p>
 </div>
-{{- else -}}
-<p>涨幅榜生成中（每交易日随 update 脚本更新）。</p>
-{{- end -}}
 {{- end -}}
