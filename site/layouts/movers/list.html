@@ -1,43 +1,47 @@
 {{- define "main" -}}
 {{- $m := .Site.Data.picks.movers -}}
 <header class="page-header">
-  <h1>涨幅榜 · 近一月动量（笑傲股市 L+N+S）</h1>
+  <h1>涨幅榜 · 三周期动量 + 真实走势</h1>
 </header>
 
-<p class="lead">全 A 股<b>近一月涨幅</b>最大的股票（L 领涨强度），叠加《笑傲股市》看图三要素：<b>新高</b>（N 突破/枢轴点候选）、<b>放量</b>（S 量价配合）、<b>超买⚠</b>（涨幅过大，欧奈尔不追已大涨的）。点名称进 <a href="{{ "workbench/" | relURL }}">工作台</a> 体检。</p>
+<style>
+.spark{width:150px;height:38px;display:block}
+.spark polyline{vector-effect:non-scaling-stroke}
+.mover-row{display:grid;grid-template-columns:24px 1fr 70px 170px auto;gap:14px;align-items:center;padding:11px 14px;border-bottom:1px solid var(--rule)}
+.mover-row:hover{background:var(--paper-2)}
+@media(max-width:640px){.mover-row{grid-template-columns:24px 1fr 70px;}.mover-row .sp,.mover-row .tg{grid-column:1/-1}}
+.mv-rank{font-family:var(--font-mono);color:var(--ink-faint)}
+.mv-ch{font-family:var(--font-mono);font-weight:700;font-size:1.05rem;color:var(--crimson)}
+</style>
+
+<p class="lead">近<b>一周 / 1 月 / 3 月</b>涨幅 top5 + <b>真实股价走势</b>（akshare 前复权 K 线 sparkline，A 股涨红跌绿）。《笑傲股市》L 领涨强度 + 走势确认：看图找「刚突破上行」的，避开「超买⚠冲高」的。</p>
 
 {{- with $m -}}
-<table class="scoreboard">
-  <thead><tr><th>#</th><th>股票</th><th>近一月</th><th>量比</th><th>换手</th><th>看图标签</th></tr></thead>
-  <tbody>
-  {{- range $i, $s := .movers -}}
-  <tr>
-    <td class="sb-rank">{{ add $i 1 }}</td>
-    <td>
-      <a class="sb-name" href="{{ "workbench/" | relURL }}?code={{ $s.code }}">{{ $s.name }}</a>
-      <span class="sb-code">{{ $s.code }}</span>
-    </td>
-    <td class="sb-score">+{{ $s.ch1m }}%</td>
-    <td>{{ with $s.vol_ratio }}{{ . }}{{ else }}—{{ end }}</td>
-    <td>{{ with $s.turnover }}{{ . }}%{{ else }}—{{ end }}</td>
-    <td>
+{{- range $key, $per := . -}}
+<h2>{{ $per.label }} TOP 5</h2>
+<div style="border:1px solid var(--rule);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:1.4em;box-shadow:var(--shadow)">
+  {{- range $i, $s := $per.stocks -}}
+  <div class="mover-row">
+    <span class="mv-rank">{{ add $i 1 }}</span>
+    <span><a class="sb-name" href="{{ "workbench/" | relURL }}?code={{ $s.code }}">{{ $s.name }}</a> <span class="sb-code">{{ $s.code }}</span></span>
+    <span class="mv-ch">+{{ $s.ch }}%</span>
+    <span class="sp">{{- $s.spark | safeHTML -}}</span>
+    <span class="tg">
       {{- range $s.tags -}}
-        {{- if eq . "新高" }}<span class="badge" data-lvl="green">新高</span>
-        {{- else if eq . "放量" }}<span class="badge" data-lvl="gold">放量</span>
-        {{- else if hasPrefix . "超买" }}<span class="badge" data-lvl="red">超买⚠</span>
-        {{- else }}<span class="badge" data-lvl="muted">{{ . }}</span>{{- end -}}
-      {{- else -}}<span class="bs-meta">—</span>
-      {{- end -}}
-    </td>
-  </tr>
+        {{- if hasPrefix . "超买" }}<span class="badge" data-lvl="red">超买⚠</span>
+        {{- else if eq . "强势" }}<span class="badge" data-lvl="green">强势</span>
+        {{- end -}}
+      {{- else -}}<span class="bs-meta">—</span>{{- end -}}
+    </span>
+  </div>
   {{- end -}}
-  </tbody>
-</table>
+</div>
+{{- end -}}
 
-<div class="beacon-strip" data-state="watch" style="display:block;margin-top:1.5em;border-left-color:var(--gold)">
-  <span class="bs-verdict">📐 《笑傲股市》看图怎么用</span>
-  <p class="lead" style="margin:.5em 0 0;font-size:.88rem">
-  欧奈尔要的是「<b>刚突破枢轴点 + 放量 + 创新高</b>」的领涨股，<b>不是</b>已大涨超买的。所以：<b>新高+放量</b>(绿+黄)= 突破买点候选；<b>超买⚠</b>(红)= 涨太多，等回调或回避；只涨没新高/没放量 = 可能题材炒作。再结合 <a href="{{ "workbench/" | relURL }}">工作台</a> 的盈利(C/A)确认。<strong>非投资建议。</strong></p>
+<div class="beacon-strip" data-state="watch" style="display:block;border-left-color:var(--gold)">
+  <span class="bs-verdict">📐 怎么用这页</span>
+  <p class="lead" style="margin:.4em 0 0;font-size:.88rem">
+  三周期对比：<b>短期(周)+中期(月)+长期(3月)都强</b>的 = 持续领涨主线；只在某周期出现的 = 可能题材脉冲。<b>走势线</b>要找「稳步上行 / 创新高」的，回避「垂直拉升超买」的。再点进 <a href="{{ "workbench/" | relURL }}">工作台</a> 看 CAN SLIM 盈利(C/A)确认。<strong>非投资建议。</strong></p>
 </div>
 {{- else -}}
 <p>涨幅榜生成中（每交易日随 update 脚本更新）。</p>

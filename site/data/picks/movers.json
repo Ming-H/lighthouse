@@ -1,354 +1,167 @@
 {
-  "date": "近一月",
-  "count": 30,
-  "movers": [
-    {
-      "code": "920725.BJ",
-      "name": "惠丰钻石",
-      "price": "113.0",
-      "ch1m": 269.89,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688146.SH",
-      "name": "中船特气",
-      "price": "389.99",
-      "ch1m": 205.47,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688662.SH",
-      "name": "富信科技",
-      "price": "174.55",
-      "ch1m": 167.02,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "002636.SZ",
-      "name": "金安国纪",
-      "price": "108.64",
-      "ch1m": 155.26,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "300319.SZ",
-      "name": "麦捷科技",
-      "price": "32.03",
-      "ch1m": 141.92,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "603823.SH",
-      "name": "百合花",
-      "price": "52.2",
-      "ch1m": 132.1,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "603065.SH",
-      "name": "宿迁联盛",
-      "price": "17.9",
-      "ch1m": 131.87,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "301377.SZ",
-      "name": "鼎泰高科",
-      "price": "600.0",
-      "ch1m": 131.79,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "600353.SH",
-      "name": "旭光电子",
-      "price": "48.8",
-      "ch1m": 125.72,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "600367.SH",
-      "name": "红星发展",
-      "price": "56.0",
-      "ch1m": 125.72,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "600162.SH",
-      "name": "香江控股",
-      "price": "3.88",
-      "ch1m": 122.99,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "603663.SH",
-      "name": "三祥新材",
-      "price": "101.07",
-      "ch1m": 120.2,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "300285.SZ",
-      "name": "国瓷材料",
-      "price": "90.78",
-      "ch1m": 119.12,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "301526.SZ",
-      "name": "国际复材",
-      "price": "38.25",
-      "ch1m": 114.77,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "300179.SZ",
-      "name": "四方达",
-      "price": "56.99",
-      "ch1m": 113.29,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "301319.SZ",
-      "name": "唯特偶",
-      "price": "180.51",
-      "ch1m": 112.77,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "603773.SH",
-      "name": "沃格光电",
-      "price": "172.15",
-      "ch1m": 112.48,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "002971.SZ",
-      "name": "和远气体",
-      "price": "73.0",
-      "ch1m": 110.37,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "301217.SZ",
-      "name": "铜冠铜箔",
-      "price": "171.81",
-      "ch1m": 107.17,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "603186.SH",
-      "name": "华正新材",
-      "price": "231.6",
-      "ch1m": 105.72,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688757.SH",
-      "name": "胜科纳米",
-      "price": "70.5",
-      "ch1m": 105.48,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "000636.SZ",
-      "name": "风华高科",
-      "price": "70.21",
-      "ch1m": 105.29,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688300.SH",
-      "name": "联瑞新材",
-      "price": "238.93",
-      "ch1m": 104.97,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688260.SH",
-      "name": "昀冢科技",
-      "price": "123.6",
-      "ch1m": 103.99,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": [
-        "超买⚠"
-      ]
-    },
-    {
-      "code": "688669.SH",
-      "name": "聚石化学",
-      "price": "69.79",
-      "ch1m": 98.78,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    },
-    {
-      "code": "688549.SH",
-      "name": "中巨芯",
-      "price": "31.25",
-      "ch1m": 98.41,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    },
-    {
-      "code": "000608.SZ",
-      "name": "阳光股份",
-      "price": "7.82",
-      "ch1m": 97.47,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    },
-    {
-      "code": "301013.SZ",
-      "name": "利和兴",
-      "price": "70.32",
-      "ch1m": 96.97,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    },
-    {
-      "code": "688056.SH",
-      "name": "莱伯泰科",
-      "price": "66.8",
-      "ch1m": 96.07,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    },
-    {
-      "code": "301568.SZ",
-      "name": "思泰克",
-      "price": "113.85",
-      "ch1m": 94.92,
-      "vol_ratio": null,
-      "turnover": null,
-      "new_high": null,
-      "tags": []
-    }
-  ]
+  "1w": {
+    "label": "近一周",
+    "stocks": [
+      {
+        "code": "301580.SZ",
+        "name": "爱迪特",
+        "price": "84.01",
+        "ch": 59.6,
+        "spark": "",
+        "tags": [
+          "强势"
+        ]
+      },
+      {
+        "code": "920790.BJ",
+        "name": "联迪信息",
+        "price": "30.29",
+        "ch": 49.2,
+        "spark": "",
+        "tags": [
+          "强势"
+        ]
+      },
+      {
+        "code": "300522.SZ",
+        "name": "世名科技",
+        "price": "23.04",
+        "ch": 43.9,
+        "spark": "",
+        "tags": [
+          "强势"
+        ]
+      },
+      {
+        "code": "920725.BJ",
+        "name": "惠丰钻石",
+        "price": "113.0",
+        "ch": 42.8,
+        "spark": "",
+        "tags": [
+          "强势"
+        ]
+      },
+      {
+        "code": "300085.SZ",
+        "name": "银之杰",
+        "price": "38.82",
+        "ch": 39.2,
+        "spark": "",
+        "tags": [
+          "强势"
+        ]
+      }
+    ]
+  },
+  "1m": {
+    "label": "近一个月",
+    "stocks": [
+      {
+        "code": "920725.BJ",
+        "name": "惠丰钻石",
+        "price": "113.0",
+        "ch": 269.9,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "688146.SH",
+        "name": "中船特气",
+        "price": "389.99",
+        "ch": 205.5,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "688662.SH",
+        "name": "富信科技",
+        "price": "174.55",
+        "ch": 167.0,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "002636.SZ",
+        "name": "金安国纪",
+        "price": "108.64",
+        "ch": 155.3,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "300319.SZ",
+        "name": "麦捷科技",
+        "price": "32.03",
+        "ch": 141.9,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      }
+    ]
+  },
+  "3m": {
+    "label": "近三个月",
+    "stocks": [
+      {
+        "code": "688146.SH",
+        "name": "中船特气",
+        "price": "389.99",
+        "ch": 831.2,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "301319.SZ",
+        "name": "唯特偶",
+        "price": "180.51",
+        "ch": 585.3,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "300489.SZ",
+        "name": "光智科技",
+        "price": "239.16",
+        "ch": 484.9,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "688260.SH",
+        "name": "昀冢科技",
+        "price": "123.6",
+        "ch": 398.8,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      },
+      {
+        "code": "301217.SZ",
+        "name": "铜冠铜箔",
+        "price": "171.81",
+        "ch": 392.6,
+        "spark": "",
+        "tags": [
+          "超买⚠"
+        ]
+      }
+    ]
+  }
 }
