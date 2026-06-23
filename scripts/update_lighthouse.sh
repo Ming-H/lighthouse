@@ -31,10 +31,13 @@ python3 scraper/stocks/from_iwencai.py "$TMP"
 echo "▶ 2/5  政策咬合（新闻联播板块→代表股）"
 python3 scraper/stocks/policy_link.py
 
-echo "▶ 3/5  板块景气（静水景气 × CAN SLIM 板块强度 × 政策）"
+echo "▶ 3/6  板块景气（静水景气 × CAN SLIM 板块强度 × 政策）"
 python3 scraper/stocks/sector_outlook.py
 
-echo "▶ 4/5  灯塔信号（GLM 研判 M）"
+echo "▶ 4/6  涨幅榜（近一月动量 + 笑傲股市看图）"
+python3 scraper/stocks/movers.py
+
+echo "▶ 5/6  灯塔信号（GLM 研判 M）"
 if [ -n "${ZHIPUAI_API_KEY:-}" ]; then
   python3 scraper/llm_brief.py --signal --force || echo "⚠️ 信号生成失败，跳过"
 else
