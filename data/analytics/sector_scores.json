@@ -1,5 +1,5 @@
 {
-  "date": "20260623",
+  "date": "20260624",
   "scores": [
     {
       "sector": "半导体",
@@ -54,9 +54,9 @@
     {
       "sector": "医药",
       "score": 71,
-      "week_count": 5,
+      "week_count": 6,
       "prev_count": 1,
-      "trend": "+400%",
+      "trend": "+500%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -78,6 +78,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260624",
+          "title": "[视频]伊朗称伊美谈判不会涉及伊朗弹道导弹议题"
+        },
         {
           "date": "20260621",
           "title": "[视频]【新思想引领新征程】山海携手 书写东西部协作崭新篇章"
@@ -144,9 +148,9 @@
     {
       "sector": "基建投资",
       "score": 68,
-      "week_count": 26,
-      "prev_count": 20,
-      "trend": "+30%",
+      "week_count": 31,
+      "prev_count": 22,
+      "trend": "+41%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -174,12 +178,115 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260623",
-          "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
+          "date": "20260624",
+          "title": "[视频]习近平在山东德州考察时强调 以扎实举措推进农业农村现代化 用勤劳和智慧创造更加美好生活"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]李强出席2026年夏季达沃斯论坛工商界代表座谈会"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]十四届全国人大常委会第二十三次会议举行联组会议 审议国务院关于建设全国统一大市场工作情况的报告并开展专题询问 赵乐际出席"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]赵乐际同全国人大常委会会议列席代表座谈"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]全国政协十四届常委会第十七次会议举行全体会议 围绕“坚持高质量发展，推动经济持续健康发展和社会全面进步”进行大会发言 王沪宁出席"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 64,
+      "week_count": 11,
+      "prev_count": 18,
+      "trend": "+-39%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260624",
+          "title": "[视频]李强出席2026年夏季达沃斯论坛开幕式并致辞"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]全国政协十四届常委会第十七次会议举行全体会议 围绕“坚持高质量发展，推动经济持续健康发展和社会全面进步”进行大会发言 王沪宁出席"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260622",
+          "title": "[视频]【牢记初心使命 奋进复兴征程】赓续延安精神 书写时代新篇"
+        },
+        {
+          "date": "20260621",
+          "title": "[视频]服务消费提质扩容 假日经济活力迸发"
+        }
+      ]
+    },
+    {
+      "sector": "石油能源",
+      "score": 64,
+      "week_count": 12,
+      "prev_count": 18,
+      "trend": "+-33%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260624",
+          "title": "[视频]伊朗称伊美谈判不会涉及伊朗弹道导弹议题"
         },
         {
           "date": "20260623",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]伊朗称各方展开技术性会谈 决定成立多个工作组"
         },
         {
           "date": "20260623",
@@ -187,11 +294,11 @@
         },
         {
           "date": "20260622",
-          "title": "[视频]南方多地强降雨 各部门多举措应对"
+          "title": "[视频]李强在辽宁大连调研"
         },
         {
-          "date": "20260621",
-          "title": "[视频]端午假期全社会跨区域人员流动量预计超6.5亿人次"
+          "date": "20260622",
+          "title": "[视频]伊美比尔根山首轮谈判结束 建立技术性谈判机制"
         }
       ]
     },
@@ -230,9 +337,9 @@
     {
       "sector": "消费",
       "score": 61,
-      "week_count": 10,
+      "week_count": 11,
       "prev_count": 16,
-      "trend": "+-38%",
+      "trend": "+-31%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -255,6 +362,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260624",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260623",
           "title": "[视频]【牢记初心使命 奋进复兴征程】弘扬西柏坡精神 走好新时代赶考路"
         },
@@ -269,162 +380,15 @@
         {
           "date": "20260621",
           "title": "[视频]服务消费提质扩容 假日经济活力迸发"
-        },
-        {
-          "date": "20260620",
-          "title": "[视频]赏民俗品文化 欢度端午假期"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 60,
-      "week_count": 7,
-      "prev_count": 12,
-      "trend": "+-42%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260623",
-          "title": "[视频]十四届全国人大常委会第二十三次会议在京举行 审议商标法修订草案等 赵乐际主持"
-        },
-        {
-          "date": "20260618",
-          "title": "[视频]韩正会见加拿大、丹麦客人"
-        },
-        {
-          "date": "20260618",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260617",
-          "title": "[视频]多项金融开放举措今天发布"
-        },
-        {
-          "date": "20260617",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "石油能源",
-      "score": 60,
-      "week_count": 14,
-      "prev_count": 15,
-      "trend": "+-7%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260623",
-          "title": "[视频]伊朗称各方展开技术性会谈 决定成立多个工作组"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]李强在辽宁大连调研"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]伊美比尔根山首轮谈判结束 建立技术性谈判机制"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]美国与伊朗今日在瑞士举行技术层面谈判"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 60,
-      "week_count": 5,
-      "prev_count": 8,
-      "trend": "+-38%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260621",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260618",
-          "title": "[视频]加快下达“两新”项目资金 持续释放政策效能"
-        },
-        {
-          "date": "20260618",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260617",
-          "title": "[视频]多项金融开放举措今天发布"
         }
       ]
     },
     {
       "sector": "新能源",
       "score": 60,
-      "week_count": 10,
+      "week_count": 11,
       "prev_count": 13,
-      "trend": "+-23%",
+      "trend": "+-15%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -452,6 +416,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260624",
+          "title": "[视频]链博会与会嘉宾：中国开辟全球供应链合作新机遇"
+        },
+        {
           "date": "20260622",
           "title": "[视频]李强在辽宁大连调研"
         },
@@ -466,108 +434,6 @@
         {
           "date": "20260620",
           "title": "[视频]我国科技创新和产业创新融合发展步伐加快"
-        },
-        {
-          "date": "20260619",
-          "title": "[视频]【新思想引领新征程】弘扬爱国主义精神 奋楫民族复兴新征程"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 60,
-      "week_count": 11,
-      "prev_count": 15,
-      "trend": "+-27%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260622",
-          "title": "[视频]【牢记初心使命 奋进复兴征程】赓续延安精神 书写时代新篇"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]服务消费提质扩容 假日经济活力迸发"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]第四届链博会明天开幕 布展工作已全面完成"
-        },
-        {
-          "date": "20260620",
-          "title": "[视频]我国科技创新和产业创新融合发展步伐加快"
-        },
-        {
-          "date": "20260619",
-          "title": "[视频]【活力中国调研行】北京：一条连廊 连起产学研"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 56,
-      "week_count": 14,
-      "prev_count": 14,
-      "trend": "+0%",
-      "policy_level": "财政部",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260623",
-          "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]全国政协十四届常委会第十七次会议开幕 王沪宁主持 丁薛祥作报告"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]丁薛祥出席第四届中国国际供应链促进博览会开幕式并作主旨讲话"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]长三角地区进出口连续15个月保持增长"
         }
       ]
     },
@@ -622,11 +488,96 @@
       ]
     },
     {
+      "sector": "房地产",
+      "score": 56,
+      "week_count": 4,
+      "prev_count": 9,
+      "trend": "+-56%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260621",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260618",
+          "title": "[视频]加快下达“两新”项目资金 持续释放政策效能"
+        },
+        {
+          "date": "20260618",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 56,
+      "week_count": 16,
+      "prev_count": 15,
+      "trend": "+7%",
+      "policy_level": "财政部",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260624",
+          "title": "[视频]李强出席2026年夏季达沃斯论坛工商界代表座谈会"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]全国政协十四届常委会第十七次会议举行全体会议 围绕“坚持高质量发展，推动经济持续健康发展和社会全面进步”进行大会发言 王沪宁出席"
+        },
+        {
+          "date": "20260623",
+          "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
+        },
+        {
+          "date": "20260623",
+          "title": "[视频]全国政协十四届常委会第十七次会议开幕 王沪宁主持 丁薛祥作报告"
+        },
+        {
+          "date": "20260623",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "农业",
       "score": 55,
-      "week_count": 10,
-      "prev_count": 20,
-      "trend": "+-50%",
+      "week_count": 12,
+      "prev_count": 22,
+      "trend": "+-45%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -649,6 +600,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260624",
+          "title": "[视频]习近平在山东德州考察时强调 以扎实举措推进农业农村现代化 用勤劳和智慧创造更加美好生活"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]全国政协十四届常委会第十七次会议闭幕 王沪宁主持并讲话"
+        },
+        {
           "date": "20260623",
           "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
         },
@@ -659,14 +618,6 @@
         {
           "date": "20260622",
           "title": "[视频]【在希望的田野上】全国夏播进入高峰 科技赋能提质增效"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]第四届链博会明天开幕 布展工作已全面完成"
         }
       ]
     },
@@ -708,11 +659,52 @@
       ]
     },
     {
-      "sector": "军工",
+      "sector": "银行金融",
       "score": 47,
-      "week_count": 10,
-      "prev_count": 8,
-      "trend": "+25%",
+      "week_count": 3,
+      "prev_count": 16,
+      "trend": "+-81%",
+      "policy_level": "国务院",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260623",
+          "title": "[视频]十四届全国人大常委会第二十三次会议在京举行 审议商标法修订草案等 赵乐际主持"
+        },
+        {
+          "date": "20260618",
+          "title": "[视频]韩正会见加拿大、丹麦客人"
+        },
+        {
+          "date": "20260618",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 42,
+      "week_count": 9,
+      "prev_count": 10,
+      "trend": "+-10%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -740,6 +732,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260624",
+          "title": "[视频]伊朗称伊美谈判不会涉及伊朗弹道导弹议题"
+        },
+        {
           "date": "20260623",
           "title": "[视频]国际联播快讯"
         },
@@ -754,10 +750,6 @@
         {
           "date": "20260621",
           "title": "[视频]美国与伊朗今日在瑞士举行技术层面谈判"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
