@@ -1,11 +1,35 @@
 {
-  "date": "20260625",
+  "date": "20260626",
   "alerts": [
     {
       "type": "持续升温",
       "level": "green",
+      "sector": "军工",
+      "detail": "连续6天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "外贸",
+      "detail": "连续6天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "AI人工智能",
+      "detail": "连续3天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
       "sector": "农业",
-      "detail": "连续5天出现"
+      "detail": "连续6天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "医药",
+      "detail": "连续3天出现"
     },
     {
       "type": "持续升温",
@@ -16,55 +40,43 @@
     {
       "type": "持续升温",
       "level": "green",
-      "sector": "外贸",
-      "detail": "连续5天出现"
-    },
-    {
-      "type": "突发升温",
-      "level": "red",
-      "sector": "医药",
-      "detail": "上周2次→本周7次 (×3.5)"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "消费",
+      "sector": "新能源",
       "detail": "连续3天出现"
-    },
-    {
-      "type": "突发升温",
-      "level": "red",
-      "sector": "机器人",
-      "detail": "上周1次→本周9次 (×9.0)"
     },
     {
       "type": "持续升温",
       "level": "green",
       "sector": "石油能源",
-      "detail": "连续5天出现"
+      "detail": "连续6天出现"
     },
     {
       "type": "突发升温",
       "level": "red",
       "sector": "黄金",
-      "detail": "上周1次→本周3次 (×3.0)"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "军工",
-      "detail": "连续5天出现"
+      "detail": "上周1次→本周4次 (×4.0)"
     },
     {
       "type": "突发升温",
       "level": "red",
-      "sector": "半导体",
+      "sector": "煤炭",
       "detail": "上周1次→本周4次 (×4.0)"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "消费",
+      "detail": "连续4天出现"
+    },
+    {
+      "type": "消失预警",
+      "level": "white",
+      "sector": "新能源汽车",
+      "detail": "前2周出现4次，近7天0次"
     }
   ],
   "sector_scores": [
     {
-      "sector": "半导体",
+      "sector": "煤炭",
       "score": 78,
       "week_count": 4,
       "prev_count": 1,
@@ -74,51 +86,41 @@
       "is_first": false,
       "stocks": [
         {
-          "code": "688981",
-          "name": "中芯国际",
+          "code": "601088",
+          "name": "中国神华",
           "market": "SH"
         },
         {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
+          "code": "601898",
+          "name": "中煤能源",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
+        },
+        {
           "date": "20260623",
           "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
         },
         {
-          "date": "20260621",
-          "title": "[视频]长三角地区进出口连续15个月保持增长"
-        },
-        {
           "date": "20260620",
-          "title": "[视频]我国科技创新和产业创新融合发展步伐加快"
-        },
-        {
-          "date": "20260619",
-          "title": "[视频]跨国公司深耕中国市场 共享发展新机遇"
+          "title": "[视频]【文化中国行】一枚香包 一脉“香”传"
         }
       ]
     },
     {
       "sector": "黄金",
-      "score": 73,
-      "week_count": 3,
+      "score": 78,
+      "week_count": 4,
       "prev_count": 1,
-      "trend": "+200%",
+      "trend": "+300%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -141,6 +143,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
           "date": "20260625",
           "title": "[视频]美巴官员表示美伊技术性谈判本月底继续"
         },
@@ -151,11 +157,114 @@
       ]
     },
     {
+      "sector": "石油能源",
+      "score": 69,
+      "week_count": 18,
+      "prev_count": 14,
+      "trend": "+29%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]伊朗和阿曼两国外长通话讨论霍尔木兹海峡问题"
+        },
+        {
+          "date": "20260625",
+          "title": "[视频]美巴官员表示美伊技术性谈判本月底继续"
+        },
+        {
+          "date": "20260625",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 69,
+      "week_count": 14,
+      "prev_count": 11,
+      "trend": "+27%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
+        },
+        {
+          "date": "20260625",
+          "title": "[视频]李强同孟加拉国总理会谈"
+        },
+        {
+          "date": "20260625",
+          "title": "[视频]发电装机突破40亿千瓦 电力供给能力迈上新台阶"
+        }
+      ]
+    },
+    {
       "sector": "医药",
-      "score": 71,
-      "week_count": 7,
-      "prev_count": 2,
-      "trend": "+250%",
+      "score": 66,
+      "week_count": 8,
+      "prev_count": 3,
+      "trend": "+167%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -178,6 +287,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
+        },
+        {
           "date": "20260625",
           "title": "[视频]李强同孟加拉国总理会谈"
         },
@@ -188,23 +305,15 @@
         {
           "date": "20260624",
           "title": "[视频]伊朗称伊美谈判不会涉及伊朗弹道导弹议题"
-        },
-        {
-          "date": "20260621",
-          "title": "[视频]【新思想引领新征程】山海携手 书写东西部协作崭新篇章"
-        },
-        {
-          "date": "20260620",
-          "title": "[视频]【文化中国行】一枚香包 一脉“香”传"
         }
       ]
     },
     {
       "sector": "机器人",
-      "score": 71,
-      "week_count": 9,
-      "prev_count": 1,
-      "trend": "+800%",
+      "score": 66,
+      "week_count": 6,
+      "prev_count": 3,
+      "trend": "+100%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -246,122 +355,59 @@
         {
           "date": "20260621",
           "title": "[视频]长三角地区进出口连续15个月保持增长"
-        },
-        {
-          "date": "20260619",
-          "title": "[视频]千舸竞 粽飘香 多彩活动共度端午"
         }
       ]
     },
     {
-      "sector": "新能源",
-      "score": 69,
-      "week_count": 14,
-      "prev_count": 14,
-      "trend": "+0%",
+      "sector": "外贸",
+      "score": 65,
+      "week_count": 22,
+      "prev_count": 13,
+      "trend": "+69%",
       "policy_level": "中央政治局",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
+          "code": "600018",
+          "name": "上港集团",
           "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]习近平会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]国内联播快讯"
+        },
         {
           "date": "20260625",
           "title": "[视频]李强同孟加拉国总理会谈"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]发电装机突破40亿千瓦 电力供给能力迈上新台阶"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]【新闻特写】中国创新为全球发展注入新机遇"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]链博会与会嘉宾：中国开辟全球供应链合作新机遇"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]李强在辽宁大连调研"
-        }
-      ]
-    },
-    {
-      "sector": "石油能源",
-      "score": 64,
-      "week_count": 14,
-      "prev_count": 17,
-      "trend": "+-18%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260625",
-          "title": "[视频]美巴官员表示美伊技术性谈判本月底继续"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]伊朗称伊美谈判不会涉及伊朗弹道导弹议题"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]伊朗称各方展开技术性会谈 决定成立多个工作组"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "AI人工智能",
       "score": 64,
-      "week_count": 13,
-      "prev_count": 16,
-      "trend": "+-19%",
+      "week_count": 12,
+      "prev_count": 17,
+      "trend": "+-29%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -389,6 +435,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260625",
           "title": "[视频]李强同孟加拉国总理会谈"
         },
@@ -399,35 +453,118 @@
         {
           "date": "20260625",
           "title": "[视频]【新闻特写】中国创新为全球发展注入新机遇"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]李强出席2026年夏季达沃斯论坛开幕式并致辞"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]全国政协十四届常委会第十七次会议举行全体会议 围绕“坚持高质量发展，推动经济持续健康发展和社会全面进步”进行大会发言 王沪宁出席"
         }
       ]
     },
     {
-      "sector": "煤炭",
-      "score": 63,
+      "sector": "钢铁",
+      "score": 64,
       "week_count": 2,
       "prev_count": 1,
       "trend": "+100%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
+          "date": "20260623",
+          "title": "[视频]【牢记初心使命 奋进复兴征程】弘扬西柏坡精神 走好新时代赶考路"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 64,
+      "week_count": 15,
+      "prev_count": 16,
+      "trend": "+-6%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260625",
+          "title": "[视频]用勤劳和智慧创造更加美好生活——习近平总书记在山东德州考察引发热烈反响"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]习近平在山东德州考察时强调 以扎实举措推进农业农村现代化 用勤劳和智慧创造更加美好生活"
+        },
+        {
+          "date": "20260624",
+          "title": "[视频]全国政协十四届常委会第十七次会议闭幕 王沪宁主持并讲话"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "score": 63,
+      "week_count": 3,
+      "prev_count": 2,
+      "trend": "+50%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601088",
-          "name": "中国神华",
+          "code": "688981",
+          "name": "中芯国际",
           "market": "SH"
         },
         {
-          "code": "601898",
-          "name": "中煤能源",
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
           "market": "SH"
         }
       ],
@@ -437,61 +574,70 @@
           "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
         },
         {
+          "date": "20260621",
+          "title": "[视频]长三角地区进出口连续15个月保持增长"
+        },
+        {
           "date": "20260620",
-          "title": "[视频]【文化中国行】一枚香包 一脉“香”传"
+          "title": "[视频]我国科技创新和产业创新融合发展步伐加快"
         }
       ]
     },
     {
-      "sector": "外贸",
-      "score": 60,
-      "week_count": 18,
-      "prev_count": 15,
-      "trend": "+20%",
-      "policy_level": "中央政治局",
+      "sector": "消费",
+      "score": 59,
+      "week_count": 11,
+      "prev_count": 11,
+      "trend": "+0%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "600519",
+          "name": "贵州茅台",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260625",
-          "title": "[视频]李强同孟加拉国总理会谈"
+          "date": "20260626",
+          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260625",
           "title": "[视频]丁薛祥出席第九届中国—亚欧博览会开幕式并会见与会外国政要"
         },
         {
-          "date": "20260624",
-          "title": "[视频]李强出席2026年夏季达沃斯论坛工商界代表座谈会"
+          "date": "20260625",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260624",
-          "title": "[视频]全国政协十四届常委会第十七次会议举行全体会议 围绕“坚持高质量发展，推动经济持续健康发展和社会全面进步”进行大会发言 王沪宁出席"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 59,
-      "week_count": 32,
-      "prev_count": 25,
-      "trend": "+28%",
+      "week_count": 31,
+      "prev_count": 23,
+      "trend": "+35%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -519,131 +665,112 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]国际禁毒日：各地开展形式多样的禁毒主题宣传活动"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
+        },
+        {
           "date": "20260625",
           "title": "[视频]李强同孟加拉国总理会谈"
         },
         {
           "date": "20260625",
           "title": "[视频]丁薛祥出席第九届中国—亚欧博览会开幕式并会见与会外国政要"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]【新闻特写】中国创新为全球发展注入新机遇"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]委内瑞拉发生7级以上强震 至少164人遇难"
         }
       ]
     },
     {
-      "sector": "农业",
-      "score": 55,
-      "week_count": 15,
-      "prev_count": 17,
-      "trend": "+-12%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
+      "sector": "工程机械",
+      "score": 52,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "",
+      "is_first": true,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "600031",
+          "name": "三一重工",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "000157",
+          "name": "中联重科",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "000425",
+          "name": "徐工机械",
           "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260625",
-          "title": "[视频]用勤劳和智慧创造更加美好生活——习近平总书记在山东德州考察引发热烈反响"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]习近平在山东德州考察时强调 以扎实举措推进农业农村现代化 用勤劳和智慧创造更加美好生活"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]全国政协十四届常委会第十七次会议闭幕 王沪宁主持并讲话"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]李强分别会见几内亚总理、哈萨克斯坦总理、韩国总理、蒙古国总理、黑山总理"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]【牢记初心使命 奋进复兴征程】赓续延安精神 书写时代新篇"
+          "date": "20260626",
+          "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 54,
-      "week_count": 11,
-      "prev_count": 13,
-      "trend": "+-15%",
+      "sector": "数据要素",
+      "score": 47,
+      "week_count": 3,
+      "prev_count": 4,
+      "trend": "+-25%",
       "policy_level": "国务院",
-      "intensity_level": "results",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "603138",
+          "name": "海量数据",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "300188",
+          "name": "美亚柏科",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260625",
-          "title": "[视频]丁薛祥出席第九届中国—亚欧博览会开幕式并会见与会外国政要"
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
         },
         {
           "date": "20260625",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260624",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]【牢记初心使命 奋进复兴征程】弘扬西柏坡精神 走好新时代赶考路"
-        },
-        {
-          "date": "20260623",
-          "title": "[视频]我国将全链条扩大汽车消费"
+          "title": "[视频]李强同孟加拉国总理会谈"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 47,
-      "week_count": 9,
+      "week_count": 10,
       "prev_count": 9,
-      "trend": "+0%",
+      "trend": "+11%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -671,6 +798,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260626",
+          "title": "[视频]习近平会见柬埔寨人民党主席、参议院主席洪森"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260625",
           "title": "[视频]国际联播快讯"
         },
@@ -681,80 +816,6 @@
         {
           "date": "20260623",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]海军辽宁舰编队完成远海实战化训练"
-        },
-        {
-          "date": "20260622",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "地下管网",
-      "score": 36,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603958",
-          "name": "哈空调",
-          "market": "SH"
-        },
-        {
-          "code": "300055",
-          "name": "万邦达",
-          "market": "SZ"
-        },
-        {
-          "code": "002671",
-          "name": "龙泉股份",
-          "market": "SZ"
-        },
-        {
-          "code": "300334",
-          "name": "津膜科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260619",
-          "title": "[视频]【新思想引领新征程】弘扬爱国主义精神 奋楫民族复兴新征程"
-        }
-      ]
-    },
-    {
-      "sector": "钢铁",
-      "score": 36,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260623",
-          "title": "[视频]【牢记初心使命 奋进复兴征程】弘扬西柏坡精神 走好新时代赶考路"
         }
       ]
     },
@@ -762,8 +823,8 @@
       "sector": "房地产",
       "score": 36,
       "week_count": 2,
-      "prev_count": 9,
-      "trend": "+-78%",
+      "prev_count": 8,
+      "trend": "+-75%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -792,48 +853,11 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 36,
-      "week_count": 2,
-      "prev_count": 4,
-      "trend": "+-50%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260619",
-          "title": "[视频]跨国公司深耕中国市场 共享发展新机遇"
-        },
-        {
-          "date": "20260619",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "银行金融",
       "score": 32,
       "week_count": 1,
-      "prev_count": 17,
-      "trend": "+-94%",
+      "prev_count": 10,
+      "trend": "+-90%",
       "policy_level": "国务院",
       "intensity_level": "early",
       "is_first": false,
@@ -860,44 +884,11 @@
           "title": "[视频]十四届全国人大常委会第二十三次会议在京举行 审议商标法修订草案等 赵乐际主持"
         }
       ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 25,
-      "week_count": 1,
-      "prev_count": 5,
-      "trend": "+-80%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260625",
-          "title": "[视频]李强同孟加拉国总理会谈"
-        }
-      ]
     }
   ],
   "lifecycles": {
-    "半导体": {
-      "keyword": "半导体",
+    "煤炭": {
+      "keyword": "煤炭",
       "stage": "密集政策期",
       "stage_code": 3,
       "timeline": [
@@ -943,8 +934,8 @@
         },
         {
           "date": "20260619",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260620",
@@ -953,8 +944,8 @@
         },
         {
           "date": "20260621",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260622",
@@ -975,11 +966,16 @@
           "date": "20260625",
           "hit": false,
           "intensity": "none"
+        },
+        {
+          "date": "20260626",
+          "hit": true,
+          "intensity": "intensive"
         }
       ],
       "first_seen": "20260615",
-      "hit_count": 5,
-      "recent_hit_count": 5
+      "hit_count": 4,
+      "recent_hit_count": 4
     },
     "黄金": {
       "keyword": "黄金",
@@ -1060,174 +1056,9 @@
           "date": "20260625",
           "hit": true,
           "intensity": "intensive"
-        }
-      ],
-      "first_seen": "20260611",
-      "hit_count": 4,
-      "recent_hit_count": 4
-    },
-    "医药": {
-      "keyword": "医药",
-      "stage": "密集政策期",
-      "stage_code": 3,
-      "timeline": [
-        {
-          "date": "20260611",
-          "hit": false,
-          "intensity": "none"
         },
         {
-          "date": "20260612",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260613",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260614",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260615",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260616",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260617",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260618",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260619",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260620",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260621",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260622",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260623",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260624",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260625",
-          "hit": true,
-          "intensity": "intensive"
-        }
-      ],
-      "first_seen": "20260615",
-      "hit_count": 7,
-      "recent_hit_count": 7
-    },
-    "机器人": {
-      "keyword": "机器人",
-      "stage": "密集政策期",
-      "stage_code": 3,
-      "timeline": [
-        {
-          "date": "20260611",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260612",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260613",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260614",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260615",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260616",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260617",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260618",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260619",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260620",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260621",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260622",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260623",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260624",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260625",
+          "date": "20260626",
           "hit": true,
           "intensity": "intensive"
         }
@@ -1235,6 +1066,96 @@
       "first_seen": "20260611",
       "hit_count": 5,
       "recent_hit_count": 5
+    },
+    "石油能源": {
+      "keyword": "石油能源",
+      "stage": "密集政策期",
+      "stage_code": 3,
+      "timeline": [
+        {
+          "date": "20260611",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260612",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260613",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260614",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260615",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260616",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260617",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260618",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260619",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260620",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260621",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260622",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260623",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260624",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260625",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260626",
+          "hit": true,
+          "intensity": "intensive"
+        }
+      ],
+      "first_seen": "20260611",
+      "hit_count": 15,
+      "recent_hit_count": 7
     },
     "新能源": {
       "keyword": "新能源",
@@ -1315,10 +1236,105 @@
           "date": "20260625",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260626",
+          "hit": true,
+          "intensity": "intensive"
         }
       ],
       "first_seen": "20260611",
-      "hit_count": 12,
+      "hit_count": 13,
+      "recent_hit_count": 7
+    },
+    "医药": {
+      "keyword": "医药",
+      "stage": "密集政策期",
+      "stage_code": 3,
+      "timeline": [
+        {
+          "date": "20260611",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260612",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260613",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260614",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260615",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260616",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260617",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260618",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260619",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260620",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260621",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260622",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260623",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260624",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260625",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260626",
+          "hit": true,
+          "intensity": "intensive"
+        }
+      ],
+      "first_seen": "20260615",
+      "hit_count": 8,
       "recent_hit_count": 7
     }
   }
