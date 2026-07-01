@@ -1,5 +1,5 @@
 {
-  "date": "20260630",
+  "date": "20260701",
   "scores": [
     {
       "sector": "数据要素",
@@ -84,60 +84,11 @@
       ]
     },
     {
-      "sector": "医药",
-      "score": 71,
-      "week_count": 10,
-      "prev_count": 5,
-      "trend": "+100%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260629",
-          "title": "[视频]【伟大征程】以人民为中心 持续增进民生福祉"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]委内瑞拉强震遇难人数升至1430人"
-        },
-        {
-          "date": "20260627",
-          "title": "[视频]【树立和践行正确政绩观】促发展 惠民生 各地推动学习教育见行见效"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]习近平会见孟加拉国总理"
-        }
-      ]
-    },
-    {
       "sector": "石油能源",
       "score": 69,
-      "week_count": 15,
-      "prev_count": 14,
-      "trend": "+7%",
+      "week_count": 14,
+      "prev_count": 12,
+      "trend": "+17%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -182,11 +133,158 @@
       ]
     },
     {
+      "sector": "医药",
+      "score": 66,
+      "week_count": 9,
+      "prev_count": 6,
+      "trend": "+50%",
+      "policy_level": "国常会",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260629",
+          "title": "[视频]【伟大征程】以人民为中心 持续增进民生福祉"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]委内瑞拉强震遇难人数升至1430人"
+        },
+        {
+          "date": "20260627",
+          "title": "[视频]【树立和践行正确政绩观】促发展 惠民生 各地推动学习教育见行见效"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 65,
+      "week_count": 24,
+      "prev_count": 16,
+      "trend": "+50%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260701",
+          "title": "[视频]习近平致电祝贺德拉埃斯普列亚当选哥伦比亚总统"
+        },
+        {
+          "date": "20260701",
+          "title": "[视频]联播快讯"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]习近平同塞舌尔总统就中塞建交50周年互致贺电"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]习近平会见白俄罗斯总统"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 64,
+      "week_count": 8,
+      "prev_count": 9,
+      "trend": "+-11%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260701",
+          "title": "[视频]庆祝中国共产党成立105周年大会在京隆重举行"
+        },
+        {
+          "date": "20260701",
+          "title": "[视频]庆祝中国共产党成立105周年音乐会今晚播出"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]庆祝中国共产党成立105周年大会7月1日上午在京隆重举行 习近平将向“七一勋章”获得者颁授勋章并发表重要讲话"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]美国和伊朗分别打击对方目标 互指对方违反停火承诺"
+        },
+        {
+          "date": "20260627",
+          "title": "[视频]美称对伊朗目标实施打击 伊朗称已回击"
+        }
+      ]
+    },
+    {
       "sector": "新能源",
-      "score": 68,
-      "week_count": 10,
-      "prev_count": 10,
-      "trend": "+0%",
+      "score": 63,
+      "week_count": 9,
+      "prev_count": 11,
+      "trend": "+-18%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -236,12 +334,61 @@
       ]
     },
     {
-      "sector": "农业",
-      "score": 65,
-      "week_count": 16,
-      "prev_count": 10,
-      "trend": "+60%",
+      "sector": "消费",
+      "score": 60,
+      "week_count": 12,
+      "prev_count": 11,
+      "trend": "+9%",
       "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260630",
+          "title": "[视频]中国制造业采购经理指数升至50.3%"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]王沪宁出席建设强大国内市场调研协商座谈会"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]新一批支持消费品以旧换新资金下达"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]前五个月我国物流运行结构优化 质效提升"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 59,
+      "week_count": 12,
+      "prev_count": 12,
+      "trend": "+0%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -285,56 +432,12 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 64,
-      "week_count": 25,
-      "prev_count": 14,
-      "trend": "+79%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]习近平同塞舌尔总统就中塞建交50周年互致贺电"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]习近平会见白俄罗斯总统"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "AI人工智能",
-      "score": 59,
-      "week_count": 13,
+      "score": 56,
+      "week_count": 10,
       "prev_count": 11,
-      "trend": "+18%",
-      "policy_level": "国务院",
+      "trend": "+-9%",
+      "policy_level": "国常会",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -383,55 +486,6 @@
       ]
     },
     {
-      "sector": "消费",
-      "score": 56,
-      "week_count": 13,
-      "prev_count": 10,
-      "trend": "+30%",
-      "policy_level": "财政部",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]中国制造业采购经理指数升至50.3%"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]王沪宁出席建设强大国内市场调研协商座谈会"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]新一批支持消费品以旧换新资金下达"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]前五个月我国物流运行结构优化 质效提升"
-        }
-      ]
-    },
-    {
       "sector": "钢铁",
       "score": 55,
       "week_count": 2,
@@ -464,6 +518,60 @@
       ]
     },
     {
+      "sector": "基建投资",
+      "score": 55,
+      "week_count": 17,
+      "prev_count": 31,
+      "trend": "+-45%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260701",
+          "title": "[视频]联播快讯"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]中共中央政治局召开会议 研究部署防汛抗旱工作 中共中央总书记习近平主持会议"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]2025年我国水运多项指标稳居世界第一"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]空军航空兵某团：锻造制胜空天的铁翼鲲鹏"
+        }
+      ]
+    },
+    {
       "sector": "煤炭",
       "score": 54,
       "week_count": 2,
@@ -492,60 +600,6 @@
         {
           "date": "20260626",
           "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 54,
-      "week_count": 23,
-      "prev_count": 26,
-      "trend": "+-12%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]中共中央政治局召开会议 研究部署防汛抗旱工作 中共中央总书记习近平主持会议"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]2025年我国水运多项指标稳居世界第一"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]空军航空兵某团：锻造制胜空天的铁翼鲲鹏"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]委内瑞拉强震遇难人数升至1430人"
         }
       ]
     },
@@ -584,6 +638,47 @@
         {
           "date": "20260626",
           "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 51,
+      "week_count": 3,
+      "prev_count": 3,
+      "trend": "+0%",
+      "policy_level": "国常会",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260630",
+          "title": "[视频]李强签署国务院令 公布《退役军人就业创业促进条例》"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]李强主持召开国务院常务会议"
         }
       ]
     },
@@ -634,101 +729,6 @@
       ]
     },
     {
-      "sector": "银行金融",
-      "score": 46,
-      "week_count": 3,
-      "prev_count": 7,
-      "trend": "+-57%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]李强签署国务院令 公布《退役军人就业创业促进条例》"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
-        }
-      ]
-    },
-    {
-      "sector": "军工",
-      "score": 45,
-      "week_count": 7,
-      "prev_count": 10,
-      "trend": "+-30%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]庆祝中国共产党成立105周年大会7月1日上午在京隆重举行 习近平将向“七一勋章”获得者颁授勋章并发表重要讲话"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]美国和伊朗分别打击对方目标 互指对方违反停火承诺"
-        },
-        {
-          "date": "20260627",
-          "title": "[视频]美称对伊朗目标实施打击 伊朗称已回击"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]习近平会见柬埔寨人民党主席、参议院主席洪森"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "半导体",
       "score": 30,
       "week_count": 2,
@@ -770,8 +770,8 @@
       "sector": "房地产",
       "score": 22,
       "week_count": 1,
-      "prev_count": 5,
-      "trend": "+-80%",
+      "prev_count": 4,
+      "trend": "+-75%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
