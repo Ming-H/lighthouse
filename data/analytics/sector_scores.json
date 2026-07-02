@@ -1,94 +1,53 @@
 {
-  "date": "20260701",
+  "date": "20260702",
   "scores": [
     {
-      "sector": "数据要素",
-      "score": 82,
+      "sector": "银行金融",
+      "score": 66,
       "week_count": 3,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国务院",
-      "intensity_level": "advancing",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260626",
-          "title": "[视频]习近平会见孟加拉国总理"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]李强同孟加拉国总理会谈"
-        }
-      ]
-    },
-    {
-      "sector": "黄金",
-      "score": 74,
-      "week_count": 4,
-      "prev_count": 2,
-      "trend": "+100%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "国常会",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600547",
-          "name": "山东黄金",
+          "code": "601398",
+          "name": "工商银行",
           "market": "SH"
         },
         {
-          "code": "600489",
-          "name": "中金黄金",
+          "code": "600036",
+          "name": "招商银行",
           "market": "SH"
         },
         {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260629",
+          "date": "20260630",
+          "title": "[视频]李强签署国务院令 公布《退役军人就业创业促进条例》"
+        },
+        {
+          "date": "20260630",
           "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20260626",
-          "title": "[视频]丁薛祥在新疆调研"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]美巴官员表示美伊技术性谈判本月底继续"
+          "date": "20260629",
+          "title": "[视频]李强主持召开国务院常务会议"
         }
       ]
     },
     {
       "sector": "石油能源",
-      "score": 69,
-      "week_count": 14,
-      "prev_count": 12,
-      "trend": "+17%",
+      "score": 64,
+      "week_count": 11,
+      "prev_count": 14,
+      "trend": "+-21%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -111,6 +70,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260702",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260630",
           "title": "[视频]庆祝中国共产党成立105周年音乐会《人民至上》在京举行"
         },
@@ -125,19 +88,69 @@
         {
           "date": "20260628",
           "title": "[视频]美国和伊朗分别打击对方目标 互指对方违反停火承诺"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 64,
+      "week_count": 8,
+      "prev_count": 9,
+      "trend": "+-11%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
         },
         {
-          "date": "20260627",
-          "title": "[视频]美称对伊朗目标实施打击 伊朗称已回击"
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260702",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260701",
+          "title": "[视频]庆祝中国共产党成立105周年大会在京隆重举行"
+        },
+        {
+          "date": "20260701",
+          "title": "[视频]庆祝中国共产党成立105周年音乐会今晚播出"
+        },
+        {
+          "date": "20260630",
+          "title": "[视频]庆祝中国共产党成立105周年大会7月1日上午在京隆重举行 习近平将向“七一勋章”获得者颁授勋章并发表重要讲话"
+        },
+        {
+          "date": "20260628",
+          "title": "[视频]美国和伊朗分别打击对方目标 互指对方违反停火承诺"
         }
       ]
     },
     {
       "sector": "医药",
-      "score": 66,
-      "week_count": 9,
-      "prev_count": 6,
-      "trend": "+50%",
+      "score": 61,
+      "week_count": 7,
+      "prev_count": 7,
+      "trend": "+0%",
       "policy_level": "国常会",
       "intensity_level": "results",
       "is_first": false,
@@ -183,11 +196,11 @@
     },
     {
       "sector": "外贸",
-      "score": 65,
-      "week_count": 24,
-      "prev_count": 16,
-      "trend": "+50%",
-      "policy_level": "中央政治局",
+      "score": 59,
+      "week_count": 25,
+      "prev_count": 18,
+      "trend": "+39%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -204,87 +217,123 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260701",
-          "title": "[视频]习近平致电祝贺德拉埃斯普列亚当选哥伦比亚总统"
+          "date": "20260702",
+          "title": "[视频]《习近平谈治国理政》第五卷土耳其推介会在安卡拉举行"
         },
         {
-          "date": "20260701",
-          "title": "[视频]联播快讯"
+          "date": "20260702",
+          "title": "[视频]前5个月我国知识密集型服务出口增长12.2%"
         },
         {
-          "date": "20260630",
-          "title": "[视频]习近平同塞舌尔总统就中塞建交50周年互致贺电"
+          "date": "20260702",
+          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
         },
         {
-          "date": "20260630",
+          "date": "20260702",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260702",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]习近平会见白俄罗斯总统"
         }
       ]
     },
     {
-      "sector": "军工",
-      "score": 64,
-      "week_count": 8,
-      "prev_count": 9,
-      "trend": "+-11%",
+      "sector": "黄金",
+      "score": 59,
+      "week_count": 3,
+      "prev_count": 3,
+      "trend": "+0%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600893",
-          "name": "航发动力",
+          "code": "600547",
+          "name": "山东黄金",
           "market": "SH"
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
+          "code": "600489",
+          "name": "中金黄金",
           "market": "SH"
         },
         {
-          "code": "002179",
-          "name": "中航光电",
+          "code": "002155",
+          "name": "湖南黄金",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260702",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 59,
+      "week_count": 11,
+      "prev_count": 11,
+      "trend": "+0%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
           "market": "SZ"
         },
         {
-          "code": "600862",
-          "name": "中航高科",
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260701",
-          "title": "[视频]庆祝中国共产党成立105周年大会在京隆重举行"
-        },
-        {
-          "date": "20260701",
-          "title": "[视频]庆祝中国共产党成立105周年音乐会今晚播出"
+          "date": "20260702",
+          "title": "[视频]前5个月我国知识密集型服务出口增长12.2%"
         },
         {
           "date": "20260630",
-          "title": "[视频]庆祝中国共产党成立105周年大会7月1日上午在京隆重举行 习近平将向“七一勋章”获得者颁授勋章并发表重要讲话"
+          "title": "[视频]中国制造业采购经理指数升至50.3%"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260629",
+          "title": "[视频]王沪宁出席建设强大国内市场调研协商座谈会"
         },
         {
           "date": "20260628",
-          "title": "[视频]美国和伊朗分别打击对方目标 互指对方违反停火承诺"
-        },
-        {
-          "date": "20260627",
-          "title": "[视频]美称对伊朗目标实施打击 伊朗称已回击"
+          "title": "[视频]新一批支持消费品以旧换新资金下达"
         }
       ]
     },
     {
       "sector": "新能源",
-      "score": 63,
-      "week_count": 9,
-      "prev_count": 11,
-      "trend": "+-18%",
+      "score": 58,
+      "week_count": 4,
+      "prev_count": 14,
+      "trend": "+-71%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -326,40 +375,128 @@
         {
           "date": "20260626",
           "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]李强同孟加拉国总理会谈"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 60,
-      "week_count": 12,
-      "prev_count": 11,
-      "trend": "+9%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
+      "sector": "数据要素",
+      "score": 57,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "国务院",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "603138",
+          "name": "海量数据",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "300188",
+          "name": "美亚柏科",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]习近平会见孟加拉国总理"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]李强会见柬埔寨人民党主席、参议院主席洪森"
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "score": 57,
+      "week_count": 2,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "600031",
+          "name": "三一重工",
+          "market": "SH"
+        },
+        {
+          "code": "000157",
+          "name": "中联重科",
+          "market": "SZ"
+        },
+        {
+          "code": "000425",
+          "name": "徐工机械",
+          "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
           "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260702",
+          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 56,
+      "week_count": 9,
+      "prev_count": 13,
+      "trend": "+-31%",
+      "policy_level": "国常会",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260702",
+          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
+        },
+        {
+          "date": "20260702",
+          "title": "[视频]国内联播快讯"
+        },
         {
           "date": "20260630",
           "title": "[视频]中国制造业采购经理指数升至50.3%"
@@ -369,25 +506,81 @@
           "title": "[视频]李强主持召开国务院常务会议"
         },
         {
-          "date": "20260629",
-          "title": "[视频]王沪宁出席建设强大国内市场调研协商座谈会"
+          "date": "20260627",
+          "title": "[视频]今年前5个月工业企业利润实现较快增长"
+        }
+      ]
+    },
+    {
+      "sector": "钢铁",
+      "score": 55,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
         },
         {
-          "date": "20260628",
-          "title": "[视频]新一批支持消费品以旧换新资金下达"
-        },
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
         {
           "date": "20260628",
-          "title": "[视频]前五个月我国物流运行结构优化 质效提升"
+          "title": "[视频]【伟大征程】以习近平党建思想为引领 奋力走好新时代“赶考”路"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        }
+      ]
+    },
+    {
+      "sector": "煤炭",
+      "score": 54,
+      "week_count": 2,
+      "prev_count": 2,
+      "trend": "+0%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601088",
+          "name": "中国神华",
+          "market": "SH"
+        },
+        {
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260626",
+          "title": "[视频]丁薛祥在新疆调研"
+        },
+        {
+          "date": "20260626",
+          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 59,
-      "week_count": 12,
-      "prev_count": 12,
-      "trend": "+0%",
+      "score": 54,
+      "week_count": 9,
+      "prev_count": 15,
+      "trend": "+-40%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -432,98 +625,12 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 56,
-      "week_count": 10,
-      "prev_count": 11,
-      "trend": "+-9%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260630",
-          "title": "[视频]中国制造业采购经理指数升至50.3%"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260627",
-          "title": "[视频]今年前5个月工业企业利润实现较快增长"
-        },
-        {
-          "date": "20260627",
-          "title": "[视频]夏粮收购陆续展开 质优价稳购销两旺"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]习近平会见孟加拉国总理"
-        }
-      ]
-    },
-    {
-      "sector": "钢铁",
-      "score": 55,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260628",
-          "title": "[视频]【伟大征程】以习近平党建思想为引领 奋力走好新时代“赶考”路"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]丁薛祥在新疆调研"
-        }
-      ]
-    },
-    {
       "sector": "基建投资",
-      "score": 55,
-      "week_count": 17,
-      "prev_count": 31,
-      "trend": "+-45%",
-      "policy_level": "中央政治局",
+      "score": 54,
+      "week_count": 14,
+      "prev_count": 32,
+      "trend": "+-56%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -550,6 +657,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260702",
+          "title": "[视频]《习近平谈治国理政》第五卷土耳其推介会在安卡拉举行"
+        },
+        {
+          "date": "20260702",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260701",
           "title": "[视频]联播快讯"
         },
@@ -560,134 +675,57 @@
         {
           "date": "20260630",
           "title": "[视频]2025年我国水运多项指标稳居世界第一"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260628",
-          "title": "[视频]空军航空兵某团：锻造制胜空天的铁翼鲲鹏"
         }
       ]
     },
     {
-      "sector": "煤炭",
-      "score": 54,
-      "week_count": 2,
-      "prev_count": 2,
-      "trend": "+0%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601088",
-          "name": "中国神华",
-          "market": "SH"
-        },
-        {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260626",
-          "title": "[视频]丁薛祥在新疆调研"
-        },
-        {
-          "date": "20260626",
-          "title": "[视频]【“十五五”开好局起好步】到2030年我国将初步建成新型能源体系"
-        }
-      ]
-    },
-    {
-      "sector": "工程机械",
-      "score": 52,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "600031",
-          "name": "三一重工",
-          "market": "SH"
-        },
-        {
-          "code": "000157",
-          "name": "中联重科",
-          "market": "SZ"
-        },
-        {
-          "code": "000425",
-          "name": "徐工机械",
-          "market": "SZ"
-        },
-        {
-          "code": "600150",
-          "name": "中国船舶",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260626",
-          "title": "[视频]委内瑞拉强震遇难人数升至235人 救援持续进行"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 51,
+      "sector": "半导体",
+      "score": 35,
       "week_count": 3,
-      "prev_count": 3,
-      "trend": "+0%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
+      "prev_count": 4,
+      "trend": "+-25%",
+      "policy_level": "",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "601398",
-          "name": "工商银行",
+          "code": "688981",
+          "name": "中芯国际",
           "market": "SH"
         },
         {
-          "code": "600036",
-          "name": "招商银行",
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
           "market": "SH"
         },
         {
-          "code": "601166",
-          "name": "兴业银行",
+          "code": "688012",
+          "name": "中微公司",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260630",
-          "title": "[视频]李强签署国务院令 公布《退役军人就业创业促进条例》"
+          "date": "20260702",
+          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
         },
         {
-          "date": "20260630",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260629",
-          "title": "[视频]李强主持召开国务院常务会议"
+          "date": "20260627",
+          "title": "[视频]今年前5个月工业企业利润实现较快增长"
         }
       ]
     },
     {
       "sector": "机器人",
-      "score": 50,
-      "week_count": 5,
-      "prev_count": 5,
-      "trend": "+0%",
+      "score": 25,
+      "week_count": 1,
+      "prev_count": 9,
+      "trend": "+-89%",
       "policy_level": "",
       "intensity_level": "advancing",
       "is_first": false,
@@ -717,52 +755,6 @@
         {
           "date": "20260628",
           "title": "[视频]神舟二十三号乘组在轨满月 各项任务进展顺利"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]前4个月我国新兴产业和未来产业新设企业37.3万户"
-        },
-        {
-          "date": "20260625",
-          "title": "[视频]【新闻特写】中国创新为全球发展注入新机遇"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 30,
-      "week_count": 2,
-      "prev_count": 4,
-      "trend": "+-50%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260627",
-          "title": "[视频]今年前5个月工业企业利润实现较快增长"
         }
       ]
     },
@@ -770,8 +762,8 @@
       "sector": "房地产",
       "score": 22,
       "week_count": 1,
-      "prev_count": 4,
-      "trend": "+-75%",
+      "prev_count": 2,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
