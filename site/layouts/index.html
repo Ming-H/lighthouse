@@ -20,6 +20,59 @@
   </p>
 </header>
 
+{{- $mf := .Site.Data.moneyflow -}}
+{{- $l := .Site.Data.picks.latest -}}
+
+<section class="lh-dashboard">
+  <h2 class="nav-heading">今日仪表盘 · 一屏纵览</h2>
+  <div class="dash-grid">
+    {{- with $sig -}}
+    <a class="dash-card tone-{{ .market_state | default "watch" }}" href="workbench/">
+      <span class="dash-tag">🗼 灯塔信号 · M</span>
+      <span class="dash-big">{{ if eq .market_state "offense" }}进攻{{ else if eq .market_state "defense" }}防守{{ else }}观望{{ end }}</span>
+      <span class="dash-sub">{{ .verdict | default "信号在途" }}</span>
+    </a>
+    {{- end -}}
+    {{- with $mf -}}
+    <a class="dash-card" href="moneyflow/today/">
+      <span class="dash-tag">📊 今日资金 · 大类</span>
+      {{- range first 3 .inflow_top3 -}}<span class="dash-line up">▲ {{ .name }} {{ printf "%.1f" .amount }}亿</span>{{- end -}}
+      {{- range first 2 .outflow_top3 -}}<span class="dash-line down">▼ {{ .name }} {{ printf "%.1f" .amount }}亿</span>{{- end -}}
+    </a>
+    {{- end -}}
+    {{- with $l -}}
+    <a class="dash-card" href="workbench/#picks">
+      <span class="dash-tag">🎯 CAN SLIM TOP5</span>
+      {{- range first 5 .top20 -}}<span class="dash-line"><b>{{ .name }}</b> · 灯塔分 {{ .score }}</span>{{- end -}}
+    </a>
+    {{- end -}}
+    {{- with $latest -}}
+    <a class="dash-card" href="{{ .Permalink }}">
+      <span class="dash-tag">📰 新闻联播 · {{ .Date.Format "1.02" }}</span>
+      <span class="dash-line">{{- with .Params.economy_count -}}经济相关 {{ . }}{{- end -}}{{- with .Params.total_count -}} / {{ . }} 条{{- end -}}</span>
+      <span class="dash-sub">{{ .Title }}</span>
+    </a>
+    {{- end -}}
+  </div>
+</section>
+
+<style>
+.lh-dashboard{margin:8px 0 4px}
+.dash-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-top:8px}
+.dash-card{display:flex;flex-direction:column;gap:5px;padding:14px 16px;background:var(--paper-2);border:1px solid var(--rule);border-radius:var(--radius-lg);text-decoration:none;color:var(--ink);box-shadow:var(--shadow);transition:.2s;min-height:120px}
+.dash-card:hover{box-shadow:var(--shadow-lift);transform:translateY(-2px);border-color:var(--rule-strong)}
+.dash-card.tone-offense{border-left:4px solid var(--growth)}
+.dash-card.tone-defense{border-left:4px solid var(--crimson)}
+.dash-card.tone-watch{border-left:4px solid var(--beacon)}
+.dash-tag{font-family:var(--font-mono);font-size:11px;color:var(--ink-faint);letter-spacing:.02em}
+.dash-big{font-family:var(--font-display);font-size:24px;font-weight:700;line-height:1.1;color:var(--ink)}
+.tone-offense .dash-big{color:var(--growth)}.tone-defense .dash-big{color:var(--crimson)}.tone-watch .dash-big{color:var(--brand)}
+.dash-sub{font-size:12px;color:var(--ink-soft);line-height:1.4}
+.dash-line{font-size:12.5px;font-family:var(--font-mono);color:var(--ink);line-height:1.5}
+.dash-line.up{color:var(--crimson)}.dash-line.down{color:var(--growth)}
+@media(max-width:860px){.dash-grid{grid-template-columns:1fr 1fr}}
+</style>
+
 {{- $nav := slice
   (dict "title" "投资工作台" "url" ("workbench/" | relURL) "desc" "灯塔信号 + 板块景气 + TOP20 排行/体检 + 命中回看，一页完成每日决策" "tag" "每日决策")
   (dict "title" "涨幅榜" "url" ("movers/" | relURL) "desc" "近一月涨幅 top + 《笑傲股市》看图（新高 / 放量 / 超买）" "tag" "动量 L+N+S")

@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-06",
+  "trade_date": "2026年7月6日",
+  "inflow_top3": [
+    {
+      "name": "半导体",
+      "amount": 83.8
+    },
+    {
+      "name": "银行",
+      "amount": 58.6
+    },
+    {
+      "name": "基础化工",
+      "amount": 32.9
+    }
+  ],
+  "outflow_top3": [
+    {
+      "name": "面板显示",
+      "amount": -116.7
+    },
+    {
+      "name": "消费电子",
+      "amount": -93.6
+    },
+    {
+      "name": "电子元件",
+      "amount": -87.5
+    }
+  ],
+  "industry_top1": "半导体",
+  "concept_top1": "高股息精选"
+}

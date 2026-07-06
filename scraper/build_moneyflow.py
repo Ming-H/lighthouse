@@ -210,53 +210,46 @@ def orders_section(rows):
 
 # 资金流向专用 CSS —— 复用 PaperMod 变量，自动跟随站点明暗；红涨绿跌为 A 股数据色
 CSS = """
-.mf{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
-.mf h2{font-family:"Noto Serif SC","Fraunces",serif;font-size:22px;font-weight:700;margin:0 0 4px;letter-spacing:-.01em;color:var(--primary)}
-.mf-meta{color:var(--secondary);font-size:13px;line-height:1.7;margin-bottom:8px}
-.mf-gt{font-family:"Noto Serif SC","Fraunces",serif;font-size:16px;font-weight:600;margin:18px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--primary);display:flex;align-items:baseline;gap:8px;color:var(--primary)}
-.mf-gt small{font-family:-apple-system,sans-serif;font-size:11px;font-weight:400;color:var(--secondary)}
+.mf{font-family:var(--font-serif)}
+.mf h2{font-family:var(--font-display);font-size:24px;font-weight:700;margin:0 0 4px;letter-spacing:-.01em;color:var(--ink)}
+.mf-meta{color:var(--ink-soft);font-size:12.5px;line-height:1.7;margin-bottom:8px;font-family:var(--font-mono)}
+.mf-gt{font-family:var(--font-display);font-size:16px;font-weight:600;margin:20px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--brand);display:flex;align-items:baseline;gap:8px;color:var(--ink)}
+.mf-gt small{font-family:var(--font-mono);font-size:11px;font-weight:400;color:var(--ink-faint)}
 .mf-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin-bottom:22px}
-.mf-card{background:var(--entry);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.mf-card{background:var(--paper-2);border:1px solid var(--rule);border-radius:var(--radius-lg);padding:16px 18px;box-shadow:var(--shadow)}
 .mf-card.wide{grid-column:1/-1}
 .mf-card-h{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.mf-card h3{font-size:14px;margin:0;font-weight:600;color:var(--primary)}
-.mf-badge{font-size:10px;color:var(--secondary);background:var(--theme);border:1px solid var(--border);padding:2px 8px;border-radius:10px;font-variant-numeric:tabular-nums}
-.mf-sub{color:var(--secondary);font-size:11px;margin:4px 0 12px}
+.mf-card h3{font-size:14px;margin:0;font-weight:600;color:var(--ink);font-family:var(--font-serif)}
+.mf-badge{font-size:10px;color:var(--ink-faint);background:var(--paper);border:1px solid var(--rule);padding:2px 8px;border-radius:10px;font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.mf-sub{color:var(--ink-soft);font-size:11px;margin:4px 0 12px;font-family:var(--font-mono)}
 .mf-row{display:grid;grid-template-columns:140px 1fr 108px;align-items:center;gap:10px;padding:3px 0}
-.mf-label{text-align:right;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;justify-content:flex-end;gap:5px;color:var(--primary)}
-.mf-track{position:relative;height:18px;background:var(--theme);border-radius:9px;border:1px solid var(--border)}
-.mf-track::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--border);opacity:.7}
+.mf-label{text-align:right;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;align-items:center;justify-content:flex-end;gap:5px;color:var(--ink);font-family:var(--font-serif)}
+.mf-track{position:relative;height:18px;background:var(--paper);border-radius:9px;border:1px solid var(--rule)}
+.mf-track::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--rule-strong);opacity:.55}
 .mf-bar{position:absolute;top:2px;bottom:2px;border-radius:6px}
-.mf-bar.pos{background:linear-gradient(90deg,#dc2626,#f87171);left:50%}
-.mf-bar.neg{background:linear-gradient(90deg,#4ade80,#16a34a)}
-.mf-val{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
-.mf-val.pos{color:#dc2626}.mf-val.neg{color:#16a34a}
+.mf-bar.pos{background:linear-gradient(90deg,var(--crimson),var(--crimson-bright));left:50%}
+.mf-bar.neg{background:linear-gradient(90deg,var(--growth-soft),var(--growth))}
+.mf-val{font-family:var(--font-mono);font-size:12px;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.mf-val.pos{color:var(--crimson)}.mf-val.neg{color:var(--growth)}
 .mf-yi{font-size:10px;margin-left:1px;opacity:.7}
-.mf-pct{font-size:10px;color:var(--secondary);margin-left:5px;display:block}
-.mf-ctag{font-size:9px;padding:1px 5px;border-radius:3px;background:var(--theme);color:var(--secondary);border:1px solid var(--border);flex-shrink:0;white-space:nowrap}
-.mf-ctag.跨行{color:#c2410c;background:#fff7ed;border-color:#fed7aa}
-.mf-ctag.策略{color:#1d4ed8;background:#eff6ff;border-color:#bfdbfe}
-.mf-ctag.行业{color:#4b5563;background:#f9fafb;border-color:#e5e7eb}
+.mf-pct{font-size:10px;color:var(--ink-faint);margin-left:5px;display:block}
+.mf-ctag{font-size:9px;padding:1px 5px;border-radius:3px;background:var(--paper);color:var(--ink-faint);border:1px solid var(--rule);flex-shrink:0;white-space:nowrap;font-family:var(--font-mono)}
+.mf-ctag.跨行{color:var(--c-amber);background:var(--gold-soft);border-color:var(--brand)}
+.mf-ctag.策略{color:var(--c-violet);background:var(--paper-3);border-color:var(--rule-strong)}
+.mf-ctag.行业{color:var(--ink-soft);background:var(--paper-2);border-color:var(--rule)}
 .mf-ctag.dim{opacity:.7}
-html.dark .mf-bar.pos{background:linear-gradient(90deg,#ef4444,#fb7185)}
-html.dark .mf-bar.neg{background:linear-gradient(90deg,#86efac,#22c55e)}
-html.dark .mf-val.pos{color:#ef4444}html.dark .mf-val.neg{color:#22c55e}
-html.dark .mf-ctag.跨行{color:#fdba74;background:#431407;border-color:#7c2d12}
-html.dark .mf-ctag.策略{color:#93c5fd;background:#0c1e3d;border-color:#1e3a5f}
-html.dark .mf-ctag.行业{color:#d1d5db;background:#1f2937;border-color:#374151}
 .mf-otable{margin-top:2px}
 .mf-ohead,.mf-orow{display:grid;grid-template-columns:90px 1fr 1fr 1fr;gap:14px;align-items:center}
-.mf-ohead{font-size:10px;color:var(--secondary);border-bottom:1px solid var(--border);padding:0 0 6px;font-weight:500}
-.mf-orow{padding:6px 0;border-bottom:1px dashed var(--border)}
+.mf-ohead{font-size:10px;color:var(--ink-faint);border-bottom:1px solid var(--rule);padding:0 0 6px;font-weight:500;font-family:var(--font-mono)}
+.mf-orow{padding:6px 0;border-bottom:1px dashed var(--rule)}
 .mf-orow:last-child{border-bottom:none}
-.mf-oname{font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;color:var(--primary)}
+.mf-oname{font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;color:var(--ink);font-family:var(--font-serif)}
 .mf-otd{display:flex;align-items:center;gap:8px}
-.mf-obar{position:relative;flex:1;height:10px;background:var(--theme);border-radius:5px;border:1px solid var(--border);min-width:36px}
-.mf-obar::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--border);opacity:.6}
+.mf-obar{position:relative;flex:1;height:10px;background:var(--paper);border-radius:5px;border:1px solid var(--rule);min-width:36px}
+.mf-obar::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--rule-strong);opacity:.5}
 .mf-obar .mf-bar{position:absolute;top:1px;bottom:1px;border-radius:3px}
-.mf-otd span{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:40px;text-align:right}
-.mf-otd.pos span{color:#dc2626}.mf-otd.neg span{color:#16a34a}
-html.dark .mf-otd.pos span{color:#ef4444}html.dark .mf-otd.neg span{color:#22c55e}
+.mf-otd span{font-family:var(--font-mono);font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:40px;text-align:right}
+.mf-otd.pos span{color:var(--crimson)}.mf-otd.neg span{color:var(--growth)}
 @media(max-width:860px){.mf-grid{grid-template-columns:1fr}.mf-row{grid-template-columns:100px 1fr 92px}.mf-ohead,.mf-orow{grid-template-columns:64px 1fr 1fr 1fr;gap:8px}}
 """
 
@@ -343,6 +336,19 @@ aliases: ["/moneyflow/today/"]
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out = OUT_DIR / f"{date_str}.md"
     out.write_text(md, encoding="utf-8")
+
+    # 结构化摘要 → site/data/moneyflow.json，供首页仪表盘读取
+    summary = {
+        "date": date_str,
+        "trade_date": cn_date,
+        "inflow_top3": [{"name": r["name"], "amount": round(r["amount"] / 1e8, 1)} for r in ind_in_cat[:3]],
+        "outflow_top3": [{"name": r["name"], "amount": round(r["amount"] / 1e8, 1)} for r in ind_out_cat[:3]],
+        "industry_top1": top1_ind,
+        "concept_top1": top1_con,
+    }
+    (SITE / "data").mkdir(parents=True, exist_ok=True)
+    (SITE / "data" / "moneyflow.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # _index.md（列表页）若不存在则建一个
     idx = OUT_DIR / "_index.md"
