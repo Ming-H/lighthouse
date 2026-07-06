@@ -65,28 +65,3 @@ ignoreLogs = ['warning-goldmark-raw-html']
   name = "资金流向"
   weight = 5
   url = "moneyflow/"
-
-[[menu.main]]
-  name = "晨会早报"
-  weight = 6
-  url = "morning/"
-
-[[menu.main]]
-  name = "交叉验证"
-  weight = 7
-  url = "crosscheck/"
-
-[[menu.main]]
-  name = "板块趋势"
-  weight = 8
-  url = "trend/"
-
-[[menu.main]]
-  name = "回测"
-  weight = 9
-  url = "backtest/"
-
-[[menu.main]]
-  name = "观察列表"
-  weight = 10
-  url = "watchlist/"
