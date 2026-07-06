@@ -1,0 +1,38 @@
+{{- define "main" -}}
+{{- $sig := .Site.Data.signal -}}
+{{- $mf := .Site.Data.moneyflow -}}
+<header class="page-header"><h1>交叉验证 · 政策信号 × 资金兑现</h1></header>
+<p class="lead">新闻联播/政策点名的方向，资金到底买不买账？左侧政策信号，右侧资金方向，一眼看共振与背离。</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin:20px 0">
+  <div class="mf-card">
+    <h3 style="margin:0 0 10px;font-size:14px">📣 政策信号 · 新闻联播 / GLM 催化</h3>
+    {{- with $sig -}}
+    <p style="font-size:.9rem;color:var(--ink-soft);line-height:1.6;margin:0 0 12px;padding:10px 12px;background:var(--paper);border-left:3px solid var(--brand);border-radius:var(--radius)">{{ .verdict }}</p>
+    {{- range .key_catalysts -}}
+    <div class="dash-line" style="padding:4px 0;font-size:12.5px;line-height:1.5">· {{ . }}</div>
+    {{- end -}}
+    {{- end -}}
+  </div>
+  <div class="mf-card">
+    <h3 style="margin:0 0 10px;font-size:14px">💰 资金方向 · 今日板块大类</h3>
+    <div style="margin-bottom:10px">
+      {{- with $mf -}}{{ range .inflow_top3 }}<div class="dash-line up" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▲ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{ end }}{{- end -}}
+    </div>
+    <div>
+      {{- with $mf -}}{{ range .outflow_top3 }}<div class="dash-line down" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▼ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{ end }}{{- end -}}
+    </div>
+  </div>
+</div>
+
+<div class="ck-hint">
+<b>研判框架：</b>
+<ul style="margin:6px 0 0;padding-left:18px;line-height:1.7">
+<li><b style="color:var(--crimson)">共振</b>（政策点名 + 资金流入同向）→ 可信度高，重点关注</li>
+<li><b style="color:var(--ink-soft)">背离</b>（政策喊话但资金流出）→ 谨慎，市场不认</li>
+<li><b style="color:var(--brand)">市场自发</b>（资金大量流入但政策未提）→ 值得挖掘主线</li>
+</ul>
+</div>
+
+<p class="lead" style="margin-top:18px"><a href="moneyflow/today/">完整资金流向 →</a>　·　<a href="daily/">新闻联播存档 →</a></p>
+{{- end -}}

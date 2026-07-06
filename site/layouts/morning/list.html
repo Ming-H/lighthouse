@@ -1,0 +1,60 @@
+{{- define "main" -}}
+{{- $sig := .Site.Data.signal -}}
+{{- $mf := .Site.Data.moneyflow -}}
+{{- $l := .Site.Data.picks.latest -}}
+{{- $daily := where .Site.RegularPages "Section" "daily" -}}
+{{- $latest := index $daily 0 -}}
+<header class="page-header"><h1>晨会早报 · 一页看全景</h1></header>
+<p class="lead">每个交易日清晨聚合：灯塔信号 → 宏观新闻联播 → 资金流向 → CAN SLIM 选股，一屏完成研判。</p>
+
+{{- with $sig -}}
+<h2>① 灯塔信号 · 今天能做吗</h2>
+<div class="beacon-strip" data-state="{{ .market_state }}">
+  <span class="beacon-lamp" data-state="{{ .market_state }}"></span>
+  <span class="bs-verdict">{{ if eq .market_state "offense" }}🟢 进攻{{ else if eq .market_state "defense" }}🔴 防守{{ else }}🟡 观望{{ end }}　{{ .verdict }}</span>
+  <span class="bs-meta">{{ .date }} · GLM 研判（CAN SLIM 的 M）</span>
+</div>
+<p class="lead" style="font-size:.95rem">{{ .reason }}</p>
+{{- if .key_catalysts -}}
+<div class="ck-hint" style="margin-bottom:18px"><b>关键催化：</b>{{ range .key_catalysts }}<div style="padding:2px 0">· {{ . }}</div>{{ end }}</div>
+{{- end -}}
+{{- end -}}
+
+{{- with $latest -}}
+<h2>② 宏观 · 昨夜新闻联播</h2>
+<p class="lead">最新一期：<a href="{{ .Permalink }}"><b>{{ .Title }}</b></a>{{ with .Params.economy_count }} · 经济相关 {{ . }}{{ end }}{{ with .Params.total_count }} / {{ . }} 条{{ end }}</p>
+{{- end -}}
+
+{{- with $mf -}}
+<h2>③ 资金 · 今日板块大类</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin-bottom:10px">
+  <div class="mf-card">
+    <h3 style="margin:0 0 10px;font-size:13px">净流入 Top3</h3>
+    {{ range .inflow_top3 }}<div class="dash-line up" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▲ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{ end }}
+  </div>
+  <div class="mf-card">
+    <h3 style="margin:0 0 10px;font-size:13px">净流出 Top3</h3>
+    {{ range .outflow_top3 }}<div class="dash-line down" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▼ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{ end }}
+  </div>
+</div>
+<p class="lead"><a href="moneyflow/today/">完整资金流向全景 →</a>　·　<a href="crosscheck/">政策×资金交叉验证 →</a></p>
+{{- end -}}
+
+{{- with $l -}}
+<h2>④ 选股 · CAN SLIM Top5</h2>
+<table class="scoreboard">
+<thead><tr><th>#</th><th>股票</th><th>灯塔分</th><th>近60日</th></tr></thead>
+<tbody>
+{{ range $i,$s := first 5 .top20 }}
+<tr style="cursor:pointer" onclick="location.href='workbench/?code={{ .code }}#picks'">
+<td class="sb-rank">{{ add $i 1 }}</td>
+<td><span class="sb-name">{{ .name }}</span><span class="sb-code">{{ .code }}</span></td>
+<td class="sb-score">{{ .score }}</td>
+<td class="sb-delta {{ if ge .ch60d 0 }}up{{ else }}down{{ end }}">{{ printf "%.0f" .ch60d }}%</td>
+</tr>
+{{ end }}
+</tbody>
+</table>
+<p class="lead"><a href="workbench/">完整 TOP20 + 个股体检 →</a></p>
+{{- end -}}
+{{- end -}}

@@ -1,0 +1,24 @@
+{{- define "main" -}}
+{{- $mf := .Site.Data.moneyflow -}}
+<header class="page-header"><h1>板块趋势 · 资金连续性</h1></header>
+<p class="lead">看主力对一个板块的<b>持续态度</b>（连续 N 天流入/流出），过滤单日噪音——连读越久越可信。这是判断"真主线"vs"一日游"的关键。</p>
+
+<div class="ck-hint" style="margin-bottom:20px">
+<b>积累中：</b>本栏目每日 15:30 自动采集资金流向。<b>积累 ≥5 个交易日后</b>，这里会自动显示各板块"连续流入/流出天数"趋势条 + 持续性排名。当前已积累 <b>1</b> 个交易日。
+</div>
+
+{{- with $mf -}}
+<h2>今日快照 · 大类资金</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin:14px 0">
+  <div class="mf-card">
+    <h3 style="margin:0 0 8px;font-size:13px">净流入</h3>
+    {{- range .inflow_top3 -}}<div class="dash-line up" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▲ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{- end -}}
+  </div>
+  <div class="mf-card">
+    <h3 style="margin:0 0 8px;font-size:13px">净流出</h3>
+    {{- range .outflow_top3 -}}<div class="dash-line down" style="font-family:var(--font-mono);font-size:12.5px;padding:3px 0">▼ {{ .name }} {{ printf "%.1f" .amount }}亿</div>{{- end -}}
+  </div>
+</div>
+<p class="lead"><a href="moneyflow/today/">完整资金流向 →</a></p>
+{{- end -}}
+{{- end -}}

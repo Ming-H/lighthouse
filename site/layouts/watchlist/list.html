@@ -1,0 +1,44 @@
+{{- define "main" -}}
+<header class="page-header"><h1>观察列表</h1></header>
+<p class="lead">从今日 TOP20 选股加入观察，每日自动更新灯塔分变化。数据存浏览器本地（不清缓存则在）。</p>
+
+<style>
+.wl-add{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+.wl-add select{flex:1 1 240px;padding:10px 12px;font-family:var(--font-mono);font-size:.9rem;border:1px solid var(--rule-strong);border-radius:var(--radius-lg);background:var(--paper);color:var(--ink)}
+.wl-add button{padding:10px 20px;font-family:var(--font-mono);font-weight:600;background:var(--brand);color:#fff8ec;border:0;border-radius:var(--radius-lg);cursor:pointer}
+.wl-empty{padding:28px;text-align:center;color:var(--ink-faint);font-family:var(--font-mono);background:var(--paper-2);border:1px dashed var(--rule);border-radius:var(--radius-lg)}
+.wl-row{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--rule)}
+.wl-name{font-weight:600}.wl-name small{font-family:var(--font-mono);color:var(--ink-faint);margin-left:6px;font-weight:400}
+.wl-score{font-family:var(--font-mono);font-size:1.15rem;font-weight:600;color:var(--brand);min-width:54px;text-align:right}
+.wl-rm{background:none;border:1px solid var(--rule);color:var(--ink-faint);border-radius:var(--radius);padding:4px 10px;cursor:pointer;font-size:11px;font-family:var(--font-mono)}
+.wl-rm:hover{color:var(--crimson);border-color:var(--crimson)}
+</style>
+
+{{- $top20 := .Site.Data.picks.latest.top20 -}}
+<div class="wl-add">
+  <select id="wl-select"><option value="">+ 从今日 TOP20 选择添加...</option>{{- range $top20 -}}<option value="{{ .code }}">{{ .name }} ({{ .code }}) · 灯塔分 {{ .score }}</option>{{- end -}}</select>
+  <button onclick="wlAdd()">加入观察</button>
+</div>
+
+<div id="wl-list"></div>
+<script>
+var TOP={{ jsonify $top20 | safeJS }};
+if(typeof TOP==="string"){try{TOP=JSON.parse(TOP)}catch(e){TOP=[]}}
+var KEY="lighthouse_watchlist";
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){return[]}}
+function save(a){localStorage.setItem(KEY,JSON.stringify(a))}
+function find(c){return TOP.find(function(s){return s.code===c})}
+function render(){
+  var a=load(),box=document.getElementById("wl-list");
+  if(!a.length){box.innerHTML='<div class="wl-empty">观察列表为空。<br>从上方下拉添加今日 TOP20 中的股票。</div>';return}
+  box.innerHTML=a.map(function(c){
+    var s=find(c);
+    if(!s){return '<div class="wl-row"><div><span class="wl-name">'+c+'</span><small>未在今日候选</small></div><div class="wl-score">—</div><button class="wl-rm" onclick="wlRm(\''+c+'\')">移除</button></div>'}
+    return '<div class="wl-row"><div><span class="wl-name">'+s.name+'</span><small>'+s.code+'</small></div><div class="wl-score">'+s.score+'</div><button class="wl-rm" onclick="wlRm(\''+c+'\')">移除</button></div>'
+  }).join("")
+}
+function wlAdd(){var s=document.getElementById("wl-select"),c=s.value;if(!c)return;var a=load();if(a.indexOf(c)<0){a.push(c);save(a)}s.value="";render()}
+function wlRm(c){save(load().filter(function(x){return x!==c}));render()}
+render()
+</script>
+{{- end -}}
