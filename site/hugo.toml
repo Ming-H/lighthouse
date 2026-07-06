@@ -60,3 +60,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
   name = "新闻存档"
   weight = 4
   url = "daily/"
+
+[[menu.main]]
+  name = "资金流向"
+  weight = 5
+  url = "moneyflow/"

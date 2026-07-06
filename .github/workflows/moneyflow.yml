@@ -1,0 +1,64 @@
+name: Daily Moneyflow
+
+# 每个 A 股交易日北京 15:30（收盘后 30 分钟）生成「今日资金流向全景」页。
+# - 工作日跑（周一~周五），周末 cron 本就不触发。
+# - 节假日：脚本检测到问财无数据 → 不生成新文件 → git 无变化 → 自动跳过。
+# - 双保险：15:30 主跑 + 17:00 补跑（主跑失败/延迟时补上）。
+on:
+  schedule:
+    - cron: '30 7 * * 1-5'   # UTC 07:30 = 北京 15:30（主跑）
+    - cron: '0 9 * * 1-5'    # UTC 09:00 = 北京 17:00（补跑：若当日文件未生成）
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date YYYYMMDD，留空=今天（可手动补某天）'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps（hithink-moneyflow 的 flow.py 依赖 jieba/yaml）
+        run: pip install jieba pyyaml
+
+      - name: Build moneyflow page
+        env:
+          IWENCAI_API_KEY: ${{ secrets.IWENCAI_API_KEY }}
+        run: |
+          D="${{ github.event.inputs.date }}"
+          if [ -n "$D" ]; then
+            python3 scraper/build_moneyflow.py --date "$D"
+          else
+            # 补跑兜底：若今日文件已存在（主跑已成功），跳过
+            TODAY=$(date -u +%Y-%m-%d)
+            if [ -f "site/content/moneyflow/${TODAY}.md" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+              echo "今日 ${TODAY} 页面已存在，补跑跳过。"
+              exit 0
+            fi
+            python3 scraper/build_moneyflow.py
+          fi
+
+      - name: Commit and push（不带 [skip ci]，让 push 触发 deploy.yml 部署）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/content/moneyflow/
+          if git diff --staged --quiet; then
+            echo "无变化（非交易日或数据未更新），跳过提交。"
+          else
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "💰 moneyflow update ${TODAY}"
+            git push
+          fi
