@@ -4,6 +4,8 @@ on:
   schedule:
     # 北京时间 18:00 = UTC 10:00，周一至周五（节假日由脚本内交易日历二次过滤）
     - cron: '0 10 * * 1-5'
+    # 北京时间 18:30 = UTC 10:30（补跑：主跑 akshare 取数失败时二次机会）
+    - cron: '30 10 * * 1-5'
   workflow_dispatch:
     inputs:
       force:
@@ -63,4 +65,9 @@ jobs:
           path: ./site/public
 
       - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Retry deploy on failure
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4

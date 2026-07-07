@@ -225,6 +225,7 @@ if __name__ == "__main__":
             for r in res["top20"][:10]:
                 print(f"  {r['score']:>5}  {r['code']} {r['name']}  L={r['L']} S={r['S']}")
     except Exception as e:
-        # akshare 取数失败（如 CI 海外 IP 被限、接口变动）→ 保留现有数据，不阻塞部署
-        print(f"⚠️ 取数失败（{e}），保留现有 picks 数据，不阻塞部署。")
-        sys.exit(0)
+        # akshare 取数失败（如 CI 海外 IP 被限、接口变动）→ exit 1 让 CI 真报红（不再伪成功）
+        # 站点保持上次部署（旧 picks 不变），补跑 cron 会二次尝试
+        print(f"❌ 取数失败（{e}）→ exit 1（CI 报红）；站点保留上次 picks，补跑将重试。")
+        sys.exit(1)
