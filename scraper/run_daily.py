@@ -6,7 +6,7 @@
 import sys
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 # 确保可以 import 同目录模块
 sys.path.insert(0, str(Path(__file__).parent))
@@ -21,7 +21,7 @@ from build_content import build_all
 def run_pipeline(date_str: str = None):
     """运行完整流水线"""
     if not date_str:
-        date_str = datetime.now().strftime('%Y%m%d')
+        date_str = datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d')
 
     print(f'{"="*50}')
     print(f'🚀 每日流水线启动: {date_str}')
@@ -32,8 +32,8 @@ def run_pipeline(date_str: str = None):
     print('-' * 30)
     daily_data = fetch_daily(date_str)
     if not daily_data.get('articles'):
-        print('❌ 无新闻数据，流水线终止')
-        return
+        print('❌ 无新闻数据，流水线终止（exit 1，让 CI 真报红而非伪 success）')
+        sys.exit(1)
     print()
 
     # Step 2: 关键词提取
@@ -78,6 +78,6 @@ if __name__ == '__main__':
         if arg.startswith('--date='):
             date_str = arg.split('=')[1]
         elif arg == '--today':
-            date_str = datetime.now().strftime('%Y%m%d')
+            date_str = datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d')
 
     run_pipeline(date_str)

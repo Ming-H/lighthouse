@@ -2,8 +2,10 @@ name: Daily Scrape
 
 on:
   schedule:
-    # 北京时间 21:45 = UTC 13:45
+    # 北京时间 21:45 = UTC 13:45（主跑）
     - cron: '45 13 * * *'
+    # 北京时间 22:30 = UTC 14:30（补跑：主跑抓空/失败或文字稿未上线时补抓）
+    - cron: '30 14 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -44,7 +46,13 @@ jobs:
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python scraper/run_daily.py --date=${{ github.event.inputs.date }}
           else
-            python scraper/run_daily.py --today
+            # 定时触发：若今日已生成（主跑成功）则补跑跳过，幂等防重复
+            TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+            if [ -f "site/content/daily/${TODAY}.md" ]; then
+              echo "✓ 今日 ${TODAY} 已生成，补跑跳过抓取"
+            else
+              python scraper/run_daily.py --today
+            fi
           fi
 
       - name: Generate lighthouse signal (M)
