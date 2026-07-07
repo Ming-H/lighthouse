@@ -28,15 +28,15 @@ layout: "home"
   </li>
   <li class="board-row" data-lvl="yellow">
     <span class="rank">4</span>
-    <span class="board-name">农业</span>
-    <span class="score">64</span>
-    <span class="board-stocks">北大荒 · 隆平高科 · 温氏股份</span>
-  </li>
-  <li class="board-row" data-lvl="yellow">
-    <span class="rank">5</span>
     <span class="board-name">石油能源</span>
     <span class="score">64</span>
     <span class="board-stocks">中国石油 · 中国石化 · 中国海油</span>
+  </li>
+  <li class="board-row" data-lvl="yellow">
+    <span class="rank">5</span>
+    <span class="board-name">农业</span>
+    <span class="score">64</span>
+    <span class="board-stocks">北大荒 · 隆平高科 · 温氏股份</span>
   </li>
 </ol>
 
