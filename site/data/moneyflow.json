@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-06",
-  "trade_date": "2026年7月6日",
+  "date": "2026-07-07",
+  "trade_date": "2026年7月7日",
   "inflow_top3": [
     {
       "name": "半导体",
-      "amount": 83.8
+      "amount": 132.9
+    },
+    {
+      "name": "通信",
+      "amount": 50.6
     },
     {
       "name": "银行",
-      "amount": 58.6
-    },
-    {
-      "name": "基础化工",
-      "amount": 32.9
+      "amount": 19.9
     }
   ],
   "outflow_top3": [
     {
-      "name": "面板显示",
-      "amount": -116.7
+      "name": "非银金融",
+      "amount": -51.4
     },
     {
-      "name": "消费电子",
-      "amount": -93.6
+      "name": "基础化工",
+      "amount": -33.6
     },
     {
-      "name": "电子元件",
-      "amount": -87.5
+      "name": "医药生物",
+      "amount": -22.5
     }
   ],
   "industry_top1": "半导体",
-  "concept_top1": "高股息精选"
+  "concept_top1": "先进封装"
 }

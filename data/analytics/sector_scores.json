@@ -1,12 +1,12 @@
 {
-  "date": "20260706",
+  "date": "20260707",
   "scores": [
     {
       "sector": "军工",
       "score": 74,
-      "week_count": 12,
+      "week_count": 13,
       "prev_count": 7,
-      "trend": "+71%",
+      "trend": "+86%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -34,6 +34,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260707",
+          "title": "[视频]联播快讯"
+        },
+        {
           "date": "20260706",
           "title": "[视频]“七一勋章”获得者王於昌：恪守忠诚 居功不显"
         },
@@ -48,10 +52,85 @@
         {
           "date": "20260703",
           "title": "[视频]韩正出席第十四届世界和平论坛开幕式并致辞"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 72,
+      "week_count": 2,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
         },
         {
-          "date": "20260703",
-          "title": "[视频]联播快讯"
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
+        },
+        {
+          "date": "20260704",
+          "title": "[视频]我国加快建设循环经济高质量发展体系"
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "score": 71,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600031",
+          "name": "三一重工",
+          "market": "SH"
+        },
+        {
+          "code": "000157",
+          "name": "中联重科",
+          "market": "SZ"
+        },
+        {
+          "code": "000425",
+          "name": "徐工机械",
+          "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+        },
+        {
+          "date": "20260702",
+          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
         }
       ]
     },
@@ -94,94 +173,12 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 70,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国家发改委",
-      "intensity_level": "advancing",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260704",
-          "title": "[视频]我国加快建设循环经济高质量发展体系"
-        }
-      ]
-    },
-    {
-      "sector": "石油能源",
-      "score": 64,
-      "week_count": 8,
-      "prev_count": 17,
-      "trend": "+-53%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260706",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]俄称控制重镇康斯坦丁诺夫卡 乌称袭击圣彼得堡"
-        },
-        {
-          "date": "20260702",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]庆祝中国共产党成立105周年音乐会《人民至上》在京举行"
-        }
-      ]
-    },
-    {
       "sector": "农业",
-      "score": 64,
-      "week_count": 5,
-      "prev_count": 15,
-      "trend": "+-67%",
-      "policy_level": "中央政治局",
+      "score": 56,
+      "week_count": 4,
+      "prev_count": 16,
+      "trend": "+-75%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -203,71 +200,26 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260707",
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+        },
+        {
           "date": "20260706",
           "title": "[视频]今年“两重”建设项目清单全部下达完毕"
         },
         {
           "date": "20260704",
           "title": "[视频]“七一勋章”获得者李连成：当干部就应该能吃亏"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]中共中央政治局召开会议 研究部署防汛抗旱工作 中共中央总书记习近平主持会议"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]【在希望的田野上】夏播粮食近八成 夏管全面展开"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 63,
-      "week_count": 3,
-      "prev_count": 2,
-      "trend": "+50%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260704",
-          "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]李强签署国务院令 公布《退役军人就业创业促进条例》"
-        },
-        {
-          "date": "20260630",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "基建投资",
-      "score": 55,
-      "week_count": 18,
-      "prev_count": 24,
-      "trend": "+-25%",
-      "policy_level": "中央政治局",
+      "score": 54,
+      "week_count": 17,
+      "prev_count": 23,
+      "trend": "+-26%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -294,6 +246,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260707",
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+        },
+        {
+          "date": "20260707",
+          "title": "[视频]联播快讯"
+        },
+        {
           "date": "20260706",
           "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
         },
@@ -304,23 +264,15 @@
         {
           "date": "20260706",
           "title": "[视频]6月份中国物流业景气指数加快扩张"
-        },
-        {
-          "date": "20260706",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]各地积极应对强降雨天气"
         }
       ]
     },
     {
       "sector": "外贸",
       "score": 54,
-      "week_count": 16,
-      "prev_count": 27,
-      "trend": "+-41%",
+      "week_count": 14,
+      "prev_count": 25,
+      "trend": "+-44%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -362,9 +314,9 @@
     {
       "sector": "新能源",
       "score": 52,
-      "week_count": 6,
+      "week_count": 7,
       "prev_count": 10,
-      "trend": "+-40%",
+      "trend": "+-30%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -392,6 +344,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260707",
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
+        },
+        {
           "date": "20260705",
           "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
         },
@@ -412,9 +368,9 @@
     {
       "sector": "消费",
       "score": 52,
-      "week_count": 8,
-      "prev_count": 15,
-      "trend": "+-47%",
+      "week_count": 7,
+      "prev_count": 13,
+      "trend": "+-46%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -460,11 +416,11 @@
     },
     {
       "sector": "AI人工智能",
-      "score": 42,
-      "week_count": 6,
-      "prev_count": 12,
-      "trend": "+-50%",
-      "policy_level": "",
+      "score": 52,
+      "week_count": 11,
+      "prev_count": 13,
+      "trend": "+-15%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -491,6 +447,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260707",
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
+        },
+        {
+          "date": "20260707",
+          "title": "[视频]联播快讯"
+        },
+        {
           "date": "20260706",
           "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
         },
@@ -501,14 +465,124 @@
         {
           "date": "20260703",
           "title": "[视频]联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "钢铁",
+      "score": 52,
+      "week_count": 3,
+      "prev_count": 2,
+      "trend": "+50%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]联播快讯"
+        },
+        {
+          "date": "20260706",
+          "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
+        },
+        {
+          "date": "20260705",
+          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
+        }
+      ]
+    },
+    {
+      "sector": "石油能源",
+      "score": 51,
+      "week_count": 6,
+      "prev_count": 15,
+      "trend": "+-60%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260706",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260705",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260704",
+          "title": "[视频]俄称控制重镇康斯坦丁诺夫卡 乌称袭击圣彼得堡"
         },
         {
           "date": "20260702",
-          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 46,
+      "week_count": 2,
+      "prev_count": 10,
+      "trend": "+-80%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
         },
         {
-          "date": "20260702",
-          "title": "[视频]国内联播快讯"
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+        },
+        {
+          "date": "20260705",
+          "title": "[视频]“七一勋章”获得者吴亚琴：温暖一方邻里 守住万家灯火"
         }
       ]
     },
@@ -547,12 +621,12 @@
     },
     {
       "sector": "机器人",
-      "score": 36,
-      "week_count": 2,
+      "score": 37,
+      "week_count": 4,
       "prev_count": 5,
-      "trend": "+-60%",
+      "trend": "+-20%",
       "policy_level": "",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
@@ -577,6 +651,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
+        },
         {
           "date": "20260704",
           "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
@@ -617,11 +695,44 @@
       ]
     },
     {
+      "sector": "银行金融",
+      "score": 31,
+      "week_count": 1,
+      "prev_count": 3,
+      "trend": "+-67%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260704",
+          "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
+        }
+      ]
+    },
+    {
       "sector": "黄金",
       "score": 31,
       "week_count": 1,
-      "prev_count": 5,
-      "trend": "+-80%",
+      "prev_count": 4,
+      "trend": "+-75%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -650,114 +761,11 @@
       ]
     },
     {
-      "sector": "钢铁",
-      "score": 27,
-      "week_count": 2,
-      "prev_count": 3,
-      "trend": "+-33%",
-      "policy_level": "",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260706",
-          "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
-        }
-      ]
-    },
-    {
-      "sector": "工程机械",
-      "score": 22,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600031",
-          "name": "三一重工",
-          "market": "SH"
-        },
-        {
-          "code": "000157",
-          "name": "中联重科",
-          "market": "SZ"
-        },
-        {
-          "code": "000425",
-          "name": "徐工机械",
-          "market": "SZ"
-        },
-        {
-          "code": "600150",
-          "name": "中国船舶",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260702",
-          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 17,
-      "week_count": 1,
-      "prev_count": 10,
-      "trend": "+-90%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260705",
-          "title": "[视频]“七一勋章”获得者吴亚琴：温暖一方邻里 守住万家灯火"
-        }
-      ]
-    },
-    {
       "sector": "半导体",
       "score": 17,
       "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
+      "prev_count": 2,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "",
       "is_first": false,
