@@ -35,6 +35,14 @@ jobs:
       - name: Install deps（build_moneyflow 用 jieba/yaml；hithink 脚为纯 stdlib，无需额外依赖）
         run: pip install jieba pyyaml
 
+      - name: (诊断) 问财连通性——看 CI 海外 IP 下问财原始响应
+        env:
+          IWENCAI_API_KEY: ${{ secrets.IWENCAI_API_KEY }}
+        run: |
+          echo "--- 直接调 vendored cli.py，打印问财原始响应前 600 字 ---"
+          python3 scraper/vendor/hithink/cli.py --query "今日上证指数" --limit 1 2>&1 | head -c 600
+          echo ""
+
       - name: Compute target date
         # 目标 = 北京时区下「最近一个已收盘的交易日」。A 股 15:00 收盘，脚本设计
         # 在收盘后跑；GitHub cron 常延迟，跨过北京 0 点后必须回退到昨天（刚收盘的交易日）。

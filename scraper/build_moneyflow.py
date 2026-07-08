@@ -61,9 +61,20 @@ def run_flow(view, top=10, sector=None, date_str=None):
         cmd += ["--date", date_str]
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
-        d = json.loads(r.stdout)
-        return d.get("rows", []) if isinstance(d, dict) else []
-    except Exception:
+        out = (r.stdout or "").strip()
+        if r.returncode != 0 or not out or not out.startswith("{"):
+            # 不再静默吞错：把 flow.py 的真实输出打到日志，便于排查（如问财海外封锁/额度）
+            print(f"[moneyflow] flow.py view={view} 异常 rc={r.returncode}；输出: {out[:300]}")
+            if (r.stderr or "").strip():
+                print(f"  stderr: {r.stderr.strip()[:300]}")
+            return []
+        d = json.loads(out)
+        if not isinstance(d, dict) or "rows" not in d:
+            print(f"[moneyflow] flow.py view={view} 未返回 rows；raw: {out[:300]}")
+            return []
+        return d.get("rows", [])
+    except Exception as e:
+        print(f"[moneyflow] flow.py view={view} 调用失败: {type(e).__name__}: {e}")
         return []
 
 
