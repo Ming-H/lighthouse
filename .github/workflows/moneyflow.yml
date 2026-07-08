@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 必须拉 PaperMod 主题，否则 Hugo 构建出残站、自部署会打挂线上
 
       - name: Setup Python
         uses: actions/setup-python@v5

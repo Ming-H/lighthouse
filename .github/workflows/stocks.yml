@@ -1,15 +1,14 @@
 name: Daily Stocks
 
+# ⚠️ 定时已停用：akshare（东财/新浪）对 GitHub 海外 IP 硬封锁
+# （CI 实测：东财源 Connection aborted → 切新浪源仍失败），定时只会每天报红、取不到行情。
+# 真实选股数据由本地 scripts/update_lighthouse.sh 用问财实筛产出后提交部署（见 README「数据说明」）。
+# 保留 workflow_dispatch 仅供手动测 akshare 连通性（海外预期仍失败）。
 on:
-  schedule:
-    # 北京时间 18:00 = UTC 10:00，周一至周五（节假日由脚本内交易日历二次过滤）
-    - cron: '0 10 * * 1-5'
-    # 北京时间 18:30 = UTC 10:30（补跑：主跑 akshare 取数失败时二次机会）
-    - cron: '30 10 * * 1-5'
   workflow_dispatch:
     inputs:
       force:
-        description: '忽略交易日，强制跑（测 akshare 用）'
+        description: '忽略交易日，强制跑（手动测 akshare 用；海外预期失败）'
         type: boolean
         default: false
 
