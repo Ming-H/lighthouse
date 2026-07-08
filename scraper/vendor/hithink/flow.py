@@ -31,7 +31,7 @@ CLI_PATH = Path(os.environ.get(
 FALLBACK_URL = "https://www.iwencai.com/unifiedwap/chat"
 SOURCE = "同花顺问财（经 hithink-market-query）"
 DEFAULT_TOP = 10
-DEFAULT_TIMEOUT = 60
+DEFAULT_TIMEOUT = 150  # 容纳 cli 的 3 次重试（海外到问财偶发 SSL 握手超时）
 
 # view → (固化 query 模板, 排序方向, 视图类型)
 #   排序方向：desc = 净额降序（流入/个股，大数在前）；asc = 净额升序（流出，最负在前）；None = 按合计降序

@@ -60,7 +60,7 @@ def run_flow(view, top=10, sector=None, date_str=None):
     if date_str:
         cmd += ["--date", date_str]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=200)
         out = (r.stdout or "").strip()
         if r.returncode != 0 or not out or not out.startswith("{"):
             # 不再静默吞错：把 flow.py 的真实输出打到日志，便于排查（如问财海外封锁/额度）
@@ -82,7 +82,7 @@ def run_market(query, limit=20):
     """调 hithink-market-query cli（用于概念 stock view 的措辞回退）。返回 datas。"""
     cmd = [sys.executable, str(MARKET_CLI), "--query", query, "--limit", str(limit)]
     try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=200)
         return json.loads(r.stdout).get("datas") or []
     except Exception:
         return []

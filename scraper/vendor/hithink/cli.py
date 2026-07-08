@@ -17,6 +17,7 @@ import json
 import os
 import secrets
 import sys
+import time
 import urllib.error
 import urllib.request
 from typing import Optional, Union
@@ -97,7 +98,6 @@ def query_market(
     """
     api_key = get_api_key(api_key)
     api_url = DEFAULT_API_URL
-    trace_id = generate_trace_id()
 
     payload = {
         "query": query,
@@ -107,68 +107,89 @@ def query_market(
         "expand_index": "true",
     }
 
-    headers = build_headers(api_key, trace_id, call_type)
-    claw_headers = {k: v for k, v in headers.items() if k.startswith("X-Claw-")}
-    request = urllib.request.Request(
-        api_url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers=headers,
-        method="POST",
+    # 海外（如 GitHub Actions）到问财网关的连接偶发 SSL 握手超时等瞬时网络错误，
+    # 单次失败就放弃会导致整页生成失败。这里对 URLError 做有限次退避重试。
+    max_retries = int(os.environ.get("IWENCAI_MAX_RETRIES", "3"))
+    last_url_err = None
+    for attempt in range(1, max_retries + 1):
+        trace_id = generate_trace_id()
+        this_call_type = call_type if attempt == 1 else "retry"
+        headers = build_headers(api_key, trace_id, this_call_type)
+        claw_headers = {k: v for k, v in headers.items() if k.startswith("X-Claw-")}
+        request = urllib.request.Request(
+            api_url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers=headers,
+            method="POST",
+        )
+
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                response_body = response.read().decode("utf-8")
+
+                # 对响应内容进行类型判断和处理
+                if not response_body.strip():
+                    # 空响应
+                    return {"text_response": "", "trace_id": trace_id, "claw_headers": claw_headers}
+
+                try:
+                    # 尝试解析 JSON 响应
+                    parsed_response = json.loads(response_body)
+                    # 判断解析后的类型
+                    if isinstance(parsed_response, dict):
+                        parsed_response["trace_id"] = trace_id
+                        parsed_response["claw_headers"] = claw_headers
+                        return parsed_response
+                    elif isinstance(parsed_response, list):
+                        return {"data": parsed_response, "trace_id": trace_id, "claw_headers": claw_headers}
+                    else:
+                        return {"text_response": str(parsed_response), "trace_id": trace_id, "claw_headers": claw_headers}
+                except json.JSONDecodeError:
+                    # 如果解析失败，说明返回的是文本内容，直接返回文本
+                    return {"text_response": response_body, "trace_id": trace_id, "claw_headers": claw_headers}
+
+        except urllib.error.HTTPError as e:
+            # HTTP 业务错误（4xx/5xx）不重试，直接抛
+            error_body = e.read().decode("utf-8") if e.fp else ""
+
+            if error_body.strip():
+                try:
+                    # 尝试解析错误响应为 JSON
+                    error_json = json.loads(error_body)
+                    raise APIError(
+                        f"HTTP 错误 {e.code}: {e.reason}",
+                        status_code=e.code,
+                        response=error_json,
+                    )
+                except json.JSONDecodeError:
+                    # 如果解析失败，说明返回的是文本内容，直接返回文本
+                    raise APIError(
+                        f"HTTP 错误 {e.code}: {e.reason}",
+                        status_code=e.code,
+                        response=error_body,
+                    )
+            else:
+                # 空的错误响应
+                raise APIError(
+                    f"HTTP 错误 {e.code}: {e.reason}",
+                    status_code=e.code,
+                    response="",
+                )
+        except urllib.error.URLError as e:
+            # 网络/SSL 握手超时等瞬时错误：退避后重试（换新连接往往就能成功）
+            last_url_err = e
+            if attempt < max_retries:
+                sys.stderr.write(
+                    f"[hithink] 网络错误（第 {attempt}/{max_retries} 次：{e.reason}），"
+                    f"{1.5 * attempt:.1f}s 后重试\n"
+                )
+                time.sleep(1.5 * attempt)
+                continue
+            raise APIError(f"网络错误（已重试 {max_retries} 次）: {e.reason}")
+
+    raise APIError(
+        f"网络错误（已重试 {max_retries} 次）: {last_url_err.reason if last_url_err else 'unknown'}"
     )
-
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            response_body = response.read().decode("utf-8")
-            
-            # 对响应内容进行类型判断和处理
-            if not response_body.strip():
-                # 空响应
-                return {"text_response": "", "trace_id": trace_id, "claw_headers": claw_headers}
-            
-            try:
-                # 尝试解析 JSON 响应
-                parsed_response = json.loads(response_body)
-                # 判断解析后的类型
-                if isinstance(parsed_response, dict):
-                    parsed_response["trace_id"] = trace_id
-                    parsed_response["claw_headers"] = claw_headers
-                    return parsed_response
-                elif isinstance(parsed_response, list):
-                    return {"data": parsed_response, "trace_id": trace_id, "claw_headers": claw_headers}
-                else:
-                    return {"text_response": str(parsed_response), "trace_id": trace_id, "claw_headers": claw_headers}
-            except json.JSONDecodeError:
-                # 如果解析失败，说明返回的是文本内容，直接返回文本
-                return {"text_response": response_body, "trace_id": trace_id, "claw_headers": claw_headers}
-
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode("utf-8") if e.fp else ""
-        
-        if error_body.strip():
-            try:
-                # 尝试解析错误响应为 JSON
-                error_json = json.loads(error_body)
-                raise APIError(
-                    f"HTTP 错误 {e.code}: {e.reason}",
-                    status_code=e.code,
-                    response=error_json,
-                )
-            except json.JSONDecodeError:
-                # 如果解析失败，说明返回的是文本内容，直接返回文本
-                raise APIError(
-                    f"HTTP 错误 {e.code}: {e.reason}",
-                    status_code=e.code,
-                    response=error_body,
-                )
-        else:
-            # 空的错误响应
-            raise APIError(
-                f"HTTP 错误 {e.code}: {e.reason}",
-                status_code=e.code,
-                response="",
-            )
-    except urllib.error.URLError as e:
-        raise APIError(f"网络错误: {e.reason}")
 
 
 def parse_args():
