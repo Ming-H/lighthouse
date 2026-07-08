@@ -3,7 +3,7 @@ title: "央视联播投资参考"
 description: "新闻联播经济信号追踪，捕捉投资机会"
 layout: "home"
 ---
-<div class="daystat"><span class="ds-item"><b>13</b><i>条新闻</i></span><span class="ds-item"><b>4</b><i>条经济相关</i></span><span class="ds-item"><b>2026年7月7日</b><i>最新一期</i></span></div>
+<div class="daystat"><span class="ds-item"><b>12</b><i>条新闻</i></span><span class="ds-item"><b>4</b><i>条经济相关</i></span><span class="ds-item"><b>2026年7月8日</b><i>最新一期</i></span></div>
 
 ## 今日预警
 
@@ -16,15 +16,15 @@ layout: "home"
 <ol class="board">
   <li class="board-row" data-lvl="yellow">
     <span class="rank">1</span>
-    <span class="board-name">军工</span>
-    <span class="score">74</span>
-    <span class="board-stocks">航发动力 · 中航沈飞 · 中航光电</span>
-  </li>
-  <li class="board-row" data-lvl="yellow">
-    <span class="rank">2</span>
     <span class="board-name">新能源汽车</span>
     <span class="score">72</span>
     <span class="board-stocks">宁德时代 · 比亚迪 · 奇安信</span>
+  </li>
+  <li class="board-row" data-lvl="yellow">
+    <span class="rank">2</span>
+    <span class="board-name">军工</span>
+    <span class="score">71</span>
+    <span class="board-stocks">航发动力 · 中航沈飞 · 中航光电</span>
   </li>
   <li class="board-row" data-lvl="yellow">
     <span class="rank">3</span>
@@ -41,7 +41,7 @@ layout: "home"
   <li class="board-row" data-lvl="yellow">
     <span class="rank">5</span>
     <span class="board-name">农业</span>
-    <span class="score">56</span>
+    <span class="score">61</span>
     <span class="board-stocks">北大荒 · 隆平高科 · 温氏股份</span>
   </li>
 </ol>
