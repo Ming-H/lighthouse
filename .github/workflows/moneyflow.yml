@@ -19,10 +19,14 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.155.0
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -69,14 +73,45 @@ jobs:
           fi
           python3 scraper/build_moneyflow.py --date "$TARGET"
 
-      - name: Commit and push（不带 [skip ci]，让 push 触发 deploy.yml 部署）
+      - name: Commit and push
+        id: commit
+        # 注意：用默认 GITHUB_TOKEN 的 push 不会触发 deploy.yml（GitHub 防递归），
+        # 所以本工作流必须自己构建 Hugo 并部署 Pages（与 scrape.yml/stocks.yml 一致）。
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add site/content/moneyflow/ site/data/moneyflow.json
           if git diff --staged --quiet; then
-            echo "无变化（非交易日或数据未更新），跳过提交。"
+            echo "无变化（非交易日或数据未更新），跳过提交与部署。"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "💰 moneyflow update ${TARGET_DASH}"
             git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Setup Hugo
+        if: steps.commit.outputs.committed == 'true'
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Build Hugo
+        if: steps.commit.outputs.committed == 'true'
+        run: cd site && hugo --minify
+
+      - name: Upload Pages artifact
+        if: steps.commit.outputs.committed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site/public
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.committed == 'true'
+        id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Retry deploy on failure
+        if: steps.commit.outputs.committed == 'true' && steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
