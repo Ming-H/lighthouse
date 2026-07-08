@@ -4,6 +4,8 @@ name: Daily Moneyflow
 # - 工作日跑（周一~周五），周末 cron 本就不触发。
 # - 节假日：脚本检测到问财无数据 → 不生成新文件 → git 无变化 → 自动跳过。
 # - 双保险：15:30 主跑 + 17:00 补跑（主跑失败/延迟时补上）。
+# - 数据：问财经云端 OpenAPI 网关（openapi.iwencai.com，海外可达）+ 仓库内 vendored
+#   的 hithink 脚本（scraper/vendor/hithink/），CI 自包含；需配置 IWENCAI_API_KEY secret。
 on:
   schedule:
     - cron: '30 7 * * 1-5'   # UTC 07:30 = 北京 15:30（主跑）
@@ -11,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Date YYYYMMDD，留空=今天（可手动补某天）'
+        description: 'Date YYYYMMDD，留空=最近已收盘交易日（可手动补某天）'
         required: false
         default: ''
 
@@ -30,35 +32,51 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install deps（hithink-moneyflow 的 flow.py 依赖 jieba/yaml）
+      - name: Install deps（build_moneyflow 用 jieba/yaml；hithink 脚为纯 stdlib，无需额外依赖）
         run: pip install jieba pyyaml
+
+      - name: Compute target date
+        # 目标 = 北京时区下「最近一个已收盘的交易日」。A 股 15:00 收盘，脚本设计
+        # 在收盘后跑；GitHub cron 常延迟，跨过北京 0 点后必须回退到昨天（刚收盘的交易日）。
+        # 手动 dispatch 传了 date 则以传入为准（补历史）。
+        run: |
+          INPUT_DATE="${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            TARGET="$INPUT_DATE"
+          else
+            BJ_HOUR=$(TZ=Asia/Shanghai date +%H)
+            if [ "$BJ_HOUR" -lt 15 ]; then
+              TARGET=$(TZ=Asia/Shanghai date -d 'yesterday' +%Y%m%d)
+            else
+              TARGET=$(TZ=Asia/Shanghai date +%Y%m%d)
+            fi
+          fi
+          TARGET_DASH="${TARGET:0:4}-${TARGET:4:2}-${TARGET:6:2}"
+          echo "TARGET=$TARGET" >> "$GITHUB_ENV"
+          echo "TARGET_DASH=$TARGET_DASH" >> "$GITHUB_ENV"
+          echo "🎯 目标交易日: $TARGET_DASH"
 
       - name: Build moneyflow page
         env:
           IWENCAI_API_KEY: ${{ secrets.IWENCAI_API_KEY }}
+          # CI 没有 ~/.claude/skills；指向仓库内 vendored 副本（flow.py / cli.py 均纯 stdlib）
+          HITHINK_MONEYFLOW_FLOW: ${{ github.workspace }}/scraper/vendor/hithink/flow.py
+          HITHINK_MARKET_CLI: ${{ github.workspace }}/scraper/vendor/hithink/cli.py
         run: |
-          D="${{ github.event.inputs.date }}"
-          if [ -n "$D" ]; then
-            python3 scraper/build_moneyflow.py --date "$D"
-          else
-            # 补跑兜底：若今日文件已存在（主跑已成功），跳过
-            TODAY=$(date -u +%Y-%m-%d)
-            if [ -f "site/content/moneyflow/${TODAY}.md" ] && [ "${{ github.event_name }}" = "schedule" ]; then
-              echo "今日 ${TODAY} 页面已存在，补跑跳过。"
-              exit 0
-            fi
-            python3 scraper/build_moneyflow.py
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "site/content/moneyflow/${TARGET_DASH}.md" ]; then
+            echo "✓ ${TARGET_DASH} 页面已存在，补跑跳过。"
+            exit 0
           fi
+          python3 scraper/build_moneyflow.py --date "$TARGET"
 
       - name: Commit and push（不带 [skip ci]，让 push 触发 deploy.yml 部署）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site/content/moneyflow/
+          git add site/content/moneyflow/ site/data/moneyflow.json
           if git diff --staged --quiet; then
             echo "无变化（非交易日或数据未更新），跳过提交。"
           else
-            TODAY=$(date -u +%Y-%m-%d)
-            git commit -m "💰 moneyflow update ${TODAY}"
+            git commit -m "💰 moneyflow update ${TARGET_DASH}"
             git push
           fi

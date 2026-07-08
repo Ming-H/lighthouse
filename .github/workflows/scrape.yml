@@ -37,21 +37,44 @@ jobs:
       - name: Install Python deps
         run: pip install jieba pyyaml anthropic
 
+      - name: Compute target date
+        # 目标 = 北京时间下「最近一期已播出的新闻联播」。
+        # 联播 ~19:00 播出；GitHub 定时任务常被延迟数小时，一旦跨过北京 0 点，
+        # 「今天」的联播还没播——此时必须回退到昨天，否则会去抓未来日期的页面
+        # （404）被误判为「无数据」。手动 dispatch 传了 date 则以传入日期为准（补抓历史）。
+        run: |
+          INPUT_DATE="${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            TARGET="$INPUT_DATE"
+          else
+            BJ_HOUR=$(TZ=Asia/Shanghai date +%H)
+            if [ "$BJ_HOUR" -lt 19 ]; then
+              TARGET=$(TZ=Asia/Shanghai date -d 'yesterday' +%Y%m%d)
+            else
+              TARGET=$(TZ=Asia/Shanghai date +%Y%m%d)
+            fi
+          fi
+          TARGET_DASH="${TARGET:0:4}-${TARGET:4:2}-${TARGET:6:2}"
+          echo "TARGET=$TARGET" >> "$GITHUB_ENV"
+          echo "TARGET_DASH=$TARGET_DASH" >> "$GITHUB_ENV"
+          echo "🎯 目标日期: $TARGET_DASH（北京时区最近一期已播出联播）"
+
       - name: Run scrape pipeline
         env:
           # 智谱 GLM key（已配置 ZHIPUAI_API_KEY secret；未配置则 AI 解读自动跳过）
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
           LLM_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
         run: |
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            python scraper/run_daily.py --date=${{ github.event.inputs.date }}
+          INPUT_DATE="${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            # 手动补抓：强制重跑指定日期（不走幂等跳过）
+            python scraper/run_daily.py --date="$INPUT_DATE"
           else
-            # 定时触发：若今日已生成（主跑成功）则补跑跳过，幂等防重复
-            TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
-            if [ -f "site/content/daily/${TODAY}.md" ]; then
-              echo "✓ 今日 ${TODAY} 已生成，补跑跳过抓取"
+            # 定时触发：目标日期已生成（主跑成功）则补跑跳过，幂等防重复
+            if [ -f "site/content/daily/${TARGET_DASH}.md" ]; then
+              echo "✓ ${TARGET_DASH} 已生成，补跑跳过抓取"
             else
-              python scraper/run_daily.py --today
+              python scraper/run_daily.py --date="$TARGET"
             fi
           fi
 
@@ -60,8 +83,7 @@ jobs:
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
           LLM_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
         run: |
-          D="${{ github.event.inputs.date }}"
-          python scraper/llm_brief.py ${D:-$(date +%Y%m%d)} --signal --force || true
+          python scraper/llm_brief.py "$TARGET" --signal --force || true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3

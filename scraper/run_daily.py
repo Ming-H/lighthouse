@@ -18,10 +18,23 @@ from llm_brief import generate_brief
 from build_content import build_all
 
 
+def latest_broadcast_date() -> str:
+    """最近一期已播出的《新闻联播》日期（北京时区，YYYYMMDD）。
+
+    联播约 19:00 播出。GitHub 定时任务常被延迟数小时，一旦跨过北京 0 点，
+    「今天」的联播尚未播出——此时必须回退到「昨天」，否则会去抓未来日期
+    的页面（404）从而被误判为「无数据」。北京时间 19:00 前一律取昨天。
+    """
+    now_bj = datetime.now(timezone(timedelta(hours=8)))
+    if now_bj.hour < 19:
+        now_bj -= timedelta(days=1)
+    return now_bj.strftime('%Y%m%d')
+
+
 def run_pipeline(date_str: str = None):
     """运行完整流水线"""
     if not date_str:
-        date_str = datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d')
+        date_str = latest_broadcast_date()
 
     print(f'{"="*50}')
     print(f'🚀 每日流水线启动: {date_str}')
@@ -78,6 +91,6 @@ if __name__ == '__main__':
         if arg.startswith('--date='):
             date_str = arg.split('=')[1]
         elif arg == '--today':
-            date_str = datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d')
+            date_str = latest_broadcast_date()
 
     run_pipeline(date_str)

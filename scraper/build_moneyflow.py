@@ -17,15 +17,33 @@ build_moneyflow.py — 每日 A 股资金流向全景页生成器（灯塔 Light
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
 import html
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-FLOW = Path.home() / ".claude" / "skills" / "hithink-moneyflow" / "scripts" / "flow.py"
-MARKET_CLI = Path.home() / ".claude" / "skills" / "hithink-market-query" / "scripts" / "cli.py"
+# 本地与 CI 都默认用仓库内 vendored 的 hithink 引擎（scraper/vendor/hithink/，
+# flow.py / cli.py 均纯 stdlib，自包含、可查历史日期）。可用 HITHINK_MONEYFLOW_FLOW /
+# HITHINK_MARKET_CLI 覆盖（如指向 ~/.claude/skills 里的实时 skill）。
+_VENDOR = Path(__file__).resolve().parent / "vendor" / "hithink"
+FLOW = Path(os.environ.get("HITHINK_MONEYFLOW_FLOW", str(_VENDOR / "flow.py")))
+MARKET_CLI = Path(os.environ.get("HITHINK_MARKET_CLI", str(_VENDOR / "cli.py")))
+
+
+def _latest_closed_trade_date() -> str:
+    """最近一个已收盘的交易日期（北京时区，YYYYMMDD）。
+
+    A 股 15:00 收盘，脚本设计在收盘后（15:30/17:00）跑。GitHub cron 常被延迟，
+    一旦跨过北京 0 点，datetime.now()（CI 里是 UTC）会落到次日——此时必须取
+    「昨天」（刚收盘的那个交易日），否则按未来日期生成页面 / 查不到当日数据。
+    """
+    now_bj = datetime.now(timezone(timedelta(hours=8)))
+    if now_bj.hour < 15:
+        now_bj -= timedelta(days=1)
+    return now_bj.strftime("%Y%m%d")
 SITE = Path(__file__).resolve().parent.parent / "site"
 OUT_DIR = SITE / "content" / "moneyflow"
 SOURCE = "同花顺问财（经 hithink-moneyflow）"
@@ -33,11 +51,14 @@ SOURCE = "同花顺问财（经 hithink-moneyflow）"
 
 # ---------------- 数据获取 ----------------
 
-def run_flow(view, top=10, sector=None):
-    """调 hithink-moneyflow flow.py，返回 rows 列表（已解析）。失败/空返回 []。"""
+def run_flow(view, top=10, sector=None, date_str=None):
+    """调 hithink-moneyflow flow.py，返回 rows 列表（已解析）。失败/空返回 []。
+    date_str: YYYYMMDD，查历史资金流向（None=今日）。"""
     cmd = [sys.executable, str(FLOW), "--view", view, "--top", str(top), "--format", "json"]
     if sector:
         cmd += ["--sector", sector]
+    if date_str:
+        cmd += ["--date", date_str]
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
         d = json.loads(r.stdout)
@@ -255,16 +276,18 @@ CSS = """
 
 
 def build(date_str):
+    date_compact = date_str.replace("-", "")  # YYYYMMDD，用于问财历史日期查询
+    date_cn = f"{int(date_str[:4])}年{int(date_str[5:7])}月{int(date_str[8:10])}日"
     # ---- 拉数据 ----
-    ind_in = run_flow("industry-inflow", 50)
+    ind_in = run_flow("industry-inflow", 50, date_str=date_compact)
     if not ind_in:
         print(f"[moneyflow] {date_str} 非交易日或问财未返回数据，跳过生成。")
         return False
 
-    ind_out = run_flow("industry-outflow", 50)
-    con_in = run_flow("concept-inflow", 10)
-    con_out = run_flow("concept-outflow", 10)
-    orders = run_flow("orders", 10)
+    ind_out = run_flow("industry-outflow", 50, date_str=date_compact)
+    con_in = run_flow("concept-inflow", 10, date_str=date_compact)
+    con_out = run_flow("concept-outflow", 10, date_str=date_compact)
+    orders = run_flow("orders", 10, date_str=date_compact)
 
     # ---- 行业聚合 ----
     ind_in_cat, ind_out_cat = aggregate_categories(ind_in, ind_out)
@@ -272,11 +295,11 @@ def build(date_str):
     # ---- 冠军股（行业 Top1 + 概念 Top1）----
     top1_ind = ind_in_cat[0]['name'] if ind_in_cat else None
     top1_con = con_in[0]['name'] if con_in else None
-    stk_ind = run_flow("stock", 10, sector=top1_ind) if top1_ind else []
-    stk_con = run_flow("stock", 10, sector=top1_con) if top1_con else []
+    stk_ind = run_flow("stock", 10, sector=top1_ind, date_str=date_compact) if top1_ind else []
+    stk_con = run_flow("stock", 10, sector=top1_con, date_str=date_compact) if top1_con else []
     # 概念 stock 措辞回退（策略型概念 flow.py 查不到成分股）
     if top1_con and not stk_con:
-        datas = run_market(f"{top1_con}概念股今日主力资金净流入排名", 20)
+        datas = run_market(f"{top1_con}概念股{date_cn}主力资金净流入排名", 20)
         stk_con = []
         for d in datas[:10]:
             amt = next((d[k] for k in d if k.startswith('主力资金流向')), None)
@@ -366,8 +389,8 @@ description: "每日 A 股资金流向全景"
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="生成每日资金流向全景页（灯塔 Lighthouse）")
-    ap.add_argument("--date", default=datetime.now().strftime("%Y%m%d"),
-                    help="日期 YYYYMMDD，默认今天")
+    ap.add_argument("--date", default=_latest_closed_trade_date(),
+                    help="日期 YYYYMMDD，默认最近已收盘交易日（北京时区）")
     args = ap.parse_args()
     date_str = datetime.strptime(args.date, "%Y%m%d").strftime("%Y-%m-%d")
     ok = build(date_str)
