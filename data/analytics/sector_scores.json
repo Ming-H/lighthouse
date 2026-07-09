@@ -1,10 +1,10 @@
 {
-  "date": "20260708",
+  "date": "20260709",
   "scores": [
     {
       "sector": "新能源汽车",
-      "score": 72,
-      "week_count": 2,
+      "score": 77,
+      "week_count": 3,
       "prev_count": 0,
       "trend": "NEW",
       "policy_level": "国家发改委",
@@ -29,6 +29,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]上半年新能源汽车产销量双超700万辆"
+        },
+        {
           "date": "20260707",
           "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
         },
@@ -41,9 +45,9 @@
     {
       "sector": "军工",
       "score": 71,
-      "week_count": 12,
+      "week_count": 15,
       "prev_count": 8,
-      "trend": "+50%",
+      "trend": "+88%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -71,6 +75,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]美军连续两天对伊朗发动军事打击 伊朗称袭击多处美军基地"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260708",
           "title": "[视频]美伊再度相互打击对方目标 美国恢复对伊朗石油制裁"
         },
@@ -81,56 +93,6 @@
         {
           "date": "20260706",
           "title": "[视频]“七一勋章”获得者王於昌：恪守忠诚 居功不显"
-        },
-        {
-          "date": "20260706",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]铸牢听党指挥的强军之魂 攻坚建军百年奋斗目标——习近平总书记在庆祝中国共产党成立105周年大会上的重要讲话在全军引发热烈反响"
-        }
-      ]
-    },
-    {
-      "sector": "工程机械",
-      "score": 71,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600031",
-          "name": "三一重工",
-          "market": "SH"
-        },
-        {
-          "code": "000157",
-          "name": "中联重科",
-          "market": "SZ"
-        },
-        {
-          "code": "000425",
-          "name": "徐工机械",
-          "market": "SZ"
-        },
-        {
-          "code": "600150",
-          "name": "中国船舶",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260707",
-          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
-        },
-        {
-          "date": "20260702",
-          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
         }
       ]
     },
@@ -173,56 +135,65 @@
       ]
     },
     {
-      "sector": "农业",
-      "score": 61,
-      "week_count": 5,
-      "prev_count": 12,
-      "trend": "+-58%",
+      "sector": "新能源",
+      "score": 67,
+      "week_count": 8,
+      "prev_count": 4,
+      "trend": "+100%",
       "policy_level": "国家发改委",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "300274",
+          "name": "阳光电源",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260708",
-          "title": "[视频]桂鄂甘等地防汛救灾工作加紧进行"
+          "date": "20260709",
+          "title": "[视频]上半年新能源汽车产销量双超700万辆"
         },
         {
           "date": "20260707",
-          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
         },
         {
-          "date": "20260706",
-          "title": "[视频]今年“两重”建设项目清单全部下达完毕"
+          "date": "20260705",
+          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
+        },
+        {
+          "date": "20260705",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260704",
-          "title": "[视频]“七一勋章”获得者李连成：当干部就应该能吃亏"
+          "title": "[视频]我国加快建设循环经济高质量发展体系"
         }
       ]
     },
     {
       "sector": "石油能源",
-      "score": 60,
-      "week_count": 8,
-      "prev_count": 14,
-      "trend": "+-43%",
+      "score": 65,
+      "week_count": 14,
+      "prev_count": 11,
+      "trend": "+27%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -245,74 +216,69 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]李强会见纳米比亚总统"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]国务院印发《“十五五”碳达峰行动方案》"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]上半年物价运行总体平稳"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]美军连续两天对伊朗发动军事打击 伊朗称袭击多处美军基地"
+        },
+        {
           "date": "20260708",
           "title": "[视频]美伊再度相互打击对方目标 美国恢复对伊朗石油制裁"
-        },
-        {
-          "date": "20260706",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]俄称控制重镇康斯坦丁诺夫卡 乌称袭击圣彼得堡"
-        },
-        {
-          "date": "20260702",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
-      "sector": "基建投资",
-      "score": 59,
-      "week_count": 17,
-      "prev_count": 17,
-      "trend": "+0%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
+      "sector": "农业",
+      "score": 61,
+      "week_count": 7,
+      "prev_count": 9,
+      "trend": "+-22%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601186",
-          "name": "中国铁建",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
         },
         {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]李强会见纳米比亚总统"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]2026年亚太经合组织工商咨询理事会第三次会议举行"
+        },
+        {
           "date": "20260708",
-          "title": "[视频]今年上半年铁路货运量稳步增长 服务全国统一大市场"
+          "title": "[视频]桂鄂甘等地防汛救灾工作加紧进行"
         },
         {
           "date": "20260707",
           "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
-        },
-        {
-          "date": "20260707",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20260706",
-          "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
         },
         {
           "date": "20260706",
@@ -321,11 +287,139 @@
       ]
     },
     {
-      "sector": "AI人工智能",
+      "sector": "数据要素",
+      "score": 60,
+      "week_count": 3,
+      "prev_count": 2,
+      "trend": "+50%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260709",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260704",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 57,
+      "week_count": 4,
+      "prev_count": 1,
+      "trend": "+300%",
+      "policy_level": "",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260707",
+          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
+        },
+        {
+          "date": "20260704",
+          "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
       "score": 57,
       "week_count": 11,
-      "prev_count": 10,
-      "trend": "+10%",
+      "prev_count": 11,
+      "trend": "+0%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260709",
+          "title": "[视频]国务院印发《“十五五”碳达峰行动方案》"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]上半年物价运行总体平稳"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260708",
+          "title": "[视频]今年上半年铁路货运量稳步增长 服务全国统一大市场"
+        },
+        {
+          "date": "20260705",
+          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 57,
+      "week_count": 12,
+      "prev_count": 9,
+      "trend": "+33%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -353,34 +447,88 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]丁薛祥在两院院士大会第二次全体会议上强调 全力抓好党中央关于科技事业各项部署的落实 加快推进高水平科技自立自强"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]日内瓦“全球治理之友小组”举办人工智能向善普惠发展研讨会"
+        },
+        {
           "date": "20260707",
           "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
         },
         {
           "date": "20260707",
           "title": "[视频]联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 56,
+      "week_count": 17,
+      "prev_count": 14,
+      "trend": "+21%",
+      "policy_level": "财政部",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
         },
         {
-          "date": "20260706",
-          "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
         },
         {
-          "date": "20260703",
-          "title": "[视频]韩正出席第十四届世界和平论坛开幕式并致辞"
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
         },
         {
-          "date": "20260703",
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260709",
+          "title": "[视频]李强会见纳米比亚总统"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]美军连续两天对伊朗发动军事打击 伊朗称袭击多处美军基地"
+        },
+        {
+          "date": "20260708",
+          "title": "[视频]今年上半年铁路货运量稳步增长 服务全国统一大市场"
+        },
+        {
+          "date": "20260707",
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
+        },
+        {
+          "date": "20260707",
           "title": "[视频]联播快讯"
         }
       ]
     },
     {
       "sector": "外贸",
-      "score": 54,
-      "week_count": 12,
-      "prev_count": 24,
-      "trend": "+-50%",
-      "policy_level": "国务院",
+      "score": 52,
+      "week_count": 9,
+      "prev_count": 25,
+      "trend": "+-64%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -397,24 +545,24 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260709",
+          "title": "[视频]李强会见纳米比亚总统"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]上半年新能源汽车产销量双超700万辆"
+        },
+        {
+          "date": "20260709",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260706",
           "title": "[视频]【伟大征程】携手构建人类命运共同体 谱写和平发展新篇章"
         },
         {
           "date": "20260706",
           "title": "[视频]伊媒称伊朗与卡塔尔恢复海上贸易"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]“七一勋章”获得者李连成：当干部就应该能吃亏"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]我国加快建设循环经济高质量发展体系"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
@@ -455,114 +603,49 @@
       ]
     },
     {
-      "sector": "新能源",
-      "score": 52,
-      "week_count": 7,
-      "prev_count": 9,
-      "trend": "+-22%",
+      "sector": "工程机械",
+      "score": 51,
+      "week_count": 2,
+      "prev_count": 2,
+      "trend": "+0%",
       "policy_level": "国家发改委",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "600031",
+          "name": "三一重工",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
+          "code": "000157",
+          "name": "中联重科",
           "market": "SZ"
         },
         {
-          "code": "600905",
-          "name": "三峡能源",
+          "code": "000425",
+          "name": "徐工机械",
+          "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
           "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
           "date": "20260707",
-          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]我国加快建设循环经济高质量发展体系"
-        },
-        {
-          "date": "20260703",
-          "title": "[视频]联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "消费",
-      "score": 52,
-      "week_count": 8,
-      "prev_count": 12,
-      "trend": "+-33%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260708",
-          "title": "[视频]今年上半年铁路货运量稳步增长 服务全国统一大市场"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]【伟大征程】践行绿色发展理念 绘就生态中国壮美画卷"
-        },
-        {
-          "date": "20260705",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]我国加快建设循环经济高质量发展体系"
-        },
-        {
-          "date": "20260703",
-          "title": "[视频]今年2000亿元设备更新资金已全部下达"
+          "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
         }
       ]
     },
     {
       "sector": "医药",
-      "score": 46,
-      "week_count": 2,
-      "prev_count": 9,
-      "trend": "+-78%",
+      "score": 51,
+      "week_count": 3,
+      "prev_count": 7,
+      "trend": "+-57%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -584,6 +667,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260709",
+          "title": "[视频]国内联播快讯"
+        },
         {
           "date": "20260707",
           "title": "[视频]极端天气影响我国多地 各方全力组织抢险救援"
@@ -628,110 +715,30 @@
       ]
     },
     {
-      "sector": "机器人",
+      "sector": "煤炭",
       "score": 37,
-      "week_count": 4,
-      "prev_count": 5,
-      "trend": "+-20%",
-      "policy_level": "",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260707",
-          "title": "[视频]【新思想引领新征程】加快高水平科技自立自强 奋进科技强国建设"
-        },
-        {
-          "date": "20260704",
-          "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 34,
       "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
-      "policy_level": "财政部",
+      "prev_count": 2,
+      "trend": "+-50%",
+      "policy_level": "国务院",
       "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "603138",
-          "name": "海量数据",
+          "code": "601088",
+          "name": "中国神华",
           "market": "SH"
         },
         {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260704",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "黄金",
-      "score": 31,
-      "week_count": 1,
-      "prev_count": 4,
-      "trend": "+-75%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260702",
-          "title": "[视频]国内联播快讯"
+          "date": "20260709",
+          "title": "[视频]国务院印发《“十五五”碳达峰行动方案》"
         }
       ]
     },
@@ -765,44 +772,6 @@
         {
           "date": "20260704",
           "title": "[视频]【活力中国调研行】天津：打通科研成果转化“最后一公里”"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 17,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260702",
-          "title": "[视频]机电产品出口增势良好 外贸发展质效双升"
         }
       ]
     }
