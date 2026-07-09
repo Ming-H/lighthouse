@@ -1,11 +1,14 @@
 name: Daily Scrape
 
 on:
+  # 主触发：外部定时器（cron-job.org）在北京 20:00 准点 POST repository_dispatch，
+  # 绕开 GitHub Actions 自带 cron 的系统性 1–3h 延迟。client_payload.date 可选传日期。
+  repository_dispatch:
+    types: [scrape]
   schedule:
-    # 北京时间 20:00 = UTC 12:00（主跑：联播约19:30播完、文字稿随播随上，留约30分钟缓冲）
-    - cron: '0 12 * * *'
-    # 北京时间 22:30 = UTC 14:30（补跑：主跑抓空/失败或联播加长版未播完时补抓）
-    - cron: '30 14 * * *'
+    # 备份兜底（仅当外部定时器失效时才靠它）：刻意错峰、避开整点 :00/:30 扎堆
+    - cron: '7 12 * * *'    # 北京 20:07（主备份）
+    - cron: '37 14 * * *'   # 北京 22:37（二次备份）
   workflow_dispatch:
     inputs:
       date:
@@ -43,7 +46,7 @@ jobs:
         # 「今天」的联播还没播——此时必须回退到昨天，否则会去抓未来日期的页面
         # （404）被误判为「无数据」。手动 dispatch 传了 date 则以传入日期为准（补抓历史）。
         run: |
-          INPUT_DATE="${{ github.event.inputs.date }}"
+          INPUT_DATE="${{ github.event.inputs.date }}${{ github.event.client_payload.date }}"
           if [ -n "$INPUT_DATE" ]; then
             TARGET="$INPUT_DATE"
           else
@@ -65,7 +68,7 @@ jobs:
           ZHIPUAI_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
           LLM_API_KEY: ${{ secrets.ZHIPUAI_API_KEY }}
         run: |
-          INPUT_DATE="${{ github.event.inputs.date }}"
+          INPUT_DATE="${{ github.event.inputs.date }}${{ github.event.client_payload.date }}"
           if [ -n "$INPUT_DATE" ]; then
             # 手动补抓：强制重跑指定日期（不走幂等跳过）
             python scraper/run_daily.py --date="$INPUT_DATE"
