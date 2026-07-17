@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-16",
-  "trade_date": "2026年7月16日",
+  "date": "2026-07-17",
+  "trade_date": "2026年7月17日",
   "inflow_top3": [
     {
-      "name": "传媒",
-      "amount": 18.6
+      "name": "银行",
+      "amount": 46.3
     },
     {
-      "name": "消费电子",
-      "amount": 17.7
+      "name": "电子元件",
+      "amount": 26.4
     },
     {
-      "name": "其他",
-      "amount": 17.1
+      "name": "公用环保",
+      "amount": 20.0
     }
   ],
   "outflow_top3": [
     {
-      "name": "通信",
-      "amount": -136.3
-    },
-    {
       "name": "半导体",
-      "amount": -58.5
+      "amount": -142.1
     },
     {
-      "name": "电子元件",
-      "amount": -42.7
+      "name": "通信",
+      "amount": -81.6
+    },
+    {
+      "name": "消费电子",
+      "amount": -50.8
     }
   ],
-  "industry_top1": "传媒",
-  "concept_top1": "华为海思概念股"
+  "industry_top1": "银行",
+  "concept_top1": "高股息精选"
 }
