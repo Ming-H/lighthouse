@@ -1,5 +1,5 @@
 {
-  "date": "20260718",
+  "date": "20260719",
   "scores": [
     {
       "sector": "银行金融",
@@ -49,7 +49,7 @@
     {
       "sector": "房地产",
       "score": 90,
-      "week_count": 8,
+      "week_count": 12,
       "prev_count": 0,
       "trend": "NEW",
       "policy_level": "中央政治局",
@@ -74,6 +74,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]【新思想引领新征程】以人民为中心 绘就现代化城市民生幸福新画卷"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]【树立和践行正确政绩观】为民造福 真抓实干 推动学习教育见行见效"
+        },
+        {
           "date": "20260716",
           "title": "[视频]用心用情为居民做好事 办实事 解难事——习近平总书记在上海考察时的重要讲话引发热烈反响"
         },
@@ -84,70 +92,16 @@
         {
           "date": "20260715",
           "title": "[视频]上半年金融总量合理增长 信贷结构持续优化"
-        },
-        {
-          "date": "20260715",
-          "title": "[视频]【文化中国行】呵护古城肌理 赓续千年姑苏繁华"
-        },
-        {
-          "date": "20260714",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 88,
-      "week_count": 3,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260715",
-          "title": "[视频]上半年GDP同比增长4.7% 中国经济持续向新向优"
-        },
-        {
-          "date": "20260714",
-          "title": "[视频]【活力中国调研行】“拔节生长”的未来之城"
-        },
-        {
-          "date": "20260712",
-          "title": "[视频]我国新材料领域持续取得新突破"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 76,
-      "week_count": 21,
-      "prev_count": 8,
-      "trend": "+162%",
-      "policy_level": "国家发改委",
+      "score": 74,
+      "week_count": 18,
+      "prev_count": 12,
+      "trend": "+50%",
+      "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -169,6 +123,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]【新闻特写】连接彼此 共创未来"
+        },
+        {
           "date": "20260718",
           "title": "[视频]上半年我国邮政行业寄递业务量同比增长4.2%"
         },
@@ -183,69 +141,15 @@
         {
           "date": "20260716",
           "title": "[视频]习近平会见哈萨克斯坦总统"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]强降雨将影响我国多地 各地各部门积极应对"
-        }
-      ]
-    },
-    {
-      "sector": "机器人",
-      "score": 75,
-      "week_count": 7,
-      "prev_count": 2,
-      "trend": "+250%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260718",
-          "title": "[视频]多项首发技术和创新成果亮相世界人工智能大会"
-        },
-        {
-          "date": "20260713",
-          "title": "[视频]【新思想引领新征程】人工智能蓬勃兴起 锻造高质量发展新引擎"
-        },
-        {
-          "date": "20260712",
-          "title": "[视频]上半年多项先行指标企稳回升"
-        },
-        {
-          "date": "20260712",
-          "title": "[视频]我国新材料领域持续取得新突破"
         }
       ]
     },
     {
       "sector": "消费",
       "score": 74,
-      "week_count": 16,
-      "prev_count": 10,
-      "trend": "+60%",
+      "week_count": 14,
+      "prev_count": 9,
+      "trend": "+56%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -268,6 +172,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260718",
           "title": "[视频]上半年我国邮政行业寄递业务量同比增长4.2%"
         },
@@ -282,10 +190,55 @@
         {
           "date": "20260716",
           "title": "[视频]习近平会见哈萨克斯坦总统"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 73,
+      "week_count": 8,
+      "prev_count": 5,
+      "trend": "+60%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260719",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260718",
+          "title": "[视频]重庆彭水山体崩塌救援安置工作加紧进行"
+        },
+        {
+          "date": "20260716",
+          "title": "[视频]习近平会见哈萨克斯坦总统"
         },
         {
           "date": "20260715",
-          "title": "[视频]上半年GDP同比增长4.7% 中国经济持续向新向优"
+          "title": "[视频]【树立和践行正确政绩观】办好群众身边事 学习教育见实效"
+        },
+        {
+          "date": "20260714",
+          "title": "[视频]【新思想引领新征程】开放共赢 促进人工智能更好造福各国人民"
         }
       ]
     },
@@ -335,48 +288,34 @@
       ]
     },
     {
-      "sector": "基建投资",
-      "score": 71,
-      "week_count": 36,
-      "prev_count": 20,
-      "trend": "+80%",
-      "policy_level": "国家发改委",
+      "sector": "外贸",
+      "score": 73,
+      "week_count": 18,
+      "prev_count": 11,
+      "trend": "+64%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601186",
-          "name": "中国铁建",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
+          "code": "600018",
+          "name": "上港集团",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260718",
-          "title": "[视频]重庆彭水山体崩塌救援安置工作加紧进行"
+          "date": "20260719",
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260718",
-          "title": "[视频]上半年全国铁路完成固定资产投资3632亿元"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]美媒称美或扩大对伊朗军事行动 伊朗称打击多处美军基地"
+          "date": "20260719",
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260718",
@@ -385,15 +324,19 @@
         {
           "date": "20260717",
           "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20260717",
+          "title": "[视频]习近平会见柬埔寨首相"
         }
       ]
     },
     {
       "sector": "AI人工智能",
       "score": 70,
-      "week_count": 32,
-      "prev_count": 11,
-      "trend": "+191%",
+      "week_count": 34,
+      "prev_count": 15,
+      "trend": "+127%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -421,6 +364,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]【新闻特写】连接彼此 共创未来"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260718",
           "title": "[视频]让人工智能更好造福人类——习近平主席在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话引发热烈反响"
         },
@@ -431,72 +382,69 @@
         {
           "date": "20260718",
           "title": "[视频]多项首发技术和创新成果亮相世界人工智能大会"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]【活力中国调研行】开在制造业重镇里的“AI超市”"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话"
         }
       ]
     },
     {
-      "sector": "医药",
-      "score": 68,
-      "week_count": 7,
-      "prev_count": 6,
-      "trend": "+17%",
-      "policy_level": "国务院",
+      "sector": "基建投资",
+      "score": 69,
+      "week_count": 31,
+      "prev_count": 27,
+      "trend": "+15%",
+      "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600276",
-          "name": "恒瑞医药",
+          "code": "601186",
+          "name": "中国铁建",
           "market": "SH"
         },
         {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
         },
         {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260719",
+          "title": "[视频]我国国家物流枢纽发展取得明显成效"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]国际联播快讯"
+        },
         {
           "date": "20260718",
           "title": "[视频]重庆彭水山体崩塌救援安置工作加紧进行"
         },
         {
-          "date": "20260716",
-          "title": "[视频]习近平会见哈萨克斯坦总统"
+          "date": "20260718",
+          "title": "[视频]上半年全国铁路完成固定资产投资3632亿元"
         },
         {
-          "date": "20260715",
-          "title": "[视频]【树立和践行正确政绩观】办好群众身边事 学习教育见实效"
-        },
-        {
-          "date": "20260714",
-          "title": "[视频]【新思想引领新征程】开放共赢 促进人工智能更好造福各国人民"
-        },
-        {
-          "date": "20260714",
-          "title": "[视频]国内联播快讯"
+          "date": "20260718",
+          "title": "[视频]美媒称美或扩大对伊朗军事行动 伊朗称打击多处美军基地"
         }
       ]
     },
     {
       "sector": "新能源",
       "score": 68,
-      "week_count": 9,
-      "prev_count": 7,
-      "trend": "+29%",
+      "week_count": 8,
+      "prev_count": 8,
+      "trend": "+0%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -524,64 +472,20 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]我国国家物流枢纽发展取得明显成效"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]神舟二十三号乘组在轨近两月 各项工作有序推进"
+        },
+        {
           "date": "20260718",
           "title": "[视频]“废品”变“资源” 以旧换新激发循环经济新活力"
         },
         {
           "date": "20260717",
           "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]李强同柬埔寨首相会谈"
-        },
-        {
-          "date": "20260715",
-          "title": "[视频]【树立和践行正确政绩观】办好群众身边事 学习教育见实效"
-        },
-        {
-          "date": "20260714",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 68,
-      "week_count": 16,
-      "prev_count": 11,
-      "trend": "+45%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260718",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]习近平会见柬埔寨首相"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]习近平会见哈萨克斯坦总统"
         },
         {
           "date": "20260716",
@@ -623,11 +527,152 @@
       ]
     },
     {
-      "sector": "军工",
-      "score": 56,
-      "week_count": 21,
+      "sector": "石油能源",
+      "score": 66,
+      "week_count": 26,
       "prev_count": 18,
+      "trend": "+44%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260719",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]美伊持续相互打击对方目标 伊朗称美违反承诺伊方已停止履行谅解备忘录"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260718",
+          "title": "[视频]美媒称美或扩大对伊朗军事行动 伊朗称打击多处美军基地"
+        },
+        {
+          "date": "20260717",
+          "title": "[视频]美军连续第六晚对伊朗实施打击 伊朗袭击美军基地"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "score": 63,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260715",
+          "title": "[视频]上半年GDP同比增长4.7% 中国经济持续向新向优"
+        },
+        {
+          "date": "20260714",
+          "title": "[视频]【活力中国调研行】“拔节生长”的未来之城"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 60,
+      "week_count": 7,
+      "prev_count": 6,
       "trend": "+17%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260719",
+          "title": "[视频]【新闻特写】连接彼此 共创未来"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260718",
+          "title": "[视频]多项首发技术和创新成果亮相世界人工智能大会"
+        },
+        {
+          "date": "20260713",
+          "title": "[视频]【新思想引领新征程】人工智能蓬勃兴起 锻造高质量发展新引擎"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 51,
+      "week_count": 20,
+      "prev_count": 21,
+      "trend": "+-5%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -655,6 +700,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]美伊持续相互打击对方目标 伊朗称美违反承诺伊方已停止履行谅解备忘录"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260718",
           "title": "[视频]国际联播快讯"
         },
@@ -665,63 +718,44 @@
         {
           "date": "20260717",
           "title": "[视频]美军连续第六晚对伊朗实施打击 伊朗袭击美军基地"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]乌总统称军方与国防部存在分歧 已任命新代理防长"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]美称对伊朗发动多轮打击 伊朗称打击美进攻性基础设施"
         }
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 56,
-      "week_count": 19,
-      "prev_count": 18,
-      "trend": "+6%",
+      "sector": "地下管网",
+      "score": 51,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
+          "code": "603958",
+          "name": "哈空调",
           "market": "SH"
         },
         {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
+          "code": "300055",
+          "name": "万邦达",
+          "market": "SZ"
         },
         {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
+          "code": "002671",
+          "name": "龙泉股份",
+          "market": "SZ"
+        },
+        {
+          "code": "300334",
+          "name": "津膜科技",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260718",
-          "title": "[视频]美媒称美或扩大对伊朗军事行动 伊朗称打击多处美军基地"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]美军连续第六晚对伊朗实施打击 伊朗袭击美军基地"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]乌总统称军方与国防部存在分歧 已任命新代理防长"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260716",
-          "title": "[视频]美称对伊朗发动多轮打击 伊朗称打击美进攻性基础设施"
+          "date": "20260719",
+          "title": "[视频]【新思想引领新征程】以人民为中心 绘就现代化城市民生幸福新画卷"
         }
       ]
     },
@@ -729,8 +763,8 @@
       "sector": "新能源汽车",
       "score": 41,
       "week_count": 3,
-      "prev_count": 5,
-      "trend": "+-40%",
+      "prev_count": 6,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -753,65 +787,27 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260719",
+          "title": "[视频]【树立和践行正确政绩观】为民造福 真抓实干 推动学习教育见行见效"
+        },
+        {
           "date": "20260718",
           "title": "[视频]“废品”变“资源” 以旧换新激发循环经济新活力"
         },
         {
           "date": "20260714",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260712",
-          "title": "[视频]我国新材料领域持续取得新突破"
         }
       ]
     },
     {
-      "sector": "工程机械",
+      "sector": "煤炭",
       "score": 41,
       "week_count": 1,
       "prev_count": 2,
       "trend": "+-50%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600031",
-          "name": "三一重工",
-          "market": "SH"
-        },
-        {
-          "code": "000157",
-          "name": "中联重科",
-          "market": "SZ"
-        },
-        {
-          "code": "000425",
-          "name": "徐工机械",
-          "market": "SZ"
-        },
-        {
-          "code": "600150",
-          "name": "中国船舶",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260712",
-          "title": "[视频]台风“巴威”登陆 各地全力应对"
-        }
-      ]
-    },
-    {
-      "sector": "煤炭",
-      "score": 30,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
@@ -827,7 +823,7 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260712",
+          "date": "20260719",
           "title": "[视频]国内联播快讯"
         }
       ]
@@ -836,8 +832,8 @@
       "sector": "钢铁",
       "score": 25,
       "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
+      "prev_count": 2,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "advancing",
       "is_first": false,
