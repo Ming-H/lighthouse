@@ -1,53 +1,17 @@
 {
-  "date": "20260721",
+  "date": "20260722",
   "alerts": [
     {
       "type": "持续升温",
       "level": "green",
-      "sector": "新能源",
-      "detail": "连续7天出现"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "新能源汽车",
-      "detail": "连续4天出现"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "石油能源",
+      "sector": "基建投资",
       "detail": "连续7天出现"
     },
     {
       "type": "持续升温",
       "level": "green",
       "sector": "消费",
-      "detail": "连续4天出现"
-    },
-    {
-      "type": "突发升温",
-      "level": "red",
-      "sector": "房地产",
-      "detail": "上周1次→本周15次 (×15.0)"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "房地产",
-      "detail": "连续3天出现"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "外贸",
-      "detail": "连续7天出现"
-    },
-    {
-      "type": "突发升温",
-      "level": "red",
-      "sector": "钢铁",
-      "detail": "上周0次→本周3次"
+      "detail": "连续5天出现"
     },
     {
       "type": "持续升温",
@@ -58,20 +22,8 @@
     {
       "type": "持续升温",
       "level": "green",
-      "sector": "基建投资",
+      "sector": "外贸",
       "detail": "连续7天出现"
-    },
-    {
-      "type": "持续升温",
-      "level": "green",
-      "sector": "医药",
-      "detail": "连续4天出现"
-    },
-    {
-      "type": "突发升温",
-      "level": "red",
-      "sector": "银行金融",
-      "detail": "上周3次→本周10次 (×3.3)"
     },
     {
       "type": "持续升温",
@@ -82,14 +34,50 @@
     {
       "type": "持续升温",
       "level": "green",
+      "sector": "新能源",
+      "detail": "连续7天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "新能源汽车",
+      "detail": "连续5天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "银行金融",
+      "detail": "连续3天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "医药",
+      "detail": "连续5天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
       "sector": "军工",
       "detail": "连续7天出现"
     },
     {
       "type": "突发升温",
       "level": "red",
+      "sector": "钢铁",
+      "detail": "上周0次→本周3次"
+    },
+    {
+      "type": "突发升温",
+      "level": "red",
       "sector": "地下管网",
       "detail": "上周0次→本周3次"
+    },
+    {
+      "type": "消失预警",
+      "level": "white",
+      "sector": "半导体",
+      "detail": "前2周出现3次，近7天0次"
     }
   ],
   "sector_scores": [
@@ -173,55 +161,6 @@
       ]
     },
     {
-      "sector": "银行金融",
-      "score": 83,
-      "week_count": 10,
-      "prev_count": 3,
-      "trend": "+233%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260721",
-          "title": "[视频]万亿元民营企业再贷款落地 支持民营经济发展"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]世界人工智能大会达成丰硕成果"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]【活力中国调研行】开在制造业重镇里的“AI超市”"
-        },
-        {
-          "date": "20260717",
-          "title": "[视频]上半年我国涉外收支规模创新高 外汇市场交易量稳步增长"
-        },
-        {
-          "date": "20260715",
-          "title": "[视频]上半年金融总量合理增长 信贷结构持续优化"
-        }
-      ]
-    },
-    {
       "sector": "钢铁",
       "score": 76,
       "week_count": 3,
@@ -254,153 +193,6 @@
         {
           "date": "20260718",
           "title": "[视频]【活力中国调研行】开在制造业重镇里的“AI超市”"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 75,
-      "week_count": 15,
-      "prev_count": 1,
-      "trend": "+1400%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]各地加快推进住宅老旧电梯更新改造"
-        },
-        {
-          "date": "20260719",
-          "title": "[视频]【新思想引领新征程】以人民为中心 绘就现代化城市民生幸福新画卷"
-        },
-        {
-          "date": "20260719",
-          "title": "[视频]【树立和践行正确政绩观】为民造福 真抓实干 推动学习教育见行见效"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 73,
-      "week_count": 23,
-      "prev_count": 15,
-      "trend": "+53%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]【新思想引领新征程】常态化做好东西部协作 推动共同富裕迈出坚实步伐"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强同泰国总理会谈"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 73,
-      "week_count": 14,
-      "prev_count": 8,
-      "trend": "+75%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]美称打击伊朗导弹发射场 伊朗称摧毁美军雷达系统"
-        },
-        {
-          "date": "20260719",
-          "title": "[视频]我国国家物流枢纽发展取得明显成效"
         }
       ]
     },
@@ -450,12 +242,208 @@
       ]
     },
     {
+      "sector": "新能源",
+      "score": 73,
+      "week_count": 16,
+      "prev_count": 9,
+      "trend": "+78%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260722",
+          "title": "[视频]上半年全国城镇新增就业695万人"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]李强同泰国总理会谈"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "房地产",
+      "score": 71,
+      "week_count": 11,
+      "prev_count": 5,
+      "trend": "+120%",
+      "policy_level": "国常会",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]各地加快推进住宅老旧电梯更新改造"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]【新思想引领新征程】以人民为中心 绘就现代化城市民生幸福新画卷"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]【树立和践行正确政绩观】为民造福 真抓实干 推动学习教育见行见效"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 68,
+      "week_count": 26,
+      "prev_count": 18,
+      "trend": "+44%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260722",
+          "title": "[视频]【“十五五”开好局起好步】加快推进海关现代化 服务贸易强国建设"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]上半年我国交通运输主要指标保持增长"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 68,
+      "week_count": 10,
+      "prev_count": 7,
+      "trend": "+43%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]万亿元民营企业再贷款落地 支持民营经济发展"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]世界人工智能大会达成丰硕成果"
+        },
+        {
+          "date": "20260718",
+          "title": "[视频]【活力中国调研行】开在制造业重镇里的“AI超市”"
+        },
+        {
+          "date": "20260717",
+          "title": "[视频]上半年我国涉外收支规模创新高 外汇市场交易量稳步增长"
+        }
+      ]
+    },
+    {
       "sector": "基建投资",
-      "score": 66,
-      "week_count": 32,
-      "prev_count": 25,
-      "trend": "+28%",
-      "policy_level": "国家发改委",
+      "score": 68,
+      "week_count": 31,
+      "prev_count": 31,
+      "trend": "+0%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -482,24 +470,24 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260721",
-          "title": "[视频]【“十五五”开好局起好步】2030年我国基本建成现代化综合交通运输体系"
+          "date": "20260722",
+          "title": "[视频]王沪宁在西藏调研"
         },
         {
-          "date": "20260721",
+          "date": "20260722",
+          "title": "[视频]上半年我国交通运输主要指标保持增长"
+        },
+        {
+          "date": "20260722",
           "title": "[视频]国内联播快讯"
         },
         {
+          "date": "20260722",
+          "title": "[视频]美国伊朗互相展开新一轮打击 美威胁打击伊朗“镐山”地下核设施"
+        },
+        {
           "date": "20260721",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强同泰国总理会谈"
+          "title": "[视频]【“十五五”开好局起好步】2030年我国基本建成现代化综合交通运输体系"
         }
       ]
     },
@@ -507,8 +495,8 @@
       "sector": "AI人工智能",
       "score": 64,
       "week_count": 32,
-      "prev_count": 17,
-      "trend": "+88%",
+      "prev_count": 20,
+      "trend": "+60%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -536,6 +524,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260722",
+          "title": "[视频]上半年全国城镇新增就业695万人"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260721",
           "title": "[视频]国内联播快讯"
         },
@@ -546,51 +542,52 @@
         {
           "date": "20260720",
           "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]世界人工智能大会达成丰硕成果"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 63,
-      "week_count": 10,
-      "prev_count": 15,
-      "trend": "+-33%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "sector": "机器人",
+      "score": 62,
+      "week_count": 9,
+      "prev_count": 6,
+      "trend": "+50%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "601689",
+          "name": "拓普集团",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260720",
-          "title": "[视频]【新思想引领新征程】常态化做好东西部协作 推动共同富裕迈出坚实步伐"
+          "title": "[视频]上半年我国规模以上工业增加值同比增长5.4%"
+        },
+        {
+          "date": "20260719",
+          "title": "[视频]【新闻特写】连接彼此 共创未来"
         },
         {
           "date": "20260719",
@@ -598,21 +595,17 @@
         },
         {
           "date": "20260718",
-          "title": "[视频]上半年我国邮政行业寄递业务量同比增长4.2%"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]【活力中国调研行】开在制造业重镇里的“AI超市”"
+          "title": "[视频]多项首发技术和创新成果亮相世界人工智能大会"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 63,
-      "week_count": 13,
-      "prev_count": 19,
-      "trend": "+-32%",
-      "policy_level": "国务院",
+      "score": 61,
+      "week_count": 14,
+      "prev_count": 21,
+      "trend": "+-33%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -634,33 +627,33 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260722",
+          "title": "[视频]【“十五五”开好局起好步】加快推进海关现代化 服务贸易强国建设"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]“七一勋章”获得者赵亚夫：一生惠农兴农的农技专家"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260721",
           "title": "[视频]【在希望的田野上】全国粮食生产有序推进"
         },
         {
           "date": "20260720",
           "title": "[视频]【新思想引领新征程】常态化做好东西部协作 推动共同富裕迈出坚实步伐"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20260719",
-          "title": "[视频]【新闻特写】连接彼此 共创未来"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]上半年我国邮政行业寄递业务量同比增长4.2%"
         }
       ]
     },
     {
       "sector": "石油能源",
       "score": 61,
-      "week_count": 23,
+      "week_count": 21,
       "prev_count": 24,
-      "trend": "+-4%",
+      "trend": "+-12%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -705,52 +698,51 @@
       ]
     },
     {
-      "sector": "机器人",
-      "score": 57,
-      "week_count": 7,
-      "prev_count": 6,
-      "trend": "+17%",
+      "sector": "消费",
+      "score": 61,
+      "week_count": 11,
+      "prev_count": 17,
+      "trend": "+-35%",
       "policy_level": "国家发改委",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601689",
-          "name": "拓普集团",
+          "code": "600519",
+          "name": "贵州茅台",
           "market": "SH"
         },
         {
-          "code": "688017",
-          "name": "绿的谐波",
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260720",
-          "title": "[视频]上半年我国规模以上工业增加值同比增长5.4%"
+          "date": "20260722",
+          "title": "[视频]上半年我国财政运行总体平稳"
         },
         {
-          "date": "20260719",
-          "title": "[视频]【新闻特写】连接彼此 共创未来"
+          "date": "20260722",
+          "title": "[视频]【一线调研】一朵荷花“开出”消费新花样"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        },
+        {
+          "date": "20260720",
+          "title": "[视频]【新思想引领新征程】常态化做好东西部协作 推动共同富裕迈出坚实步伐"
         },
         {
           "date": "20260719",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]多项首发技术和创新成果亮相世界人工智能大会"
         }
       ]
     },
@@ -758,8 +750,8 @@
       "sector": "医药",
       "score": 57,
       "week_count": 9,
-      "prev_count": 8,
-      "trend": "+12%",
+      "prev_count": 9,
+      "trend": "+0%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -782,6 +774,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260721",
           "title": "[视频]“在高质量发展中保障和改善民生”形势政策系列报告会第五场报告会在京举行"
         },
@@ -796,10 +792,6 @@
         {
           "date": "20260719",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260718",
-          "title": "[视频]重庆彭水山体崩塌救援安置工作加紧进行"
         }
       ]
     },
@@ -807,8 +799,8 @@
       "sector": "军工",
       "score": 51,
       "week_count": 18,
-      "prev_count": 22,
-      "trend": "+-18%",
+      "prev_count": 23,
+      "trend": "+-22%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -836,6 +828,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260722",
+          "title": "[视频]美国伊朗互相展开新一轮打击 美威胁打击伊朗“镐山”地下核设施"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260721",
           "title": "[视频]美国伊朗继续打击对方目标 媒体称美加大中东军事部署"
         },
@@ -845,14 +845,6 @@
         },
         {
           "date": "20260720",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260719",
-          "title": "[视频]美伊持续相互打击对方目标 伊朗称美违反承诺伊方已停止履行谅解备忘录"
-        },
-        {
-          "date": "20260719",
           "title": "[视频]国际联播快讯"
         }
       ]
@@ -891,10 +883,10 @@
     },
     {
       "sector": "新能源汽车",
-      "score": 46,
-      "week_count": 4,
+      "score": 51,
+      "week_count": 5,
       "prev_count": 6,
-      "trend": "+-33%",
+      "trend": "+-17%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -917,6 +909,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260722",
+          "title": "[视频]上半年全国城镇新增就业695万人"
+        },
+        {
           "date": "20260721",
           "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
         },
@@ -931,44 +927,6 @@
         {
           "date": "20260718",
           "title": "[视频]“废品”变“资源” 以旧换新激发循环经济新活力"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 43,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260715",
-          "title": "[视频]上半年GDP同比增长4.7% 中国经济持续向新向优"
         }
       ]
     }
@@ -1181,6 +1139,11 @@
         },
         {
           "date": "20260721",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260722",
           "hit": false,
           "intensity": "none"
         }
@@ -1398,225 +1361,15 @@
           "date": "20260721",
           "hit": false,
           "intensity": "none"
+        },
+        {
+          "date": "20260722",
+          "hit": false,
+          "intensity": "none"
         }
       ],
       "first_seen": "20260611",
       "hit_count": 9,
-      "recent_hit_count": 7
-    },
-    "银行金融": {
-      "keyword": "银行金融",
-      "stage": "密集政策期",
-      "stage_code": 3,
-      "timeline": [
-        {
-          "date": "20260611",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260612",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260613",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260614",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260615",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260616",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260617",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260618",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260619",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260620",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260621",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260622",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260623",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260624",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260625",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260626",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260627",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260628",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260629",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260630",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260701",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260702",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260703",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260704",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260705",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260706",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260707",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260708",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260709",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260710",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260711",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260712",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260713",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260714",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260715",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260716",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260717",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260718",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260719",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260720",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260721",
-          "hit": true,
-          "intensity": "intensive"
-        }
-      ],
-      "first_seen": "20260611",
-      "hit_count": 17,
       "recent_hit_count": 7
     },
     "钢铁": {
@@ -1828,14 +1581,19 @@
           "date": "20260721",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260722",
+          "hit": false,
+          "intensity": "none"
         }
       ],
       "first_seen": "20260615",
       "hit_count": 9,
       "recent_hit_count": 7
     },
-    "房地产": {
-      "keyword": "房地产",
+    "数据要素": {
+      "keyword": "数据要素",
       "stage": "密集政策期",
       "stage_code": 3,
       "timeline": [
@@ -1851,8 +1609,8 @@
         },
         {
           "date": "20260613",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260614",
@@ -1871,13 +1629,13 @@
         },
         {
           "date": "20260617",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260618",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260619",
@@ -1891,8 +1649,8 @@
         },
         {
           "date": "20260621",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260622",
@@ -1911,13 +1669,13 @@
         },
         {
           "date": "20260625",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260626",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260627",
@@ -1931,8 +1689,8 @@
         },
         {
           "date": "20260629",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260630",
@@ -1951,13 +1709,13 @@
         },
         {
           "date": "20260703",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260704",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260705",
@@ -1981,8 +1739,8 @@
         },
         {
           "date": "20260709",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260710",
@@ -2006,6 +1764,226 @@
         },
         {
           "date": "20260714",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260715",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260716",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260717",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260718",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260719",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260720",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260721",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260722",
+          "hit": false,
+          "intensity": "none"
+        }
+      ],
+      "first_seen": "20260611",
+      "hit_count": 12,
+      "recent_hit_count": 7
+    },
+    "新能源": {
+      "keyword": "新能源",
+      "stage": "密集政策期",
+      "stage_code": 3,
+      "timeline": [
+        {
+          "date": "20260611",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260612",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260613",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260614",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260615",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260616",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260617",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260618",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260619",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260620",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260621",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260622",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260623",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260624",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260625",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260626",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260627",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260628",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260629",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260630",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260701",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260702",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260703",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260704",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260705",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260706",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260707",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260708",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260709",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260710",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260711",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260712",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260713",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260714",
           "hit": true,
           "intensity": "intensive"
         },
@@ -2021,13 +1999,13 @@
         },
         {
           "date": "20260717",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260718",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260719",
@@ -2043,10 +2021,15 @@
           "date": "20260721",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260722",
+          "hit": true,
+          "intensity": "intensive"
         }
       ],
       "first_seen": "20260611",
-      "hit_count": 15,
+      "hit_count": 31,
       "recent_hit_count": 7
     }
   }
