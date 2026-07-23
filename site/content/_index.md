@@ -3,7 +3,7 @@ title: "央视联播投资参考"
 description: "新闻联播经济信号追踪，捕捉投资机会"
 layout: "home"
 ---
-<div class="daystat"><span class="ds-item"><b>15</b><i>条新闻</i></span><span class="ds-item"><b>8</b><i>条经济相关</i></span><span class="ds-item"><b>2026年7月22日</b><i>最新一期</i></span></div>
+<div class="daystat"><span class="ds-item"><b>14</b><i>条新闻</i></span><span class="ds-item"><b>4</b><i>条经济相关</i></span><span class="ds-item"><b>2026年7月23日</b><i>最新一期</i></span></div>
 
 ## 今日预警
 
@@ -35,15 +35,15 @@ layout: "home"
   </li>
   <li class="board-row" data-lvl="yellow">
     <span class="rank">4</span>
-    <span class="board-name">数据要素</span>
-    <span class="score">73</span>
-    <span class="board-stocks">海量数据 · 美亚柏科 · 创业慧康</span>
-  </li>
-  <li class="board-row" data-lvl="yellow">
-    <span class="rank">5</span>
     <span class="board-name">新能源</span>
     <span class="score">73</span>
     <span class="board-stocks">隆基绿能 · 阳光电源 · 三峡能源</span>
+  </li>
+  <li class="board-row" data-lvl="yellow">
+    <span class="rank">5</span>
+    <span class="board-name">外贸</span>
+    <span class="score">71</span>
+    <span class="board-stocks">招商港口 · 上港集团</span>
   </li>
 </ol>
 
