@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-23",
-  "trade_date": "2026年7月23日",
+  "date": "2026-07-24",
+  "trade_date": "2026年7月24日",
   "inflow_top3": [
     {
-      "name": "汽车/新能源",
-      "amount": 112.4
+      "name": "半导体",
+      "amount": 176.3
     },
     {
-      "name": "其他",
-      "amount": 95.5
+      "name": "基础化工",
+      "amount": 8.9
     },
     {
-      "name": "有色金属",
-      "amount": 60.3
+      "name": "机械设备",
+      "amount": 2.2
     }
   ],
   "outflow_top3": [
     {
-      "name": "半导体",
-      "amount": -283.1
+      "name": "其他",
+      "amount": -79.5
     },
     {
-      "name": "通信",
-      "amount": -116.1
+      "name": "公用环保",
+      "amount": -61.8
     },
     {
-      "name": "电子元件",
-      "amount": -48.4
+      "name": "非银金融",
+      "amount": -51.9
     }
   ],
-  "industry_top1": "汽车/新能源",
-  "concept_top1": "锂电池概念"
+  "industry_top1": "半导体",
+  "concept_top1": "国家大基金持股"
 }
