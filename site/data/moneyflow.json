@@ -1,34 +1,34 @@
 {
-  "date": "2026-07-24",
-  "trade_date": "2026年7月24日",
+  "date": "2026-07-27",
+  "trade_date": "2026年7月27日",
   "inflow_top3": [
     {
       "name": "半导体",
-      "amount": 176.3
+      "amount": 1064.1
     },
     {
-      "name": "基础化工",
-      "amount": 8.9
+      "name": "电子元件",
+      "amount": 89.2
     },
     {
       "name": "机械设备",
-      "amount": 2.2
+      "amount": 84.3
     }
   ],
   "outflow_top3": [
     {
-      "name": "其他",
-      "amount": -79.5
-    },
-    {
-      "name": "公用环保",
-      "amount": -61.8
+      "name": "纺织/轻工",
+      "amount": -4.3
     },
     {
       "name": "非银金融",
-      "amount": -51.9
+      "amount": -3.6
+    },
+    {
+      "name": "食品饮料",
+      "amount": -1.5
     }
   ],
   "industry_top1": "半导体",
-  "concept_top1": "国家大基金持股"
+  "concept_top1": "融资融券"
 }
