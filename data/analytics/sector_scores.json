@@ -1,12 +1,12 @@
 {
-  "date": "20260726",
+  "date": "20260727",
   "scores": [
     {
       "sector": "半导体",
-      "score": 73,
-      "week_count": 4,
+      "score": 78,
+      "week_count": 5,
       "prev_count": 2,
-      "trend": "+100%",
+      "trend": "+150%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -34,6 +34,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
           "date": "20260726",
           "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
         },
@@ -44,11 +48,65 @@
       ]
     },
     {
+      "sector": "机器人",
+      "score": 70,
+      "week_count": 13,
+      "prev_count": 7,
+      "trend": "+86%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+        },
+        {
+          "date": "20260725",
+          "title": "[视频]今年以来消费品以旧换新销售额超万亿元"
+        },
+        {
+          "date": "20260724",
+          "title": "[视频]对口援疆 助力新疆高质量发展"
+        }
+      ]
+    },
+    {
       "sector": "外贸",
       "score": 69,
-      "week_count": 42,
-      "prev_count": 18,
-      "trend": "+133%",
+      "week_count": 46,
+      "prev_count": 23,
+      "trend": "+100%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -66,136 +124,74 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+          "date": "20260727",
+          "title": "[视频]习近平同巴西总统通电话"
         },
         {
-          "date": "20260726",
-          "title": "[视频]我国冷链物流网络加速提质升级"
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
         },
         {
-          "date": "20260725",
-          "title": "[视频]“景德镇手工瓷业遗存”成功列入《世界遗产名录》"
+          "date": "20260727",
+          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
         },
         {
-          "date": "20260725",
+          "date": "20260727",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260724",
-          "title": "[视频]【“义乌发展经验”启示】给成长快的孩子换上一件大衣服"
+          "date": "20260726",
+          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
         }
       ]
     },
     {
-      "sector": "新能源",
-      "score": 69,
-      "week_count": 19,
-      "prev_count": 8,
-      "trend": "+138%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]我国冷链物流网络加速提质升级"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]今年以来消费品以旧换新销售额超万亿元"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 68,
-      "week_count": 19,
-      "prev_count": 18,
-      "trend": "+6%",
-      "policy_level": "国务院",
+      "sector": "银行金融",
+      "score": 65,
+      "week_count": 9,
+      "prev_count": 7,
+      "trend": "+29%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "601398",
+          "name": "工商银行",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260726",
-          "title": "[视频]台风“红霞”今天凌晨登陆 各地各部门全力应对"
-        },
-        {
-          "date": "20260726",
+          "date": "20260724",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260725",
-          "title": "[视频]【“义乌发展经验”启示】在全面小康的道路上不落下一个"
+          "date": "20260722",
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260725",
-          "title": "[视频]【树立和践行正确政绩观】办好群众身边事 学习教育见实效"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]【在希望的田野上】全国秋粮田管有序推进"
+          "date": "20260721",
+          "title": "[视频]万亿元民营企业再贷款落地 支持民营经济发展"
         }
       ]
     },
     {
       "sector": "消费",
       "score": 65,
-      "week_count": 17,
-      "prev_count": 14,
-      "trend": "+21%",
+      "week_count": 16,
+      "prev_count": 11,
+      "trend": "+45%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -240,159 +236,11 @@
       ]
     },
     {
-      "sector": "银行金融",
-      "score": 65,
-      "week_count": 10,
-      "prev_count": 9,
-      "trend": "+11%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260724",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260722",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]万亿元民营企业再贷款落地 支持民营经济发展"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]世界人工智能大会达成丰硕成果"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 65,
-      "week_count": 6,
-      "prev_count": 12,
-      "trend": "+-50%",
-      "policy_level": "国常会",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260726",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]国务院成立广西南宁横州市六蓝水库“7·6”溃坝灾害调查评估组"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]各地加快推进住宅老旧电梯更新改造"
-        }
-      ]
-    },
-    {
-      "sector": "机器人",
-      "score": 64,
-      "week_count": 12,
-      "prev_count": 7,
-      "trend": "+71%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]今年以来消费品以旧换新销售额超万亿元"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]对口援疆 助力新疆高质量发展"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]上半年长三角区域进出口同比增长18% 创同期新高"
-        },
-        {
-          "date": "20260722",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "石油能源",
       "score": 64,
-      "week_count": 15,
-      "prev_count": 26,
-      "trend": "+-42%",
+      "week_count": 14,
+      "prev_count": 23,
+      "trend": "+-39%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -415,6 +263,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260727",
+          "title": "[视频]美国和伊朗暂停互袭 国际油价大幅下跌"
+        },
+        {
           "date": "20260726",
           "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
         },
@@ -429,19 +281,15 @@
         {
           "date": "20260724",
           "title": "[视频]美军连续第13晚对伊朗发动打击 伊朗称打击巴林和约旦的美军基地"
-        },
-        {
-          "date": "20260723",
-          "title": "[视频]美国称打击伊朗沿海监视站点等目标 伊朗称袭击美军基地"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 63,
-      "week_count": 14,
+      "week_count": 12,
       "prev_count": 20,
-      "trend": "+-30%",
+      "trend": "+-40%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -469,6 +317,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260727",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260726",
           "title": "[视频]美媒称美总统中断空袭伊朗 伊朗称摧毁美军弹药库"
         },
@@ -483,20 +335,106 @@
         {
           "date": "20260725",
           "title": "[视频]沙特主导的多国联军空袭也门荷台达 胡塞武装称局势升级"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 61,
+      "week_count": 18,
+      "prev_count": 11,
+      "trend": "+64%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
         },
         {
-          "date": "20260725",
-          "title": "[视频]国际联播快讯"
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]我国冷链物流网络加速提质升级"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "钢铁",
+      "score": 61,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]“七一勋章”获得者钟掘：迎难而上 为国攻坚"
         }
       ]
     },
     {
       "sector": "基建投资",
-      "score": 61,
+      "score": 59,
       "week_count": 41,
-      "prev_count": 31,
-      "trend": "+32%",
-      "policy_level": "国常会",
+      "prev_count": 30,
+      "trend": "+37%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -523,8 +461,57 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260726",
           "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]台风“红霞”今天凌晨登陆 各地各部门全力应对"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 59,
+      "week_count": 19,
+      "prev_count": 15,
+      "trend": "+27%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]“在高质量发展中保障和改善民生”形势政策系列报告会第七场报告会在京举行"
         },
         {
           "date": "20260726",
@@ -540,17 +527,161 @@
         },
         {
           "date": "20260725",
+          "title": "[视频]【树立和践行正确政绩观】办好群众身边事 学习教育见实效"
+        }
+      ]
+    },
+    {
+      "sector": "房地产",
+      "score": 58,
+      "week_count": 4,
+      "prev_count": 15,
+      "trend": "+-73%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
+        },
+        {
+          "date": "20260726",
           "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260724",
+          "title": "[视频]国务院成立广西南宁横州市六蓝水库“7·6”溃坝灾害调查评估组"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 51,
+      "week_count": 4,
+      "prev_count": 4,
+      "trend": "+0%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
+          "date": "20260724",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260722",
+          "title": "[视频]上半年全国城镇新增就业695万人"
+        },
+        {
+          "date": "20260721",
+          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 51,
+      "week_count": 20,
+      "prev_count": 36,
+      "trend": "+-44%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260727",
+          "title": "[视频]习近平同巴西总统通电话"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]上半年全国规模以上工业企业利润实现较快增长"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]多元文旅资源和消费场景带动入境游快速增长"
         }
       ]
     },
     {
       "sector": "医药",
-      "score": 59,
-      "week_count": 10,
-      "prev_count": 8,
-      "trend": "+25%",
-      "policy_level": "国务院",
+      "score": 51,
+      "week_count": 7,
+      "prev_count": 9,
+      "trend": "+-22%",
+      "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -590,208 +721,6 @@
         {
           "date": "20260722",
           "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 56,
-      "week_count": 22,
-      "prev_count": 34,
-      "trend": "+-35%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]多元文旅资源和消费场景带动入境游快速增长"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]【“十五五”开好局起好步】强治理护民安促发展 全力服务保障“十五五”开局起步"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]对口援疆 助力新疆高质量发展"
-        }
-      ]
-    },
-    {
-      "sector": "钢铁",
-      "score": 51,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]“七一勋章”获得者钟掘：迎难而上 为国攻坚"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 51,
-      "week_count": 4,
-      "prev_count": 3,
-      "trend": "+33%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260724",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260722",
-          "title": "[视频]上半年全国城镇新增就业695万人"
-        },
-        {
-          "date": "20260721",
-          "title": "[视频]【新思想引领新征程】加力推进节能降碳 书写绿色发展新答卷"
-        },
-        {
-          "date": "20260720",
-          "title": "[视频]李强同泰国总理会谈"
-        }
-      ]
-    },
-    {
-      "sector": "黄金",
-      "score": 48,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260720",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "地下管网",
-      "score": 45,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "国常会",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603958",
-          "name": "哈空调",
-          "market": "SH"
-        },
-        {
-          "code": "300055",
-          "name": "万邦达",
-          "market": "SZ"
-        },
-        {
-          "code": "002671",
-          "name": "龙泉股份",
-          "market": "SZ"
-        },
-        {
-          "code": "300334",
-          "name": "津膜科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260720",
-          "title": "[视频]李强主持召开国务院常务会议"
         }
       ]
     },
