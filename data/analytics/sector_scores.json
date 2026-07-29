@@ -1,15 +1,15 @@
 {
-  "date": "20260728",
+  "date": "20260729",
   "scores": [
     {
       "sector": "半导体",
-      "score": 83,
+      "score": 98,
       "week_count": 5,
-      "prev_count": 1,
-      "trend": "+400%",
+      "prev_count": 0,
+      "trend": "NEW",
       "policy_level": "国务院",
       "intensity_level": "intensive",
-      "is_first": false,
+      "is_first": true,
       "stocks": [
         {
           "code": "688981",
@@ -49,11 +49,11 @@
     },
     {
       "sector": "机器人",
-      "score": 75,
-      "week_count": 17,
-      "prev_count": 7,
-      "trend": "+143%",
-      "policy_level": "央行",
+      "score": 79,
+      "week_count": 18,
+      "prev_count": 9,
+      "trend": "+100%",
+      "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -80,6 +80,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
+        },
+        {
           "date": "20260728",
           "title": "[视频]习近平同斯洛伐克总统会谈"
         },
@@ -94,20 +98,16 @@
         {
           "date": "20260727",
           "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
         }
       ]
     },
     {
       "sector": "消费",
-      "score": 70,
-      "week_count": 16,
-      "prev_count": 10,
-      "trend": "+60%",
-      "policy_level": "财政部",
+      "score": 68,
+      "week_count": 13,
+      "prev_count": 11,
+      "trend": "+18%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -129,6 +129,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
+        },
+        {
           "date": "20260728",
           "title": "[视频]商务部就所谓“产能过剩”问题介绍中方立场"
         },
@@ -143,59 +147,50 @@
         {
           "date": "20260725",
           "title": "[视频]今年以来消费品以旧换新销售额超万亿元"
-        },
-        {
-          "date": "20260724",
-          "title": "[视频]【“义乌发展经验”启示】给成长快的孩子换上一件大衣服"
         }
       ]
     },
     {
-      "sector": "农业",
+      "sector": "外贸",
       "score": 64,
-      "week_count": 21,
-      "prev_count": 13,
-      "trend": "+62%",
+      "week_count": 44,
+      "prev_count": 26,
+      "trend": "+69%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260728",
-          "title": "[视频]全国政协召开“加快农业农村现代化”专题协商会 王沪宁出席并讲话"
+          "date": "20260729",
+          "title": "[视频]李强会见斯洛伐克总统"
         },
         {
-          "date": "20260727",
-          "title": "[视频]“在高质量发展中保障和改善民生”形势政策系列报告会第七场报告会在京举行"
+          "date": "20260729",
+          "title": "[视频]赵乐际会见斯洛伐克总统"
         },
         {
-          "date": "20260726",
-          "title": "[视频]台风“红霞”今天凌晨登陆 各地各部门全力应对"
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
         },
         {
-          "date": "20260726",
+          "date": "20260729",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260725",
-          "title": "[视频]【“义乌发展经验”启示】在全面小康的道路上不落下一个"
+          "date": "20260728",
+          "title": "[视频]习近平同斯洛伐克总统会谈"
         }
       ]
     },
@@ -203,8 +198,8 @@
       "sector": "石油能源",
       "score": 64,
       "week_count": 13,
-      "prev_count": 23,
-      "trend": "+-43%",
+      "prev_count": 21,
+      "trend": "+-38%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -249,55 +244,11 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 64,
-      "week_count": 45,
-      "prev_count": 23,
-      "trend": "+96%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260728",
-          "title": "[视频]习近平同斯洛伐克总统会谈"
-        },
-        {
-          "date": "20260728",
-          "title": "[视频]【“十五五”开好局起好步】上半年税收收入稳步增长 新质生产力发展成效明显"
-        },
-        {
-          "date": "20260728",
-          "title": "[视频]商务部就所谓“产能过剩”问题介绍中方立场"
-        },
-        {
-          "date": "20260727",
-          "title": "[视频]习近平同巴西总统通电话"
-        },
-        {
-          "date": "20260727",
-          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
-        }
-      ]
-    },
-    {
       "sector": "军工",
       "score": 63,
-      "week_count": 12,
+      "week_count": 11,
       "prev_count": 18,
-      "trend": "+-33%",
+      "trend": "+-39%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -325,6 +276,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260729",
+          "title": "[视频]美称拦截伊朗多枚导弹 伊称打击约旦的美军基地"
+        },
+        {
           "date": "20260728",
           "title": "[视频]王戟：冲锋不止的“科研尖兵”"
         },
@@ -339,20 +294,16 @@
         {
           "date": "20260726",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260725",
-          "title": "[视频]伊朗打击中东多国美军目标回应美袭击 美称仍在与伊朗对话并威胁升级打击力度"
         }
       ]
     },
     {
       "sector": "基建投资",
-      "score": 60,
-      "week_count": 40,
-      "prev_count": 32,
-      "trend": "+25%",
-      "policy_level": "中央政治局",
+      "score": 59,
+      "week_count": 41,
+      "prev_count": 31,
+      "trend": "+32%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -379,71 +330,132 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]日本熊本县地震已致14人死亡"
+        },
+        {
           "date": "20260728",
           "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260727",
           "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
-        },
-        {
-          "date": "20260727",
-          "title": "[视频]新唐山建设五十年 绘就高质量发展新图景"
-        },
-        {
-          "date": "20260727",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
         }
       ]
     },
     {
-      "sector": "银行金融",
-      "score": 60,
-      "week_count": 6,
-      "prev_count": 10,
-      "trend": "+-40%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
+      "sector": "农业",
+      "score": 59,
+      "week_count": 19,
+      "prev_count": 14,
+      "trend": "+36%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601398",
-          "name": "工商银行",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
         },
         {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260724",
-          "title": "[视频]国内联播快讯"
+          "date": "20260729",
+          "title": "[视频]【新思想引领新征程】锚定农业农村现代化 乡村全面振兴扎实推进"
         },
         {
-          "date": "20260722",
+          "date": "20260728",
+          "title": "[视频]全国政协召开“加快农业农村现代化”专题协商会 王沪宁出席并讲话"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]“在高质量发展中保障和改善民生”形势政策系列报告会第七场报告会在京举行"
+        },
+        {
+          "date": "20260726",
+          "title": "[视频]台风“红霞”今天凌晨登陆 各地各部门全力应对"
+        },
+        {
+          "date": "20260726",
           "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 57,
+      "week_count": 9,
+      "prev_count": 9,
+      "trend": "+0%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]日本熊本县地震已致14人死亡"
+        },
+        {
+          "date": "20260728",
+          "title": "[视频]李强在河北唐山调研慰问"
+        },
+        {
+          "date": "20260728",
+          "title": "[视频]【“十五五”开好局起好步】上半年税收收入稳步增长 新质生产力发展成效明显"
+        },
+        {
+          "date": "20260728",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "新能源",
-      "score": 56,
-      "week_count": 16,
-      "prev_count": 14,
-      "trend": "+14%",
-      "policy_level": "央行",
+      "score": 55,
+      "week_count": 15,
+      "prev_count": 16,
+      "trend": "+-6%",
+      "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -470,6 +482,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260729",
+          "title": "[视频]李强会见斯洛伐克总统"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]赵乐际会见斯洛伐克总统"
+        },
+        {
           "date": "20260728",
           "title": "[视频]习近平同斯洛伐克总统会谈"
         },
@@ -480,14 +500,60 @@
         {
           "date": "20260727",
           "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 54,
+      "week_count": 21,
+      "prev_count": 32,
+      "trend": "+-34%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
         },
         {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
         },
         {
-          "date": "20260726",
-          "title": "[视频]我国冷链物流网络加速提质升级"
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260729",
+          "title": "[视频]赵乐际会见斯洛伐克总统"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]【“十五五”开好局起好步】2030年我国知识产权综合实力进一步增强"
+        },
+        {
+          "date": "20260729",
+          "title": "[视频]“新新三样”成中国出口新名片"
+        },
+        {
+          "date": "20260728",
+          "title": "[视频]习近平同斯洛伐克总统会谈"
+        },
+        {
+          "date": "20260727",
+          "title": "[视频]习近平同巴西总统通电话"
         }
       ]
     },
@@ -495,8 +561,8 @@
       "sector": "房地产",
       "score": 53,
       "week_count": 3,
-      "prev_count": 15,
-      "trend": "+-80%",
+      "prev_count": 11,
+      "trend": "+-73%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -533,104 +599,42 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 51,
-      "week_count": 20,
-      "prev_count": 32,
-      "trend": "+-38%",
-      "policy_level": "央行",
-      "intensity_level": "results",
+      "sector": "新能源汽车",
+      "score": 53,
+      "week_count": 3,
+      "prev_count": 5,
+      "trend": "+-40%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "002230",
-          "name": "科大讯飞",
+          "code": "300750",
+          "name": "宁德时代",
           "market": "SZ"
         },
         {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
+          "code": "002594",
+          "name": "比亚迪",
           "market": "SZ"
         },
         {
-          "code": "688041",
-          "name": "海光信息",
+          "code": "688561",
+          "name": "奇安信",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260728",
-          "title": "[视频]习近平同斯洛伐克总统会谈"
-        },
-        {
-          "date": "20260727",
-          "title": "[视频]习近平同巴西总统通电话"
+          "date": "20260729",
+          "title": "[视频]李强会见斯洛伐克总统"
         },
         {
           "date": "20260727",
           "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
         },
         {
-          "date": "20260727",
-          "title": "[视频]上半年全国规模以上工业企业利润实现较快增长"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]【新思想引领新征程】创新驱动 激发更强发展新动能"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 51,
-      "week_count": 8,
-      "prev_count": 9,
-      "trend": "+-11%",
-      "policy_level": "央行",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260728",
-          "title": "[视频]李强在河北唐山调研慰问"
-        },
-        {
-          "date": "20260728",
-          "title": "[视频]【“十五五”开好局起好步】上半年税收收入稳步增长 新质生产力发展成效明显"
-        },
-        {
-          "date": "20260728",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260726",
-          "title": "[视频]【树立和践行正确政绩观】办好民生实事 推动学习教育见行见效"
-        },
-        {
-          "date": "20260726",
+          "date": "20260724",
           "title": "[视频]国内联播快讯"
         }
       ]
@@ -673,43 +677,35 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 41,
-      "week_count": 3,
-      "prev_count": 4,
-      "trend": "+-25%",
+      "sector": "银行金融",
+      "score": 36,
+      "week_count": 2,
+      "prev_count": 10,
+      "trend": "+-80%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
         },
         {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
         },
         {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "601166",
+          "name": "兴业银行",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260727",
-          "title": "[视频]【新思想引领新征程】向新向优 中国外贸持续彰显强大韧性"
-        },
-        {
           "date": "20260724",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260722",
-          "title": "[视频]上半年全国城镇新增就业695万人"
         }
       ]
     },
