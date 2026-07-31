@@ -1,34 +1,30 @@
 {
-  "date": "2026-07-30",
-  "trade_date": "2026年7月30日",
+  "date": "2026-07-31",
+  "trade_date": "2026年7月31日",
   "inflow_top3": [
     {
-      "name": "银行",
-      "amount": 142.1
+      "name": "计算机",
+      "amount": 187.9
     },
     {
-      "name": "汽车/新能源",
-      "amount": 64.7
+      "name": "传媒",
+      "amount": 110.7
     },
     {
-      "name": "食品饮料",
-      "amount": 26.8
+      "name": "通信",
+      "amount": 97.7
     }
   ],
   "outflow_top3": [
     {
-      "name": "消费电子",
-      "amount": -82.6
-    },
-    {
-      "name": "面板显示",
-      "amount": -80.0
-    },
-    {
       "name": "半导体",
-      "amount": -31.5
+      "amount": -168.7
+    },
+    {
+      "name": "非银金融",
+      "amount": -7.4
     }
   ],
-  "industry_top1": "银行",
-  "concept_top1": "高股息精选"
+  "industry_top1": "计算机",
+  "concept_top1": "融资融券"
 }
