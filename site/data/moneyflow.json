@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-06",
-  "trade_date": "2026年8月6日",
+  "date": "2026-08-07",
+  "trade_date": "2026年8月7日",
   "inflow_top3": [
     {
-      "name": "通信",
-      "amount": 44.0
+      "name": "半导体",
+      "amount": 230.7
+    },
+    {
+      "name": "医药生物",
+      "amount": 170.3
     },
     {
       "name": "基础化工",
-      "amount": 34.6
-    },
-    {
-      "name": "消费电子",
-      "amount": 31.3
+      "amount": 75.7
     }
   ],
   "outflow_top3": [
     {
-      "name": "汽车/新能源",
-      "amount": -76.2
+      "name": "银行",
+      "amount": -36.7
     },
     {
-      "name": "非银金融",
-      "amount": -40.9
+      "name": "计算机",
+      "amount": -31.8
     },
     {
-      "name": "公用环保",
-      "amount": -26.9
+      "name": "通信",
+      "amount": -11.9
     }
   ],
-  "industry_top1": "通信",
-  "concept_top1": "共封装光学(CPO)"
+  "industry_top1": "半导体",
+  "concept_top1": "融资融券"
 }
