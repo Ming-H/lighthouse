@@ -1,34 +1,21 @@
 {
-  "date": "2026-08-10",
-  "trade_date": "2026年8月10日",
+  "date": "2026-08-11",
+  "trade_date": "2026年8月11日",
   "inflow_top3": [
     {
-      "name": "基础化工",
-      "amount": 31.5
+      "name": "通信",
+      "amount": 76.5
     },
     {
-      "name": "食品饮料",
-      "amount": 28.9
+      "name": "其他",
+      "amount": 38.3
     },
     {
       "name": "医药生物",
-      "amount": 23.2
+      "amount": 35.7
     }
   ],
-  "outflow_top3": [
-    {
-      "name": "通信",
-      "amount": -224.2
-    },
-    {
-      "name": "半导体",
-      "amount": -183.9
-    },
-    {
-      "name": "电子元件",
-      "amount": -109.9
-    }
-  ],
-  "industry_top1": "基础化工",
-  "concept_top1": "高股息精选"
+  "outflow_top3": [],
+  "industry_top1": "通信",
+  "concept_top1": "中国AI 50"
 }
