@@ -1,45 +1,40 @@
 {
-  "date": "20260810",
+  "date": "20260811",
   "scores": [
     {
-      "sector": "工程机械",
-      "score": 71,
-      "week_count": 2,
+      "sector": "数据要素",
+      "score": 80,
+      "week_count": 3,
       "prev_count": 0,
       "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "intensive",
+      "policy_level": "国家发改委",
+      "intensity_level": "advancing",
       "is_first": true,
       "stocks": [
         {
-          "code": "600031",
-          "name": "三一重工",
+          "code": "603138",
+          "name": "海量数据",
           "market": "SH"
         },
         {
-          "code": "000157",
-          "name": "中联重科",
+          "code": "300188",
+          "name": "美亚柏科",
           "market": "SZ"
         },
         {
-          "code": "000425",
-          "name": "徐工机械",
+          "code": "300451",
+          "name": "创业慧康",
           "market": "SZ"
-        },
-        {
-          "code": "600150",
-          "name": "中国船舶",
-          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
           "date": "20260806",
-          "title": "[视频]上半年我国机械工业经济运行稳中有进"
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260804",
-          "title": "[视频]【一线调研】风雨过后茉莉开"
+          "date": "20260805",
+          "title": "[视频]上半年产业创新活力进一步激发"
         }
       ]
     },
@@ -118,6 +113,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260811",
+          "title": "[视频]【文化中国行】古文字工程揭开上古历史面纱"
+        },
+        {
           "date": "20260810",
           "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】共享智造助力河北激活产业集群新活力"
         },
@@ -132,56 +131,15 @@
         {
           "date": "20260809",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260808",
-          "title": "[视频]上半年我国经营主体结构持续优化"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 65,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
-      "policy_level": "国家发改委",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260806",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260805",
-          "title": "[视频]上半年产业创新活力进一步激发"
         }
       ]
     },
     {
       "sector": "农业",
       "score": 65,
-      "week_count": 22,
-      "prev_count": 19,
-      "trend": "+16%",
+      "week_count": 23,
+      "prev_count": 16,
+      "trend": "+44%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -204,6 +162,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260811",
+          "title": "[视频]各地抢抓农时做好田间管理"
+        },
+        {
+          "date": "20260811",
+          "title": "[视频]数据显示美国7月平均气温达新高"
+        },
+        {
           "date": "20260810",
           "title": "[视频]【新思想引领新征程】加快构建城乡融合发展新格局"
         },
@@ -214,122 +180,52 @@
         {
           "date": "20260809",
           "title": "[视频]7月份居民消费价格指数保持温和上涨"
+        }
+      ]
+    },
+    {
+      "sector": "煤炭",
+      "score": 61,
+      "week_count": 4,
+      "prev_count": 3,
+      "trend": "+33%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601088",
+          "name": "中国神华",
+          "market": "SH"
         },
         {
-          "date": "20260809",
-          "title": "[视频]我国加快自然资源“一张图”平台建设"
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260811",
+          "title": "[视频]我国将加快打造现代煤炭产业体系"
         },
         {
-          "date": "20260809",
+          "date": "20260807",
+          "title": "[视频]上半年新能源重卡销量再创新高"
+        },
+        {
+          "date": "20260807",
           "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 64,
-      "week_count": 17,
-      "prev_count": 20,
-      "trend": "+-15%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260810",
-          "title": "[视频]7月先行指标折射经济稳中向优态势明显"
-        },
-        {
-          "date": "20260810",
-          "title": "[视频]服务消费拓展就业新空间"
-        },
-        {
-          "date": "20260810",
-          "title": "[视频]【一线调研】公园拓展消费新场景"
-        },
-        {
-          "date": "20260809",
-          "title": "[视频]7月份居民消费价格指数保持温和上涨"
-        },
-        {
-          "date": "20260808",
-          "title": "[视频]上半年我国经营主体结构持续优化"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 64,
-      "week_count": 17,
-      "prev_count": 22,
-      "trend": "+-23%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260810",
-          "title": "[视频]我国已建成国家慢性病综合防控示范区578个"
-        },
-        {
-          "date": "20260809",
-          "title": "[视频]我国加快推进算力网建设"
-        },
-        {
-          "date": "20260809",
-          "title": "[视频]我国加强对基础研究的长期稳定支持"
-        },
-        {
-          "date": "20260808",
-          "title": "[视频]【树立和践行正确政绩观】坚持民生优先 推动学习教育成果落到实处"
-        },
-        {
-          "date": "20260808",
-          "title": "[视频]上半年我国医药工业创新加速突破"
-        }
-      ]
-    },
-    {
       "sector": "基建投资",
-      "score": 63,
-      "week_count": 25,
-      "prev_count": 30,
-      "trend": "+-17%",
-      "policy_level": "国务院",
+      "score": 61,
+      "week_count": 26,
+      "prev_count": 31,
+      "trend": "+-16%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -356,8 +252,57 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260811",
+          "title": "[视频]各地各部门积极应对“白海豚”影响"
+        },
+        {
+          "date": "20260811",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260811",
+          "title": "[视频]哥伦比亚发生7.5级强震 进入“国家灾难状态”"
+        },
+        {
+          "date": "20260811",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260810",
           "title": "[视频]【新思想引领新征程】加快构建城乡融合发展新格局"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 60,
+      "week_count": 15,
+      "prev_count": 22,
+      "trend": "+-32%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260811",
+          "title": "[视频]我国将加快打造现代煤炭产业体系"
         },
         {
           "date": "20260810",
@@ -365,24 +310,24 @@
         },
         {
           "date": "20260810",
-          "title": "[视频]各地各部门多举措应对台风“白海豚”影响"
+          "title": "[视频]服务消费拓展就业新空间"
         },
         {
           "date": "20260810",
-          "title": "[视频]我国国际航线网络持续优化 更好满足入境游需求"
+          "title": "[视频]【一线调研】公园拓展消费新场景"
         },
         {
-          "date": "20260810",
-          "title": "[视频]国内联播快讯"
+          "date": "20260809",
+          "title": "[视频]7月份居民消费价格指数保持温和上涨"
         }
       ]
     },
     {
       "sector": "外贸",
       "score": 60,
-      "week_count": 17,
-      "prev_count": 23,
-      "trend": "+-26%",
+      "week_count": 16,
+      "prev_count": 20,
+      "trend": "+-20%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -400,6 +345,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260811",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260809",
           "title": "[视频]【新思想引领新征程】丰收背后的“稳”与“进”"
         },
@@ -414,19 +363,15 @@
         {
           "date": "20260808",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260807",
-          "title": "[视频]【新思想引领新征程】服务消费扩容升级 激发内需新活力"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 57,
-      "week_count": 16,
-      "prev_count": 17,
-      "trend": "+-6%",
+      "week_count": 14,
+      "prev_count": 18,
+      "trend": "+-22%",
       "policy_level": "国务院",
       "intensity_level": "advancing",
       "is_first": false,
@@ -512,8 +457,8 @@
       "sector": "石油能源",
       "score": 56,
       "week_count": 12,
-      "prev_count": 10,
-      "trend": "+20%",
+      "prev_count": 9,
+      "trend": "+33%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -536,6 +481,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260811",
+          "title": "[视频]美称完全控制霍尔木兹海峡 伊朗批评美封锁阻碍海峡恢复通航"
+        },
+        {
           "date": "20260809",
           "title": "[视频]【新思想引领新征程】丰收背后的“稳”与“进”"
         },
@@ -550,19 +499,15 @@
         {
           "date": "20260809",
           "title": "[视频]伊朗称在美国接受其条件前不会重新开放霍尔木兹海峡"
-        },
-        {
-          "date": "20260809",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "新能源",
       "score": 51,
-      "week_count": 9,
-      "prev_count": 19,
-      "trend": "+-53%",
+      "week_count": 8,
+      "prev_count": 18,
+      "trend": "+-56%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -615,8 +560,8 @@
       "sector": "机器人",
       "score": 51,
       "week_count": 7,
-      "prev_count": 17,
-      "trend": "+-59%",
+      "prev_count": 13,
+      "trend": "+-46%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -662,71 +607,88 @@
       ]
     },
     {
-      "sector": "房地产",
-      "score": 48,
-      "week_count": 2,
-      "prev_count": 4,
-      "trend": "+-50%",
-      "policy_level": "国务院",
+      "sector": "银行金融",
+      "score": 50,
+      "week_count": 3,
+      "prev_count": 7,
+      "trend": "+-57%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
+          "code": "601398",
+          "name": "工商银行",
           "market": "SH"
         },
         {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260808",
-          "title": "[视频]【树立和践行正确政绩观】坚持民生优先 推动学习教育成果落到实处"
+          "date": "20260811",
+          "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20260804",
-          "title": "[视频]国务院成立重庆彭水汉葭街道“7·17”特别重大山体崩塌灾害调查评估组"
+          "date": "20260805",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "煤炭",
-      "score": 36,
-      "week_count": 2,
-      "prev_count": 3,
-      "trend": "+-33%",
+      "sector": "医药",
+      "score": 42,
+      "week_count": 16,
+      "prev_count": 23,
+      "trend": "+-30%",
       "policy_level": "",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601088",
-          "name": "中国神华",
+          "code": "600276",
+          "name": "恒瑞医药",
           "market": "SH"
         },
         {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260807",
-          "title": "[视频]上半年新能源重卡销量再创新高"
+          "date": "20260811",
+          "title": "[视频]【新思想引领新征程】织就更密更暖的社会保障安全网"
         },
         {
-          "date": "20260807",
-          "title": "[视频]国内联播快讯"
+          "date": "20260811",
+          "title": "[视频]哥伦比亚发生7.5级强震 进入“国家灾难状态”"
+        },
+        {
+          "date": "20260810",
+          "title": "[视频]我国已建成国家慢性病综合防控示范区578个"
+        },
+        {
+          "date": "20260809",
+          "title": "[视频]我国加快推进算力网建设"
+        },
+        {
+          "date": "20260809",
+          "title": "[视频]我国加强对基础研究的长期稳定支持"
         }
       ]
     },
@@ -769,35 +731,35 @@
       ]
     },
     {
-      "sector": "银行金融",
+      "sector": "房地产",
       "score": 31,
-      "week_count": 2,
-      "prev_count": 7,
-      "trend": "+-71%",
-      "policy_level": "财政部",
-      "intensity_level": "",
+      "week_count": 1,
+      "prev_count": 5,
+      "trend": "+-80%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601398",
-          "name": "工商银行",
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
           "market": "SH"
         },
         {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260805",
-          "title": "[视频]国内联播快讯"
+          "date": "20260808",
+          "title": "[视频]【树立和践行正确政绩观】坚持民生优先 推动学习教育成果落到实处"
         }
       ]
     },
@@ -831,6 +793,44 @@
         {
           "date": "20260810",
           "title": "[视频]服务消费拓展就业新空间"
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "score": 22,
+      "week_count": 1,
+      "prev_count": 1,
+      "trend": "+0%",
+      "policy_level": "",
+      "intensity_level": "",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600031",
+          "name": "三一重工",
+          "market": "SH"
+        },
+        {
+          "code": "000157",
+          "name": "中联重科",
+          "market": "SZ"
+        },
+        {
+          "code": "000425",
+          "name": "徐工机械",
+          "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260806",
+          "title": "[视频]上半年我国机械工业经济运行稳中有进"
         }
       ]
     }
