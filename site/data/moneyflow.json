@@ -1,34 +1,30 @@
 {
-  "date": "2026-08-14",
-  "trade_date": "2026年8月14日",
+  "date": "2026-08-17",
+  "trade_date": "2026年8月17日",
   "inflow_top3": [
     {
-      "name": "通信",
-      "amount": 278.5
+      "name": "半导体",
+      "amount": 565.4
     },
     {
-      "name": "有色金属",
-      "amount": 44.8
+      "name": "消费电子",
+      "amount": 95.0
     },
     {
-      "name": "汽车/新能源",
-      "amount": 29.9
+      "name": "机械设备",
+      "amount": 90.4
     }
   ],
   "outflow_top3": [
     {
-      "name": "医药生物",
-      "amount": -39.9
+      "name": "传媒",
+      "amount": -13.9
     },
     {
-      "name": "公用环保",
-      "amount": -38.1
-    },
-    {
-      "name": "非银金融",
-      "amount": -36.6
+      "name": "食品饮料",
+      "amount": -10.5
     }
   ],
-  "industry_top1": "通信",
-  "concept_top1": "5G"
+  "industry_top1": "半导体",
+  "concept_top1": "融资融券"
 }
