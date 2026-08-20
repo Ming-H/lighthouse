@@ -1,34 +1,21 @@
 {
-  "date": "2026-08-19",
-  "trade_date": "2026年8月19日",
+  "date": "2026-08-20",
+  "trade_date": "2026年8月20日",
   "inflow_top3": [
     {
-      "name": "银行",
-      "amount": 35.6
-    },
-    {
-      "name": "基础化工",
-      "amount": 21.0
+      "name": "医药生物",
+      "amount": 111.4
     },
     {
       "name": "有色金属",
-      "amount": 10.9
-    }
-  ],
-  "outflow_top3": [
-    {
-      "name": "半导体",
-      "amount": -464.9
+      "amount": 40.1
     },
     {
       "name": "通信",
-      "amount": -270.1
-    },
-    {
-      "name": "消费电子",
-      "amount": -132.2
+      "amount": 33.5
     }
   ],
-  "industry_top1": "银行",
-  "concept_top1": "高股息精选"
+  "outflow_top3": [],
+  "industry_top1": "医药生物",
+  "concept_top1": "创新药"
 }
