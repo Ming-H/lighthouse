@@ -1,147 +1,53 @@
 {
-  "date": "20260824",
+  "date": "20260825",
   "scores": [
     {
-      "sector": "外贸",
-      "score": 71,
-      "week_count": 41,
-      "prev_count": 11,
-      "trend": "+273%",
-      "policy_level": "财政部",
+      "sector": "钢铁",
+      "score": 72,
+      "week_count": 5,
+      "prev_count": 1,
+      "trend": "+400%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "600019",
+          "name": "宝钢股份",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260824",
-          "title": "[视频]习近平致电祝贺阿拉姆吉尔就任孟加拉国总统"
-        },
-        {
-          "date": "20260824",
-          "title": "[视频]李强会见约旦国王"
-        },
-        {
-          "date": "20260824",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]伊朗称参与美对伊“经济战”的国家将被视为敌人"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 70,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
+          "code": "000708",
+          "name": "中信特钢",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260824",
-          "title": "[视频]习近平同约旦国王会谈"
+          "date": "20260825",
+          "title": "[视频]美威胁进一步提高对加关税 加称不接受不平等双边关系"
         },
-        {
-          "date": "20260821",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260818",
-          "title": "[视频]习近平同厄瓜多尔总统会谈"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 68,
-      "week_count": 15,
-      "prev_count": 13,
-      "trend": "+15%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
         {
           "date": "20260823",
-          "title": "[视频]多家商业银行发布优化后的消费贷贴息政策执行方案"
+          "title": "[视频]加拿大宣布对美等额反制关税将于9月8日生效"
         },
         {
           "date": "20260822",
+          "title": "[视频]我国实现多领域高端钢材自主量产"
+        },
+        {
+          "date": "20260819",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260821",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260821",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260821",
-          "title": "[视频]受高温干旱天气影响 西班牙等国林火持续"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 68,
-      "week_count": 18,
+      "score": 71,
+      "week_count": 21,
       "prev_count": 13,
-      "trend": "+38%",
-      "policy_level": "国务院",
+      "trend": "+62%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -163,24 +69,122 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260825",
+          "title": "[视频]十四届全国人大常委会第二十四次会议在京举行 赵乐际主持"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]全国夏粮收购进入高峰 累计收购总量超9000万吨"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260824",
           "title": "[视频]习近平同约旦国王会谈"
         },
         {
           "date": "20260824",
           "title": "[视频]王沪宁主持召开全国政协主席会议"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 69,
+      "week_count": 38,
+      "prev_count": 18,
+      "trend": "+111%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260825",
+          "title": "[视频]前7个月我国交通运输主要指标保持增长"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]第二十六届投洽会将于9月8日至11日在厦门举行"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]美威胁进一步提高对加关税 加称不接受不平等双边关系"
+        },
+        {
+          "date": "20260824",
+          "title": "[视频]习近平致电祝贺阿拉姆吉尔就任孟加拉国总统"
+        },
+        {
+          "date": "20260824",
+          "title": "[视频]李强会见约旦国王"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 68,
+      "week_count": 32,
+      "prev_count": 27,
+      "trend": "+19%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260825",
+          "title": "[视频]前7个月我国交通运输主要指标保持增长"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]我国加快推进公共数据开放共享 赋能千行百业"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260824",
+          "title": "[视频]习近平同约旦国王会谈"
         },
         {
           "date": "20260823",
-          "title": "[视频]1—7月我国电子商务稳定创新发展"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]多家商业银行发布优化后的消费贷贴息政策执行方案"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]国产农机“新装”上阵"
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
@@ -217,6 +221,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260825",
+          "title": "[视频]第二十六届投洽会将于9月8日至11日在厦门举行"
+        },
+        {
           "date": "20260824",
           "title": "[视频]习近平同约旦国王会谈"
         },
@@ -231,105 +239,142 @@
         {
           "date": "20260823",
           "title": "[视频]第二届世界人形机器人运动会在北京开幕"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]【新思想引领新征程】拓展共建“一带一路”合作新空间 铺就共赢之路"
         }
       ]
     },
     {
-      "sector": "钢铁",
+      "sector": "煤炭",
       "score": 67,
-      "week_count": 4,
-      "prev_count": 1,
-      "trend": "+300%",
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
       "policy_level": "国家发改委",
       "intensity_level": "results",
-      "is_first": false,
+      "is_first": true,
       "stocks": [
         {
-          "code": "600019",
-          "name": "宝钢股份",
+          "code": "601088",
+          "name": "中国神华",
           "market": "SH"
         },
         {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260823",
-          "title": "[视频]加拿大宣布对美等额反制关税将于9月8日生效"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]我国实现多领域高端钢材自主量产"
-        },
-        {
-          "date": "20260819",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 64,
-      "week_count": 5,
-      "prev_count": 3,
-      "trend": "+67%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
+          "code": "601898",
+          "name": "中煤能源",
           "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
           "date": "20260823",
           "title": "[视频]我国矿山生态保护修复向绿向新"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 60,
+      "week_count": 13,
+      "prev_count": 15,
+      "trend": "+-13%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260825",
+          "title": "[视频]十四届全国人大常委会第二十四次会议在京举行 赵乐际主持"
+        },
+        {
+          "date": "20260823",
+          "title": "[视频]多家商业银行发布优化后的消费贷贴息政策执行方案"
+        },
+        {
+          "date": "20260822",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260821",
-          "title": "[视频]【“十五五”开好局起好步】积极财政政策助推经济社会高质量发展"
+          "title": "[视频]李强主持召开国务院常务会议"
         },
         {
           "date": "20260821",
-          "title": "[视频]国际联播快讯"
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 60,
+      "week_count": 12,
+      "prev_count": 18,
+      "trend": "+-33%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
         },
         {
-          "date": "20260818",
-          "title": "[视频]李强签署国务院令 公布《国务院关于修改〈住房公积金管理条例〉的决定》"
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
         },
         {
-          "date": "20260818",
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260825",
+          "title": "[视频]十四届全国人大常委会第二十四次会议在京举行 赵乐际主持"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]我国加快推进公共数据开放共享 赋能千行百业"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260824",
+          "title": "[视频]习近平同约旦国王会谈"
+        },
+        {
+          "date": "20260824",
           "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 63,
-      "week_count": 9,
-      "prev_count": 12,
-      "trend": "+-25%",
-      "policy_level": "国务院",
+      "score": 60,
+      "week_count": 11,
+      "prev_count": 13,
+      "trend": "+-15%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -356,62 +401,16 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260823",
+          "date": "20260825",
+          "title": "[视频]十四届全国人大常委会第二十四次会议在京举行 赵乐际主持"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]英首相称已批准与乌分享导弹制造技术 俄称将摧毁相关目标"
+        },
+        {
+          "date": "20260825",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]伊称将持续增强国防力量以应对威胁 美称不会放弃对伊军事选项"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260821",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260821",
-          "title": "[视频]伊朗谴责美国新制裁是“经济恐怖主义”"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 63,
-      "week_count": 26,
-      "prev_count": 32,
-      "trend": "+-19%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260824",
-          "title": "[视频]习近平同约旦国王会谈"
         },
         {
           "date": "20260823",
@@ -419,122 +418,102 @@
         },
         {
           "date": "20260822",
-          "title": "[视频]【新思想引领新征程】拓展共建“一带一路”合作新空间 铺就共赢之路"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]【文化中国行】留住佛光寺的“千年目光”"
-        },
-        {
-          "date": "20260822",
-          "title": "[视频]国际联播快讯"
+          "title": "[视频]伊称将持续增强国防力量以应对威胁 美称不会放弃对伊军事选项"
         }
       ]
     },
     {
-      "sector": "医药",
-      "score": 63,
-      "week_count": 12,
-      "prev_count": 17,
-      "trend": "+-29%",
-      "policy_level": "国务院",
+      "sector": "黄金",
+      "score": 60,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600276",
-          "name": "恒瑞医药",
+          "code": "600547",
+          "name": "山东黄金",
           "market": "SH"
         },
         {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
+          "code": "600489",
+          "name": "中金黄金",
+          "market": "SH"
         },
         {
-          "code": "300760",
-          "name": "迈瑞医疗",
+          "code": "002155",
+          "name": "湖南黄金",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260824",
-          "title": "[视频]习近平同约旦国王会谈"
+          "date": "20260825",
+          "title": "[视频]美宣布对伊朗实施新一轮制裁措施 伊朗称美国将再遭失败"
         },
         {
-          "date": "20260824",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260820",
-          "title": "[视频]【新思想引领新征程】优质医疗资源下沉惠民 绘就健康中国新图景"
-        },
-        {
-          "date": "20260820",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260819",
-          "title": "[视频]【新思想引领新征程】建设更高水平自贸试验区 打造改革开放新高地"
+          "date": "20260821",
+          "title": "[视频]【新思想引领新征程】无惧风浪 中国经济高质量发展行稳致远"
         }
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 62,
-      "week_count": 20,
-      "prev_count": 11,
-      "trend": "+82%",
-      "policy_level": "国家发改委",
+      "sector": "房地产",
+      "score": 59,
+      "week_count": 5,
+      "prev_count": 5,
+      "trend": "+0%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
           "market": "SH"
         },
         {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260824",
-          "title": "[视频]伊朗发布霍尔木兹海峡通行新规"
+          "date": "20260825",
+          "title": "[视频]全国政协十四届常委会第十八次会议开幕 王沪宁出席"
+        },
+        {
+          "date": "20260825",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260823",
           "title": "[视频]我国矿山生态保护修复向绿向新"
         },
         {
-          "date": "20260823",
-          "title": "[视频]伊朗称参与美对伊“经济战”的国家将被视为敌人"
+          "date": "20260821",
+          "title": "[视频]【“十五五”开好局起好步】积极财政政策助推经济社会高质量发展"
         },
         {
-          "date": "20260822",
-          "title": "[视频]伊称将持续增强国防力量以应对威胁 美称不会放弃对伊军事选项"
-        },
-        {
-          "date": "20260822",
+          "date": "20260821",
           "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "机器人",
-      "score": 62,
-      "week_count": 14,
-      "prev_count": 8,
-      "trend": "+75%",
+      "score": 57,
+      "week_count": 13,
+      "prev_count": 9,
+      "trend": "+44%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -585,11 +564,11 @@
     },
     {
       "sector": "新能源",
-      "score": 61,
-      "week_count": 11,
-      "prev_count": 7,
-      "trend": "+57%",
-      "policy_level": "财政部",
+      "score": 57,
+      "week_count": 10,
+      "prev_count": 9,
+      "trend": "+11%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -616,6 +595,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260825",
+          "title": "[视频]我国加快推进公共数据开放共享 赋能千行百业"
+        },
+        {
           "date": "20260823",
           "title": "[视频]我国矿山生态保护修复向绿向新"
         },
@@ -630,51 +613,43 @@
         {
           "date": "20260821",
           "title": "[视频]【活力中国调研行】AI助跑 科创加速"
-        },
-        {
-          "date": "20260819",
-          "title": "[视频]服务业扩能提质 助力中国制造提升全球竞争力"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 59,
-      "week_count": 19,
-      "prev_count": 19,
-      "trend": "+0%",
-      "policy_level": "国务院",
+      "sector": "石油能源",
+      "score": 56,
+      "week_count": 17,
+      "prev_count": 14,
+      "trend": "+21%",
+      "policy_level": "财政部",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260825",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260824",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]1—7月我国电子商务稳定创新发展"
-        },
-        {
-          "date": "20260823",
-          "title": "[视频]多家商业银行发布优化后的消费贷贴息政策执行方案"
+          "title": "[视频]伊朗发布霍尔木兹海峡通行新规"
         },
         {
           "date": "20260823",
@@ -682,7 +657,11 @@
         },
         {
           "date": "20260823",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]伊朗称参与美对伊“经济战”的国家将被视为敌人"
+        },
+        {
+          "date": "20260822",
+          "title": "[视频]伊称将持续增强国防力量以应对威胁 美称不会放弃对伊军事选项"
         }
       ]
     },
@@ -736,11 +715,97 @@
       ]
     },
     {
+      "sector": "消费",
+      "score": 52,
+      "week_count": 17,
+      "prev_count": 20,
+      "trend": "+-15%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260824",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260823",
+          "title": "[视频]1—7月我国电子商务稳定创新发展"
+        },
+        {
+          "date": "20260823",
+          "title": "[视频]多家商业银行发布优化后的消费贷贴息政策执行方案"
+        },
+        {
+          "date": "20260823",
+          "title": "[视频]我国矿山生态保护修复向绿向新"
+        },
+        {
+          "date": "20260823",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 50,
+      "week_count": 2,
+      "prev_count": 2,
+      "trend": "+0%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260824",
+          "title": "[视频]习近平同约旦国王会谈"
+        },
+        {
+          "date": "20260821",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "半导体",
-      "score": 47,
-      "week_count": 5,
-      "prev_count": 4,
-      "trend": "+25%",
+      "score": 37,
+      "week_count": 4,
+      "prev_count": 5,
+      "trend": "+-20%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -778,71 +843,6 @@
         {
           "date": "20260820",
           "title": "[视频]我国工业经济新动能贡献持续增强"
-        },
-        {
-          "date": "20260818",
-          "title": "[视频]长三角外贸规模创新高 “新动能”引领高质量发展"
-        }
-      ]
-    },
-    {
-      "sector": "黄金",
-      "score": 36,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260821",
-          "title": "[视频]【新思想引领新征程】无惧风浪 中国经济高质量发展行稳致远"
-        }
-      ]
-    },
-    {
-      "sector": "煤炭",
-      "score": 32,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601088",
-          "name": "中国神华",
-          "market": "SH"
-        },
-        {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260823",
-          "title": "[视频]我国矿山生态保护修复向绿向新"
         }
       ]
     }
