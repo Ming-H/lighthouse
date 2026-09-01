@@ -1,34 +1,34 @@
 {
-  "date": "2026-08-31",
-  "trade_date": "2026年8月31日",
+  "date": "2026-09-01",
+  "trade_date": "2026年9月1日",
   "inflow_top3": [
     {
-      "name": "半导体",
-      "amount": 145.7
-    },
-    {
-      "name": "机械设备",
-      "amount": 116.1
-    },
-    {
       "name": "银行",
-      "amount": 98.5
+      "amount": 79.0
+    },
+    {
+      "name": "非银金融",
+      "amount": 44.1
+    },
+    {
+      "name": "商贸社服",
+      "amount": 33.5
     }
   ],
   "outflow_top3": [
     {
-      "name": "通信",
-      "amount": -22.2
+      "name": "半导体",
+      "amount": -191.4
     },
     {
-      "name": "公用环保",
-      "amount": -19.6
+      "name": "电子元件",
+      "amount": -123.8
     },
     {
-      "name": "建筑/地产",
-      "amount": -18.8
+      "name": "消费电子",
+      "amount": -69.3
     }
   ],
-  "industry_top1": "半导体",
-  "concept_top1": "融资融券"
+  "industry_top1": "银行",
+  "concept_top1": "高股息精选"
 }
