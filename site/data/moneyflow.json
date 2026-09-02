@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-01",
-  "trade_date": "2026年9月1日",
+  "date": "2026-09-02",
+  "trade_date": "2026年9月2日",
   "inflow_top3": [
     {
-      "name": "银行",
-      "amount": 79.0
+      "name": "国防军工",
+      "amount": 16.6
     },
     {
-      "name": "非银金融",
-      "amount": 44.1
+      "name": "机械设备",
+      "amount": 9.6
     },
     {
-      "name": "商贸社服",
-      "amount": 33.5
+      "name": "基础化工",
+      "amount": 7.4
     }
   ],
   "outflow_top3": [
     {
+      "name": "通信",
+      "amount": -91.3
+    },
+    {
       "name": "半导体",
-      "amount": -191.4
+      "amount": -67.6
     },
     {
-      "name": "电子元件",
-      "amount": -123.8
-    },
-    {
-      "name": "消费电子",
-      "amount": -69.3
+      "name": "非银金融",
+      "amount": -39.5
     }
   ],
-  "industry_top1": "银行",
-  "concept_top1": "高股息精选"
+  "industry_top1": "国防军工",
+  "concept_top1": "军民融合"
 }
