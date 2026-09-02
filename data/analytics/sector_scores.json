@@ -1,5 +1,5 @@
 {
-  "date": "20260901",
+  "date": "20260902",
   "scores": [
     {
       "sector": "工程机械",
@@ -86,11 +86,192 @@
       ]
     },
     {
+      "sector": "军工",
+      "score": 68,
+      "week_count": 11,
+      "prev_count": 11,
+      "trend": "+0%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260902",
+          "title": "[视频]美国对伊朗发动新一轮军事打击 伊朗回击美在多国基地"
+        },
+        {
+          "date": "20260901",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260901",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260830",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260828",
+          "title": "[视频]习近平签署国家主席令"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 62,
+      "week_count": 10,
+      "prev_count": 2,
+      "trend": "+400%",
+      "policy_level": "",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
+        },
+        {
+          "date": "20260901",
+          "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
+        },
+        {
+          "date": "20260901",
+          "title": "[视频]习近平会见蒙古国总统"
+        },
+        {
+          "date": "20260831",
+          "title": "[视频]赵乐际同奥地利国民议会议长会谈"
+        },
+        {
+          "date": "20260830",
+          "title": "[视频]我国推出新举措加快数据产业发展"
+        }
+      ]
+    },
+    {
+      "sector": "煤炭",
+      "score": 61,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601088",
+          "name": "中国神华",
+          "market": "SH"
+        },
+        {
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260901",
+          "title": "[视频]光伏发电装机首次超越煤电 成为我国第一大电源"
+        },
+        {
+          "date": "20260830",
+          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】内蒙古加快绿色产业发展"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 60,
+      "week_count": 8,
+      "prev_count": 14,
+      "trend": "+-43%",
+      "policy_level": "工信部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260830",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260828",
+          "title": "[视频]神舟二十三号航天员乘组圆满完成出舱活动"
+        },
+        {
+          "date": "20260827",
+          "title": "[视频]我国机器人产业创新不断涌现"
+        }
+      ]
+    },
+    {
       "sector": "医药",
-      "score": 64,
-      "week_count": 22,
-      "prev_count": 12,
-      "trend": "+83%",
+      "score": 59,
+      "week_count": 16,
+      "prev_count": 16,
+      "trend": "+0%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -135,197 +316,56 @@
       ]
     },
     {
-      "sector": "机器人",
-      "score": 63,
-      "week_count": 10,
-      "prev_count": 13,
-      "trend": "+-23%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260830",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260828",
-          "title": "[视频]神舟二十三号航天员乘组圆满完成出舱活动"
-        },
-        {
-          "date": "20260827",
-          "title": "[视频]我国机器人产业创新不断涌现"
-        },
-        {
-          "date": "20260826",
-          "title": "[视频]【“十五五”开好局起好步】融合升级 新型工业化提速"
-        }
-      ]
-    },
-    {
-      "sector": "军工",
-      "score": 63,
-      "week_count": 10,
-      "prev_count": 11,
-      "trend": "+-9%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260901",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260828",
-          "title": "[视频]习近平签署国家主席令"
-        },
-        {
-          "date": "20260828",
-          "title": "[视频]十四届全国人大常委会第二十四次会议在京闭幕"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 62,
-      "week_count": 9,
-      "prev_count": 2,
-      "trend": "+350%",
-      "policy_level": "",
+      "sector": "外贸",
+      "score": 56,
+      "week_count": 35,
+      "prev_count": 35,
+      "trend": "+0%",
+      "policy_level": "工信部",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "603138",
-          "name": "海量数据",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
+        },
+        {
+          "date": "20260902",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260902",
+          "title": "[视频]国际联播快讯"
+        },
         {
           "date": "20260901",
           "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
         },
         {
           "date": "20260901",
-          "title": "[视频]习近平会见蒙古国总统"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]赵乐际同奥地利国民议会议长会谈"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]我国推出新举措加快数据产业发展"
-        },
-        {
-          "date": "20260828",
-          "title": "[视频]习近平在吉尔吉斯斯坦媒体发表署名文章"
-        }
-      ]
-    },
-    {
-      "sector": "煤炭",
-      "score": 61,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601088",
-          "name": "中国神华",
-          "market": "SH"
-        },
-        {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260901",
-          "title": "[视频]光伏发电装机首次超越煤电 成为我国第一大电源"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】内蒙古加快绿色产业发展"
+          "title": "[视频]习近平出席“上海合作组织+”会议并发表重要讲话"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 60,
-      "week_count": 28,
-      "prev_count": 21,
-      "trend": "+33%",
-      "policy_level": "中央政治局",
+      "score": 54,
+      "week_count": 22,
+      "prev_count": 28,
+      "trend": "+-21%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -347,281 +387,24 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260901",
-          "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
         },
         {
-          "date": "20260901",
-          "title": "[视频]习近平会见乌兹别克斯坦总统"
+          "date": "20260902",
+          "title": "[视频]秋粮主产区分类施策 全力夺取丰收"
         },
         {
-          "date": "20260901",
-          "title": "[视频]习近平会见蒙古国总统"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]科技助力田管 推动粮食稳产增收"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]“虫口夺粮”背后的科技力量"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 60,
-      "week_count": 22,
-      "prev_count": 22,
-      "trend": "+0%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260901",
-          "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]习近平会见乌兹别克斯坦总统"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]习近平会见蒙古国总统"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]习近平同吉尔吉斯斯坦总统会谈"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]赵乐际同奥地利国民议会议长会谈"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 59,
-      "week_count": 11,
-      "prev_count": 10,
-      "trend": "+10%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260901",
-          "title": "[视频]光伏发电装机首次超越煤电 成为我国第一大电源"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]今年以来消费品以旧换新带动销售额超1.54万亿元"
-        },
-        {
-          "date": "20260830",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】内蒙古加快绿色产业发展"
-        },
-        {
-          "date": "20260830",
+          "date": "20260902",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260828",
-          "title": "[视频]习近平在吉尔吉斯斯坦媒体发表署名文章"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 55,
-      "week_count": 27,
-      "prev_count": 32,
-      "trend": "+-16%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
           "date": "20260901",
           "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
         },
         {
           "date": "20260901",
           "title": "[视频]习近平会见乌兹别克斯坦总统"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]习近平圆满结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦的国事访问"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]习近平同吉尔吉斯斯坦总统会谈"
-        },
-        {
-          "date": "20260831",
-          "title": "[视频]李强主持召开国务院常务会议"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 55,
-      "week_count": 7,
-      "prev_count": 13,
-      "trend": "+-46%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260831",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260829",
-          "title": "[视频]【新思想引领新征程】践行全球治理倡议 推动建设更加美好的世界"
-        },
-        {
-          "date": "20260829",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260827",
-          "title": "[视频]各方全力以赴开展西藏吉隆县泥石流抢险救援"
-        },
-        {
-          "date": "20260827",
-          "title": "[视频]中小微企业和服务业经营主体贷款贴息新政落地"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 53,
-      "week_count": 3,
-      "prev_count": 4,
-      "trend": "+-25%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260829",
-          "title": "[视频]我国将推出多项举措加力促进有效投资"
-        },
-        {
-          "date": "20260829",
-          "title": "[视频]上半年数字产业收入超20万亿元"
-        },
-        {
-          "date": "20260826",
-          "title": "[视频]【“十五五”开好局起好步】融合升级 新型工业化提速"
         }
       ]
     },
@@ -671,38 +454,44 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 51,
-      "week_count": 34,
-      "prev_count": 38,
-      "trend": "+-11%",
-      "policy_level": "工信部",
+      "sector": "AI人工智能",
+      "score": 52,
+      "week_count": 18,
+      "prev_count": 23,
+      "trend": "+-22%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
+        },
+        {
           "date": "20260901",
           "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]习近平出席“上海合作组织+”会议并发表重要讲话"
-        },
-        {
-          "date": "20260901",
-          "title": "[视频]习近平会见俄罗斯总统"
         },
         {
           "date": "20260901",
@@ -711,56 +500,176 @@
         {
           "date": "20260901",
           "title": "[视频]习近平会见蒙古国总统"
+        },
+        {
+          "date": "20260831",
+          "title": "[视频]习近平同吉尔吉斯斯坦总统会谈"
         }
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 44,
-      "week_count": 3,
-      "prev_count": 5,
-      "trend": "+-40%",
-      "policy_level": "国务院",
+      "sector": "银行金融",
+      "score": 52,
+      "week_count": 12,
+      "prev_count": 13,
+      "trend": "+-8%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
         },
         {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
         },
         {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "601166",
+          "name": "兴业银行",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260830",
+          "date": "20260902",
+          "title": "[视频]上半年信贷资金加速流向科创企业"
+        },
+        {
+          "date": "20260902",
+          "title": "[视频]西藏吉隆口岸核心区域陆路救援通道实现畅通"
+        },
+        {
+          "date": "20260902",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260831",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260829",
+          "title": "[视频]【新思想引领新征程】践行全球治理倡议 推动建设更加美好的世界"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 52,
+      "week_count": 25,
+      "prev_count": 32,
+      "trend": "+-22%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260902",
+          "title": "[视频]习近平抵达开罗对埃及进行国事访问"
+        },
+        {
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
+        },
+        {
+          "date": "20260902",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260828",
-          "title": "[视频]习近平在吉尔吉斯斯坦媒体发表署名文章"
+          "date": "20260901",
+          "title": "[视频]习近平出席上海合作组织成员国元首理事会第二十六次会议并发表重要讲话"
         },
         {
-          "date": "20260826",
-          "title": "[视频]【“十五五”开好局起好步】融合升级 新型工业化提速"
+          "date": "20260901",
+          "title": "[视频]习近平会见乌兹别克斯坦总统"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 42,
+      "week_count": 10,
+      "prev_count": 11,
+      "trend": "+-9%",
+      "policy_level": "",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260902",
+          "title": "[视频]习近平同埃及总统会谈"
+        },
+        {
+          "date": "20260901",
+          "title": "[视频]光伏发电装机首次超越煤电 成为我国第一大电源"
+        },
+        {
+          "date": "20260831",
+          "title": "[视频]今年以来消费品以旧换新带动销售额超1.54万亿元"
+        },
+        {
+          "date": "20260830",
+          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】内蒙古加快绿色产业发展"
+        },
+        {
+          "date": "20260830",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "消费",
       "score": 42,
-      "week_count": 12,
-      "prev_count": 17,
-      "trend": "+-29%",
+      "week_count": 10,
+      "prev_count": 15,
+      "trend": "+-33%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -805,11 +714,53 @@
       ]
     },
     {
+      "sector": "半导体",
+      "score": 40,
+      "week_count": 2,
+      "prev_count": 5,
+      "trend": "+-60%",
+      "policy_level": "国家发改委",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260829",
+          "title": "[视频]我国将推出多项举措加力促进有效投资"
+        },
+        {
+          "date": "20260829",
+          "title": "[视频]上半年数字产业收入超20万亿元"
+        }
+      ]
+    },
+    {
       "sector": "石油能源",
       "score": 40,
-      "week_count": 5,
+      "week_count": 6,
       "prev_count": 17,
-      "trend": "+-71%",
+      "trend": "+-65%",
       "policy_level": "",
       "intensity_level": "early",
       "is_first": false,
@@ -832,6 +783,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260902",
+          "title": "[视频]美国对伊朗发动新一轮军事打击 伊朗回击美在多国基地"
+        },
+        {
           "date": "20260830",
           "title": "[视频]国际联播快讯"
         },
@@ -842,21 +797,17 @@
         {
           "date": "20260827",
           "title": "[视频]伊朗称伊军事方针从防御转为进攻 美称未就恢复谈判设时间表"
-        },
-        {
-          "date": "20260826",
-          "title": "[视频]阿曼外交大臣访问伊朗 伊方公布霍尔木兹海峡临时航线安排"
         }
       ]
     },
     {
       "sector": "房地产",
-      "score": 40,
-      "week_count": 2,
-      "prev_count": 5,
-      "trend": "+-60%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
+      "score": 35,
+      "week_count": 1,
+      "prev_count": 6,
+      "trend": "+-83%",
+      "policy_level": "国家发改委",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
@@ -879,10 +830,6 @@
         {
           "date": "20260829",
           "title": "[视频]我国将推出多项举措加力促进有效投资"
-        },
-        {
-          "date": "20260826",
-          "title": "[视频]全国政协十四届常委会第十八次会议闭幕 王沪宁主持并讲话"
         }
       ]
     },
@@ -890,8 +837,8 @@
       "sector": "钢铁",
       "score": 32,
       "week_count": 3,
-      "prev_count": 5,
-      "trend": "+-40%",
+      "prev_count": 4,
+      "trend": "+-25%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -919,6 +866,43 @@
         {
           "date": "20260827",
           "title": "[视频]我国高耗能行业加速推进节能降碳"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 27,
+      "week_count": 2,
+      "prev_count": 5,
+      "trend": "+-60%",
+      "policy_level": "",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260830",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260828",
+          "title": "[视频]习近平在吉尔吉斯斯坦媒体发表署名文章"
         }
       ]
     }
