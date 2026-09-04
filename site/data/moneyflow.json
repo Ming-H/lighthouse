@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-03",
-  "trade_date": "2026年9月3日",
+  "date": "2026-09-04",
+  "trade_date": "2026年9月4日",
   "inflow_top3": [
     {
-      "name": "机械设备",
-      "amount": 50.0
+      "name": "传媒",
+      "amount": 78.2
     },
     {
-      "name": "其他",
-      "amount": 41.0
+      "name": "农林牧渔",
+      "amount": 43.8
     },
     {
-      "name": "非银金融",
-      "amount": 33.5
+      "name": "国防军工",
+      "amount": 40.6
     }
   ],
   "outflow_top3": [
     {
-      "name": "通信",
-      "amount": -53.5
-    },
-    {
       "name": "半导体",
-      "amount": -33.3
+      "amount": -177.5
     },
     {
-      "name": "传媒",
-      "amount": -10.2
+      "name": "机械设备",
+      "amount": -35.3
+    },
+    {
+      "name": "面板显示",
+      "amount": -29.4
     }
   ],
-  "industry_top1": "机械设备",
-  "concept_top1": "小金属概念"
+  "industry_top1": "传媒",
+  "concept_top1": "AI应用"
 }
