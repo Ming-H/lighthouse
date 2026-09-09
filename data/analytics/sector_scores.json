@@ -1,61 +1,12 @@
 {
-  "date": "20260908",
+  "date": "20260909",
   "scores": [
     {
-      "sector": "石油能源",
-      "score": 79,
-      "week_count": 14,
-      "prev_count": 5,
-      "trend": "+180%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260908",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]伊朗称将在霍尔木兹海峡之外设立禁区 美称与伊朗仍处于冲突状态"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]美军称打击3艘伊朗油轮 伊朗称袭击美军航母等目标"
-        },
-        {
-          "date": "20260905",
-          "title": "[视频]丁薛祥会见俄罗斯总统并与俄方共同主持中俄双边机制性会议"
-        }
-      ]
-    },
-    {
       "sector": "房地产",
-      "score": 73,
-      "week_count": 4,
-      "prev_count": 2,
-      "trend": "+100%",
+      "score": 83,
+      "week_count": 5,
+      "prev_count": 1,
+      "trend": "+400%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -78,6 +29,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260909",
+          "title": "[视频]我国不断加大民生保障力度 持续增进民生福祉"
+        },
+        {
           "date": "20260908",
           "title": "[视频]李强主持国务院第二十一次专题学习"
         },
@@ -93,10 +48,10 @@
     },
     {
       "sector": "新能源汽车",
-      "score": 71,
+      "score": 76,
       "week_count": 5,
-      "prev_count": 3,
-      "trend": "+67%",
+      "prev_count": 2,
+      "trend": "+150%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -137,56 +92,203 @@
       ]
     },
     {
-      "sector": "军工",
-      "score": 71,
-      "week_count": 15,
-      "prev_count": 10,
-      "trend": "+50%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
+      "sector": "石油能源",
+      "score": 70,
+      "week_count": 14,
+      "prev_count": 6,
+      "trend": "+133%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600893",
-          "name": "航发动力",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
+          "code": "600028",
+          "name": "中国石化",
           "market": "SH"
         },
         {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20260909",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]伊朗称打击美军舰及美军基地 美称摧毁伊朗油轮"
+        },
         {
           "date": "20260908",
           "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260907",
+          "title": "[视频]伊朗称将在霍尔木兹海峡之外设立禁区 美称与伊朗仍处于冲突状态"
+        },
+        {
+          "date": "20260907",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 69,
+      "week_count": 25,
+      "prev_count": 18,
+      "trend": "+39%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260909",
+          "title": "[视频]丁薛祥出席2026年全球服务贸易峰会并会见与会外国政要"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]8月份我国CPI同比上涨0.8%"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]我国发布第八批新职业 包括11个新职业23个新工种"
+        },
+        {
+          "date": "20260908",
+          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
+        },
+        {
+          "date": "20260907",
+          "title": "[视频]李强会见卡塔尔首相兼外交大臣"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 68,
+      "week_count": 9,
+      "prev_count": 8,
+      "trend": "+12%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260909",
+          "title": "[视频]我国发布第八批新职业 包括11个新职业23个新工种"
+        },
+        {
+          "date": "20260908",
+          "title": "[视频]前8个月我国外贸同比增长17.6% 延续快速增长态势"
+        },
+        {
+          "date": "20260907",
+          "title": "[视频]第五届全球数字贸易博览会将于9月23日至27日在浙江杭州举办"
+        },
+        {
+          "date": "20260906",
+          "title": "[视频]多项措施推动商品消费扩容升级"
+        },
+        {
+          "date": "20260906",
+          "title": "[视频]我国已建成高效完备的动力电池产业体系"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 68,
+      "week_count": 42,
+      "prev_count": 35,
+      "trend": "+20%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260909",
+          "title": "[视频]习近平同英国首相通电话"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]丁薛祥出席2026年全球服务贸易峰会并会见与会外国政要"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]英法加宣布制裁以色列 谴责以破坏“两国方案”"
+        },
+        {
+          "date": "20260909",
           "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20260906",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]美军称打击3艘伊朗油轮 伊朗称袭击美军航母等目标"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]国际联播快讯"
+          "date": "20260908",
+          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
         }
       ]
     },
@@ -240,60 +342,65 @@
       ]
     },
     {
-      "sector": "消费",
-      "score": 63,
-      "week_count": 7,
-      "prev_count": 12,
-      "trend": "+-42%",
-      "policy_level": "国务院",
+      "sector": "军工",
+      "score": 66,
+      "week_count": 15,
+      "prev_count": 11,
+      "trend": "+36%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "600893",
+          "name": "航发动力",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
+          "code": "600862",
+          "name": "中航高科",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260909",
+          "title": "[视频]伊朗称打击美军舰及美军基地 美称摧毁伊朗油轮"
+        },
+        {
           "date": "20260908",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260907",
-          "title": "[视频]我国加快推动历史经典产业迈向中高端"
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260906",
-          "title": "[视频]我国物流业景气水平进一步提升"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]多项措施推动商品消费扩容升级"
-        },
-        {
-          "date": "20260905",
           "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260906",
+          "title": "[视频]美军称打击3艘伊朗油轮 伊朗称袭击美军航母等目标"
         }
       ]
     },
     {
       "sector": "医药",
       "score": 63,
-      "week_count": 11,
-      "prev_count": 22,
-      "trend": "+-50%",
+      "week_count": 13,
+      "prev_count": 16,
+      "trend": "+-19%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -316,6 +423,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260909",
+          "title": "[视频]习近平同英国首相通电话"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]【“十五五”开好局起好步】发展社会主义民主凝聚中国式现代化合力"
+        },
+        {
           "date": "20260908",
           "title": "[视频]国内联播快讯"
         },
@@ -326,79 +441,71 @@
         {
           "date": "20260906",
           "title": "[视频]我国物流业景气水平进一步提升"
-        },
-        {
-          "date": "20260905",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260904",
-          "title": "[视频]【“十五五”开好局起好步】医保高质量发展助力中国式现代化建设"
         }
       ]
     },
     {
-      "sector": "机器人",
-      "score": 63,
-      "week_count": 7,
+      "sector": "新能源",
+      "score": 61,
+      "week_count": 18,
       "prev_count": 10,
-      "trend": "+-30%",
-      "policy_level": "国务院",
+      "trend": "+80%",
+      "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601689",
-          "name": "拓普集团",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
+          "code": "300274",
+          "name": "阳光电源",
           "market": "SZ"
         },
         {
-          "code": "300124",
-          "name": "汇川技术",
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260908",
-          "title": "[视频]前8个月我国外贸同比增长17.6% 延续快速增长态势"
+          "date": "20260909",
+          "title": "[视频]我国发布第八批新职业 包括11个新职业23个新工种"
         },
         {
-          "date": "20260907",
-          "title": "[视频]第五届全球数字贸易博览会将于9月23日至27日在浙江杭州举办"
+          "date": "20260908",
+          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
+        },
+        {
+          "date": "20260908",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260906",
-          "title": "[视频]多项措施推动商品消费扩容升级"
+          "title": "[视频]【新思想引领新征程】着力构建新型电力系统 能源安全底气更足"
         },
         {
           "date": "20260906",
           "title": "[视频]我国已建成高效完备的动力电池产业体系"
-        },
-        {
-          "date": "20260903",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】粤港澳加快协同创新 打造高质量发展动力源"
         }
       ]
     },
     {
       "sector": "银行金融",
-      "score": 61,
-      "week_count": 11,
-      "prev_count": 7,
-      "trend": "+57%",
-      "policy_level": "央行",
-      "intensity_level": "results",
+      "score": 60,
+      "week_count": 5,
+      "prev_count": 12,
+      "trend": "+-58%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
@@ -441,110 +548,61 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 60,
-      "week_count": 22,
-      "prev_count": 22,
-      "trend": "+0%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260908",
-          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]李强会见卡塔尔首相兼外交大臣"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]我国加快推动历史经典产业迈向中高端"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]第五届全球数字贸易博览会将于9月23日至27日在浙江杭州举办"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
+      "sector": "消费",
       "score": 59,
-      "week_count": 40,
-      "prev_count": 34,
-      "trend": "+18%",
+      "week_count": 11,
+      "prev_count": 10,
+      "trend": "+10%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "600519",
+          "name": "贵州茅台",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260908",
-          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
+          "date": "20260909",
+          "title": "[视频]8月份我国CPI同比上涨0.8%"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]我国不断加大民生保障力度 持续增进民生福祉"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260908",
-          "title": "[视频]韩正出席第二十六届中国国际投资贸易洽谈会开幕式并致辞"
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260908",
-          "title": "[视频]前8个月我国外贸同比增长17.6% 延续快速增长态势"
-        },
-        {
-          "date": "20260908",
-          "title": "[视频]2026年服贸会明天开幕 各项筹备工作全部就绪"
-        },
-        {
-          "date": "20260908",
-          "title": "[视频]加拿大对美国反制关税今天正式生效"
+          "date": "20260907",
+          "title": "[视频]我国加快推动历史经典产业迈向中高端"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 54,
-      "week_count": 23,
-      "prev_count": 28,
-      "trend": "+-18%",
-      "policy_level": "国务院",
+      "score": 55,
+      "week_count": 20,
+      "prev_count": 22,
+      "trend": "+-9%",
+      "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -566,6 +624,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260909",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260908",
           "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
         },
@@ -580,19 +642,15 @@
         {
           "date": "20260907",
           "title": "[视频]韩正分别会见保加利亚副总理、柬埔寨副首相、塞尔维亚副总理"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]我国将加快完善乡村振兴投入机制"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 54,
-      "week_count": 25,
-      "prev_count": 27,
-      "trend": "+-7%",
+      "week_count": 24,
+      "prev_count": 25,
+      "trend": "+-4%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -620,6 +678,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260909",
+          "title": "[视频]丁薛祥出席2026年全球服务贸易峰会并会见与会外国政要"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260908",
           "title": "[视频]国内联播快讯"
         },
@@ -630,79 +696,17 @@
         {
           "date": "20260907",
           "title": "[视频]韩正分别会见保加利亚副总理、柬埔寨副首相、塞尔维亚副总理"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]各地一批重大工程扎实有序推进"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 52,
-      "week_count": 17,
-      "prev_count": 11,
-      "trend": "+55%",
-      "policy_level": "",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260908",
-          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
-        },
-        {
-          "date": "20260908",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]【新思想引领新征程】着力构建新型电力系统 能源安全底气更足"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]我国已建成高效完备的动力电池产业体系"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]【一线调研】藏在实验室里的“大海”"
         }
       ]
     },
     {
       "sector": "数据要素",
-      "score": 49,
-      "week_count": 4,
-      "prev_count": 9,
-      "trend": "+-56%",
+      "score": 53,
+      "week_count": 3,
+      "prev_count": 10,
+      "trend": "+-70%",
       "policy_level": "国务院",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
@@ -733,10 +737,44 @@
         {
           "date": "20260906",
           "title": "[视频]【新思想引领新征程】着力构建新型电力系统 能源安全底气更足"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "score": 31,
+      "week_count": 1,
+      "prev_count": 2,
+      "trend": "+-50%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
         },
         {
-          "date": "20260902",
-          "title": "[视频]习近平同埃及总统会谈"
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260909",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】江西：从长征出发地到发展新高地"
         }
       ]
     },
