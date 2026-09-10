@@ -1,34 +1,34 @@
 {
-  "date": "2026-09-09",
-  "trade_date": "2026年9月9日",
+  "date": "2026-09-10",
+  "trade_date": "2026年9月10日",
   "inflow_top3": [
     {
-      "name": "通信",
-      "amount": 82.9
+      "name": "银行",
+      "amount": 35.5
     },
     {
       "name": "电子元件",
-      "amount": 71.4
+      "amount": 30.1
     },
     {
-      "name": "其他",
-      "amount": 60.0
+      "name": "建筑/地产",
+      "amount": 19.3
     }
   ],
   "outflow_top3": [
     {
-      "name": "半导体",
-      "amount": -132.0
+      "name": "通信",
+      "amount": -54.8
     },
     {
-      "name": "传媒",
-      "amount": -39.0
+      "name": "机械设备",
+      "amount": -22.3
     },
     {
-      "name": "计算机",
-      "amount": -36.1
+      "name": "医药生物",
+      "amount": -15.5
     }
   ],
-  "industry_top1": "通信",
-  "concept_top1": "风电"
+  "industry_top1": "银行",
+  "concept_top1": "存储芯片"
 }
