@@ -1,12 +1,12 @@
 {
-  "date": "20260912",
+  "date": "20260913",
   "scores": [
     {
       "sector": "机器人",
       "score": 83,
-      "week_count": 16,
-      "prev_count": 3,
-      "trend": "+433%",
+      "week_count": 13,
+      "prev_count": 4,
+      "trend": "+225%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -57,10 +57,10 @@
     },
     {
       "sector": "新能源",
-      "score": 79,
-      "week_count": 23,
-      "prev_count": 11,
-      "trend": "+109%",
+      "score": 69,
+      "week_count": 15,
+      "prev_count": 15,
+      "trend": "+0%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -88,6 +88,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260913",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260912",
           "title": "[视频]【赓续长征精神 奋进复兴征程】福建：红色铸魂 绿色赋能 绘就全面振兴画卷"
         },
@@ -102,19 +106,15 @@
         {
           "date": "20260911",
           "title": "[视频]丁薛祥出席第十六次亚太经合组织能源部长会议开幕式并致辞"
-        },
-        {
-          "date": "20260910",
-          "title": "[视频]新技术新成果集中亮相2026年服贸会"
         }
       ]
     },
     {
       "sector": "消费",
-      "score": 74,
-      "week_count": 19,
-      "prev_count": 6,
-      "trend": "+217%",
+      "score": 69,
+      "week_count": 16,
+      "prev_count": 7,
+      "trend": "+129%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -159,60 +159,11 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 71,
-      "week_count": 5,
-      "prev_count": 3,
-      "trend": "+67%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260912",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】福建：红色铸魂 绿色赋能 绘就全面振兴画卷"
-        },
-        {
-          "date": "20260912",
-          "title": "[视频]2026年服贸会迎来公众开放日"
-        },
-        {
-          "date": "20260908",
-          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]我国已建成高效完备的动力电池产业体系"
-        }
-      ]
-    },
-    {
       "sector": "数据要素",
       "score": 68,
       "week_count": 7,
-      "prev_count": 7,
-      "trend": "+0%",
+      "prev_count": 5,
+      "trend": "+40%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -235,6 +186,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260913",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话"
+        },
+        {
           "date": "20260912",
           "title": "[视频]数字新职业激活就业新潜力"
         },
@@ -249,10 +204,6 @@
         {
           "date": "20260907",
           "title": "[视频]我国加快推动历史经典产业迈向中高端"
-        },
-        {
-          "date": "20260906",
-          "title": "[视频]【新思想引领新征程】着力构建新型电力系统 能源安全底气更足"
         }
       ]
     },
@@ -295,11 +246,65 @@
       ]
     },
     {
+      "sector": "AI人工智能",
+      "score": 64,
+      "week_count": 33,
+      "prev_count": 19,
+      "trend": "+74%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260913",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
+        },
+        {
+          "date": "20260913",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话"
+        },
+        {
+          "date": "20260913",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260912",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
+        },
+        {
+          "date": "20260912",
+          "title": "[视频]多项先行指标释放积极信号 经济内生动力持续增强"
+        }
+      ]
+    },
+    {
       "sector": "医药",
       "score": 63,
-      "week_count": 9,
-      "prev_count": 11,
-      "trend": "+-18%",
+      "week_count": 8,
+      "prev_count": 9,
+      "trend": "+-11%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -389,65 +394,56 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 62,
-      "week_count": 33,
-      "prev_count": 17,
-      "trend": "+94%",
+      "sector": "新能源汽车",
+      "score": 61,
+      "week_count": 4,
+      "prev_count": 3,
+      "trend": "+33%",
       "policy_level": "国家发改委",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "002230",
-          "name": "科大讯飞",
+          "code": "300750",
+          "name": "宁德时代",
           "market": "SZ"
         },
         {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
+          "code": "002594",
+          "name": "比亚迪",
           "market": "SZ"
         },
         {
-          "code": "688041",
-          "name": "海光信息",
+          "code": "688561",
+          "name": "奇安信",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
           "date": "20260912",
-          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
+          "title": "[视频]【赓续长征精神 奋进复兴征程】福建：红色铸魂 绿色赋能 绘就全面振兴画卷"
         },
         {
           "date": "20260912",
-          "title": "[视频]多项先行指标释放积极信号 经济内生动力持续增强"
+          "title": "[视频]2026年服贸会迎来公众开放日"
         },
         {
-          "date": "20260912",
-          "title": "[视频]数字新职业激活就业新潜力"
+          "date": "20260908",
+          "title": "[视频]【新思想引领新征程】我国服务贸易新格局加速成型"
         },
         {
-          "date": "20260911",
-          "title": "[视频]【新思想引领新征程】践行全球发展倡议 汇聚发展振兴力量"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]李强主持召开国务院常务会议"
+          "date": "20260907",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 60,
-      "week_count": 27,
-      "prev_count": 21,
-      "trend": "+29%",
+      "week_count": 26,
+      "prev_count": 23,
+      "trend": "+13%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -475,6 +471,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260913",
+          "title": "[视频]习近平圆满结束出席金砖国家领导人第十八次会晤"
+        },
+        {
+          "date": "20260913",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260912",
           "title": "[视频]习近平抵达新德里出席金砖国家领导人第十八次会晤"
         },
@@ -485,68 +489,59 @@
         {
           "date": "20260912",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]【新思想引领新征程】践行全球发展倡议 汇聚发展振兴力量"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]李强主持召开国务院常务会议"
         }
       ]
     },
     {
-      "sector": "银行金融",
-      "score": 60,
-      "week_count": 5,
-      "prev_count": 9,
-      "trend": "+-44%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
+      "sector": "外贸",
+      "score": 59,
+      "week_count": 40,
+      "prev_count": 33,
+      "trend": "+21%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601398",
-          "name": "工商银行",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
+          "code": "600018",
+          "name": "上港集团",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260910",
-          "title": "[视频]【“十五五”开好局起好步】锚定金融强国建设 服务经济高质量发展"
+          "date": "20260913",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
         },
         {
-          "date": "20260908",
-          "title": "[视频]国内联播快讯"
+          "date": "20260913",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话"
         },
         {
-          "date": "20260907",
-          "title": "[视频]国内联播快讯"
+          "date": "20260913",
+          "title": "[视频]习近平会见印度总理"
         },
         {
-          "date": "20260906",
-          "title": "[视频]财政部将发行3000亿元特别国债支持8家中央金融企业补充资本"
+          "date": "20260912",
+          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
+        },
+        {
+          "date": "20260912",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "石油能源",
       "score": 57,
-      "week_count": 18,
-      "prev_count": 7,
-      "trend": "+157%",
+      "week_count": 17,
+      "prev_count": 6,
+      "trend": "+183%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -591,109 +586,52 @@
       ]
     },
     {
-      "sector": "外贸",
+      "sector": "银行金融",
       "score": 56,
-      "week_count": 40,
-      "prev_count": 32,
-      "trend": "+25%",
-      "policy_level": "财政部",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260912",
-          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话"
-        },
-        {
-          "date": "20260912",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]【新思想引领新征程】践行全球发展倡议 汇聚发展振兴力量"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]赵乐际同安哥拉国民议会议长会谈"
-        },
-        {
-          "date": "20260911",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "军工",
-      "score": 55,
-      "week_count": 8,
-      "prev_count": 15,
-      "trend": "+-47%",
+      "week_count": 4,
+      "prev_count": 10,
+      "trend": "+-60%",
       "policy_level": "国家发改委",
-      "intensity_level": "advancing",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600893",
-          "name": "航发动力",
+          "code": "601398",
+          "name": "工商银行",
           "market": "SH"
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
+          "code": "600036",
+          "name": "招商银行",
           "market": "SH"
         },
         {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
+          "code": "601166",
+          "name": "兴业银行",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260909",
-          "title": "[视频]伊朗称打击美军舰及美军基地 美称摧毁伊朗油轮"
+          "date": "20260910",
+          "title": "[视频]【“十五五”开好局起好步】锚定金融强国建设 服务经济高质量发展"
         },
         {
           "date": "20260908",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260907",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260906",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260906",
-          "title": "[视频]美军称打击3艘伊朗油轮 伊朗称袭击美军航母等目标"
+          "date": "20260907",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "农业",
       "score": 51,
-      "week_count": 16,
-      "prev_count": 21,
-      "trend": "+-24%",
+      "week_count": 12,
+      "prev_count": 18,
+      "trend": "+-33%",
       "policy_level": "财政部",
       "intensity_level": "results",
       "is_first": false,
@@ -741,8 +679,8 @@
       "sector": "黄金",
       "score": 48,
       "week_count": 2,
-      "prev_count": 8,
-      "trend": "+-75%",
+      "prev_count": 6,
+      "trend": "+-67%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -775,30 +713,52 @@
       ]
     },
     {
-      "sector": "煤炭",
-      "score": 31,
-      "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
+      "sector": "军工",
+      "score": 37,
+      "week_count": 6,
+      "prev_count": 17,
+      "trend": "+-65%",
       "policy_level": "",
-      "intensity_level": "intensive",
+      "intensity_level": "",
       "is_first": false,
       "stocks": [
         {
-          "code": "601088",
-          "name": "中国神华",
+          "code": "600893",
+          "name": "航发动力",
           "market": "SH"
         },
         {
-          "code": "601898",
-          "name": "中煤能源",
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260906",
-          "title": "[视频]【新思想引领新征程】着力构建新型电力系统 能源安全底气更足"
+          "date": "20260913",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260909",
+          "title": "[视频]伊朗称打击美军舰及美军基地 美称摧毁伊朗油轮"
+        },
+        {
+          "date": "20260908",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260907",
+          "title": "[视频]国际联播快讯"
         }
       ]
     }
