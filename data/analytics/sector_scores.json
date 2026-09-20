@@ -1,5 +1,5 @@
 {
-  "date": "20260919",
+  "date": "20260920",
   "scores": [
     {
       "sector": "地下管网",
@@ -45,10 +45,10 @@
     },
     {
       "sector": "医药",
-      "score": 68,
+      "score": 73,
       "week_count": 13,
-      "prev_count": 9,
-      "trend": "+44%",
+      "prev_count": 8,
+      "trend": "+62%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -93,6 +93,104 @@
       ]
     },
     {
+      "sector": "农业",
+      "score": 70,
+      "week_count": 19,
+      "prev_count": 12,
+      "trend": "+58%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260920",
+          "title": "[视频]【新思想引领新征程】大河安澜映初心"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260919",
+          "title": "[视频]前8个月全国完成水利建设投资近7000亿元"
+        },
+        {
+          "date": "20260918",
+          "title": "[视频]金秋丰收季 乡村产业富农家"
+        },
+        {
+          "date": "20260918",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 68,
+      "week_count": 7,
+      "prev_count": 7,
+      "trend": "+0%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260920",
+          "title": "[视频]赵乐际同澳大利亚联邦议会众议长会谈"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]【新闻特写】发展新机遇打开合作新空间"
+        },
+        {
+          "date": "20260919",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260917",
+          "title": "[视频]丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要"
+        },
+        {
+          "date": "20260915",
+          "title": "[视频]8月我国国民经济运行总体平稳"
+        }
+      ]
+    },
+    {
       "sector": "工程机械",
       "score": 66,
       "week_count": 1,
@@ -131,11 +229,39 @@
       ]
     },
     {
+      "sector": "煤炭",
+      "score": 66,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "601088",
+          "name": "中国神华",
+          "market": "SH"
+        },
+        {
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260917",
+          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】文旅重塑 宁夏打造国际旅游目的地"
+        }
+      ]
+    },
+    {
       "sector": "银行金融",
       "score": 66,
       "week_count": 11,
-      "prev_count": 5,
-      "trend": "+120%",
+      "prev_count": 4,
+      "trend": "+175%",
       "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
@@ -180,51 +306,56 @@
       ]
     },
     {
-      "sector": "数据要素",
-      "score": 63,
-      "week_count": 6,
-      "prev_count": 7,
-      "trend": "+-14%",
-      "policy_level": "国务院",
+      "sector": "军工",
+      "score": 66,
+      "week_count": 15,
+      "prev_count": 6,
+      "trend": "+150%",
+      "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "603138",
-          "name": "海量数据",
+          "code": "600893",
+          "name": "航发动力",
           "market": "SH"
         },
         {
-          "code": "300188",
-          "name": "美亚柏科",
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
           "market": "SZ"
         },
         {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]也门胡塞武装称袭击沙特首都和延布目标 沙特主导联军称拦截胡塞武装导弹"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20260919",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]各地开展形式多样的群众性国防教育活动"
         },
         {
-          "date": "20260917",
-          "title": "[视频]丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要"
+          "date": "20260919",
+          "title": "[视频]俄罗斯要求日方撤出在日部署的“堤丰”导弹系统"
         },
         {
-          "date": "20260915",
-          "title": "[视频]8月我国国民经济运行总体平稳"
-        },
-        {
-          "date": "20260915",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260913",
-          "title": "[视频]习近平出席金砖国家领导人第十八次会晤第二阶段会议并发表重要讲话"
+          "date": "20260919",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
@@ -275,56 +406,51 @@
       ]
     },
     {
-      "sector": "军工",
-      "score": 61,
-      "week_count": 15,
-      "prev_count": 8,
-      "trend": "+88%",
-      "policy_level": "",
+      "sector": "石油能源",
+      "score": 60,
+      "week_count": 13,
+      "prev_count": 17,
+      "trend": "+-24%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600893",
-          "name": "航发动力",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
+          "code": "600028",
+          "name": "中国石化",
           "market": "SH"
         },
         {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260919",
-          "title": "[视频]各地开展形式多样的群众性国防教育活动"
+          "date": "20260920",
+          "title": "[视频]也门胡塞武装称袭击沙特首都和延布目标 沙特主导联军称拦截胡塞武装导弹"
         },
         {
           "date": "20260919",
-          "title": "[视频]俄罗斯要求日方撤出在日部署的“堤丰”导弹系统"
+          "title": "[视频]也门胡塞武装称遭沙特密集空袭 沙特首都发布本轮冲突首次防空警报"
         },
         {
-          "date": "20260919",
+          "date": "20260918",
           "title": "[视频]国际联播快讯"
         },
         {
           "date": "20260917",
-          "title": "[视频]俄称日本“再军事化”威胁俄安全及东北亚和平"
+          "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20260917",
-          "title": "[视频]国际联播快讯"
+          "date": "20260916",
+          "title": "[视频]伊朗称一天内击落三架美军无人机"
         }
       ]
     },
@@ -357,110 +483,12 @@
       ]
     },
     {
-      "sector": "农业",
-      "score": 60,
-      "week_count": 15,
-      "prev_count": 16,
-      "trend": "+-6%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260919",
-          "title": "[视频]前8个月全国完成水利建设投资近7000亿元"
-        },
-        {
-          "date": "20260918",
-          "title": "[视频]金秋丰收季 乡村产业富农家"
-        },
-        {
-          "date": "20260918",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]夏粮入仓超1亿吨 秋粮收购准备就绪"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]8000亿元新型政策性金融工具资金加快投放"
-        }
-      ]
-    },
-    {
-      "sector": "石油能源",
-      "score": 60,
-      "week_count": 12,
-      "prev_count": 18,
-      "trend": "+-33%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260919",
-          "title": "[视频]也门胡塞武装称遭沙特密集空袭 沙特首都发布本轮冲突首次防空警报"
-        },
-        {
-          "date": "20260918",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260916",
-          "title": "[视频]伊朗称一天内击落三架美军无人机"
-        },
-        {
-          "date": "20260915",
-          "title": "[视频]美称对谈判持开放态度 伊朗称其条件被满足前不会与美谈判"
-        }
-      ]
-    },
-    {
       "sector": "基建投资",
-      "score": 57,
+      "score": 59,
       "week_count": 30,
-      "prev_count": 27,
-      "trend": "+11%",
-      "policy_level": "国家发改委",
+      "prev_count": 26,
+      "trend": "+15%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -487,24 +515,69 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]【新思想引领新征程】大河安澜映初心"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]也门胡塞武装称袭击沙特首都和延布目标 沙特主导联军称拦截胡塞武装导弹"
+        },
+        {
           "date": "20260919",
           "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260918",
           "title": "[视频]各地举行活动纪念九一八事变爆发95周年"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 57,
+      "week_count": 5,
+      "prev_count": 4,
+      "trend": "+25%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260917",
-          "title": "[视频]丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要"
+          "title": "[视频]8000亿元新型政策性金融工具资金加快投放"
         },
         {
-          "date": "20260917",
-          "title": "[视频]夏粮入仓超1亿吨 秋粮收购准备就绪"
+          "date": "20260916",
+          "title": "[视频]【新思想引领新征程】以先进制造业为骨干 筑牢实体经济根基"
         },
         {
-          "date": "20260917",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】文旅重塑 宁夏打造国际旅游目的地"
+          "date": "20260914",
+          "title": "[视频]2030年我国将进入世界汽车强国行列"
         }
       ]
     },
@@ -548,9 +621,9 @@
     {
       "sector": "消费",
       "score": 56,
-      "week_count": 19,
-      "prev_count": 19,
-      "trend": "+0%",
+      "week_count": 20,
+      "prev_count": 16,
+      "trend": "+25%",
       "policy_level": "财政部",
       "intensity_level": "results",
       "is_first": false,
@@ -573,6 +646,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]【“十五五”开好局起好步】加快提高市场综合监管能力和水平"
+        },
+        {
           "date": "20260919",
           "title": "[视频]我国制造业高端化转型加速"
         },
@@ -587,19 +664,69 @@
         {
           "date": "20260918",
           "title": "[视频]李强主持召开国务院常务会议"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 55,
+      "week_count": 21,
+      "prev_count": 33,
+      "trend": "+-36%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260920",
+          "title": "[视频]【新思想引领新征程】大河安澜映初心"
+        },
+        {
+          "date": "20260919",
+          "title": "[视频]我国制造业高端化转型加速"
+        },
+        {
+          "date": "20260919",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260918",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]第140届广交会将于10月15日至11月4日在广州举办"
+        },
+        {
+          "date": "20260917",
+          "title": "[视频]习近平就发展先进制造业作出重要指示强调 持续做大做强先进制造业 为推进中国式现代化提供有力支撑 李强出席全国先进制造业大会并讲话"
         }
       ]
     },
     {
       "sector": "外贸",
       "score": 55,
-      "week_count": 23,
+      "week_count": 21,
       "prev_count": 40,
-      "trend": "+-42%",
+      "trend": "+-48%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -617,6 +744,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]提品质拓市场 宁夏壮大葡萄酒产业"
+        },
+        {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260919",
           "title": "[视频]我国制造业高端化转型加速"
         },
@@ -627,23 +762,15 @@
         {
           "date": "20260918",
           "title": "[视频]王沪宁会见埃及参议长"
-        },
-        {
-          "date": "20260918",
-          "title": "[视频]第140届广交会将于10月15日至11月4日在广州举办"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要"
         }
       ]
     },
     {
       "sector": "机器人",
       "score": 54,
-      "week_count": 5,
-      "prev_count": 16,
-      "trend": "+-69%",
+      "week_count": 7,
+      "prev_count": 13,
+      "trend": "+-46%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -671,6 +798,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260917",
           "title": "[视频]我国物流数字化水平明显提升"
         },
@@ -685,65 +816,11 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 52,
-      "week_count": 26,
-      "prev_count": 33,
-      "trend": "+-21%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260919",
-          "title": "[视频]我国制造业高端化转型加速"
-        },
-        {
-          "date": "20260919",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260918",
-          "title": "[视频]第140届广交会将于10月15日至11月4日在广州举办"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]习近平就发展先进制造业作出重要指示强调 持续做大做强先进制造业 为推进中国式现代化提供有力支撑 李强出席全国先进制造业大会并讲话"
-        },
-        {
-          "date": "20260917",
-          "title": "[视频]丁薛祥出席第23届中国—东盟博览会开幕式并会见与会外国政要"
-        }
-      ]
-    },
-    {
       "sector": "新能源",
       "score": 52,
       "week_count": 12,
-      "prev_count": 23,
-      "trend": "+-48%",
+      "prev_count": 15,
+      "trend": "+-20%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -771,6 +848,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20260920",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20260919",
           "title": "[视频]前8个月全国完成水利建设投资近7000亿元"
         },
@@ -785,51 +866,6 @@
         {
           "date": "20260915",
           "title": "[视频]【新思想引领新征程】通江达海 西部陆海新通道拓展开放新空间"
-        },
-        {
-          "date": "20260914",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】四川加快建设清洁能源强省"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 47,
-      "week_count": 4,
-      "prev_count": 5,
-      "trend": "+-20%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260917",
-          "title": "[视频]8000亿元新型政策性金融工具资金加快投放"
-        },
-        {
-          "date": "20260916",
-          "title": "[视频]【新思想引领新征程】以先进制造业为骨干 筑牢实体经济根基"
-        },
-        {
-          "date": "20260914",
-          "title": "[视频]2030年我国将进入世界汽车强国行列"
         }
       ]
     },
@@ -863,34 +899,6 @@
         {
           "date": "20260916",
           "title": "[视频]丁薛祥出席平陆运河通航仪式"
-        }
-      ]
-    },
-    {
-      "sector": "煤炭",
-      "score": 36,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601088",
-          "name": "中国神华",
-          "market": "SH"
-        },
-        {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260917",
-          "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】文旅重塑 宁夏打造国际旅游目的地"
         }
       ]
     }
