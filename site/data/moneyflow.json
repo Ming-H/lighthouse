@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "trade_date": "2026年9月24日",
+  "date": "2026-09-25",
+  "trade_date": "2026年9月25日",
   "inflow_top3": [
     {
       "name": "银行",
@@ -30,5 +30,5 @@
     }
   ],
   "industry_top1": "银行",
-  "concept_top1": "高股息精选"
+  "concept_top1": null
 }
