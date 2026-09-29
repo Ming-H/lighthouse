@@ -1,11 +1,23 @@
 {
-  "date": "20260928",
+  "date": "20260929",
   "alerts": [
     {
       "type": "持续升温",
       "level": "green",
-      "sector": "基建投资",
+      "sector": "军工",
       "detail": "连续3天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "外贸",
+      "detail": "连续3天出现"
+    },
+    {
+      "type": "持续升温",
+      "level": "green",
+      "sector": "基建投资",
+      "detail": "连续4天出现"
     },
     {
       "type": "突发升温",
@@ -67,12 +79,209 @@
       ]
     },
     {
-      "sector": "医药",
-      "score": 63,
+      "sector": "银行金融",
+      "score": 65,
       "week_count": 6,
-      "prev_count": 12,
-      "trend": "+-50%",
-      "policy_level": "国务院",
+      "prev_count": 6,
+      "trend": "+0%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260929",
+          "title": "[视频]我国将对居民购房实施贷款贴息"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260923",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 60,
+      "week_count": 11,
+      "prev_count": 14,
+      "trend": "+-21%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260929",
+          "title": "[视频]各地装扮一新喜迎国庆"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260926",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 60,
+      "week_count": 21,
+      "prev_count": 24,
+      "trend": "+-12%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260929",
+          "title": "[视频]交通部门多措并举服务国庆假期出行"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]1—8月份全国规模以上工业企业利润同比增长15.7%"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]四条高铁同日开通“八纵八横”再添动力"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]大熊猫“平平”“福双”抵达美国亚特兰大动物园"
+        }
+      ]
+    },
+    {
+      "sector": "石油能源",
+      "score": 55,
+      "week_count": 7,
+      "prev_count": 13,
+      "trend": "+-46%",
+      "policy_level": "国家发改委",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260929",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260927",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260927",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260926",
+          "title": "[视频]“两重”建设助力优质高等教育资源扩大供给"
+        },
+        {
+          "date": "20260926",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 55,
+      "week_count": 4,
+      "prev_count": 10,
+      "trend": "+-60%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -100,172 +309,109 @@
         {
           "date": "20260923",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260922",
-          "title": "[视频]【新思想引领新征程】坚持预防为主 守护全民健康"
-        },
-        {
-          "date": "20260922",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "基建投资",
-      "score": 63,
-      "week_count": 21,
-      "prev_count": 29,
-      "trend": "+-28%",
+      "sector": "外贸",
+      "score": 54,
+      "week_count": 15,
+      "prev_count": 17,
+      "trend": "+-12%",
       "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601186",
-          "name": "中国铁建",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
+          "code": "600018",
+          "name": "上港集团",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260928",
-          "title": "[视频]1—8月份全国规模以上工业企业利润同比增长15.7%"
+          "date": "20260929",
+          "title": "[视频]丁薛祥出席中国环境与发展国际合作委员会2026年年会并讲话"
         },
         {
           "date": "20260928",
-          "title": "[视频]四条高铁同日开通“八纵八横”再添动力"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]大熊猫“平平”“福双”抵达美国亚特兰大动物园"
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20260927",
-          "title": "[视频]中秋假期交通出行需求保持高位 短途出行活跃"
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20260927",
-          "title": "[视频]大熊猫“平平”“福双”启程前往美国"
+          "date": "20260925",
+          "title": "[视频]习近平出席美国总统在白宫举行的欢迎仪式"
+        },
+        {
+          "date": "20260925",
+          "title": "[视频]习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 63,
-      "week_count": 9,
-      "prev_count": 18,
-      "trend": "+-50%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "sector": "农业",
+      "score": 51,
+      "week_count": 18,
+      "prev_count": 20,
+      "trend": "+-10%",
+      "policy_level": "央行",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "000998",
+          "name": "隆平高科",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260928",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260926",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260924",
-          "title": "[视频]李强出席第五届全球数字贸易博览会启动仪式并致辞"
-        },
-        {
-          "date": "20260923",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 59,
-      "week_count": 4,
-      "prev_count": 7,
-      "trend": "+-43%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
+          "code": "300498",
+          "name": "温氏股份",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260927",
-          "title": "[视频]国内联播快讯"
+          "date": "20260929",
+          "title": "[视频]【“十五五”开好局起好步】我国加快推进农业农村现代化"
         },
         {
-          "date": "20260926",
-          "title": "[视频]国内联播快讯"
+          "date": "20260929",
+          "title": "[视频]【在希望的田野上】秋粮收获陆续展开 各地抢抓时机保丰收"
         },
         {
-          "date": "20260922",
-          "title": "[视频]李强在上海调研"
+          "date": "20260929",
+          "title": "[视频]各地装扮一新喜迎国庆"
         },
         {
-          "date": "20260922",
+          "date": "20260929",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260928",
           "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "AI人工智能",
-      "score": 55,
-      "week_count": 12,
-      "prev_count": 23,
-      "trend": "+-48%",
-      "policy_level": "中央政治局",
+      "score": 51,
+      "week_count": 9,
+      "prev_count": 24,
+      "trend": "+-62%",
+      "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -314,219 +460,89 @@
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 55,
-      "week_count": 6,
-      "prev_count": 15,
-      "trend": "+-60%",
-      "policy_level": "国家发改委",
+      "sector": "房地产",
+      "score": 49,
+      "week_count": 3,
+      "prev_count": 4,
+      "trend": "+-25%",
+      "policy_level": "国常会",
       "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260927",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260926",
-          "title": "[视频]“两重”建设助力优质高等教育资源扩大供给"
-        },
-        {
-          "date": "20260926",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260923",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 55,
-      "week_count": 15,
-      "prev_count": 21,
-      "trend": "+-29%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260925",
-          "title": "[视频]习近平出席美国总统在白宫举行的欢迎仪式"
-        },
-        {
-          "date": "20260925",
-          "title": "[视频]习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴"
-        },
-        {
-          "date": "20260924",
-          "title": "[视频]李强出席第五届全球数字贸易博览会启动仪式并致辞"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 54,
-      "week_count": 17,
-      "prev_count": 19,
-      "trend": "+-11%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
+          "date": "20260929",
+          "title": "[视频]我国将对居民购房实施贷款贴息"
         },
-        {
-          "date": "20260926",
-          "title": "[视频]【在希望的田野上】全国秋粮收获有序推进"
-        },
-        {
-          "date": "20260926",
-          "title": "[视频]“两重”建设助力优质高等教育资源扩大供给"
-        },
-        {
-          "date": "20260924",
-          "title": "[视频]王沪宁主持召开全国政协主席会议"
-        },
-        {
-          "date": "20260923",
-          "title": "[视频]【新思想引领新征程】丰收的底气"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 50,
-      "week_count": 3,
-      "prev_count": 6,
-      "trend": "+-50%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
         {
           "date": "20260928",
           "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20260923",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "机器人",
-      "score": 49,
-      "week_count": 2,
-      "prev_count": 7,
+      "sector": "军工",
+      "score": 40,
+      "week_count": 4,
+      "prev_count": 14,
       "trend": "+-71%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
+      "policy_level": "",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "601689",
-          "name": "拓普集团",
+          "code": "600893",
+          "name": "航发动力",
           "market": "SH"
         },
         {
-          "code": "688017",
-          "name": "绿的谐波",
+          "code": "600760",
+          "name": "中航沈飞",
           "market": "SH"
         },
         {
-          "code": "002747",
-          "name": "埃斯顿",
+          "code": "002179",
+          "name": "中航光电",
           "market": "SZ"
         },
         {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260922",
-          "title": "[视频]李强在上海调研"
+          "date": "20260929",
+          "title": "[视频]烈士纪念日向人民英雄敬献花篮仪式9月30日上午举行 习近平等党和国家领导人将出席"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]“时代楷模”王戟同志先进事迹报告会今天在京举行"
+        },
+        {
+          "date": "20260927",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
@@ -534,8 +550,8 @@
       "sector": "新能源",
       "score": 40,
       "week_count": 4,
-      "prev_count": 6,
-      "trend": "+-33%",
+      "prev_count": 5,
+      "trend": "+-20%",
       "policy_level": "",
       "intensity_level": "advancing",
       "is_first": false,
@@ -577,44 +593,86 @@
       ]
     },
     {
-      "sector": "房地产",
+      "sector": "机器人",
       "score": 39,
-      "week_count": 1,
-      "prev_count": 4,
-      "trend": "+-75%",
-      "policy_level": "国常会",
+      "week_count": 2,
+      "prev_count": 7,
+      "trend": "+-71%",
+      "policy_level": "央行",
       "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
+          "code": "601689",
+          "name": "拓普集团",
           "market": "SH"
         },
         {
-          "code": "000002",
-          "name": "万科A",
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20260928",
-          "title": "[视频]李强主持召开国务院常务会议"
+          "date": "20260929",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 36,
+      "week_count": 2,
+      "prev_count": 7,
+      "trend": "+-71%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260927",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260926",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "半导体",
-      "score": 30,
+      "score": 35,
       "week_count": 2,
-      "prev_count": 3,
-      "trend": "+-33%",
+      "prev_count": 2,
+      "trend": "+0%",
       "policy_level": "",
       "intensity_level": "advancing",
       "is_first": false,
@@ -650,52 +708,6 @@
           "title": "[视频]前8个月工业经济稳步增长 新质生产力加快培育"
         }
       ]
-    },
-    {
-      "sector": "军工",
-      "score": 30,
-      "week_count": 3,
-      "prev_count": 16,
-      "trend": "+-81%",
-      "policy_level": "",
-      "intensity_level": "early",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260928",
-          "title": "[视频]“时代楷模”王戟同志先进事迹报告会今天在京举行"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260922",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
     }
   ],
   "lifecycles": {
@@ -705,11 +717,6 @@
       "stage_code": 3,
       "timeline": [
         {
-          "date": "20260701",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
           "date": "20260702",
           "hit": true,
           "intensity": "intensive"
@@ -1153,22 +1160,22 @@
           "date": "20260928",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260929",
+          "hit": false,
+          "intensity": "none"
         }
       ],
       "first_seen": "20260702",
       "hit_count": 18,
       "recent_hit_count": 7
     },
-    "医药": {
-      "keyword": "医药",
+    "银行金融": {
+      "keyword": "银行金融",
       "stage": "密集政策期",
       "stage_code": 3,
       "timeline": [
-        {
-          "date": "20260701",
-          "hit": false,
-          "intensity": "none"
-        },
         {
           "date": "20260702",
           "hit": false,
@@ -1181,13 +1188,13 @@
         },
         {
           "date": "20260704",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260705",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260706",
@@ -1196,8 +1203,8 @@
         },
         {
           "date": "20260707",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260708",
@@ -1206,18 +1213,18 @@
         },
         {
           "date": "20260709",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260710",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260711",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260712",
@@ -1231,8 +1238,8 @@
         },
         {
           "date": "20260714",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260715",
@@ -1241,13 +1248,13 @@
         },
         {
           "date": "20260716",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260717",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260718",
@@ -1256,8 +1263,8 @@
         },
         {
           "date": "20260719",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260720",
@@ -1286,13 +1293,13 @@
         },
         {
           "date": "20260725",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260726",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260727",
@@ -1301,473 +1308,13 @@
         },
         {
           "date": "20260728",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260729",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260730",
           "hit": false,
           "intensity": "none"
-        },
-        {
-          "date": "20260731",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260801",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260802",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260803",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260804",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260805",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260806",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260807",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260808",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260809",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260810",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260811",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260812",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260813",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260814",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260815",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260816",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260817",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260818",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260819",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260820",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260821",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260822",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260823",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260824",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260825",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260826",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260827",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260828",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260829",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260830",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260831",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260901",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260902",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260903",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260904",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260905",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260906",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260907",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260908",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260909",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260910",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260911",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260912",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260913",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260914",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260915",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260916",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260917",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260918",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260919",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260920",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260921",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260922",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260923",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260924",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260925",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260926",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260927",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260928",
-          "hit": true,
-          "intensity": "intensive"
-        }
-      ],
-      "first_seen": "20260705",
-      "hit_count": 64,
-      "recent_hit_count": 7
-    },
-    "基建投资": {
-      "keyword": "基建投资",
-      "stage": "密集政策期",
-      "stage_code": 3,
-      "timeline": [
-        {
-          "date": "20260701",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260702",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260703",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260704",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260705",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
-          "date": "20260706",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260707",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260708",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260709",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260710",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260711",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260712",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260713",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260714",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260715",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260716",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260717",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260718",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260719",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260720",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260721",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260722",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260723",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260724",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260725",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260726",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260727",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260728",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260729",
-          "hit": true,
-          "intensity": "intensive"
         },
         {
           "date": "20260730",
@@ -1791,43 +1338,43 @@
         },
         {
           "date": "20260803",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260804",
-          "hit": true,
-          "intensity": "intensive"
-        },
-        {
-          "date": "20260805",
           "hit": false,
           "intensity": "none"
         },
         {
-          "date": "20260806",
+          "date": "20260804",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260805",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260806",
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260807",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260808",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260809",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260810",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260811",
@@ -1851,8 +1398,8 @@
         },
         {
           "date": "20260815",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260816",
@@ -1861,8 +1408,8 @@
         },
         {
           "date": "20260817",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260818",
@@ -1896,8 +1443,8 @@
         },
         {
           "date": "20260824",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260825",
@@ -1916,8 +1463,8 @@
         },
         {
           "date": "20260828",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260829",
@@ -1926,8 +1473,8 @@
         },
         {
           "date": "20260830",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260831",
@@ -1936,8 +1483,8 @@
         },
         {
           "date": "20260901",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260902",
@@ -1951,13 +1498,13 @@
         },
         {
           "date": "20260904",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260905",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260906",
@@ -1976,8 +1523,8 @@
         },
         {
           "date": "20260909",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260910",
@@ -1986,18 +1533,18 @@
         },
         {
           "date": "20260911",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260912",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260913",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260914",
@@ -2006,8 +1553,8 @@
         },
         {
           "date": "20260915",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260916",
@@ -2026,23 +1573,23 @@
         },
         {
           "date": "20260919",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260920",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260921",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260922",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260923",
@@ -2051,8 +1598,8 @@
         },
         {
           "date": "20260924",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260925",
@@ -2061,22 +1608,27 @@
         },
         {
           "date": "20260926",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260927",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260928",
           "hit": true,
           "intensity": "intensive"
+        },
+        {
+          "date": "20260929",
+          "hit": true,
+          "intensity": "intensive"
         }
       ],
-      "first_seen": "20260701",
-      "hit_count": 86,
+      "first_seen": "20260704",
+      "hit_count": 43,
       "recent_hit_count": 7
     },
     "消费": {
@@ -2085,11 +1637,6 @@
       "stage_code": 3,
       "timeline": [
         {
-          "date": "20260701",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
           "date": "20260702",
           "hit": true,
           "intensity": "intensive"
@@ -2531,28 +2078,28 @@
         },
         {
           "date": "20260928",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260929",
           "hit": true,
           "intensity": "intensive"
         }
       ],
       "first_seen": "20260702",
-      "hit_count": 71,
+      "hit_count": 72,
       "recent_hit_count": 7
     },
-    "数据要素": {
-      "keyword": "数据要素",
+    "基建投资": {
+      "keyword": "基建投资",
       "stage": "密集政策期",
       "stage_code": 3,
       "timeline": [
         {
-          "date": "20260701",
-          "hit": false,
-          "intensity": "none"
-        },
-        {
           "date": "20260702",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260703",
@@ -2571,18 +2118,18 @@
         },
         {
           "date": "20260706",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260707",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260708",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260709",
@@ -2591,33 +2138,33 @@
         },
         {
           "date": "20260710",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260711",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260712",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260713",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260714",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260715",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260716",
@@ -2636,38 +2183,38 @@
         },
         {
           "date": "20260719",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260720",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260721",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260722",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260723",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260724",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260725",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260726",
@@ -2676,8 +2223,8 @@
         },
         {
           "date": "20260727",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260728",
@@ -2686,43 +2233,43 @@
         },
         {
           "date": "20260729",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260730",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260731",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260801",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260802",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260803",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260804",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260805",
-          "hit": true,
-          "intensity": "intensive"
+          "hit": false,
+          "intensity": "none"
         },
         {
           "date": "20260806",
@@ -2731,33 +2278,33 @@
         },
         {
           "date": "20260807",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260808",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260809",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260810",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260811",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260812",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260813",
@@ -2766,23 +2313,23 @@
         },
         {
           "date": "20260814",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260815",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260816",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260817",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260818",
@@ -2791,13 +2338,13 @@
         },
         {
           "date": "20260819",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260820",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260821",
@@ -2806,13 +2353,13 @@
         },
         {
           "date": "20260822",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260823",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260824",
@@ -2821,13 +2368,13 @@
         },
         {
           "date": "20260825",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260826",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260827",
@@ -2841,8 +2388,8 @@
         },
         {
           "date": "20260829",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260830",
@@ -2866,18 +2413,18 @@
         },
         {
           "date": "20260903",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260904",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260905",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260906",
@@ -2896,13 +2443,13 @@
         },
         {
           "date": "20260909",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260910",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260911",
@@ -2921,8 +2468,8 @@
         },
         {
           "date": "20260914",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260915",
@@ -2931,8 +2478,8 @@
         },
         {
           "date": "20260916",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260917",
@@ -2941,8 +2488,8 @@
         },
         {
           "date": "20260918",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260919",
@@ -2956,8 +2503,8 @@
         },
         {
           "date": "20260921",
-          "hit": false,
-          "intensity": "none"
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260922",
@@ -2966,8 +2513,468 @@
         },
         {
           "date": "20260923",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260924",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260925",
           "hit": false,
           "intensity": "none"
+        },
+        {
+          "date": "20260926",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260927",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260928",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260929",
+          "hit": true,
+          "intensity": "intensive"
+        }
+      ],
+      "first_seen": "20260702",
+      "hit_count": 86,
+      "recent_hit_count": 7
+    },
+    "石油能源": {
+      "keyword": "石油能源",
+      "stage": "密集政策期",
+      "stage_code": 3,
+      "timeline": [
+        {
+          "date": "20260702",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260703",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260704",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260705",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260706",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260707",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260708",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260709",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260710",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260711",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260712",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260713",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260714",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260715",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260716",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260717",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260718",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260719",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260720",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260721",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260722",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260723",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260724",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260725",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260726",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260727",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260728",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260729",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260730",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260731",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260801",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260802",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260803",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260804",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260805",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260806",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260807",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260808",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260809",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260810",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260811",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260812",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260813",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260814",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260815",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260816",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260817",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260818",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260819",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260820",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260821",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260822",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260823",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260824",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260825",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260826",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260827",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260828",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260829",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260830",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260831",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260901",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260902",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260903",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260904",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260905",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260906",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260907",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260908",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260909",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260910",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260911",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260912",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260913",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260914",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260915",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260916",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260917",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260918",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260919",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260920",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260921",
+          "hit": true,
+          "intensity": "intensive"
+        },
+        {
+          "date": "20260922",
+          "hit": false,
+          "intensity": "none"
+        },
+        {
+          "date": "20260923",
+          "hit": true,
+          "intensity": "intensive"
         },
         {
           "date": "20260924",
@@ -2993,10 +3000,15 @@
           "date": "20260928",
           "hit": false,
           "intensity": "none"
+        },
+        {
+          "date": "20260929",
+          "hit": true,
+          "intensity": "intensive"
         }
       ],
-      "first_seen": "20260704",
-      "hit_count": 32,
+      "first_seen": "20260702",
+      "hit_count": 72,
       "recent_hit_count": 7
     }
   }
