@@ -1,34 +1,30 @@
 {
-  "date": "2026-09-28",
-  "trade_date": "2026年9月28日",
+  "date": "2026-09-29",
+  "trade_date": "2026年9月29日",
   "inflow_top3": [
     {
-      "name": "基础化工",
-      "amount": 14.6
+      "name": "电子元件",
+      "amount": 58.1
     },
     {
       "name": "其他",
-      "amount": 13.8
+      "amount": 53.6
     },
     {
-      "name": "公用环保",
-      "amount": 12.4
+      "name": "半导体",
+      "amount": 37.8
     }
   ],
   "outflow_top3": [
     {
-      "name": "通信",
-      "amount": -188.8
+      "name": "面板显示",
+      "amount": -6.5
     },
     {
-      "name": "半导体",
-      "amount": -113.9
-    },
-    {
-      "name": "电子元件",
-      "amount": -62.3
+      "name": "农林牧渔",
+      "amount": -2.6
     }
   ],
-  "industry_top1": "基础化工",
-  "concept_top1": "换电概念"
+  "industry_top1": "电子元件",
+  "concept_top1": "融资融券"
 }
