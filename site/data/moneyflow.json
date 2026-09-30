@@ -1,30 +1,34 @@
 {
-  "date": "2026-09-29",
-  "trade_date": "2026年9月29日",
+  "date": "2026-09-30",
+  "trade_date": "2026年9月30日",
   "inflow_top3": [
     {
-      "name": "电子元件",
-      "amount": 58.1
+      "name": "医药生物",
+      "amount": 89.1
     },
     {
-      "name": "其他",
-      "amount": 53.6
+      "name": "银行",
+      "amount": 43.0
     },
     {
-      "name": "半导体",
-      "amount": 37.8
+      "name": "汽车/新能源",
+      "amount": 26.5
     }
   ],
   "outflow_top3": [
     {
-      "name": "面板显示",
-      "amount": -6.5
+      "name": "半导体",
+      "amount": -161.2
     },
     {
-      "name": "农林牧渔",
-      "amount": -2.6
+      "name": "电子元件",
+      "amount": -60.0
+    },
+    {
+      "name": "通信",
+      "amount": -23.1
     }
   ],
-  "industry_top1": "电子元件",
-  "concept_top1": "融资融券"
+  "industry_top1": "医药生物",
+  "concept_top1": "高股息精选"
 }
