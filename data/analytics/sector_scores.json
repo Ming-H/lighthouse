@@ -1,10 +1,10 @@
 {
-  "date": "20261003",
+  "date": "20261004",
   "scores": [
     {
       "sector": "房地产",
-      "score": 89,
-      "week_count": 4,
+      "score": 94,
+      "week_count": 6,
       "prev_count": 0,
       "trend": "NEW",
       "policy_level": "国常会",
@@ -28,6 +28,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]各地积极推动盘活低效闲置空间"
+        },
         {
           "date": "20261001",
           "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
@@ -93,10 +97,10 @@
     },
     {
       "sector": "消费",
-      "score": 80,
-      "week_count": 17,
-      "prev_count": 7,
-      "trend": "+143%",
+      "score": 85,
+      "week_count": 18,
+      "prev_count": 6,
+      "trend": "+200%",
       "policy_level": "国常会",
       "intensity_level": "intensive",
       "is_first": false,
@@ -119,6 +123,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261004",
+          "title": "[视频]各地积极推动盘活低效闲置空间"
+        },
+        {
           "date": "20261003",
           "title": "[视频]多举措激活国庆假期消费活力"
         },
@@ -133,19 +141,53 @@
         {
           "date": "20261002",
           "title": "[视频]前8个月我国物流展现发展韧性"
+        }
+      ]
+    },
+    {
+      "sector": "地下管网",
+      "score": 76,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "603958",
+          "name": "哈空调",
+          "market": "SH"
         },
         {
-          "date": "20261002",
-          "title": "[视频]今年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达"
+          "code": "300055",
+          "name": "万邦达",
+          "market": "SZ"
+        },
+        {
+          "code": "002671",
+          "name": "龙泉股份",
+          "market": "SZ"
+        },
+        {
+          "code": "300334",
+          "name": "津膜科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 70,
-      "week_count": 9,
-      "prev_count": 5,
-      "trend": "+80%",
+      "score": 75,
+      "week_count": 11,
+      "prev_count": 4,
+      "trend": "+175%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -173,6 +215,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261004",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261003",
           "title": "[视频]国际联播快讯"
         },
@@ -187,19 +233,106 @@
         {
           "date": "20260929",
           "title": "[视频]烈士纪念日向人民英雄敬献花篮仪式9月30日上午举行 习近平等党和国家领导人将出席"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 71,
+      "week_count": 2,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
         },
         {
-          "date": "20260929",
-          "title": "[视频]国际联播快讯"
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261003",
+          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
+        },
+        {
+          "date": "20260930",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 67,
+      "week_count": 8,
+      "prev_count": 3,
+      "trend": "+167%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]智慧交通助力国庆假期出行"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261002",
+          "title": "[视频]今年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达"
+        },
+        {
+          "date": "20261002",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20260928",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 65,
-      "week_count": 21,
-      "prev_count": 18,
-      "trend": "+17%",
+      "week_count": 25,
+      "prev_count": 20,
+      "trend": "+25%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -227,33 +360,79 @@
       ],
       "trigger_articles": [
         {
-          "date": "20261003",
-          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
+          "date": "20261004",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】加强红色资源保护利用 做好红色文化传承弘扬"
         },
         {
-          "date": "20261002",
-          "title": "[视频]国内联播快讯"
+          "date": "20261004",
+          "title": "[视频]智慧交通助力国庆假期出行"
         },
         {
-          "date": "20261001",
-          "title": "[视频]国庆假期迎出行高峰 交通部门全力保障"
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
         },
         {
-          "date": "20261001",
+          "date": "20261004",
           "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20260930",
-          "title": "[视频]喜迎国庆 各地节日氛围浓厚"
+          "date": "20261003",
+          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 64,
+      "week_count": 4,
+      "prev_count": 2,
+      "trend": "+100%",
+      "policy_level": "央行",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261002",
+          "title": "[视频]欢度国庆假期 感受活力中国"
+        },
+        {
+          "date": "20261002",
+          "title": "[视频]前8个月我国物流展现发展韧性"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "外贸",
       "score": 64,
-      "week_count": 8,
+      "week_count": 6,
       "prev_count": 15,
-      "trend": "+-47%",
+      "trend": "+-60%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -285,10 +464,6 @@
         {
           "date": "20260928",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
@@ -296,8 +471,8 @@
       "sector": "农业",
       "score": 63,
       "week_count": 10,
-      "prev_count": 23,
-      "trend": "+-57%",
+      "prev_count": 19,
+      "trend": "+-47%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -342,48 +517,39 @@
       ]
     },
     {
-      "sector": "新能源",
-      "score": 62,
-      "week_count": 7,
-      "prev_count": 4,
-      "trend": "+75%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
+      "sector": "医药",
+      "score": 61,
+      "week_count": 5,
+      "prev_count": 3,
+      "trend": "+67%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "600276",
+          "name": "恒瑞医药",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
+          "code": "000538",
+          "name": "云南白药",
           "market": "SZ"
         },
         {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
+          "code": "300760",
+          "name": "迈瑞医疗",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261003",
+          "date": "20261004",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20261002",
-          "title": "[视频]今年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]国内联播快讯"
+          "date": "20261001",
+          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
         },
         {
           "date": "20260928",
@@ -392,144 +558,12 @@
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 56,
-      "week_count": 8,
-      "prev_count": 8,
-      "trend": "+0%",
-      "policy_level": "央行",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261003",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260929",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "机器人",
-      "score": 54,
-      "week_count": 4,
-      "prev_count": 4,
-      "trend": "+0%",
-      "policy_level": "央行",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261002",
-          "title": "[视频]欢度国庆假期 感受活力中国"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]前8个月我国物流展现发展韧性"
-        },
-        {
-          "date": "20260929",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 51,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261003",
-          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "AI人工智能",
-      "score": 46,
-      "week_count": 4,
-      "prev_count": 15,
-      "trend": "+-73%",
-      "policy_level": "",
+      "score": 61,
+      "week_count": 9,
+      "prev_count": 14,
+      "trend": "+-36%",
+      "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -556,6 +590,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261004",
+          "title": "[视频]智慧交通助力国庆假期出行"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
+        },
+        {
           "date": "20261003",
           "title": "[视频]欢庆多彩假日 礼赞美好生活"
         },
@@ -566,6 +608,55 @@
         {
           "date": "20260928",
           "title": "[视频]1—8月份全国规模以上工业企业利润同比增长15.7%"
+        }
+      ]
+    },
+    {
+      "sector": "石油能源",
+      "score": 51,
+      "week_count": 7,
+      "prev_count": 9,
+      "trend": "+-22%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260930",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260929",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
@@ -612,50 +703,46 @@
       ]
     },
     {
-      "sector": "医药",
-      "score": 45,
-      "week_count": 4,
-      "prev_count": 3,
-      "trend": "+33%",
-      "policy_level": "",
-      "intensity_level": "advancing",
+      "sector": "数据要素",
+      "score": 41,
+      "week_count": 1,
+      "prev_count": 4,
+      "trend": "+-75%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600276",
-          "name": "恒瑞医药",
+          "code": "603138",
+          "name": "海量数据",
           "market": "SH"
         },
         {
-          "code": "000538",
-          "name": "云南白药",
+          "code": "300188",
+          "name": "美亚柏科",
           "market": "SZ"
         },
         {
-          "code": "300760",
-          "name": "迈瑞医疗",
+          "code": "300451",
+          "name": "创业慧康",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261001",
-          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
         }
       ]
     },
     {
       "sector": "黄金",
-      "score": 32,
-      "week_count": 2,
-      "prev_count": 2,
-      "trend": "+0%",
+      "score": 25,
+      "week_count": 1,
+      "prev_count": 3,
+      "trend": "+-67%",
       "policy_level": "",
-      "intensity_level": "results",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
@@ -677,43 +764,6 @@
       "trigger_articles": [
         {
           "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260927",
-          "title": "[视频]专题片《开辟大国相处正确之道 书写中美关系历史新篇——习近平主席对美国进行国事访问纪实》今晚播出"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 17,
-      "week_count": 1,
-      "prev_count": 5,
-      "trend": "+-80%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260927",
           "title": "[视频]国内联播快讯"
         }
       ]
