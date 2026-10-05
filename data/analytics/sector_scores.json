@@ -1,58 +1,109 @@
 {
-  "date": "20261004",
+  "date": "20261005",
   "scores": [
     {
-      "sector": "房地产",
-      "score": 94,
-      "week_count": 6,
+      "sector": "地下管网",
+      "score": 81,
+      "week_count": 2,
       "prev_count": 0,
       "trend": "NEW",
-      "policy_level": "国常会",
-      "intensity_level": "advancing",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
       "is_first": true,
       "stocks": [
         {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
+          "code": "603958",
+          "name": "哈空调",
           "market": "SH"
         },
         {
-          "code": "000002",
-          "name": "万科A",
+          "code": "300055",
+          "name": "万邦达",
+          "market": "SZ"
+        },
+        {
+          "code": "002671",
+          "name": "龙泉股份",
+          "market": "SZ"
+        },
+        {
+          "code": "300334",
+          "name": "津膜科技",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20261005",
+          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+        },
+        {
           "date": "20261004",
-          "title": "[视频]各地积极推动盘活低效闲置空间"
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 80,
+      "week_count": 11,
+      "prev_count": 3,
+      "trend": "+267%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
         },
         {
-          "date": "20261001",
-          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
         },
         {
-          "date": "20260929",
-          "title": "[视频]我国将对居民购房实施贷款贴息"
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
         },
         {
-          "date": "20260928",
-          "title": "[视频]李强主持召开国务院常务会议"
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261005",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261002",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20260930",
+          "title": "[视频]习近平同文莱苏丹就中文建交35周年互致贺电"
         }
       ]
     },
     {
       "sector": "银行金融",
-      "score": 85,
-      "week_count": 9,
-      "prev_count": 1,
-      "trend": "+800%",
-      "policy_level": "国常会",
+      "score": 75,
+      "week_count": 7,
+      "prev_count": 3,
+      "trend": "+133%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -96,143 +147,47 @@
       ]
     },
     {
-      "sector": "消费",
-      "score": 85,
-      "week_count": 18,
-      "prev_count": 6,
-      "trend": "+200%",
-      "policy_level": "国常会",
-      "intensity_level": "intensive",
+      "sector": "房地产",
+      "score": 74,
+      "week_count": 6,
+      "prev_count": 1,
+      "trend": "+500%",
+      "policy_level": "财政部",
+      "intensity_level": "advancing",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
+          "code": "600048",
+          "name": "保利发展",
           "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261005",
+          "title": "[视频]一条热线连接市民冷暖和城市治理"
+        },
         {
           "date": "20261004",
           "title": "[视频]各地积极推动盘活低效闲置空间"
         },
         {
-          "date": "20261003",
-          "title": "[视频]多举措激活国庆假期消费活力"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]2026年国庆档电影票房破5亿元 “电影+”激发消费新增量"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]我国多举措支持服务业扩能提质"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]前8个月我国物流展现发展韧性"
-        }
-      ]
-    },
-    {
-      "sector": "地下管网",
-      "score": 76,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "603958",
-          "name": "哈空调",
-          "market": "SH"
-        },
-        {
-          "code": "300055",
-          "name": "万邦达",
-          "market": "SZ"
-        },
-        {
-          "code": "002671",
-          "name": "龙泉股份",
-          "market": "SZ"
-        },
-        {
-          "code": "300334",
-          "name": "津膜科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261004",
-          "title": "[视频]【一线调研】协同铺筑的“六张网”"
-        }
-      ]
-    },
-    {
-      "sector": "军工",
-      "score": 75,
-      "week_count": 11,
-      "prev_count": 4,
-      "trend": "+175%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261004",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]习近平同文莱苏丹就中文建交35周年互致贺电"
+          "date": "20261001",
+          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
         },
         {
           "date": "20260929",
-          "title": "[视频]烈士纪念日向人民英雄敬献花篮仪式9月30日上午举行 习近平等党和国家领导人将出席"
+          "title": "[视频]我国将对居民购房实施贷款贴息"
         }
       ]
     },
@@ -274,11 +229,60 @@
       ]
     },
     {
+      "sector": "消费",
+      "score": 70,
+      "week_count": 16,
+      "prev_count": 9,
+      "trend": "+78%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261005",
+          "title": "[视频]假日消费市场新意足人气旺"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]打造新场景新空间 在假期邂逅文化之美"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]各地积极推动盘活低效闲置空间"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]多举措激活国庆假期消费活力"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]2026年国庆档电影票房破5亿元 “电影+”激发消费新增量"
+        }
+      ]
+    },
+    {
       "sector": "新能源",
       "score": 67,
-      "week_count": 8,
-      "prev_count": 3,
-      "trend": "+167%",
+      "week_count": 10,
+      "prev_count": 4,
+      "trend": "+150%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -306,6 +310,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261005",
+          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]【一线调研】技术攻坚 锻造“六张网”硬核底座"
+        },
+        {
           "date": "20261004",
           "title": "[视频]智慧交通助力国庆假期出行"
         },
@@ -316,23 +328,15 @@
         {
           "date": "20261002",
           "title": "[视频]今年2500亿元超长期特别国债支持消费品以旧换新资金已全部下达"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 65,
-      "week_count": 25,
-      "prev_count": 20,
-      "trend": "+25%",
+      "week_count": 27,
+      "prev_count": 21,
+      "trend": "+29%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -360,6 +364,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261005",
+          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]升级交通服务 强化返程保障"
+        },
+        {
           "date": "20261004",
           "title": "[视频]【赓续长征精神 奋进复兴征程】加强红色资源保护利用 做好红色文化传承弘扬"
         },
@@ -370,14 +382,42 @@
         {
           "date": "20261004",
           "title": "[视频]【一线调研】协同铺筑的“六张网”"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 64,
+      "week_count": 5,
+      "prev_count": 15,
+      "trend": "+-67%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
         },
         {
-          "date": "20261004",
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20260930",
+          "title": "[视频]9月制造业采购经理指数回升 重回扩张区间"
+        },
+        {
+          "date": "20260930",
           "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20261003",
-          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
+          "date": "20260929",
+          "title": "[视频]丁薛祥出席中国环境与发展国际合作委员会2026年年会并讲话"
         }
       ]
     },
@@ -428,50 +468,10 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 64,
-      "week_count": 6,
-      "prev_count": 15,
-      "trend": "+-60%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20260930",
-          "title": "[视频]9月制造业采购经理指数回升 重回扩张区间"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260929",
-          "title": "[视频]丁薛祥出席中国环境与发展国际合作委员会2026年年会并讲话"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "农业",
       "score": 63,
-      "week_count": 10,
-      "prev_count": 19,
+      "week_count": 9,
+      "prev_count": 17,
       "trend": "+-47%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
@@ -517,52 +517,11 @@
       ]
     },
     {
-      "sector": "医药",
-      "score": 61,
-      "week_count": 5,
-      "prev_count": 3,
-      "trend": "+67%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261004",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261001",
-          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "AI人工智能",
       "score": 61,
-      "week_count": 9,
-      "prev_count": 14,
-      "trend": "+-36%",
+      "week_count": 11,
+      "prev_count": 12,
+      "trend": "+-8%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -590,33 +549,33 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261005",
+          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]【一线调研】技术攻坚 锻造“六张网”硬核底座"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261004",
           "title": "[视频]智慧交通助力国庆假期出行"
         },
         {
           "date": "20261004",
           "title": "[视频]【一线调研】协同铺筑的“六张网”"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]欢庆多彩假日 礼赞美好生活"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]国庆假期 全国红色旅游经典景区迎来客流高峰"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]1—8月份全国规模以上工业企业利润同比增长15.7%"
         }
       ]
     },
     {
       "sector": "石油能源",
-      "score": 51,
+      "score": 56,
       "week_count": 7,
-      "prev_count": 9,
-      "trend": "+-22%",
+      "prev_count": 6,
+      "trend": "+17%",
       "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
@@ -661,48 +620,6 @@
       ]
     },
     {
-      "sector": "半导体",
-      "score": 45,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261002",
-          "title": "[视频]前8个月我国物流展现发展韧性"
-        },
-        {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "数据要素",
       "score": 41,
       "week_count": 1,
@@ -736,13 +653,50 @@
       ]
     },
     {
-      "sector": "黄金",
-      "score": 25,
-      "week_count": 1,
-      "prev_count": 3,
+      "sector": "医药",
+      "score": 36,
+      "week_count": 2,
+      "prev_count": 6,
       "trend": "+-67%",
       "policy_level": "",
-      "intensity_level": "advancing",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261001",
+          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
+        }
+      ]
+    },
+    {
+      "sector": "黄金",
+      "score": 31,
+      "week_count": 1,
+      "prev_count": 4,
+      "trend": "+-75%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
@@ -763,8 +717,46 @@
       ],
       "trigger_articles": [
         {
-          "date": "20260928",
-          "title": "[视频]国内联播快讯"
+          "date": "20261005",
+          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "score": 17,
+      "week_count": 1,
+      "prev_count": 2,
+      "trend": "+-50%",
+      "policy_level": "",
+      "intensity_level": "",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261002",
+          "title": "[视频]前8个月我国物流展现发展韧性"
         }
       ]
     }
