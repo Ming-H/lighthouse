@@ -1,44 +1,57 @@
 {
-  "date": "20261006",
+  "date": "20261007",
   "scores": [
     {
-      "sector": "新能源汽车",
-      "score": 86,
-      "week_count": 3,
-      "prev_count": 0,
-      "trend": "NEW",
+      "sector": "机器人",
+      "score": 81,
+      "week_count": 6,
+      "prev_count": 2,
+      "trend": "+200%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
-      "is_first": true,
+      "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "601689",
+          "name": "拓普集团",
           "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261007",
+          "title": "[视频]入境游持续升温 外国游客深度体验多彩中国"
+        },
         {
           "date": "20261006",
           "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
         },
         {
-          "date": "20261003",
-          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
+          "date": "20261006",
+          "title": "[视频]2026年“外媒看中国”采访走进7省区市"
         },
         {
-          "date": "20260930",
-          "title": "[视频]国内联播快讯"
+          "date": "20261002",
+          "title": "[视频]欢度国庆假期 感受活力中国"
+        },
+        {
+          "date": "20261002",
+          "title": "[视频]前8个月我国物流展现发展韧性"
         }
       ]
     },
@@ -85,61 +98,11 @@
       ]
     },
     {
-      "sector": "机器人",
-      "score": 76,
-      "week_count": 5,
-      "prev_count": 2,
-      "trend": "+150%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261006",
-          "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]2026年“外媒看中国”采访走进7省区市"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]欢度国庆假期 感受活力中国"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]前8个月我国物流展现发展韧性"
-        }
-      ]
-    },
-    {
       "sector": "AI人工智能",
-      "score": 71,
+      "score": 76,
       "week_count": 14,
-      "prev_count": 9,
-      "trend": "+56%",
+      "prev_count": 6,
+      "trend": "+133%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -190,10 +153,10 @@
     },
     {
       "sector": "新能源",
-      "score": 67,
-      "week_count": 11,
+      "score": 72,
+      "week_count": 13,
       "prev_count": 4,
-      "trend": "+175%",
+      "trend": "+225%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -221,6 +184,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261007",
+          "title": "[视频]国庆假期出行需求旺盛 发展活力持续释放"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]【一线调研】从物畅其流到产销联动"
+        },
+        {
           "date": "20261006",
           "title": "[视频]【文化中国行·校馆弦歌】南开大学图书馆：知中国 服务中国"
         },
@@ -231,72 +202,64 @@
         {
           "date": "20261005",
           "title": "[视频]【一线调研】技术攻坚 锻造“六张网”硬核底座"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]智慧交通助力国庆假期出行"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "消费",
-      "score": 66,
+      "sector": "农业",
+      "score": 68,
       "week_count": 14,
-      "prev_count": 11,
-      "trend": "+27%",
-      "policy_level": "国家发改委",
+      "prev_count": 12,
+      "trend": "+17%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "000998",
+          "name": "隆平高科",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20261007",
+          "title": "[视频]【在希望的田野上】各地秋粮加紧收获"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]【一线调研】从物畅其流到产销联动"
+        },
+        {
           "date": "20261006",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]【新思想引领新征程】大食物观里的中国味道"
         },
         {
-          "date": "20261005",
-          "title": "[视频]假日消费市场新意足人气旺"
+          "date": "20261006",
+          "title": "[视频]2026年“外媒看中国”采访走进7省区市"
         },
         {
-          "date": "20261005",
-          "title": "[视频]打造新场景新空间 在假期邂逅文化之美"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]各地积极推动盘活低效闲置空间"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]多举措激活国庆假期消费活力"
+          "date": "20261006",
+          "title": "[视频]【文化中国行·校馆弦歌】南开大学图书馆：知中国 服务中国"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 66,
-      "week_count": 10,
-      "prev_count": 4,
-      "trend": "+150%",
+      "week_count": 11,
+      "prev_count": 5,
+      "trend": "+120%",
       "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
@@ -324,6 +287,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261007",
+          "title": "[视频]俄称将采取一切措施应对立陶宛解禁部署核武器"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]也门胡塞武装称打击沙特主要机场和空军基地 在曼德海峡方向击退政府军进攻"
+        },
+        {
           "date": "20261006",
           "title": "[视频]也门媒体称政府军在多地推进 胡塞武装称仍控制近期攻下的区域"
         },
@@ -334,108 +305,64 @@
         {
           "date": "20261004",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261002",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
-      "sector": "外贸",
-      "score": 63,
+      "sector": "房地产",
+      "score": 66,
       "week_count": 6,
-      "prev_count": 15,
-      "trend": "+-60%",
-      "policy_level": "国务院",
+      "prev_count": 3,
+      "trend": "+100%",
+      "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261006",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]9月制造业采购经理指数回升 重回扩张区间"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 63,
-      "week_count": 11,
-      "prev_count": 18,
-      "trend": "+-39%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261006",
-          "title": "[视频]【新思想引领新征程】大食物观里的中国味道"
+          "date": "20261007",
+          "title": "[视频]国庆期间超2.1亿人次游公园 乐享假日时光"
         },
         {
-          "date": "20261006",
-          "title": "[视频]2026年“外媒看中国”采访走进7省区市"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]【文化中国行·校馆弦歌】南开大学图书馆：知中国 服务中国"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]【在希望的田野上】我国秋粮迎来大面积收获 进度过三成"
-        },
-        {
-          "date": "20261002",
+          "date": "20261007",
           "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261005",
+          "title": "[视频]一条热线连接市民冷暖和城市治理"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]各地积极推动盘活低效闲置空间"
+        },
+        {
+          "date": "20261001",
+          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
         }
       ]
     },
     {
       "sector": "基建投资",
-      "score": 57,
-      "week_count": 30,
+      "score": 62,
+      "week_count": 40,
       "prev_count": 21,
-      "trend": "+43%",
+      "trend": "+90%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -463,73 +390,110 @@
       ],
       "trigger_articles": [
         {
-          "date": "20261006",
-          "title": "[视频]假期客流集中返程 多措并举保有序出行"
+          "date": "20261007",
+          "title": "[视频]【新思想引领新征程】以习近平文化思想为指引 铸就中华文化新辉煌"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]国庆假期出行需求旺盛 发展活力持续释放"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]【一线调研】从物畅其流到产销联动"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]俄称将采取一切措施应对立陶宛解禁部署核武器"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 62,
+      "week_count": 17,
+      "prev_count": 9,
+      "trend": "+89%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261007",
+          "title": "[视频]【新思想引领新征程】以习近平文化思想为指引 铸就中华文化新辉煌"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]国庆期间超2.1亿人次游公园 乐享假日时光"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]【一线调研】从物畅其流到产销联动"
         },
         {
           "date": "20261006",
           "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20261006",
-          "title": "[视频]也门媒体称政府军在多地推进 胡塞武装称仍控制近期攻下的区域"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]国际联播快讯"
-        },
-        {
           "date": "20261005",
-          "title": "[视频]【新思想引领新征程】以实干开创美好未来"
+          "title": "[视频]假日消费市场新意足人气旺"
         }
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 56,
-      "week_count": 7,
-      "prev_count": 7,
-      "trend": "+0%",
-      "policy_level": "央行",
-      "intensity_level": "results",
+      "sector": "新能源汽车",
+      "score": 61,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
         },
         {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
         },
         {
-          "code": "600938",
-          "name": "中国海油",
+          "code": "688561",
+          "name": "奇安信",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
           "date": "20261006",
-          "title": "[视频]也门媒体称政府军在多地推进 胡塞武装称仍控制近期攻下的区域"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]国际联播快讯"
+          "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
         },
         {
           "date": "20261003",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20260930",
-          "title": "[视频]国际联播快讯"
+          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
         }
       ]
     },
@@ -537,8 +501,8 @@
       "sector": "银行金融",
       "score": 56,
       "week_count": 4,
-      "prev_count": 6,
-      "trend": "+-33%",
+      "prev_count": 5,
+      "trend": "+-20%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -575,85 +539,43 @@
       ]
     },
     {
-      "sector": "房地产",
-      "score": 45,
-      "week_count": 4,
-      "prev_count": 3,
-      "trend": "+33%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261005",
-          "title": "[视频]一条热线连接市民冷暖和城市治理"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]各地积极推动盘活低效闲置空间"
-        },
-        {
-          "date": "20261001",
-          "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 41,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "国家发改委",
+      "sector": "外贸",
+      "score": 53,
+      "week_count": 3,
+      "prev_count": 14,
+      "trend": "+-79%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "603138",
-          "name": "海量数据",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261004",
-          "title": "[视频]【一线调研】协同铺筑的“六张网”"
+          "date": "20261007",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261006",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "半导体",
-      "score": 41,
+      "score": 51,
       "week_count": 2,
-      "prev_count": 2,
-      "trend": "+0%",
+      "prev_count": 1,
+      "trend": "+100%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -691,11 +613,56 @@
       ]
     },
     {
+      "sector": "石油能源",
+      "score": 51,
+      "week_count": 6,
+      "prev_count": 7,
+      "trend": "+-14%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261006",
+          "title": "[视频]也门媒体称政府军在多地推进 胡塞武装称仍控制近期攻下的区域"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261003",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "医药",
-      "score": 36,
-      "week_count": 2,
-      "prev_count": 4,
-      "trend": "+-50%",
+      "score": 46,
+      "week_count": 3,
+      "prev_count": 3,
+      "trend": "+0%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -718,12 +685,49 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261007",
+          "title": "[视频]入境游持续升温 外国游客深度体验多彩中国"
+        },
+        {
           "date": "20261004",
           "title": "[视频]国内联播快讯"
         },
         {
           "date": "20261001",
           "title": "[视频]《求是》杂志发表习近平总书记重要文章《加强普惠性、基础性、兜底性民生建设》"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 41,
+      "week_count": 1,
+      "prev_count": 2,
+      "trend": "+-50%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
         }
       ]
     },
