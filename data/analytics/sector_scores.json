@@ -1,5 +1,5 @@
 {
-  "date": "20261009",
+  "date": "20261010",
   "scores": [
     {
       "sector": "地下管网",
@@ -44,60 +44,11 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 81,
-      "week_count": 6,
-      "prev_count": 1,
-      "trend": "+500%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261009",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]国庆假期高速公路新能源汽车日均充电量同比增长51.42%"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]我国加快建立全链条循环经济体系"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]假期旅游线路升温 交通部门增加运力保障旅客出行"
-        }
-      ]
-    },
-    {
       "sector": "AI人工智能",
       "score": 81,
-      "week_count": 20,
+      "week_count": 23,
       "prev_count": 4,
-      "trend": "+400%",
+      "trend": "+475%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -125,33 +76,33 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261010",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261009",
           "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
         },
         {
           "date": "20261009",
           "title": "[视频]中共中央 国务院印发《关于发展新质生产力的意见》"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]【新闻特写】“六张网”带来的新机遇"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】广西：桂北大地传薪火 向海图强启新程"
         }
       ]
     },
     {
       "sector": "机器人",
       "score": 76,
-      "week_count": 8,
+      "week_count": 10,
       "prev_count": 4,
-      "trend": "+100%",
+      "trend": "+150%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -179,6 +130,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261010",
+          "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
+        },
+        {
           "date": "20261008",
           "title": "[视频]【新思想引领新征程】以人的需求为原点 激活消费大市场"
         },
@@ -193,45 +148,84 @@
         {
           "date": "20261006",
           "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]2026年“外媒看中国”采访走进7省区市"
         }
       ]
     },
     {
-      "sector": "新能源",
-      "score": 74,
-      "week_count": 16,
-      "prev_count": 5,
-      "trend": "+220%",
+      "sector": "外贸",
+      "score": 73,
+      "week_count": 12,
+      "prev_count": 8,
+      "trend": "+50%",
       "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]俄将向美国和全球市场供油 美放松对俄柴油贸易制裁"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 72,
+      "week_count": 6,
+      "prev_count": 2,
+      "trend": "+200%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
+          "code": "300750",
+          "name": "宁德时代",
           "market": "SZ"
         },
         {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
         },
         {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
         {
           "date": "20261009",
           "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
@@ -245,12 +239,49 @@
           "title": "[视频]我国加快建立全链条循环经济体系"
         },
         {
-          "date": "20261008",
-          "title": "[视频]国内联播快讯"
+          "date": "20261006",
+          "title": "[视频]2030年我国新型电池产业规模将实现稳步增长"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 71,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
         },
         {
-          "date": "20261007",
-          "title": "[视频]国庆假期出行需求旺盛 发展活力持续释放"
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]中共中央 国务院印发《关于发展新质生产力的意见》"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]【一线调研】协同铺筑的“六张网”"
         }
       ]
     },
@@ -304,55 +335,65 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 68,
-      "week_count": 9,
-      "prev_count": 8,
-      "trend": "+12%",
+      "sector": "新能源",
+      "score": 69,
+      "week_count": 19,
+      "prev_count": 7,
+      "trend": "+171%",
       "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
           "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国内联播快讯"
+        },
         {
           "date": "20261009",
           "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
         },
         {
-          "date": "20261009",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国际联播快讯"
-        },
-        {
           "date": "20261008",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】广西：桂北大地传薪火 向海图强启新程"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]中国人民银行今天发布关于人民币汇率的政策立场"
+          "title": "[视频]国庆假期高速公路新能源汽车日均充电量同比增长51.42%"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 67,
-      "week_count": 48,
-      "prev_count": 24,
-      "trend": "+100%",
+      "week_count": 51,
+      "prev_count": 21,
+      "trend": "+143%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -380,34 +421,181 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261010",
+          "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261009",
           "title": "[视频]财政部安排使用5500亿元地方政府债务结存限额"
         },
         {
           "date": "20261009",
           "title": "[视频]【新闻特写】“六张网”带来的新机遇"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 64,
+      "week_count": 17,
+      "prev_count": 10,
+      "trend": "+70%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【在希望的田野上】全国秋粮收获进度过半 秋冬种陆续展开"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
         },
         {
           "date": "20261009",
           "title": "[视频]国内联播快讯"
         },
         {
+          "date": "20261008",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 59,
+      "week_count": 20,
+      "prev_count": 17,
+      "trend": "+18%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国庆假期服务消费需求旺盛 商品消费增势良好"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]俄将向美国和全球市场供油 美放松对俄柴油贸易制裁"
+        },
+        {
           "date": "20261009",
-          "title": "[视频]沙特称利雅得机场遭袭造成人员死伤 媒体称也门胡塞武装控制区遭沙特空袭"
+          "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 57,
+      "week_count": 5,
+      "prev_count": 4,
+      "trend": "+25%",
+      "policy_level": "国家发改委",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
         },
         {
           "date": "20261008",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】广西：桂北大地传薪火 向海图强启新程"
+          "title": "[视频]我国实施医疗康复护理扩容提升工程"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]入境游持续升温 外国游客深度体验多彩中国"
+        },
+        {
+          "date": "20261004",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "石油能源",
-      "score": 61,
-      "week_count": 11,
-      "prev_count": 7,
-      "trend": "+57%",
-      "policy_level": "央行",
+      "score": 56,
+      "week_count": 9,
+      "prev_count": 8,
+      "trend": "+12%",
+      "policy_level": "财政部",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -429,6 +617,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261010",
+          "title": "[视频]俄将向美国和全球市场供油 美放松对俄柴油贸易制裁"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261009",
           "title": "[视频]国际联播快讯"
         },
@@ -439,24 +635,16 @@
         {
           "date": "20261008",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]也门媒体称政府军在多地推进 胡塞武装称仍控制近期攻下的区域"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 61,
+      "score": 52,
       "week_count": 14,
-      "prev_count": 8,
-      "trend": "+75%",
-      "policy_level": "央行",
+      "prev_count": 9,
+      "trend": "+56%",
+      "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -483,6 +671,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261010",
+          "title": "[视频]日本民间团体提交请愿书 反对政府扩军备武"
+        },
+        {
           "date": "20261009",
           "title": "[视频]沙特称利雅得机场遭袭造成人员死伤 媒体称也门胡塞武装控制区遭沙特空袭"
         },
@@ -497,117 +689,15 @@
         {
           "date": "20261008",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]俄称将采取一切措施应对立陶宛解禁部署核武器"
-        }
-      ]
-    },
-    {
-      "sector": "消费",
-      "score": 59,
-      "week_count": 18,
-      "prev_count": 15,
-      "trend": "+20%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261009",
-          "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国庆假期旅游市场红火 国内出游达8.26亿人次"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]【新思想引领新征程】以人的需求为原点 激活消费大市场"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]中国人民银行今天发布关于人民币汇率的政策立场"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]国庆假期全社会跨区域人员流动量日均超3亿人次"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 59,
-      "week_count": 16,
-      "prev_count": 12,
-      "trend": "+33%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261009",
-          "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]【在希望的田野上】各地秋粮加紧收获"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]【一线调研】从物畅其流到产销联动"
         }
       ]
     },
     {
       "sector": "银行金融",
-      "score": 56,
-      "week_count": 7,
-      "prev_count": 6,
-      "trend": "+17%",
+      "score": 46,
+      "week_count": 4,
+      "prev_count": 9,
+      "trend": "+-56%",
       "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
@@ -636,103 +726,17 @@
         {
           "date": "20261008",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]多举措激活国庆假期消费活力"
-        },
-        {
-          "date": "20261003",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 51,
-      "week_count": 2,
-      "prev_count": 2,
-      "trend": "+0%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261009",
-          "title": "[视频]中共中央 国务院印发《关于发展新质生产力的意见》"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]【一线调研】协同铺筑的“六张网”"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 51,
-      "week_count": 3,
-      "prev_count": 4,
-      "trend": "+-25%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261008",
-          "title": "[视频]我国实施医疗康复护理扩容提升工程"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]入境游持续升温 外国游客深度体验多彩中国"
-        },
-        {
-          "date": "20261004",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "半导体",
-      "score": 41,
-      "week_count": 2,
+      "score": 42,
+      "week_count": 3,
       "prev_count": 2,
-      "trend": "+0%",
+      "trend": "+50%",
       "policy_level": "",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
@@ -757,6 +761,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
         {
           "date": "20261009",
           "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
