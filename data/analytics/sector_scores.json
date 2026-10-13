@@ -1,56 +1,102 @@
 {
-  "date": "20261012",
+  "date": "20261013",
   "scores": [
     {
-      "sector": "外贸",
-      "score": 83,
-      "week_count": 19,
-      "prev_count": 5,
-      "trend": "+280%",
-      "policy_level": "国务院",
+      "sector": "石油能源",
+      "score": 75,
+      "week_count": 14,
+      "prev_count": 7,
+      "trend": "+100%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261012",
-          "title": "[视频]习近平同巴布亚新几内亚总督就中巴新建交50周年互致贺电 李强同巴新总理互致贺电"
+          "date": "20261013",
+          "title": "[视频]联播快讯"
         },
         {
           "date": "20261012",
-          "title": "[视频]李强会见越南国会主席"
+          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
         },
         {
           "date": "20261012",
-          "title": "[视频]李强同新西兰总理通电话"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20261011",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]俄将向美国和全球市场供油 美放松对俄柴油贸易制裁"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 73,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
+        },
+        {
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261013",
+          "title": "[视频]习近平同博茨瓦纳总统会谈"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]中共中央 国务院印发《关于发展新质生产力的意见》"
         }
       ]
     },
     {
       "sector": "医药",
       "score": 72,
-      "week_count": 8,
+      "week_count": 11,
       "prev_count": 2,
-      "trend": "+300%",
+      "trend": "+450%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -73,6 +119,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261013",
+          "title": "[视频]习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展"
+        },
+        {
           "date": "20261012",
           "title": "[视频]【新思想引领新征程】以人民为中心 加快建设健康中国"
         },
@@ -87,20 +137,109 @@
         {
           "date": "20261008",
           "title": "[视频]我国实施医疗康复护理扩容提升工程"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 71,
+      "week_count": 24,
+      "prev_count": 6,
+      "trend": "+300%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261013",
+          "title": "[视频]习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]习近平同博茨瓦纳总统会谈"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]习近平会见多哥部长会议主席"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]第140届广交会推出超50项创新举措提升展会服务效能"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]习近平同巴布亚新几内亚总督就中巴新建交50周年互致贺电 李强同巴新总理互致贺电"
+        }
+      ]
+    },
+    {
+      "sector": "房地产",
+      "score": 70,
+      "week_count": 6,
+      "prev_count": 4,
+      "trend": "+50%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261012",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261011",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20261007",
-          "title": "[视频]入境游持续升温 外国游客深度体验多彩中国"
+          "title": "[视频]国庆期间超2.1亿人次游公园 乐享假日时光"
+        },
+        {
+          "date": "20261007",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "新能源汽车",
-      "score": 72,
-      "week_count": 8,
-      "prev_count": 2,
-      "trend": "+300%",
-      "policy_level": "国家发改委",
+      "score": 69,
+      "week_count": 7,
+      "prev_count": 3,
+      "trend": "+133%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -144,11 +283,65 @@
       ]
     },
     {
-      "sector": "新能源",
+      "sector": "军工",
       "score": 69,
-      "week_count": 21,
+      "week_count": 14,
       "prev_count": 10,
-      "trend": "+110%",
+      "trend": "+40%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261013",
+          "title": "[视频]习近平举行仪式欢迎博茨瓦纳总统访华"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]联播快讯"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
+        },
+        {
+          "date": "20261011",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]日本民间团体提交请愿书 反对政府扩军备武"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 64,
+      "week_count": 21,
+      "prev_count": 11,
+      "trend": "+91%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -176,6 +369,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261013",
+          "title": "[视频]习近平会见多哥部长会议主席"
+        },
+        {
           "date": "20261012",
           "title": "[视频]李强会见越南国会主席"
         },
@@ -190,68 +387,69 @@
         {
           "date": "20261012",
           "title": "[视频]【铸牢共同体 中华一家亲】内蒙古：同心共建北疆美好家园"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]前三季度新能源汽车产销量实现较高增长"
         }
       ]
     },
     {
-      "sector": "农业",
-      "score": 69,
-      "week_count": 20,
-      "prev_count": 9,
-      "trend": "+122%",
+      "sector": "AI人工智能",
+      "score": 64,
+      "week_count": 22,
+      "prev_count": 14,
+      "trend": "+57%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "300454",
+          "name": "深信服",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261012",
-          "title": "[视频]2026中国网球公开赛落幕 多项数据创赛会纪录"
+          "date": "20261013",
+          "title": "[视频]第140届广交会推出超50项创新举措提升展会服务效能"
         },
         {
           "date": "20261012",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]【新思想引领新征程】以人民为中心 加快建设健康中国"
         },
         {
-          "date": "20261011",
-          "title": "[视频]第三次新疆综合科学考察成果发布"
+          "date": "20261012",
+          "title": "[视频]李强会见越南国会主席"
         },
         {
-          "date": "20261010",
-          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+          "date": "20261012",
+          "title": "[视频]赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议"
         },
         {
-          "date": "20261010",
-          "title": "[视频]【在希望的田野上】全国秋粮收获进度过半 秋冬种陆续展开"
+          "date": "20261012",
+          "title": "[视频]【铸牢共同体 中华一家亲】内蒙古：同心共建北疆美好家园"
         }
       ]
     },
     {
       "sector": "机器人",
-      "score": 67,
-      "week_count": 11,
-      "prev_count": 4,
-      "trend": "+175%",
+      "score": 62,
+      "week_count": 8,
+      "prev_count": 5,
+      "trend": "+60%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -301,218 +499,12 @@
       ]
     },
     {
-      "sector": "AI人工智能",
-      "score": 67,
-      "week_count": 23,
-      "prev_count": 11,
-      "trend": "+109%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]【新思想引领新征程】以人民为中心 加快建设健康中国"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]李强会见越南国会主席"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]【铸牢共同体 中华一家亲】内蒙古：同心共建北疆美好家园"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]我国服务业数智化改造加速落地"
-        }
-      ]
-    },
-    {
-      "sector": "石油能源",
-      "score": 66,
-      "week_count": 14,
-      "prev_count": 7,
-      "trend": "+100%",
-      "policy_level": "财政部",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261010",
-          "title": "[视频]俄将向美国和全球市场供油 美放松对俄柴油贸易制裁"
-        },
-        {
-          "date": "20261010",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 65,
-      "week_count": 6,
-      "prev_count": 6,
-      "trend": "+0%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]国庆期间超2.1亿人次游公园 乐享假日时光"
-        },
-        {
-          "date": "20261007",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 64,
-      "week_count": 42,
-      "prev_count": 27,
-      "trend": "+56%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]中国物流业景气指数连续5个月扩张"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]沙特利雅得机场遭袭致12人死309人伤"
-        }
-      ]
-    },
-    {
       "sector": "消费",
-      "score": 64,
-      "week_count": 26,
-      "prev_count": 16,
-      "trend": "+62%",
-      "policy_level": "国务院",
+      "score": 61,
+      "week_count": 25,
+      "prev_count": 14,
+      "trend": "+79%",
+      "policy_level": "央行",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -556,48 +548,151 @@
       ]
     },
     {
-      "sector": "数据要素",
-      "score": 63,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
+      "sector": "农业",
+      "score": 59,
+      "week_count": 13,
+      "prev_count": 11,
+      "trend": "+18%",
       "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "603138",
-          "name": "海量数据",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "300188",
-          "name": "美亚柏科",
+          "code": "000998",
+          "name": "隆平高科",
           "market": "SZ"
         },
         {
-          "code": "300451",
-          "name": "创业慧康",
+          "code": "300498",
+          "name": "温氏股份",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261010",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章"
+          "date": "20261013",
+          "title": "[视频]习近平同博茨瓦纳总统会谈"
         },
         {
-          "date": "20261009",
-          "title": "[视频]中共中央 国务院印发《关于发展新质生产力的意见》"
+          "date": "20261012",
+          "title": "[视频]2026中国网球公开赛落幕 多项数据创赛会纪录"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261011",
+          "title": "[视频]第三次新疆综合科学考察成果发布"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 59,
+      "week_count": 37,
+      "prev_count": 30,
+      "trend": "+23%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261013",
+          "title": "[视频]习近平会见多哥部长会议主席"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]联播快讯"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
+        },
+        {
+          "date": "20261011",
+          "title": "[视频]中国物流业景气指数连续5个月扩张"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 51,
+      "week_count": 4,
+      "prev_count": 4,
+      "trend": "+0%",
+      "policy_level": "央行",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261008",
+          "title": "[视频]中国人民银行今天发布关于人民币汇率的政策立场"
+        },
+        {
+          "date": "20261008",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "半导体",
-      "score": 52,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
+      "score": 32,
+      "week_count": 2,
+      "prev_count": 2,
+      "trend": "+0%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -631,101 +726,6 @@
         {
           "date": "20261009",
           "title": "[视频]【新思想引领新征程】因地制宜 推动县域经济高质量发展"
-        },
-        {
-          "date": "20261006",
-          "title": "[视频]【新思想引领新征程】大食物观里的中国味道"
-        }
-      ]
-    },
-    {
-      "sector": "军工",
-      "score": 47,
-      "week_count": 12,
-      "prev_count": 11,
-      "trend": "+9%",
-      "policy_level": "",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261010",
-          "title": "[视频]日本民间团体提交请愿书 反对政府扩军备武"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]沙特称利雅得机场遭袭造成人员死伤 媒体称也门胡塞武装控制区遭沙特空袭"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]沙特称摧毁也门胡塞武装82处军事目标 胡塞武装称打击亚丁机场附近沙特目标"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 46,
-      "week_count": 4,
-      "prev_count": 7,
-      "trend": "+-43%",
-      "policy_level": "央行",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261008",
-          "title": "[视频]中国人民银行今天发布关于人民币汇率的政策立场"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]国内联播快讯"
         }
       ]
     }
