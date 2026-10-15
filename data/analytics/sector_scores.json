@@ -1,101 +1,52 @@
 {
-  "date": "20261014",
+  "date": "20261015",
   "scores": [
     {
-      "sector": "石油能源",
-      "score": 80,
-      "week_count": 18,
-      "prev_count": 6,
-      "trend": "+200%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261014",
-          "title": "[视频]前三季度我国物价保持平稳运行"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]沙特主导的联军和也门胡塞武装相互打击对方能源设施"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 74,
-      "week_count": 7,
-      "prev_count": 2,
-      "trend": "+250%",
-      "policy_level": "国务院",
+      "sector": "医药",
+      "score": 75,
+      "week_count": 20,
+      "prev_count": 3,
+      "trend": "+567%",
+      "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "600276",
+          "name": "恒瑞医药",
           "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261012",
-          "title": "[视频]李强同新西兰总理通电话"
+          "date": "20261015",
+          "title": "[视频]建成均衡普惠、优质高效的健康中国——习近平总书记重要讲话激励广大卫生与健康工作者履职尽责、担当作为"
         },
         {
-          "date": "20261012",
-          "title": "[视频]前三季度新能源汽车产销量实现较高增长"
+          "date": "20261015",
+          "title": "[视频]李强同多哥部长会议主席会谈"
         },
         {
-          "date": "20261010",
-          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+          "date": "20261015",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】薪火相传向未来 治蜀兴川谱新篇"
         },
         {
-          "date": "20261009",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
+          "date": "20261014",
+          "title": "[视频]不断提高人民健康水平 确保健康中国建设取得决定性进展——习近平总书记在全国卫生与健康大会上的重要讲话引发热烈反响"
         },
         {
-          "date": "20261008",
-          "title": "[视频]国庆假期高速公路新能源汽车日均充电量同比增长51.42%"
+          "date": "20261014",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
         }
       ]
     },
@@ -141,61 +92,12 @@
       ]
     },
     {
-      "sector": "医药",
-      "score": 72,
-      "week_count": 15,
-      "prev_count": 3,
-      "trend": "+400%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261014",
-          "title": "[视频]不断提高人民健康水平 确保健康中国建设取得决定性进展——习近平总书记在全国卫生与健康大会上的重要讲话引发热烈反响"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]【新思想引领新征程】以人民为中心 加快建设健康中国"
-        },
-        {
-          "date": "20261010",
-          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
-        }
-      ]
-    },
-    {
       "sector": "外贸",
       "score": 71,
-      "week_count": 36,
-      "prev_count": 3,
-      "trend": "+1100%",
-      "policy_level": "央行",
+      "week_count": 41,
+      "prev_count": 5,
+      "trend": "+720%",
+      "policy_level": "财政部",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -212,59 +114,66 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261015",
+          "title": "[视频]李强会见博茨瓦纳总统"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]李强同多哥部长会议主席会谈"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261014",
           "title": "[视频]习近平向第140届中国进出口商品交易会致贺信"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]李强出席第140届中国进出口商品交易会开幕式并发表主旨演讲"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]李强出席“广交世界70年”座谈会"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]前三季度我国货物贸易进出口39.94万亿元"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展"
         }
       ]
     },
     {
-      "sector": "军工",
-      "score": 69,
-      "week_count": 15,
-      "prev_count": 11,
-      "trend": "+36%",
-      "policy_level": "中央政治局",
+      "sector": "石油能源",
+      "score": 70,
+      "week_count": 16,
+      "prev_count": 10,
+      "trend": "+60%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600893",
-          "name": "航发动力",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "600760",
-          "name": "中航沈飞",
+          "code": "600028",
+          "name": "中国石化",
           "market": "SH"
         },
         {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261015",
+          "title": "[视频]霍尔木兹海峡水域本月频发船只遇袭等事件"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]前三季度我国物价保持平稳运行"
+        },
         {
           "date": "20261014",
           "title": "[视频]沙特主导的联军和也门胡塞武装相互打击对方能源设施"
@@ -272,130 +181,60 @@
         {
           "date": "20261014",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平举行仪式欢迎博茨瓦纳总统访华"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击"
         }
       ]
     },
     {
-      "sector": "消费",
+      "sector": "房地产",
       "score": 65,
-      "week_count": 24,
-      "prev_count": 17,
-      "trend": "+41%",
-      "policy_level": "央行",
+      "week_count": 5,
+      "prev_count": 5,
+      "trend": "+0%",
+      "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261014",
-          "title": "[视频]前三季度我国物价保持平稳运行"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]前三季度新能源汽车产销量实现较高增长"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]我国服务业数智化改造加速落地"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 64,
-      "week_count": 20,
-      "prev_count": 13,
-      "trend": "+54%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "600048",
+          "name": "保利发展",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
+          "code": "000002",
+          "name": "万科A",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261014",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平会见多哥部长会议主席"
+          "date": "20261015",
+          "title": "[视频]以强有力监督推动解决群众急难愁盼问题"
         },
         {
           "date": "20261012",
-          "title": "[视频]李强会见越南国会主席"
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20261012",
-          "title": "[视频]李强同新西兰总理通电话"
+          "date": "20261011",
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20261012",
-          "title": "[视频]赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议"
+          "date": "20261009",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "AI人工智能",
       "score": 64,
-      "week_count": 25,
-      "prev_count": 14,
-      "trend": "+79%",
+      "week_count": 24,
+      "prev_count": 16,
+      "trend": "+50%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -423,6 +262,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261015",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261014",
           "title": "[视频]丁薛祥会见清华大学经济管理学院顾问委员会委员代表"
         },
@@ -437,21 +280,223 @@
         {
           "date": "20261013",
           "title": "[视频]第140届广交会推出超50项创新举措提升展会服务效能"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 64,
+      "week_count": 13,
+      "prev_count": 16,
+      "trend": "+-19%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261015",
+          "title": "[视频]也门胡塞武装称再次袭击沙特首都机场 沙特称拦截胡塞武装弹道导弹"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]沙特主导的联军和也门胡塞武装相互打击对方能源设施"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]习近平举行仪式欢迎博茨瓦纳总统访华"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 61,
+      "week_count": 20,
+      "prev_count": 22,
+      "trend": "+-9%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261015",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]前三季度我国物价保持平稳运行"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20261012",
-          "title": "[视频]【新思想引领新征程】以人民为中心 加快建设健康中国"
+          "title": "[视频]前三季度新能源汽车产销量实现较高增长"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 60,
+      "week_count": 26,
+      "prev_count": 44,
+      "trend": "+-41%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261015",
+          "title": "[视频]李强同多哥部长会议主席会谈"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]也门胡塞武装称再次袭击沙特首都机场 沙特称拦截胡塞武装弹道导弹"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]李强出席“广交世界70年”座谈会"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 56,
+      "week_count": 15,
+      "prev_count": 15,
+      "trend": "+0%",
+      "policy_level": "财政部",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261015",
+          "title": "[视频]李强同多哥部长会议主席会谈"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]以强有力监督推动解决群众急难愁盼问题"
+        },
+        {
+          "date": "20261015",
+          "title": "[视频]【在希望的田野上】全国秋粮收获进入高峰期 进度过六成"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]习近平同博茨瓦纳总统会谈"
         }
       ]
     },
     {
       "sector": "银行金融",
-      "score": 61,
-      "week_count": 7,
-      "prev_count": 4,
-      "trend": "+75%",
+      "score": 55,
+      "week_count": 4,
+      "prev_count": 8,
+      "trend": "+-50%",
       "policy_level": "央行",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
@@ -472,29 +517,124 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261015",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261014",
           "title": "[视频]9月末社会融资规模存量同比增长7.1%"
         },
         {
           "date": "20261014",
           "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 55,
+      "week_count": 15,
+      "prev_count": 19,
+      "trend": "+-21%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
         },
         {
-          "date": "20261008",
-          "title": "[视频]中国人民银行今天发布关于人民币汇率的政策立场"
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
         },
         {
-          "date": "20261008",
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261015",
           "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261014",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
+        },
+        {
+          "date": "20261013",
+          "title": "[视频]习近平会见多哥部长会议主席"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]李强会见越南国会主席"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]李强同新西兰总理通电话"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 49,
+      "week_count": 4,
+      "prev_count": 5,
+      "trend": "+-20%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261012",
+          "title": "[视频]李强同新西兰总理通电话"
+        },
+        {
+          "date": "20261012",
+          "title": "[视频]前三季度新能源汽车产销量实现较高增长"
+        },
+        {
+          "date": "20261010",
+          "title": "[视频]【新思想引领新征程】从源头和底层破题 夯实科技强国根基"
+        },
+        {
+          "date": "20261009",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇"
         }
       ]
     },
     {
       "sector": "机器人",
-      "score": 57,
-      "week_count": 7,
-      "prev_count": 6,
-      "trend": "+17%",
+      "score": 42,
+      "week_count": 3,
+      "prev_count": 10,
+      "trend": "+-70%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -528,158 +668,6 @@
         {
           "date": "20261010",
           "title": "[视频]先行指标释放积极信号 经济回升向好态势持续巩固"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]【新思想引领新征程】以人的需求为原点 激活消费大市场"
-        },
-        {
-          "date": "20261008",
-          "title": "[视频]我国具身智能产业化加速落地"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 55,
-      "week_count": 4,
-      "prev_count": 6,
-      "trend": "+-33%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261012",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261009",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 54,
-      "week_count": 11,
-      "prev_count": 14,
-      "trend": "+-21%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261014",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平同博茨瓦纳总统会谈"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]2026中国网球公开赛落幕 多项数据创赛会纪录"
-        },
-        {
-          "date": "20261012",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261011",
-          "title": "[视频]第三次新疆综合科学考察成果发布"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 54,
-      "week_count": 30,
-      "prev_count": 40,
-      "trend": "+-25%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261014",
-          "title": "[视频]李强出席“广交世界70年”座谈会"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]丁薛祥会见清华大学经济管理学院顾问委员会委员代表"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]沙特主导的联军和也门胡塞武装相互打击对方能源设施"
-        },
-        {
-          "date": "20261014",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平会见多哥部长会议主席"
         }
       ]
     },
