@@ -1,5 +1,5 @@
 {
-  "date": "20261019",
+  "date": "20261020",
   "scores": [
     {
       "sector": "黄金",
@@ -39,67 +39,13 @@
       ]
     },
     {
-      "sector": "军工",
-      "score": 74,
-      "week_count": 19,
-      "prev_count": 12,
-      "trend": "+58%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261019",
-          "title": "[视频]俄称正对乌进行系统性打击 乌称打击俄数据中心"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261017",
-          "title": "[视频]也门政府称亚丁机场遭袭 胡塞武装称打击沙特军事目标"
-        },
-        {
-          "date": "20261017",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "医药",
-      "score": 70,
-      "week_count": 17,
-      "prev_count": 8,
-      "trend": "+112%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
+      "score": 68,
+      "week_count": 14,
+      "prev_count": 11,
+      "trend": "+27%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
@@ -142,12 +88,115 @@
       ]
     },
     {
-      "sector": "外贸",
-      "score": 70,
-      "week_count": 45,
-      "prev_count": 19,
-      "trend": "+137%",
+      "sector": "农业",
+      "score": 65,
+      "week_count": 20,
+      "prev_count": 13,
+      "trend": "+54%",
       "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261019",
+          "title": "[视频]前三季度GDP同比增长4.6% 高质量发展取得新成效"
+        },
+        {
+          "date": "20261019",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261018",
+          "title": "[视频]李强同乌兹别克斯坦总理会谈"
+        },
+        {
+          "date": "20261018",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇"
+        },
+        {
+          "date": "20261018",
+          "title": "[视频]我国首次太空培育两代水稻取得新突破"
+        }
+      ]
+    },
+    {
+      "sector": "军工",
+      "score": 65,
+      "week_count": 19,
+      "prev_count": 14,
+      "trend": "+36%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600893",
+          "name": "航发动力",
+          "market": "SH"
+        },
+        {
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
+          "market": "SZ"
+        },
+        {
+          "code": "600862",
+          "name": "中航高科",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261020",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】传承红色血脉 打好实现建军一百年奋斗目标攻坚战"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261019",
+          "title": "[视频]俄称正对乌进行系统性打击 乌称打击俄数据中心"
+        },
+        {
+          "date": "20261018",
+          "title": "[视频]也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机"
+        },
+        {
+          "date": "20261018",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 64,
+      "week_count": 40,
+      "prev_count": 24,
+      "trend": "+67%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -164,6 +213,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]李强会见白俄罗斯总理"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261019",
           "title": "[视频]李强同塔吉克斯坦总理会谈"
         },
@@ -174,23 +231,15 @@
         {
           "date": "20261019",
           "title": "[视频]第140届广交会：丰富全链条配套供给 筑牢全球贸易合作根基"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]李强同乌兹别克斯坦总理会谈"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "AI人工智能",
       "score": 64,
-      "week_count": 16,
-      "prev_count": 23,
-      "trend": "+-30%",
+      "week_count": 17,
+      "prev_count": 22,
+      "trend": "+-23%",
       "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
@@ -218,24 +267,69 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]前三季度规模以上工业增加值同比增长5.3%"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261019",
           "title": "[视频]李强同塔吉克斯坦总理会谈"
         },
         {
           "date": "20261019",
           "title": "[视频]我国多措并举加快推进科技兴商"
+        }
+      ]
+    },
+    {
+      "sector": "数据要素",
+      "score": 63,
+      "week_count": 4,
+      "prev_count": 3,
+      "trend": "+33%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "603138",
+          "name": "海量数据",
+          "market": "SH"
         },
         {
-          "date": "20261018",
-          "title": "[视频]李强同乌兹别克斯坦总理会谈"
+          "code": "300188",
+          "name": "美亚柏科",
+          "market": "SZ"
+        },
+        {
+          "code": "300451",
+          "name": "创业慧康",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261020",
+          "title": "[视频]李强会见白俄罗斯总理"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研"
         },
         {
           "date": "20261017",
           "title": "[视频]厚植绿色根基 因地制宜推动高质量发展——习近平总书记在内蒙古乌兰察布考察时的重要讲话引发广大干部群众热烈反响"
         },
         {
-          "date": "20261017",
-          "title": "[视频]广交会：人工智能新品为外贸增长注入新动能"
+          "date": "20261016",
+          "title": "[视频]习近平在内蒙古乌兰察布考察时强调 统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路"
         }
       ]
     },
@@ -312,6 +406,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261019",
           "title": "[视频]俄称正对乌进行系统性打击 乌称打击俄数据中心"
         },
@@ -326,59 +424,51 @@
         {
           "date": "20261016",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261015",
-          "title": "[视频]霍尔木兹海峡水域本月频发船只遇袭等事件"
         }
       ]
     },
     {
-      "sector": "农业",
-      "score": 60,
-      "week_count": 21,
-      "prev_count": 20,
-      "trend": "+5%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
+      "sector": "房地产",
+      "score": 56,
+      "week_count": 4,
+      "prev_count": 6,
+      "trend": "+-33%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261019",
-          "title": "[视频]前三季度GDP同比增长4.6% 高质量发展取得新成效"
-        },
-        {
-          "date": "20261019",
-          "title": "[视频]国际联播快讯"
+          "date": "20261020",
+          "title": "[视频]【“十五五”开好局起好步】我国首次编制文化遗产保护传承五年规划"
         },
         {
           "date": "20261018",
-          "title": "[视频]李强同乌兹别克斯坦总理会谈"
+          "title": "[视频]城镇供热“温暖工程”三年行动启动"
         },
         {
-          "date": "20261018",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇"
+          "date": "20261017",
+          "title": "[视频]各地优化服务 保障群众温暖过冬"
         },
         {
-          "date": "20261018",
-          "title": "[视频]我国首次太空培育两代水稻取得新突破"
+          "date": "20261015",
+          "title": "[视频]以强有力监督推动解决群众急难愁盼问题"
         }
       ]
     },
@@ -415,6 +505,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261019",
           "title": "[视频]【赓续长征精神 奋进复兴征程】初心如磐 精神永续 书写新长征路上的崭新答卷"
         },
@@ -429,10 +523,6 @@
         {
           "date": "20261018",
           "title": "[视频]【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇"
-        },
-        {
-          "date": "20261016",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】青海：雪域传薪火 绿色启新程"
         }
       ]
     },
@@ -440,8 +530,8 @@
       "sector": "基建投资",
       "score": 54,
       "week_count": 29,
-      "prev_count": 42,
-      "trend": "+-31%",
+      "prev_count": 37,
+      "trend": "+-22%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -469,6 +559,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]丁薛祥在河北雄安新区出席国家数据集团有限公司成立大会并调研"
+        },
+        {
+          "date": "20261020",
+          "title": "[视频]前三季度规模以上工业增加值同比增长5.3%"
+        },
+        {
           "date": "20261019",
           "title": "[视频]李强同塔吉克斯坦总理会谈"
         },
@@ -479,14 +577,6 @@
         {
           "date": "20261019",
           "title": "[视频]我国加快建设贯通国家沿边沿海“黄金大外环”"
-        },
-        {
-          "date": "20261019",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]李强同乌兹别克斯坦总理会谈"
         }
       ]
     },
@@ -494,8 +584,8 @@
       "sector": "消费",
       "score": 52,
       "week_count": 12,
-      "prev_count": 26,
-      "trend": "+-54%",
+      "prev_count": 25,
+      "trend": "+-52%",
       "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
@@ -540,93 +630,11 @@
       ]
     },
     {
-      "sector": "房地产",
-      "score": 51,
-      "week_count": 3,
-      "prev_count": 6,
-      "trend": "+-50%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261018",
-          "title": "[视频]城镇供热“温暖工程”三年行动启动"
-        },
-        {
-          "date": "20261017",
-          "title": "[视频]各地优化服务 保障群众温暖过冬"
-        },
-        {
-          "date": "20261015",
-          "title": "[视频]以强有力监督推动解决群众急难愁盼问题"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 51,
-      "week_count": 3,
-      "prev_count": 2,
-      "trend": "+50%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261017",
-          "title": "[视频]厚植绿色根基 因地制宜推动高质量发展——习近平总书记在内蒙古乌兰察布考察时的重要讲话引发广大干部群众热烈反响"
-        },
-        {
-          "date": "20261016",
-          "title": "[视频]习近平在内蒙古乌兰察布考察时强调 统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路"
-        },
-        {
-          "date": "20261013",
-          "title": "[视频]习近平同博茨瓦纳总统会谈"
-        }
-      ]
-    },
-    {
       "sector": "机器人",
-      "score": 36,
-      "week_count": 2,
-      "prev_count": 11,
-      "trend": "+-82%",
+      "score": 41,
+      "week_count": 3,
+      "prev_count": 8,
+      "trend": "+-62%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -654,6 +662,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261020",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261019",
           "title": "[视频]第140届广交会：丰富全链条配套供给 筑牢全球贸易合作根基"
         },
@@ -667,8 +679,8 @@
       "sector": "半导体",
       "score": 22,
       "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
+      "prev_count": 2,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
