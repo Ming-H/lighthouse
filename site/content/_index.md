@@ -3,7 +3,7 @@ title: "央视联播投资参考"
 description: "新闻联播经济信号追踪，捕捉投资机会"
 layout: "home"
 ---
-<div class="daystat"><span class="ds-item"><b>18</b><i>条新闻</i></span><span class="ds-item"><b>8</b><i>条经济相关</i></span><span class="ds-item"><b>2026年10月21日</b><i>最新一期</i></span></div>
+<div class="daystat"><span class="ds-item"><b>13</b><i>条新闻</i></span><span class="ds-item"><b>6</b><i>条经济相关</i></span><span class="ds-item"><b>2026年10月22日</b><i>最新一期</i></span></div>
 
 ## 板块热度 Top 5
 
@@ -16,27 +16,27 @@ layout: "home"
   </li>
   <li class="board-row" data-lvl="yellow">
     <span class="rank">2</span>
+    <span class="board-name">机器人</span>
+    <span class="score">71</span>
+    <span class="board-stocks">拓普集团 · 绿的谐波 · 埃斯顿</span>
+  </li>
+  <li class="board-row" data-lvl="yellow">
+    <span class="rank">3</span>
     <span class="board-name">钢铁</span>
     <span class="score">70</span>
     <span class="board-stocks">宝钢股份 · 中信特钢</span>
   </li>
   <li class="board-row" data-lvl="yellow">
-    <span class="rank">3</span>
-    <span class="board-name">房地产</span>
-    <span class="score">66</span>
-    <span class="board-stocks">招商蛇口 · 保利发展 · 万科A</span>
-  </li>
-  <li class="board-row" data-lvl="yellow">
     <span class="rank">4</span>
-    <span class="board-name">军工</span>
-    <span class="score">65</span>
-    <span class="board-stocks">航发动力 · 中航沈飞 · 中航光电</span>
+    <span class="board-name">数据要素</span>
+    <span class="score">63</span>
+    <span class="board-stocks">海量数据 · 美亚柏科 · 创业慧康</span>
   </li>
   <li class="board-row" data-lvl="yellow">
     <span class="rank">5</span>
-    <span class="board-name">农业</span>
-    <span class="score">65</span>
-    <span class="board-stocks">北大荒 · 隆平高科 · 温氏股份</span>
+    <span class="board-name">基建投资</span>
+    <span class="score">61</span>
+    <span class="board-stocks">中国铁建 · 中国交建 · 中国电建</span>
   </li>
 </ol>
 
