@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-21",
-  "trade_date": "2026年10月21日",
+  "date": "2026-10-22",
+  "trade_date": "2026年10月22日",
   "inflow_top3": [
     {
-      "name": "电子元件",
-      "amount": 38.9
+      "name": "汽车/新能源",
+      "amount": 31.9
+    },
+    {
+      "name": "机械设备",
+      "amount": 5.8
     },
     {
       "name": "半导体",
-      "amount": 27.3
-    },
-    {
-      "name": "通信",
-      "amount": 25.7
+      "amount": 5.8
     }
   ],
   "outflow_top3": [
     {
-      "name": "汽车/新能源",
-      "amount": -41.7
+      "name": "电子元件",
+      "amount": -56.8
     },
     {
-      "name": "非银金融",
-      "amount": -13.2
+      "name": "通信",
+      "amount": -37.7
     },
     {
-      "name": "家用电器",
-      "amount": -11.9
+      "name": "面板显示",
+      "amount": -24.6
     }
   ],
-  "industry_top1": "电子元件",
-  "concept_top1": "共封装光学(CPO)"
+  "industry_top1": "汽车/新能源",
+  "concept_top1": "换电概念"
 }
