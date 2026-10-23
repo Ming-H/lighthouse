@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-22",
-  "trade_date": "2026年10月22日",
+  "date": "2026-10-23",
+  "trade_date": "2026年10月23日",
   "inflow_top3": [
     {
-      "name": "汽车/新能源",
-      "amount": 31.9
-    },
-    {
-      "name": "机械设备",
-      "amount": 5.8
-    },
-    {
       "name": "半导体",
-      "amount": 5.8
+      "amount": 188.2
+    },
+    {
+      "name": "计算机",
+      "amount": 104.5
+    },
+    {
+      "name": "通信",
+      "amount": 75.3
     }
   ],
   "outflow_top3": [
     {
+      "name": "银行",
+      "amount": -60.3
+    },
+    {
+      "name": "公用环保",
+      "amount": -12.8
+    },
+    {
       "name": "电子元件",
-      "amount": -56.8
-    },
-    {
-      "name": "通信",
-      "amount": -37.7
-    },
-    {
-      "name": "面板显示",
-      "amount": -24.6
+      "amount": -6.7
     }
   ],
-  "industry_top1": "汽车/新能源",
-  "concept_top1": "换电概念"
+  "industry_top1": "半导体",
+  "concept_top1": "融资融券"
 }
