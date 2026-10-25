@@ -1,91 +1,12 @@
 {
-  "date": "20261024",
+  "date": "20261025",
   "scores": [
     {
-      "sector": "黄金",
-      "score": 83,
-      "week_count": 2,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261019",
-          "title": "[视频]我国加快建设贯通国家沿边沿海“黄金大外环”"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]李强会见乌兹别克斯坦总统"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 72,
-      "week_count": 2,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "机器人",
-      "score": 71,
-      "week_count": 4,
+      "score": 76,
+      "week_count": 5,
       "prev_count": 2,
-      "trend": "+100%",
+      "trend": "+150%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -112,6 +33,10 @@
         }
       ],
       "trigger_articles": [
+        {
+          "date": "20261025",
+          "title": "[视频]国内联播快讯"
+        },
         {
           "date": "20261021",
           "title": "[视频]新动能加速成长 带动作用不断增强"
@@ -155,11 +80,104 @@
       ]
     },
     {
+      "sector": "消费",
+      "score": 68,
+      "week_count": 13,
+      "prev_count": 12,
+      "trend": "+8%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261025",
+          "title": "[视频]全国一刻钟便民生活圈提质升级"
+        },
+        {
+          "date": "20261023",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20261023",
+          "title": "[视频]第140届广交会第二期今天开展"
+        },
+        {
+          "date": "20261022",
+          "title": "[视频]【“十五五”开好局起好步】推动商务高质量发展取得新成效"
+        },
+        {
+          "date": "20261021",
+          "title": "[视频]前三季度我国消费市场继续扩容"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 63,
+      "week_count": 14,
+      "prev_count": 43,
+      "trend": "+-67%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261025",
+          "title": "[视频]广交会：从单品输出到方案交付 集成式出海成新趋势"
+        },
+        {
+          "date": "20261023",
+          "title": "[视频]前三季度我国财政运行总体平稳"
+        },
+        {
+          "date": "20261023",
+          "title": "[视频]第140届广交会第二期今天开展"
+        },
+        {
+          "date": "20261022",
+          "title": "[视频]赵乐际主持召开十四届全国人大常委会第七十四次委员长会议 决定十四届全国人大常委会第二十五次会议11月2日至6日在京举行"
+        },
+        {
+          "date": "20261021",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "军工",
       "score": 60,
-      "week_count": 18,
-      "prev_count": 16,
-      "trend": "+12%",
+      "week_count": 17,
+      "prev_count": 17,
+      "trend": "+0%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -187,6 +205,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261025",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261024",
           "title": "[视频]接续奋斗 砥砺前行 谱写新时代的强军兴军新篇章——习近平主席在纪念中国工农红军长征胜利90周年大会上的重要讲话引发热烈反响"
         },
@@ -201,19 +223,15 @@
         {
           "date": "20261022",
           "title": "[视频]纪念中国工农红军长征胜利90周年大会在京隆重举行"
-        },
-        {
-          "date": "20261022",
-          "title": "[视频]纪念中国工农红军长征胜利90周年电视文艺晚会《长征颂歌》今晚播出"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 59,
-      "week_count": 33,
-      "prev_count": 23,
-      "trend": "+43%",
+      "week_count": 28,
+      "prev_count": 25,
+      "trend": "+12%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -263,137 +281,47 @@
       ]
     },
     {
-      "sector": "农业",
-      "score": 59,
-      "week_count": 16,
-      "prev_count": 15,
-      "trend": "+7%",
+      "sector": "房地产",
+      "score": 58,
+      "week_count": 4,
+      "prev_count": 5,
+      "trend": "+-20%",
       "policy_level": "国务院",
-      "intensity_level": "results",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "001979",
+          "name": "招商蛇口",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261024",
-          "title": "[视频]二十届中央第八轮巡视对象公布"
+          "date": "20261025",
+          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
         },
-        {
-          "date": "20261024",
-          "title": "[视频]【在希望的田野上】秋粮收获过八成 新技术助力提质增效"
-        },
-        {
-          "date": "20261022",
-          "title": "[视频]赵乐际主持召开十四届全国人大常委会第七十四次委员长会议 决定十四届全国人大常委会第二十五次会议11月2日至6日在京举行"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】在新的长征路上继续奋勇前进"
-        },
-        {
-          "date": "20261019",
-          "title": "[视频]前三季度GDP同比增长4.6% 高质量发展取得新成效"
-        }
-      ]
-    },
-    {
-      "sector": "消费",
-      "score": 59,
-      "week_count": 14,
-      "prev_count": 13,
-      "trend": "+8%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
         {
           "date": "20261023",
           "title": "[视频]李强主持召开国务院常务会议"
         },
         {
-          "date": "20261023",
-          "title": "[视频]第140届广交会第二期今天开展"
-        },
-        {
-          "date": "20261022",
-          "title": "[视频]【“十五五”开好局起好步】推动商务高质量发展取得新成效"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]前三季度我国消费市场继续扩容"
-        },
-        {
           "date": "20261021",
           "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 56,
-      "week_count": 5,
-      "prev_count": 4,
-      "trend": "+25%",
-      "policy_level": "央行",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
         },
         {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261021",
-          "title": "[视频]中国人民银行推出多项金融政策"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]国内联播快讯"
+          "date": "20261020",
+          "title": "[视频]【“十五五”开好局起好步】我国首次编制文化遗产保护传承五年规划"
         }
       ]
     },
@@ -401,8 +329,8 @@
       "sector": "医药",
       "score": 56,
       "week_count": 4,
-      "prev_count": 19,
-      "trend": "+-79%",
+      "prev_count": 21,
+      "trend": "+-81%",
       "policy_level": "国家发改委",
       "intensity_level": "intensive",
       "is_first": false,
@@ -425,128 +353,78 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261025",
+          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援有序进行"
+        },
+        {
           "date": "20261023",
           "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援工作抓紧进行"
         },
         {
           "date": "20261021",
           "title": "[视频]新动能加速成长 带动作用不断增强"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]我国已开通104项全国性跨地区社保服务"
         }
       ]
     },
     {
-      "sector": "房地产",
-      "score": 56,
-      "week_count": 4,
-      "prev_count": 5,
-      "trend": "+-20%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261023",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261020",
-          "title": "[视频]【“十五五”开好局起好步】我国首次编制文化遗产保护传承五年规划"
-        },
-        {
-          "date": "20261018",
-          "title": "[视频]城镇供热“温暖工程”三年行动启动"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
+      "sector": "农业",
       "score": 54,
-      "week_count": 15,
-      "prev_count": 22,
-      "trend": "+-32%",
+      "week_count": 14,
+      "prev_count": 20,
+      "trend": "+-30%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
         },
         {
-          "code": "300454",
-          "name": "深信服",
+          "code": "000998",
+          "name": "隆平高科",
           "market": "SZ"
         },
         {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261023",
-          "title": "[视频]在新的长征路上奋力创造新的辉煌——习近平总书记在纪念中国工农红军长征胜利90周年大会上的重要讲话引发热烈反响"
+          "date": "20261025",
+          "title": "[视频]全国一刻钟便民生活圈提质升级"
         },
         {
-          "date": "20261022",
-          "title": "[视频]赵乐际主持召开十四届全国人大常委会第七十四次委员长会议 决定十四届全国人大常委会第二十五次会议11月2日至6日在京举行"
+          "date": "20261025",
+          "title": "[视频]粤桂优化协作 助力乡村全面振兴"
         },
         {
-          "date": "20261022",
-          "title": "[视频]【“十五五”开好局起好步】推动商务高质量发展取得新成效"
+          "date": "20261025",
+          "title": "[视频]国内联播快讯"
         },
         {
-          "date": "20261021",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】在新的长征路上继续奋勇前进"
+          "date": "20261024",
+          "title": "[视频]二十届中央第八轮巡视对象公布"
         },
         {
-          "date": "20261021",
-          "title": "[视频]李强同俄罗斯总理共同主持中俄总理第三十一次定期会晤"
+          "date": "20261024",
+          "title": "[视频]【在希望的田野上】秋粮收获过八成 新技术助力提质增效"
         }
       ]
     },
     {
       "sector": "新能源",
       "score": 54,
-      "week_count": 10,
+      "week_count": 9,
       "prev_count": 12,
-      "trend": "+-17%",
+      "trend": "+-25%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -596,55 +474,65 @@
       ]
     },
     {
-      "sector": "外贸",
+      "sector": "AI人工智能",
       "score": 54,
-      "week_count": 16,
-      "prev_count": 42,
-      "trend": "+-62%",
+      "week_count": 17,
+      "prev_count": 20,
+      "trend": "+-15%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261023",
-          "title": "[视频]前三季度我国财政运行总体平稳"
+          "date": "20261025",
+          "title": "[视频]广交会：从单品输出到方案交付 集成式出海成新趋势"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20261023",
-          "title": "[视频]第140届广交会第二期今天开展"
+          "title": "[视频]在新的长征路上奋力创造新的辉煌——习近平总书记在纪念中国工农红军长征胜利90周年大会上的重要讲话引发热烈反响"
         },
         {
           "date": "20261022",
           "title": "[视频]赵乐际主持召开十四届全国人大常委会第七十四次委员长会议 决定十四届全国人大常委会第二十五次会议11月2日至6日在京举行"
         },
         {
-          "date": "20261021",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261020",
-          "title": "[视频]李强会见白俄罗斯总理"
+          "date": "20261022",
+          "title": "[视频]【“十五五”开好局起好步】推动商务高质量发展取得新成效"
         }
       ]
     },
     {
       "sector": "石油能源",
       "score": 51,
-      "week_count": 5,
-      "prev_count": 15,
-      "trend": "+-67%",
+      "week_count": 7,
+      "prev_count": 11,
+      "trend": "+-36%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -667,6 +555,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261025",
+          "title": "[视频]我国造船业持续领跑全球"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261023",
           "title": "[视频]国际联播快讯"
         },
@@ -676,14 +572,6 @@
         },
         {
           "date": "20261020",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261019",
-          "title": "[视频]俄称正对乌进行系统性打击 乌称打击俄数据中心"
-        },
-        {
-          "date": "20261019",
           "title": "[视频]国际联播快讯"
         }
       ]
@@ -726,6 +614,44 @@
       ]
     },
     {
+      "sector": "半导体",
+      "score": 46,
+      "week_count": 1,
+      "prev_count": 1,
+      "trend": "+0%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261021",
+          "title": "[视频]新动能加速成长 带动作用不断增强"
+        }
+      ]
+    },
+    {
       "sector": "新能源汽车",
       "score": 41,
       "week_count": 1,
@@ -755,6 +681,72 @@
         {
           "date": "20261021",
           "title": "[视频]新动能加速成长 带动作用不断增强"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 39,
+      "week_count": 2,
+      "prev_count": 7,
+      "trend": "+-71%",
+      "policy_level": "央行",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261021",
+          "title": "[视频]中国人民银行推出多项金融政策"
+        }
+      ]
+    },
+    {
+      "sector": "黄金",
+      "score": 36,
+      "week_count": 1,
+      "prev_count": 1,
+      "trend": "+0%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "market": "SH"
+        },
+        {
+          "code": "600489",
+          "name": "中金黄金",
+          "market": "SH"
+        },
+        {
+          "code": "002155",
+          "name": "湖南黄金",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261019",
+          "title": "[视频]我国加快建设贯通国家沿边沿海“黄金大外环”"
         }
       ]
     }
