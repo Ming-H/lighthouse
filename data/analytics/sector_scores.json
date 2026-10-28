@@ -1,74 +1,312 @@
 {
-  "date": "20261027",
+  "date": "20261028",
   "scores": [
     {
-      "sector": "新能源汽车",
-      "score": 76,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国家发改委",
+      "sector": "农业",
+      "score": 68,
+      "week_count": 20,
+      "prev_count": 20,
+      "trend": "+0%",
+      "policy_level": "国务院",
       "intensity_level": "intensive",
-      "is_first": true,
+      "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "600598",
+          "name": "北大荒",
           "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
+          "date": "20261028",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]【在希望的田野上】各地秋收秋种有序推进"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]特色农产品喜获丰收 助力乡村全面振兴"
         }
       ]
     },
     {
-      "sector": "钢铁",
-      "score": 70,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "国家发改委",
-      "intensity_level": "advancing",
-      "is_first": true,
+      "sector": "外贸",
+      "score": 63,
+      "week_count": 26,
+      "prev_count": 28,
+      "trend": "+-7%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
       "stocks": [
         {
-          "code": "600019",
-          "name": "宝钢股份",
+          "code": "601872",
+          "name": "招商港口",
           "market": "SH"
         },
         {
-          "code": "000708",
-          "name": "中信特钢",
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261028",
+          "title": "[视频]中国持续扩大进口 与世界共享发展机遇"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]我国铁路物流提质增效步伐加快"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]第140届广交会第二期线下展今天闭展"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 63,
+      "week_count": 5,
+      "prev_count": 10,
+      "trend": "+-50%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261021",
+          "date": "20261028",
+          "title": "[视频]刘延东同志逝世"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]【持之以恒推进全面从严治党】加强党的组织建设 夯实兴党强党根基"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援有序进行"
+        },
+        {
+          "date": "20261023",
+          "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援工作抓紧进行"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 63,
+      "week_count": 14,
+      "prev_count": 20,
+      "trend": "+-30%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261028",
+          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]中国持续扩大进口 与世界共享发展机遇"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]2030年我国产业基础自主可控能力全面提升"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]前三季度规模以上工业企业利润实现较快增长"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]我国工业降碳水平持续提升"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 63,
+      "week_count": 12,
+      "prev_count": 13,
+      "trend": "+-8%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261028",
+          "title": "[视频]财政金融促内需“组合拳”政策效能加速释放"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]特色农产品喜获丰收 助力乡村全面振兴"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 63,
+      "week_count": 28,
+      "prev_count": 29,
+      "trend": "+-3%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261028",
+          "title": "[视频]我国铁路物流提质增效步伐加快"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]【持之以恒推进全面从严治党】以优良作风厚植党的执政根基"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]城市公交通行 模式活起来服务暖起来"
+        },
+        {
+          "date": "20261027",
           "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "房地产",
-      "score": 66,
-      "week_count": 5,
-      "prev_count": 4,
-      "trend": "+25%",
-      "policy_level": "国家发改委",
+      "score": 60,
+      "week_count": 4,
+      "prev_count": 5,
+      "trend": "+-20%",
+      "policy_level": "国常会",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -100,357 +338,15 @@
         {
           "date": "20261023",
           "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 63,
-      "week_count": 18,
-      "prev_count": 40,
-      "trend": "+-55%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261027",
-          "title": "[视频]第140届广交会第二期线下展今天闭展"
-        },
-        {
-          "date": "20261027",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]前三季度我国交通运输主要指标保持增长"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]特色农产品喜获丰收 助力乡村全面振兴"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 61,
-      "week_count": 5,
-      "prev_count": 14,
-      "trend": "+-64%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261026",
-          "title": "[视频]【持之以恒推进全面从严治党】加强党的组织建设 夯实兴党强党根基"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援有序进行"
-        },
-        {
-          "date": "20261023",
-          "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援工作抓紧进行"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
-        }
-      ]
-    },
-    {
-      "sector": "机器人",
-      "score": 61,
-      "week_count": 4,
-      "prev_count": 3,
-      "trend": "+33%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261026",
-          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 61,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261026",
-          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
-        }
-      ]
-    },
-    {
-      "sector": "消费",
-      "score": 61,
-      "week_count": 11,
-      "prev_count": 12,
-      "trend": "+-8%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261027",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]特色农产品喜获丰收 助力乡村全面振兴"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]全国一刻钟便民生活圈提质升级"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 59,
-      "week_count": 29,
-      "prev_count": 29,
-      "trend": "+0%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261027",
-          "title": "[视频]【持之以恒推进全面从严治党】以优良作风厚植党的执政根基"
-        },
-        {
-          "date": "20261027",
-          "title": "[视频]城市公交通行 模式活起来服务暖起来"
-        },
-        {
-          "date": "20261027",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261027",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]前三季度我国交通运输主要指标保持增长"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 57,
-      "week_count": 10,
-      "prev_count": 10,
-      "trend": "+0%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261027",
-          "title": "[视频]我国风电光伏累计装机容量突破20亿千瓦"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]我国工业降碳水平持续提升"
-        },
-        {
-          "date": "20261024",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】在新的长征路上继续奋勇前进"
-        },
-        {
-          "date": "20261021",
-          "title": "[视频]新动能加速成长 带动作用不断增强"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 55,
-      "week_count": 14,
-      "prev_count": 19,
-      "trend": "+-26%",
+      "week_count": 12,
+      "prev_count": 18,
+      "trend": "+-33%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -503,8 +399,8 @@
       "sector": "银行金融",
       "score": 55,
       "week_count": 4,
-      "prev_count": 7,
-      "trend": "+-43%",
+      "prev_count": 6,
+      "trend": "+-33%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -527,115 +423,62 @@
       ],
       "trigger_articles": [
         {
-          "date": "20261026",
-          "title": "[视频]国内联播快讯"
+          "date": "20261028",
+          "title": "[视频]财政金融促内需“组合拳”政策效能加速释放"
         },
         {
-          "date": "20261021",
-          "title": "[视频]中国人民银行推出多项金融政策"
+          "date": "20261026",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "农业",
-      "score": 54,
-      "week_count": 19,
-      "prev_count": 20,
-      "trend": "+-5%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
+      "sector": "新能源",
+      "score": 51,
+      "week_count": 10,
+      "prev_count": 13,
+      "trend": "+-23%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600598",
-          "name": "北大荒",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "000998",
-          "name": "隆平高科",
+          "code": "300274",
+          "name": "阳光电源",
           "market": "SZ"
         },
         {
-          "code": "300498",
-          "name": "温氏股份",
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261027",
-          "title": "[视频]【在希望的田野上】各地秋收秋种有序推进"
+          "date": "20261028",
+          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
         },
         {
           "date": "20261027",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        },
-        {
-          "date": "20261026",
-          "title": "[视频]特色农产品喜获丰收 助力乡村全面振兴"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]全国一刻钟便民生活圈提质升级"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 54,
-      "week_count": 15,
-      "prev_count": 17,
-      "trend": "+-12%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261027",
-          "title": "[视频]前三季度规模以上工业企业利润实现较快增长"
+          "title": "[视频]我国风电光伏累计装机容量突破20亿千瓦"
         },
         {
           "date": "20261026",
           "title": "[视频]我国工业降碳水平持续提升"
         },
         {
-          "date": "20261025",
-          "title": "[视频]广交会：从单品输出到方案交付 集成式出海成新趋势"
-        },
-        {
-          "date": "20261025",
+          "date": "20261024",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261023",
-          "title": "[视频]在新的长征路上奋力创造新的辉煌——习近平总书记在纪念中国工农红军长征胜利90周年大会上的重要讲话引发热烈反响"
         }
       ]
     },
@@ -643,8 +486,8 @@
       "sector": "石油能源",
       "score": 51,
       "week_count": 6,
-      "prev_count": 11,
-      "trend": "+-45%",
+      "prev_count": 8,
+      "trend": "+-25%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -667,6 +510,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261028",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261027",
           "title": "[视频]国际联播快讯"
         },
@@ -681,10 +528,86 @@
         {
           "date": "20261025",
           "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 36,
+      "week_count": 2,
+      "prev_count": 5,
+      "trend": "+-60%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
         },
         {
-          "date": "20261023",
-          "title": "[视频]国际联播快讯"
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261026",
+          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
+        },
+        {
+          "date": "20261025",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "半导体",
+      "score": 25,
+      "week_count": 1,
+      "prev_count": 2,
+      "trend": "+-50%",
+      "policy_level": "",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "688981",
+          "name": "中芯国际",
+          "market": "SH"
+        },
+        {
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261026",
+          "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
         }
       ]
     }
