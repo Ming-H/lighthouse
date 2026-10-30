@@ -1,13 +1,13 @@
 {
-  "date": "20261029",
+  "date": "20261030",
   "scores": [
     {
       "sector": "医药",
-      "score": 73,
-      "week_count": 7,
-      "prev_count": 4,
-      "trend": "+75%",
-      "policy_level": "国务院",
+      "score": 69,
+      "week_count": 6,
+      "prev_count": 5,
+      "trend": "+20%",
+      "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -47,47 +47,6 @@
         {
           "date": "20261025",
           "title": "[视频]西藏那曲市巴青县7.0级地震抢险救援有序进行"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 65,
-      "week_count": 4,
-      "prev_count": 4,
-      "trend": "+0%",
-      "policy_level": "国常会",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261026",
-          "title": "[视频]前三季度1.6万个老旧小区“焕新”"
-        },
-        {
-          "date": "20261025",
-          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
-        },
-        {
-          "date": "20261023",
-          "title": "[视频]李强主持召开国务院常务会议"
         }
       ]
     },
@@ -139,10 +98,10 @@
     {
       "sector": "外贸",
       "score": 65,
-      "week_count": 27,
-      "prev_count": 22,
-      "trend": "+23%",
-      "policy_level": "财政部",
+      "week_count": 28,
+      "prev_count": 21,
+      "trend": "+33%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -159,34 +118,88 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261030",
+          "title": "[视频]习近平同德国总统会谈"
+        },
+        {
+          "date": "20261030",
+          "title": "[视频]习近平会见瑞士联邦主席"
+        },
+        {
+          "date": "20261030",
+          "title": "[视频]李强会见德国总统"
+        },
+        {
           "date": "20261029",
           "title": "[视频]联播快讯"
         },
         {
           "date": "20261028",
           "title": "[视频]中国持续扩大进口 与世界共享发展机遇"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 63,
+      "week_count": 15,
+      "prev_count": 20,
+      "trend": "+-25%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261030",
+          "title": "[视频]习近平同德国总统会谈"
+        },
+        {
+          "date": "20261030",
+          "title": "[视频]习近平会见瑞士联邦主席"
+        },
+        {
+          "date": "20261030",
+          "title": "[视频]李强会见德国总统"
+        },
+        {
+          "date": "20261029",
+          "title": "[视频]联播快讯"
         },
         {
           "date": "20261028",
-          "title": "[视频]我国铁路物流提质增效步伐加快"
-        },
-        {
-          "date": "20261028",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261028",
-          "title": "[视频]国际联播快讯"
+          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
         }
       ]
     },
     {
       "sector": "基建投资",
-      "score": 64,
-      "week_count": 22,
-      "prev_count": 32,
-      "trend": "+-31%",
-      "policy_level": "中央政治局",
+      "score": 60,
+      "week_count": 14,
+      "prev_count": 34,
+      "trend": "+-59%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
@@ -235,60 +248,11 @@
       ]
     },
     {
-      "sector": "消费",
-      "score": 61,
-      "week_count": 15,
-      "prev_count": 12,
-      "trend": "+25%",
-      "policy_level": "国常会",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261029",
-          "title": "[视频]中国共产党第二十届中央委员会第五次全体会议公报"
-        },
-        {
-          "date": "20261029",
-          "title": "[视频]今年以来以旧换新带动相关品类销售额超2万亿元"
-        },
-        {
-          "date": "20261029",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261028",
-          "title": "[视频]财政金融促内需“组合拳”政策效能加速释放"
-        },
-        {
-          "date": "20261028",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "农业",
       "score": 56,
       "week_count": 18,
-      "prev_count": 18,
-      "trend": "+0%",
+      "prev_count": 13,
+      "trend": "+38%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -335,9 +299,9 @@
     {
       "sector": "石油能源",
       "score": 56,
-      "week_count": 7,
+      "week_count": 8,
       "prev_count": 6,
-      "trend": "+17%",
+      "trend": "+33%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -360,6 +324,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261030",
+          "title": "[视频]联播快讯"
+        },
+        {
           "date": "20261029",
           "title": "[视频]联播快讯"
         },
@@ -374,19 +342,69 @@
         {
           "date": "20261026",
           "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 56,
+      "week_count": 11,
+      "prev_count": 9,
+      "trend": "+22%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
         },
         {
-          "date": "20261025",
-          "title": "[视频]我国造船业持续领跑全球"
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261030",
+          "title": "[视频]习近平会见瑞士联邦主席"
+        },
+        {
+          "date": "20261028",
+          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
+        },
+        {
+          "date": "20261027",
+          "title": "[视频]我国风电光伏累计装机容量突破20亿千瓦"
+        },
+        {
+          "date": "20261026",
+          "title": "[视频]我国工业降碳水平持续提升"
+        },
+        {
+          "date": "20261024",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
       "sector": "军工",
       "score": 55,
-      "week_count": 10,
-      "prev_count": 19,
-      "trend": "+-47%",
+      "week_count": 8,
+      "prev_count": 20,
+      "trend": "+-60%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -436,106 +454,129 @@
       ]
     },
     {
-      "sector": "AI人工智能",
+      "sector": "消费",
       "score": 51,
       "week_count": 13,
-      "prev_count": 21,
-      "trend": "+-38%",
-      "policy_level": "",
-      "intensity_level": "intensive",
+      "prev_count": 14,
+      "trend": "+-7%",
+      "policy_level": "央行",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
+          "code": "600519",
+          "name": "贵州茅台",
           "market": "SH"
         },
         {
-          "code": "300454",
-          "name": "深信服",
+          "code": "000858",
+          "name": "五粮液",
           "market": "SZ"
         },
         {
-          "code": "688041",
-          "name": "海光信息",
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
           "date": "20261029",
+          "title": "[视频]中国共产党第二十届中央委员会第五次全体会议公报"
+        },
+        {
+          "date": "20261029",
+          "title": "[视频]今年以来以旧换新带动相关品类销售额超2万亿元"
+        },
+        {
+          "date": "20261029",
           "title": "[视频]联播快讯"
         },
         {
           "date": "20261028",
-          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
+          "title": "[视频]财政金融促内需“组合拳”政策效能加速释放"
         },
         {
           "date": "20261028",
-          "title": "[视频]中国持续扩大进口 与世界共享发展机遇"
-        },
-        {
-          "date": "20261028",
-          "title": "[视频]2030年我国产业基础自主可控能力全面提升"
-        },
-        {
-          "date": "20261027",
-          "title": "[视频]前三季度规模以上工业企业利润实现较快增长"
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "新能源",
-      "score": 51,
-      "week_count": 10,
-      "prev_count": 12,
-      "trend": "+-17%",
+      "sector": "数据要素",
+      "score": 46,
+      "week_count": 3,
+      "prev_count": 3,
+      "trend": "+0%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "603138",
+          "name": "海量数据",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
+          "code": "300188",
+          "name": "美亚柏科",
           "market": "SZ"
         },
         {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
+          "code": "300451",
+          "name": "创业慧康",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261028",
-          "title": "[视频]新型电网加快建设 为高质量发展提供坚实支撑"
+          "date": "20261030",
+          "title": "[视频]习近平同德国总统会谈"
         },
         {
-          "date": "20261027",
-          "title": "[视频]我国风电光伏累计装机容量突破20亿千瓦"
+          "date": "20261030",
+          "title": "[视频]习近平会见瑞士联邦主席"
         },
+        {
+          "date": "20261029",
+          "title": "[视频]联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "房地产",
+      "score": 41,
+      "week_count": 3,
+      "prev_count": 5,
+      "trend": "+-40%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
         {
           "date": "20261026",
-          "title": "[视频]我国工业降碳水平持续提升"
+          "title": "[视频]前三季度1.6万个老旧小区“焕新”"
         },
         {
-          "date": "20261024",
-          "title": "[视频]国内联播快讯"
+          "date": "20261025",
+          "title": "[视频]【持之以恒推进全面从严治党】用党的创新理论凝心铸魂"
         }
       ]
     },
@@ -620,39 +661,6 @@
         {
           "date": "20261026",
           "title": "[视频]长三角区域货物贸易进出口连续19个月保持增长"
-        }
-      ]
-    },
-    {
-      "sector": "数据要素",
-      "score": 17,
-      "week_count": 1,
-      "prev_count": 4,
-      "trend": "+-75%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "603138",
-          "name": "海量数据",
-          "market": "SH"
-        },
-        {
-          "code": "300188",
-          "name": "美亚柏科",
-          "market": "SZ"
-        },
-        {
-          "code": "300451",
-          "name": "创业慧康",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261029",
-          "title": "[视频]联播快讯"
         }
       ]
     }
