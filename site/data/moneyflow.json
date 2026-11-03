@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-02",
-  "trade_date": "2026年11月2日",
+  "date": "2026-11-03",
+  "trade_date": "2026年11月3日",
   "inflow_top3": [
     {
-      "name": "计算机",
-      "amount": 84.4
+      "name": "汽车/新能源",
+      "amount": 36.2
     },
     {
-      "name": "传媒",
-      "amount": 81.5
+      "name": "非银金融",
+      "amount": 21.6
     },
     {
-      "name": "半导体",
-      "amount": 57.8
+      "name": "食品饮料",
+      "amount": 20.9
     }
   ],
   "outflow_top3": [
     {
-      "name": "银行",
-      "amount": -22.0
+      "name": "半导体",
+      "amount": -115.5
     },
     {
-      "name": "面板显示",
-      "amount": -3.1
+      "name": "通信",
+      "amount": -47.3
     },
     {
-      "name": "有色金属",
-      "amount": -1.9
+      "name": "电子元件",
+      "amount": -41.3
     }
   ],
-  "industry_top1": "计算机",
-  "concept_top1": "融资融券"
+  "industry_top1": "汽车/新能源",
+  "concept_top1": "同花顺漂亮100"
 }
