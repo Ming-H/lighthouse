@@ -1,12 +1,12 @@
 {
-  "date": "20261106",
+  "date": "20261107",
   "scores": [
     {
       "sector": "数据要素",
-      "score": 78,
-      "week_count": 6,
-      "prev_count": 3,
-      "trend": "+100%",
+      "score": 68,
+      "week_count": 5,
+      "prev_count": 4,
+      "trend": "+25%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -47,97 +47,6 @@
         {
           "date": "20261102",
           "title": "[视频]赵乐际同俄罗斯联邦委员会主席会谈"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 73,
-      "week_count": 25,
-      "prev_count": 15,
-      "trend": "+67%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261106",
-          "title": "[视频]习近平会见奥地利总理"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]李强同奥地利总理会谈"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]十四届全国人大常委会第二十五次会议在京闭幕"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]十四届全国人大常委会举行第七十五次委员长会议"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 71,
-      "week_count": 2,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261106",
-          "title": "[视频]习近平会见奥地利总理"
-        },
-        {
-          "date": "20261031",
-          "title": "[视频]算力网加速织就 助力数字中国建设"
         }
       ]
     },
@@ -286,79 +195,135 @@
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 56,
-      "week_count": 8,
-      "prev_count": 8,
-      "trend": "+0%",
+      "sector": "AI人工智能",
+      "score": 63,
+      "week_count": 14,
+      "prev_count": 27,
+      "trend": "+-48%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261107",
+          "title": "[视频]第七届世界媒体峰会在北京举办"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]习近平会见奥地利总理"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]李强同奥地利总理会谈"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]十四届全国人大常委会第二十五次会议在京闭幕"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 61,
+      "week_count": 3,
+      "prev_count": 1,
+      "trend": "+200%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
         },
         {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
         },
         {
-          "code": "600938",
-          "name": "中国海油",
+          "code": "688561",
+          "name": "奇安信",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261105",
-          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
         },
         {
-          "date": "20261105",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261103",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261102",
-          "title": "[视频]国际联播快讯"
+          "date": "20261106",
+          "title": "[视频]习近平会见奥地利总理"
         }
       ]
     },
     {
-      "sector": "外贸",
-      "score": 54,
-      "week_count": 25,
-      "prev_count": 28,
-      "trend": "+-11%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
+      "sector": "新能源",
+      "score": 60,
+      "week_count": 8,
+      "prev_count": 13,
+      "trend": "+-38%",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601872",
-          "name": "招商港口",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "600018",
-          "name": "上港集团",
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
           "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261106",
-          "title": "[视频]习近平同加蓬总统会谈"
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
+        },
+        {
+          "date": "20261107",
+          "title": "[视频]我国加快推进核能综合利用"
         },
         {
           "date": "20261106",
@@ -371,20 +336,16 @@
         {
           "date": "20261106",
           "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]丁薛祥出席第九届中国国际进口博览会开幕式并会见与会外方政要"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 54,
+      "score": 55,
       "week_count": 5,
-      "prev_count": 8,
-      "trend": "+-38%",
-      "policy_level": "国务院",
+      "prev_count": 7,
+      "trend": "+-29%",
+      "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -411,6 +372,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261107",
+          "title": "[视频]美称打击伊朗防空装置 伊朗称击落美无人机"
+        },
+        {
           "date": "20261105",
           "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
         },
@@ -425,19 +390,59 @@
         {
           "date": "20261101",
           "title": "[视频]中共中央关于持之以恒推进全面从严治党若干重大问题的决定"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 54,
+      "week_count": 27,
+      "prev_count": 29,
+      "trend": "+-7%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
         },
         {
-          "date": "20261031",
-          "title": "[视频]国际联播快讯"
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261107",
+          "title": "[视频]【新闻特写】深耕中国 共享机遇"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]习近平同加蓬总统会谈"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]习近平会见奥地利总理"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]李强同奥地利总理会谈"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]联播快讯"
         }
       ]
     },
     {
       "sector": "农业",
       "score": 54,
-      "week_count": 12,
-      "prev_count": 18,
-      "trend": "+-33%",
+      "week_count": 13,
+      "prev_count": 16,
+      "trend": "+-19%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -460,6 +465,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261107",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】河南：传承红色基因 绘就振兴新画卷"
+        },
+        {
           "date": "20261106",
           "title": "[视频]十四届全国人大常委会第二十五次会议在京闭幕"
         },
@@ -474,10 +483,6 @@
         {
           "date": "20261104",
           "title": "[视频]前三季度农业农村发展保持良好势头"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]国内联播快讯"
         }
       ]
     },
@@ -514,6 +519,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261107",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261106",
           "title": "[视频]习近平同加蓬总统会谈"
         },
@@ -528,64 +537,55 @@
         {
           "date": "20261104",
           "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]国际联播快讯"
         }
       ]
     },
     {
-      "sector": "新能源",
+      "sector": "石油能源",
       "score": 51,
-      "week_count": 9,
-      "prev_count": 11,
-      "trend": "+-18%",
-      "policy_level": "央行",
-      "intensity_level": "results",
+      "week_count": 8,
+      "prev_count": 9,
+      "trend": "+-11%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601012",
-          "name": "隆基绿能",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
+          "code": "600028",
+          "name": "中国石化",
           "market": "SH"
         },
         {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261106",
-          "title": "[视频]习近平会见奥地利总理"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]李强同奥地利总理会谈"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]联播快讯"
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
         },
         {
           "date": "20261105",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20261104",
-          "title": "[视频]第140届广交会今天闭幕"
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261103",
+          "title": "[视频]国际联播快讯"
         }
       ]
     },
