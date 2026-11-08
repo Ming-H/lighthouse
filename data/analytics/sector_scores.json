@@ -1,6 +1,56 @@
 {
-  "date": "20261107",
+  "date": "20261108",
   "scores": [
+    {
+      "sector": "机器人",
+      "score": 71,
+      "week_count": 6,
+      "prev_count": 1,
+      "trend": "+500%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261108",
+          "title": "[视频]全国收购秋粮超1亿吨"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]第九届进博会虹桥国际经济论坛举行多场分论坛"
+        },
+        {
+          "date": "20261104",
+          "title": "[视频]第140届广交会今天闭幕"
+        },
+        {
+          "date": "20261104",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
     {
       "sector": "数据要素",
       "score": 68,
@@ -51,48 +101,51 @@
       ]
     },
     {
-      "sector": "机器人",
-      "score": 66,
-      "week_count": 5,
-      "prev_count": 2,
-      "trend": "+150%",
-      "policy_level": "",
+      "sector": "消费",
+      "score": 65,
+      "week_count": 8,
+      "prev_count": 12,
+      "trend": "+-33%",
+      "policy_level": "国常会",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601689",
-          "name": "拓普集团",
+          "code": "600519",
+          "name": "贵州茅台",
           "market": "SH"
         },
         {
-          "code": "688017",
-          "name": "绿的谐波",
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
           "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20261106",
+          "title": "[视频]李强主持召开国务院常务会议"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]联播快讯"
+        },
+        {
           "date": "20261105",
-          "title": "[视频]第九届进博会虹桥国际经济论坛举行多场分论坛"
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20261104",
-          "title": "[视频]第140届广交会今天闭幕"
+          "title": "[视频]前三季度农业农村发展保持良好势头"
         },
         {
           "date": "20261104",
-          "title": "[视频]国内联播快讯"
+          "title": "[视频]10月物流业景气指数处于扩张区间 预期向好"
         }
       ]
     },
@@ -146,51 +199,56 @@
       ]
     },
     {
-      "sector": "消费",
-      "score": 65,
-      "week_count": 8,
-      "prev_count": 13,
-      "trend": "+-38%",
-      "policy_level": "国常会",
+      "sector": "军工",
+      "score": 64,
+      "week_count": 6,
+      "prev_count": 7,
+      "trend": "+-14%",
+      "policy_level": "中央政治局",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600519",
-          "name": "贵州茅台",
+          "code": "600893",
+          "name": "航发动力",
           "market": "SH"
         },
         {
-          "code": "000858",
-          "name": "五粮液",
+          "code": "600760",
+          "name": "中航沈飞",
+          "market": "SH"
+        },
+        {
+          "code": "002179",
+          "name": "中航光电",
           "market": "SZ"
         },
         {
-          "code": "601888",
-          "name": "中国中免",
+          "code": "600862",
+          "name": "中航高科",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261106",
-          "title": "[视频]李强主持召开国务院常务会议"
+          "date": "20261108",
+          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
         },
         {
-          "date": "20261106",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261105",
+          "date": "20261108",
           "title": "[视频]国际联播快讯"
         },
         {
-          "date": "20261104",
-          "title": "[视频]前三季度农业农村发展保持良好势头"
+          "date": "20261107",
+          "title": "[视频]美称打击伊朗防空装置 伊朗称击落美无人机"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
         },
         {
           "date": "20261104",
-          "title": "[视频]10月物流业景气指数处于扩张区间 预期向好"
+          "title": "[视频]【学习贯彻党的二十届五中全会精神】全面从严治党 全面从严治军 走好新的赶考之路"
         }
       ]
     },
@@ -198,8 +256,8 @@
       "sector": "AI人工智能",
       "score": 63,
       "week_count": 14,
-      "prev_count": 27,
-      "trend": "+-48%",
+      "prev_count": 24,
+      "trend": "+-42%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -286,6 +344,55 @@
       ]
     },
     {
+      "sector": "石油能源",
+      "score": 61,
+      "week_count": 11,
+      "prev_count": 7,
+      "trend": "+57%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
+        },
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
+        },
+        {
+          "code": "600938",
+          "name": "中国海油",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261108",
+          "title": "[视频]第九届进博会各项配套活动全面展开"
+        },
+        {
+          "date": "20261108",
+          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
+        },
+        {
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "新能源",
       "score": 60,
       "week_count": 8,
@@ -340,65 +447,11 @@
       ]
     },
     {
-      "sector": "军工",
-      "score": 55,
-      "week_count": 5,
-      "prev_count": 7,
-      "trend": "+-29%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600893",
-          "name": "航发动力",
-          "market": "SH"
-        },
-        {
-          "code": "600760",
-          "name": "中航沈飞",
-          "market": "SH"
-        },
-        {
-          "code": "002179",
-          "name": "中航光电",
-          "market": "SZ"
-        },
-        {
-          "code": "600862",
-          "name": "中航高科",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261107",
-          "title": "[视频]美称打击伊朗防空装置 伊朗称击落美无人机"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]【学习贯彻党的二十届五中全会精神】全面从严治党 全面从严治军 走好新的赶考之路"
-        },
-        {
-          "date": "20261102",
-          "title": "[视频]习近平举行仪式欢迎阿曼苏丹国苏丹访华"
-        },
-        {
-          "date": "20261101",
-          "title": "[视频]中共中央关于持之以恒推进全面从严治党若干重大问题的决定"
-        }
-      ]
-    },
-    {
       "sector": "外贸",
-      "score": 54,
-      "week_count": 27,
-      "prev_count": 29,
-      "trend": "+-7%",
+      "score": 59,
+      "week_count": 32,
+      "prev_count": 28,
+      "trend": "+14%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -416,6 +469,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261108",
+          "title": "[视频]韩正访问格鲁吉亚"
+        },
+        {
+          "date": "20261108",
+          "title": "[视频]第九届进博会各项配套活动全面展开"
+        },
+        {
           "date": "20261107",
           "title": "[视频]【新闻特写】深耕中国 共享机遇"
         },
@@ -426,23 +487,15 @@
         {
           "date": "20261106",
           "title": "[视频]习近平会见奥地利总理"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]李强同奥地利总理会谈"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]联播快讯"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 54,
-      "week_count": 13,
-      "prev_count": 16,
-      "trend": "+-19%",
+      "score": 59,
+      "week_count": 14,
+      "prev_count": 12,
+      "trend": "+17%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -465,6 +518,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261108",
+          "title": "[视频]全国收购秋粮超1亿吨"
+        },
+        {
           "date": "20261107",
           "title": "[视频]【赓续长征精神 奋进复兴征程】河南：传承红色基因 绘就振兴新画卷"
         },
@@ -479,19 +536,15 @@
         {
           "date": "20261105",
           "title": "[视频]我国秋粮丰收成定局"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]前三季度农业农村发展保持良好势头"
         }
       ]
     },
     {
       "sector": "基建投资",
       "score": 54,
-      "week_count": 11,
-      "prev_count": 14,
-      "trend": "+-21%",
+      "week_count": 12,
+      "prev_count": 15,
+      "trend": "+-20%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -519,6 +572,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261108",
+          "title": "[视频]韩正访问格鲁吉亚"
+        },
+        {
+          "date": "20261108",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261107",
           "title": "[视频]国内联播快讯"
         },
@@ -529,72 +590,48 @@
         {
           "date": "20261105",
           "title": "[视频]赵乐际同全国人大常委会会议列席代表座谈"
+        }
+      ]
+    },
+    {
+      "sector": "黄金",
+      "score": 52,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "market": "SH"
         },
         {
-          "date": "20261105",
-          "title": "[视频]第六届国际道教论坛在中国杭州开幕 王沪宁致信祝贺"
+          "code": "600489",
+          "name": "中金黄金",
+          "market": "SH"
         },
         {
-          "date": "20261104",
+          "code": "002155",
+          "name": "湖南黄金",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261108",
           "title": "[视频]国内联播快讯"
         }
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 51,
-      "week_count": 8,
-      "prev_count": 9,
-      "trend": "+-11%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261107",
-          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261103",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
       "sector": "医药",
-      "score": 45,
-      "week_count": 3,
-      "prev_count": 6,
-      "trend": "+-50%",
+      "score": 40,
+      "week_count": 2,
+      "prev_count": 5,
+      "trend": "+-60%",
       "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
@@ -623,10 +660,6 @@
         {
           "date": "20261103",
           "title": "[视频]刘延东同志遗体在京火化"
-        },
-        {
-          "date": "20261101",
-          "title": "[视频]中共中央关于持之以恒推进全面从严治党若干重大问题的决定"
         }
       ]
     },
@@ -665,39 +698,6 @@
         {
           "date": "20261104",
           "title": "[视频]第140届广交会今天闭幕"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 22,
-      "week_count": 1,
-      "prev_count": 3,
-      "trend": "+-67%",
-      "policy_level": "",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261101",
-          "title": "[视频]中共中央关于持之以恒推进全面从严治党若干重大问题的决定"
         }
       ]
     }
