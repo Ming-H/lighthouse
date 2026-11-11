@@ -1,56 +1,105 @@
 {
-  "date": "20261110",
+  "date": "20261111",
   "scores": [
     {
-      "sector": "机器人",
-      "score": 86,
-      "week_count": 7,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
+      "sector": "新能源",
+      "score": 75,
+      "week_count": 11,
+      "prev_count": 5,
+      "trend": "+120%",
+      "policy_level": "央行",
       "intensity_level": "intensive",
-      "is_first": true,
+      "is_first": false,
       "stocks": [
         {
-          "code": "601689",
-          "name": "拓普集团",
+          "code": "601012",
+          "name": "隆基绿能",
           "market": "SH"
         },
         {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
+          "code": "300274",
+          "name": "阳光电源",
           "market": "SZ"
         },
         {
-          "code": "300124",
-          "name": "汇川技术",
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
           "market": "SZ"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20261111",
+          "title": "[视频]我国新能源汽车销量占比持续走高"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
+        },
+        {
+          "date": "20261109",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
+        }
+      ]
+    },
+    {
+      "sector": "医药",
+      "score": 74,
+      "week_count": 13,
+      "prev_count": 4,
+      "trend": "+225%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "market": "SH"
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "market": "SZ"
+        },
+        {
+          "code": "300760",
+          "name": "迈瑞医疗",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261111",
+          "title": "[视频]“十五五”时期我国将深化拓展“人工智能+”行动"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]“十五五”时期我国将采取多项举措保障和改善民生"
+        },
+        {
           "date": "20261110",
           "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
         },
         {
-          "date": "20261108",
-          "title": "[视频]全国收购秋粮超1亿吨"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]第九届进博会虹桥国际经济论坛举行多场分论坛"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]第140届广交会今天闭幕"
-        },
-        {
-          "date": "20261104",
+          "date": "20261110",
           "title": "[视频]国内联播快讯"
         }
       ]
@@ -93,11 +142,56 @@
       ]
     },
     {
+      "sector": "新能源汽车",
+      "score": 71,
+      "week_count": 5,
+      "prev_count": 1,
+      "trend": "+400%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261111",
+          "title": "[视频]我国新能源汽车销量占比持续走高"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+        },
+        {
+          "date": "20261107",
+          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
+        },
+        {
+          "date": "20261106",
+          "title": "[视频]习近平会见奥地利总理"
+        }
+      ]
+    },
+    {
       "sector": "消费",
       "score": 70,
-      "week_count": 10,
+      "week_count": 9,
       "prev_count": 8,
-      "trend": "+25%",
+      "trend": "+12%",
       "policy_level": "国常会",
       "intensity_level": "intensive",
       "is_first": false,
@@ -120,83 +214,34 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261111",
+          "title": "[视频]我国新能源汽车销量占比持续走高"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]各地拓展新场景新业态 激发消费活力"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261109",
           "title": "[视频]10月份全国居民消费价格指数同比上涨0.7%"
         },
         {
           "date": "20261109",
           "title": "[视频]京城彩叶颜值变产值 市民游客乐享自然之美"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]李强主持召开国务院常务会议"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "医药",
-      "score": 69,
-      "week_count": 12,
-      "prev_count": 5,
-      "trend": "+140%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600276",
-          "name": "恒瑞医药",
-          "market": "SH"
-        },
-        {
-          "code": "000538",
-          "name": "云南白药",
-          "market": "SZ"
-        },
-        {
-          "code": "300760",
-          "name": "迈瑞医疗",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261110",
-          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]“十五五”时期我国将采取多项举措保障和改善民生"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]李强签署国务院令 公布《中医药传统知识保护条例》"
         }
       ]
     },
     {
       "sector": "外贸",
-      "score": 69,
-      "week_count": 45,
-      "prev_count": 17,
-      "trend": "+165%",
-      "policy_level": "国务院",
+      "score": 70,
+      "week_count": 44,
+      "prev_count": 15,
+      "trend": "+193%",
+      "policy_level": "中央政治局",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -213,33 +258,276 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261111",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共建普惠包容的开放型亚太经济"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]我国新能源汽车销量占比持续走高"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
+        }
+      ]
+    },
+    {
+      "sector": "工程机械",
+      "score": 69,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "财政部",
+      "intensity_level": "advancing",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "600031",
+          "name": "三一重工",
+          "market": "SH"
+        },
+        {
+          "code": "000157",
+          "name": "中联重科",
+          "market": "SZ"
+        },
+        {
+          "code": "000425",
+          "name": "徐工机械",
+          "market": "SZ"
+        },
+        {
+          "code": "600150",
+          "name": "中国船舶",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "煤炭",
+      "score": 66,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "601088",
+          "name": "中国神华",
+          "market": "SH"
+        },
+        {
+          "code": "601898",
+          "name": "中煤能源",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261109",
+          "title": "[视频]【一线调研】千里嘉陵“通关”记"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 66,
+      "week_count": 5,
+      "prev_count": 2,
+      "trend": "+150%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261110",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
+        },
+        {
+          "date": "20261108",
+          "title": "[视频]全国收购秋粮超1亿吨"
+        },
+        {
+          "date": "20261105",
+          "title": "[视频]第九届进博会虹桥国际经济论坛举行多场分论坛"
+        }
+      ]
+    },
+    {
+      "sector": "钢铁",
+      "score": 66,
+      "week_count": 1,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261110",
+          "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 65,
+      "week_count": 14,
+      "prev_count": 9,
+      "trend": "+56%",
+      "policy_level": "中央政治局",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261111",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共建普惠包容的开放型亚太经济"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261110",
           "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
         },
         {
           "date": "20261110",
-          "title": "[视频]赵乐际会见哥伦比亚多党干部考察团"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]前10个月我国外贸同比增长20% 保持强劲增长态势"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]【新闻特写】再见进博 你好APEC！"
+          "title": "[视频]国内联播快讯"
         },
         {
           "date": "20261109",
-          "title": "[视频]【新思想引领新征程】跨越山海的双向奔赴"
+          "title": "[视频]【一线调研】千里嘉陵“通关”记"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 64,
+      "week_count": 16,
+      "prev_count": 9,
+      "trend": "+78%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261111",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共建普惠包容的开放型亚太经济"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]全国冬小麦播种过八成"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]围绕乌克兰问题 俄美乌新一轮三方谈判举行"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 66,
-      "week_count": 10,
-      "prev_count": 5,
-      "trend": "+100%",
+      "score": 61,
+      "week_count": 9,
+      "prev_count": 6,
+      "trend": "+50%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -289,171 +577,60 @@
       ]
     },
     {
-      "sector": "煤炭",
-      "score": 66,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "601088",
-          "name": "中国神华",
-          "market": "SH"
-        },
-        {
-          "code": "601898",
-          "name": "中煤能源",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261109",
-          "title": "[视频]【一线调研】千里嘉陵“通关”记"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 66,
-      "week_count": 4,
-      "prev_count": 1,
-      "trend": "+300%",
+      "sector": "石油能源",
+      "score": 61,
+      "week_count": 11,
+      "prev_count": 7,
+      "trend": "+57%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "688981",
-          "name": "中芯国际",
+          "code": "601857",
+          "name": "中国石油",
           "market": "SH"
         },
         {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
+          "code": "600028",
+          "name": "中国石化",
           "market": "SH"
         },
         {
-          "code": "688012",
-          "name": "中微公司",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261110",
-          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]前10个月我国外贸同比增长20% 保持强劲增长态势"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]【新思想引领新征程】跨越山海的双向奔赴"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]第140届广交会今天闭幕"
-        }
-      ]
-    },
-    {
-      "sector": "钢铁",
-      "score": 66,
-      "week_count": 1,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261110",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 65,
-      "week_count": 10,
-      "prev_count": 8,
-      "trend": "+25%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261110",
-          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
+          "date": "20261111",
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20261109",
           "title": "[视频]国际联播快讯"
         },
         {
+          "date": "20261108",
+          "title": "[视频]第九届进博会各项配套活动全面展开"
+        },
+        {
+          "date": "20261108",
+          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
+        },
+        {
           "date": "20261107",
           "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
-        },
-        {
-          "date": "20261107",
-          "title": "[视频]我国加快推进核能综合利用"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]习近平会见奥地利总理"
         }
       ]
     },
     {
       "sector": "银行金融",
-      "score": 65,
-      "week_count": 9,
-      "prev_count": 9,
-      "trend": "+0%",
+      "score": 60,
+      "week_count": 7,
+      "prev_count": 10,
+      "trend": "+-30%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -476,6 +653,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261110",
           "title": "[视频]国内联播快讯"
         },
@@ -486,105 +667,15 @@
         {
           "date": "20261106",
           "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261104",
-          "title": "[视频]中国人民银行加力实施股票回购增持再贷款政策"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 64,
-      "week_count": 14,
-      "prev_count": 8,
-      "trend": "+75%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261110",
-          "title": "[视频]围绕乌克兰问题 俄美乌新一轮三方谈判举行"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]【新思想引领新征程】跨越山海的双向奔赴"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]【一线调研】千里嘉陵“通关”记"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]全国收购秋粮超1亿吨"
-        },
-        {
-          "date": "20261107",
-          "title": "[视频]【赓续长征精神 奋进复兴征程】河南：传承红色基因 绘就振兴新画卷"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 61,
-      "week_count": 3,
-      "prev_count": 1,
-      "trend": "+200%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261107",
-          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]习近平会见奥地利总理"
         }
       ]
     },
     {
       "sector": "AI人工智能",
       "score": 60,
-      "week_count": 12,
+      "week_count": 10,
       "prev_count": 25,
-      "trend": "+-52%",
+      "trend": "+-60%",
       "policy_level": "央行",
       "intensity_level": "intensive",
       "is_first": false,
@@ -612,6 +703,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261111",
+          "title": "[视频]“十五五”时期我国将深化拓展“人工智能+”行动"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261110",
           "title": "[视频]前10个月我国外贸同比增长20% 保持强劲增长态势"
         },
@@ -622,68 +721,6 @@
         {
           "date": "20261106",
           "title": "[视频]习近平会见奥地利总理"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]李强同奥地利总理会谈"
-        },
-        {
-          "date": "20261106",
-          "title": "[视频]十四届全国人大常委会第二十五次会议在京闭幕"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 60,
-      "week_count": 13,
-      "prev_count": 10,
-      "trend": "+30%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261110",
-          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]【一线调研】千里嘉陵“通关”记"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]韩正访问格鲁吉亚"
         }
       ]
     },
@@ -733,51 +770,48 @@
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 56,
-      "week_count": 10,
-      "prev_count": 7,
-      "trend": "+43%",
+      "sector": "半导体",
+      "score": 51,
+      "week_count": 3,
+      "prev_count": 2,
+      "trend": "+50%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "601857",
-          "name": "中国石油",
+          "code": "688981",
+          "name": "中芯国际",
           "market": "SH"
         },
         {
-          "code": "600028",
-          "name": "中国石化",
+          "code": "002049",
+          "name": "紫光国微",
+          "market": "SZ"
+        },
+        {
+          "code": "603501",
+          "name": "韦尔股份",
           "market": "SH"
         },
         {
-          "code": "600938",
-          "name": "中国海油",
+          "code": "688012",
+          "name": "中微公司",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
+          "date": "20261110",
+          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
+        },
+        {
+          "date": "20261110",
+          "title": "[视频]前10个月我国外贸同比增长20% 保持强劲增长态势"
+        },
+        {
           "date": "20261109",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]第九届进博会各项配套活动全面展开"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
-        },
-        {
-          "date": "20261107",
-          "title": "[视频]新一代通信网加快建设 筑牢高质量发展数字底座"
-        },
-        {
-          "date": "20261105",
-          "title": "[视频]伊朗最高领袖称美中期选举结果不会改变美敌意 美总统承认对伊朗开战影响共和党选情"
+          "title": "[视频]【新思想引领新征程】跨越山海的双向奔赴"
         }
       ]
     },
