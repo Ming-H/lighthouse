@@ -1,12 +1,12 @@
 {
-  "date": "20261114",
+  "date": "20261115",
   "scores": [
     {
       "sector": "医药",
       "score": 83,
-      "week_count": 16,
-      "prev_count": 3,
-      "trend": "+433%",
+      "week_count": 19,
+      "prev_count": 2,
+      "trend": "+850%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -29,6 +29,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]守护公平正义 高质量司法护航中国式现代化"
+        },
+        {
           "date": "20261114",
           "title": "[视频]国内联播快讯"
         },
@@ -39,14 +47,43 @@
         {
           "date": "20261111",
           "title": "[视频]“十五五”时期我国将深化拓展“人工智能+”行动"
+        }
+      ]
+    },
+    {
+      "sector": "房地产",
+      "score": 80,
+      "week_count": 2,
+      "prev_count": 0,
+      "trend": "NEW",
+      "policy_level": "央行",
+      "intensity_level": "intensive",
+      "is_first": true,
+      "stocks": [
+        {
+          "code": "001979",
+          "name": "招商蛇口",
+          "market": "SZ"
+        },
+        {
+          "code": "600048",
+          "name": "保利发展",
+          "market": "SH"
+        },
+        {
+          "code": "000002",
+          "name": "万科A",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261113",
+          "title": "[视频]今年前10个月社会融资规模新增28.61万亿元"
         },
         {
           "date": "20261110",
-          "title": "[视频]【新思想引领新征程】粤港澳同心协力 加快建设国际一流湾区"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]“十五五”时期我国将采取多项举措保障和改善民生"
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
@@ -143,146 +180,11 @@
       ]
     },
     {
-      "sector": "黄金",
-      "score": 71,
-      "week_count": 2,
-      "prev_count": 0,
-      "trend": "NEW",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": true,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261109",
-          "title": "[视频]【一线调研】千里嘉陵“通关”记"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 70,
-      "week_count": 21,
-      "prev_count": 11,
-      "trend": "+91%",
-      "policy_level": "财政部",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261114",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]李强会见泰国国会主席兼下议长"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]政策发力显效 多项先行指标持续改善"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]李强抵达曼谷开始对泰国进行正式访问"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 69,
-      "week_count": 33,
-      "prev_count": 27,
-      "trend": "+22%",
-      "policy_level": "中央政治局",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261114",
-          "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]【数说APEC】APEC进口农产品丰富中国餐桌"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261111",
-          "title": "[视频]【建设亚太共同体 促进共同繁荣】共建普惠包容的开放型亚太经济"
-        }
-      ]
-    },
-    {
       "sector": "新能源",
-      "score": 68,
-      "week_count": 9,
+      "score": 73,
+      "week_count": 12,
       "prev_count": 8,
-      "trend": "+12%",
+      "trend": "+50%",
       "policy_level": "国务院",
       "intensity_level": "intensive",
       "is_first": false,
@@ -310,8 +212,62 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261115",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共担时代责任 共促亚太发展"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]李强会见泰国国王"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
+        },
+        {
           "date": "20261114",
           "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]李强同泰国总理会谈"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 70,
+      "week_count": 20,
+      "prev_count": 12,
+      "trend": "+67%",
+      "policy_level": "财政部",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
         },
         {
           "date": "20261114",
@@ -322,12 +278,12 @@
           "title": "[视频]李强会见泰国国会主席兼下议长"
         },
         {
-          "date": "20261112",
-          "title": "[视频]联播快讯"
+          "date": "20261114",
+          "title": "[视频]政策发力显效 多项先行指标持续改善"
         },
         {
-          "date": "20261111",
-          "title": "[视频]我国新能源汽车销量占比持续走高"
+          "date": "20261114",
+          "title": "[视频]国内联播快讯"
         }
       ]
     },
@@ -356,6 +312,60 @@
         {
           "date": "20261110",
           "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 66,
+      "week_count": 16,
+      "prev_count": 14,
+      "trend": "+14%",
+      "policy_level": "国家发改委",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "market": "SZ"
+        },
+        {
+          "code": "688787",
+          "name": "海天瑞声",
+          "market": "SH"
+        },
+        {
+          "code": "300454",
+          "name": "深信服",
+          "market": "SZ"
+        },
+        {
+          "code": "688041",
+          "name": "海光信息",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261115",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共担时代责任 共促亚太发展"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]守护公平正义 高质量司法护航中国式现代化"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
         }
       ]
     },
@@ -390,9 +400,9 @@
     {
       "sector": "消费",
       "score": 65,
-      "week_count": 9,
+      "week_count": 10,
       "prev_count": 8,
-      "trend": "+12%",
+      "trend": "+25%",
       "policy_level": "财政部",
       "intensity_level": "intensive",
       "is_first": false,
@@ -415,6 +425,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261115",
+          "title": "[视频]守护公平正义 高质量司法护航中国式现代化"
+        },
+        {
           "date": "20261114",
           "title": "[视频]政策发力显效 多项先行指标持续改善"
         },
@@ -429,19 +443,149 @@
         {
           "date": "20261112",
           "title": "[视频]“十五五”时期我国将加快构建现代化基础设施体系"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 64,
+      "week_count": 30,
+      "prev_count": 32,
+      "trend": "+-6%",
+      "policy_level": "中央政治局",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261115",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】共担时代责任 共促亚太发展"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]李强同泰国总理会谈"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]【数说APEC】APEC进口农产品丰富中国餐桌"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 58,
+      "week_count": 3,
+      "prev_count": 3,
+      "trend": "+0%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261115",
+          "title": "[视频]李强会见泰国国王"
         },
         {
           "date": "20261111",
           "title": "[视频]我国新能源汽车销量占比持续走高"
+        },
+        {
+          "date": "20261111",
+          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 56,
+      "week_count": 18,
+      "prev_count": 14,
+      "trend": "+29%",
+      "policy_level": "财政部",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261115",
+          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]李强同泰国总理会谈"
+        },
+        {
+          "date": "20261114",
+          "title": "[视频]【数说APEC】APEC进口农产品丰富中国餐桌"
         }
       ]
     },
     {
       "sector": "军工",
-      "score": 61,
-      "week_count": 8,
-      "prev_count": 5,
-      "trend": "+60%",
+      "score": 56,
+      "week_count": 7,
+      "prev_count": 6,
+      "trend": "+17%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -469,6 +613,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261115",
+          "title": "[视频]【学习贯彻党的二十届五中全会精神】中央宣讲团在各地宣讲党的二十届五中全会精神"
+        },
+        {
           "date": "20261112",
           "title": "[视频]联播快讯"
         },
@@ -479,154 +627,6 @@
         {
           "date": "20261109",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "AI人工智能",
-      "score": 61,
-      "week_count": 12,
-      "prev_count": 14,
-      "trend": "+-14%",
-      "policy_level": "国家发改委",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "002230",
-          "name": "科大讯飞",
-          "market": "SZ"
-        },
-        {
-          "code": "688787",
-          "name": "海天瑞声",
-          "market": "SH"
-        },
-        {
-          "code": "300454",
-          "name": "深信服",
-          "market": "SZ"
-        },
-        {
-          "code": "688041",
-          "name": "海光信息",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261114",
-          "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]政策发力显效 多项先行指标持续改善"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]深圳准备就绪 以高水平服务保障APEC盛会"
-        },
-        {
-          "date": "20261111",
-          "title": "[视频]“十五五”时期我国将深化拓展“人工智能+”行动"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 60,
-      "week_count": 2,
-      "prev_count": 1,
-      "trend": "+100%",
-      "policy_level": "央行",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261113",
-          "title": "[视频]今年前10个月社会融资规模新增28.61万亿元"
-        },
-        {
-          "date": "20261110",
-          "title": "[视频]国内联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 56,
-      "week_count": 16,
-      "prev_count": 13,
-      "trend": "+23%",
-      "policy_level": "财政部",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261114",
-          "title": "[视频]李强同泰国总理会谈"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]【数说APEC】APEC进口农产品丰富中国餐桌"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]习近平对国有企业党的建设工作作出重要指示强调 持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障 蔡奇出席国有企业党的建设工作座谈会并讲话"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]李强对推进农田水利和高标准农田建设作出重要批示强调 充分发挥高标准农田综合效益 为守牢粮食安全底线建设农业强国提供坚实支撑"
-        },
-        {
-          "date": "20261111",
-          "title": "[视频]【建设亚太共同体 促进共同繁荣】共建普惠包容的开放型亚太经济"
         }
       ]
     },
@@ -680,60 +680,11 @@
       ]
     },
     {
-      "sector": "石油能源",
-      "score": 51,
-      "week_count": 7,
-      "prev_count": 8,
-      "trend": "+-12%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "market": "SH"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "market": "SH"
-        },
-        {
-          "code": "600938",
-          "name": "中国海油",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261113",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261111",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261109",
-          "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]第九届进博会各项配套活动全面展开"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]伊朗称两油轮在霍尔木兹海峡触雷起火 美军称在阿曼湾打击一货船"
-        }
-      ]
-    },
-    {
       "sector": "机器人",
-      "score": 46,
-      "week_count": 4,
-      "prev_count": 5,
-      "trend": "+-20%",
+      "score": 41,
+      "week_count": 3,
+      "prev_count": 6,
+      "trend": "+-50%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -767,47 +718,84 @@
         {
           "date": "20261110",
           "title": "[视频]【赓续长征精神 奋进复兴征程】湖北：长征精神耀荆楚 砥砺奋进新支点"
-        },
-        {
-          "date": "20261108",
-          "title": "[视频]全国收购秋粮超1亿吨"
         }
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 36,
-      "week_count": 2,
-      "prev_count": 3,
-      "trend": "+-33%",
+      "sector": "石油能源",
+      "score": 37,
+      "week_count": 5,
+      "prev_count": 11,
+      "trend": "+-55%",
       "policy_level": "",
-      "intensity_level": "intensive",
+      "intensity_level": "",
       "is_first": false,
       "stocks": [
         {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
+          "code": "601857",
+          "name": "中国石油",
+          "market": "SH"
         },
         {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
+          "code": "600028",
+          "name": "中国石化",
+          "market": "SH"
         },
         {
-          "code": "688561",
-          "name": "奇安信",
+          "code": "600938",
+          "name": "中国海油",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261111",
-          "title": "[视频]我国新能源汽车销量占比持续走高"
+          "date": "20261115",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261113",
+          "title": "[视频]国际联播快讯"
         },
         {
           "date": "20261111",
-          "title": "[视频]【活力中国调研行】玉米“跑”上马路 脐橙“飞”出峡江"
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261109",
+          "title": "[视频]国际联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "黄金",
+      "score": 36,
+      "week_count": 1,
+      "prev_count": 1,
+      "trend": "+0%",
+      "policy_level": "",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "market": "SH"
+        },
+        {
+          "code": "600489",
+          "name": "中金黄金",
+          "market": "SH"
+        },
+        {
+          "code": "002155",
+          "name": "湖南黄金",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261109",
+          "title": "[视频]【一线调研】千里嘉陵“通关”记"
         }
       ]
     }
