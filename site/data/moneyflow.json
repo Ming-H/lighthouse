@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-13",
-  "trade_date": "2026年11月13日",
+  "date": "2026-11-16",
+  "trade_date": "2026年11月16日",
   "inflow_top3": [
     {
       "name": "银行",
-      "amount": 67.6
+      "amount": 45.4
     },
     {
-      "name": "家用电器",
-      "amount": 17.7
+      "name": "机械设备",
+      "amount": 18.1
     },
     {
-      "name": "公用环保",
-      "amount": 15.1
+      "name": "食品饮料",
+      "amount": 13.0
     }
   ],
   "outflow_top3": [
     {
-      "name": "电子元件",
-      "amount": -149.1
+      "name": "半导体",
+      "amount": -141.4
     },
     {
       "name": "通信",
-      "amount": -119.1
+      "amount": -45.5
     },
     {
-      "name": "半导体",
-      "amount": -118.1
+      "name": "电子元件",
+      "amount": -35.9
     }
   ],
   "industry_top1": "银行",
