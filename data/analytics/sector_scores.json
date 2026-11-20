@@ -1,15 +1,15 @@
 {
-  "date": "20261119",
+  "date": "20261120",
   "scores": [
     {
       "sector": "数据要素",
-      "score": 78,
-      "week_count": 7,
-      "prev_count": 3,
-      "trend": "+133%",
+      "score": 89,
+      "week_count": 10,
+      "prev_count": 0,
+      "trend": "NEW",
       "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
+      "intensity_level": "results",
+      "is_first": true,
       "stocks": [
         {
           "code": "603138",
@@ -29,113 +29,17 @@
       ],
       "trigger_articles": [
         {
-          "date": "20261119",
-          "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
+          "date": "20261120",
+          "title": "[视频]习近平会见印度尼西亚总统"
         },
         {
-          "date": "20261119",
-          "title": "[视频]联播快讯"
+          "date": "20261120",
+          "title": "[视频]习近平会见新加坡总理"
         },
         {
-          "date": "20261118",
-          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
         },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见加拿大总理"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见巴布亚新几内亚总理"
-        }
-      ]
-    },
-    {
-      "sector": "基建投资",
-      "score": 73,
-      "week_count": 24,
-      "prev_count": 15,
-      "trend": "+60%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601186",
-          "name": "中国铁建",
-          "market": "SH"
-        },
-        {
-          "code": "601800",
-          "name": "中国交建",
-          "market": "SH"
-        },
-        {
-          "code": "601669",
-          "name": "中国电建",
-          "market": "SH"
-        },
-        {
-          "code": "601390",
-          "name": "中国中铁",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261119",
-          "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平迎接美国总统"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]赵乐际在云南调研"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]俄罗斯总统抵达深圳 蔡奇前往机场迎接"
-        }
-      ]
-    },
-    {
-      "sector": "新能源",
-      "score": 73,
-      "week_count": 15,
-      "prev_count": 10,
-      "trend": "+50%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601012",
-          "name": "隆基绿能",
-          "market": "SH"
-        },
-        {
-          "code": "300274",
-          "name": "阳光电源",
-          "market": "SZ"
-        },
-        {
-          "code": "600905",
-          "name": "三峡能源",
-          "market": "SH"
-        },
-        {
-          "code": "002459",
-          "name": "晶澳科技",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
         {
           "date": "20261119",
           "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
@@ -143,27 +47,15 @@
         {
           "date": "20261119",
           "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见墨西哥总统"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见秘鲁总统"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见智利总统"
         }
       ]
     },
     {
       "sector": "AI人工智能",
-      "score": 69,
-      "week_count": 27,
-      "prev_count": 10,
-      "trend": "+170%",
+      "score": 74,
+      "week_count": 32,
+      "prev_count": 7,
+      "trend": "+357%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -191,34 +83,235 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261120",
+          "title": "[视频]习近平会见印度尼西亚总统"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见新加坡总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见马来西亚总理"
+        }
+      ]
+    },
+    {
+      "sector": "新能源",
+      "score": 69,
+      "week_count": 19,
+      "prev_count": 7,
+      "trend": "+171%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601012",
+          "name": "隆基绿能",
+          "market": "SH"
+        },
+        {
+          "code": "300274",
+          "name": "阳光电源",
+          "market": "SZ"
+        },
+        {
+          "code": "600905",
+          "name": "三峡能源",
+          "market": "SH"
+        },
+        {
+          "code": "002459",
+          "name": "晶澳科技",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见印度尼西亚总统"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
+        },
+        {
+          "date": "20261119",
+          "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 68,
+      "week_count": 23,
+      "prev_count": 17,
+      "trend": "+35%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601186",
+          "name": "中国铁建",
+          "market": "SH"
+        },
+        {
+          "code": "601800",
+          "name": "中国交建",
+          "market": "SH"
+        },
+        {
+          "code": "601669",
+          "name": "中国电建",
+          "market": "SH"
+        },
+        {
+          "code": "601390",
+          "name": "中国中铁",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见马来西亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261119",
           "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
         },
         {
-          "date": "20261119",
-          "title": "[视频]习近平主持中俄美元首会晤"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]习近平会见美国总统"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]联播快讯"
+          "date": "20261118",
+          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
         },
         {
           "date": "20261118",
-          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
+          "title": "[视频]习近平迎接美国总统"
+        }
+      ]
+    },
+    {
+      "sector": "新能源汽车",
+      "score": 64,
+      "week_count": 6,
+      "prev_count": 4,
+      "trend": "+50%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
+        },
+        {
+          "date": "20261117",
+          "title": "[视频]习近平会见智利总统"
+        },
+        {
+          "date": "20261117",
+          "title": "[视频]我国将加快推进再生资源回收体系建设"
+        },
+        {
+          "date": "20261115",
+          "title": "[视频]李强会见泰国国王"
+        }
+      ]
+    },
+    {
+      "sector": "外贸",
+      "score": 59,
+      "week_count": 41,
+      "prev_count": 30,
+      "trend": "+37%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见新加坡总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见马来西亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
         }
       ]
     },
     {
       "sector": "农业",
-      "score": 65,
-      "week_count": 24,
-      "prev_count": 14,
-      "trend": "+71%",
-      "policy_level": "中央政治局",
+      "score": 59,
+      "week_count": 23,
+      "prev_count": 16,
+      "trend": "+44%",
+      "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -240,49 +333,17 @@
       ],
       "trigger_articles": [
         {
-          "date": "20261119",
-          "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
         },
         {
-          "date": "20261119",
-          "title": "[视频]习近平主持中俄美元首会晤"
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
         },
         {
-          "date": "20261119",
-          "title": "[视频]习近平会见美国总统"
+          "date": "20261120",
+          "title": "[视频]习近平会见马来西亚总理"
         },
-        {
-          "date": "20261119",
-          "title": "[视频]我国加快提升农产品品质"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]丁薛祥在江西调研"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 63,
-      "week_count": 35,
-      "prev_count": 36,
-      "trend": "+-3%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
         {
           "date": "20261119",
           "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
@@ -290,28 +351,16 @@
         {
           "date": "20261119",
           "title": "[视频]习近平主持中俄美元首会晤"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]习近平会见美国总统"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平会见俄罗斯总统"
         }
       ]
     },
     {
       "sector": "消费",
-      "score": 59,
-      "week_count": 10,
-      "prev_count": 9,
-      "trend": "+11%",
-      "policy_level": "国务院",
+      "score": 57,
+      "week_count": 9,
+      "prev_count": 7,
+      "trend": "+29%",
+      "policy_level": "国家发改委",
       "intensity_level": "results",
       "is_first": false,
       "stocks": [
@@ -355,93 +404,11 @@
       ]
     },
     {
-      "sector": "新能源汽车",
-      "score": 58,
-      "week_count": 4,
-      "prev_count": 5,
-      "trend": "+-20%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见智利总统"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]我国将加快推进再生资源回收体系建设"
-        },
-        {
-          "date": "20261115",
-          "title": "[视频]李强会见泰国国王"
-        }
-      ]
-    },
-    {
-      "sector": "银行金融",
-      "score": 55,
-      "week_count": 5,
-      "prev_count": 7,
-      "trend": "+-29%",
-      "policy_level": "中央政治局",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601398",
-          "name": "工商银行",
-          "market": "SH"
-        },
-        {
-          "code": "600036",
-          "name": "招商银行",
-          "market": "SH"
-        },
-        {
-          "code": "601166",
-          "name": "兴业银行",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261113",
-          "title": "[视频]习近平对国有企业党的建设工作作出重要指示强调 持之以恒推进全面从严治党 为做强做优做大国有企业和国有资本提供坚强保障 蔡奇出席国有企业党的建设工作座谈会并讲话"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]今年前10个月社会融资规模新增28.61万亿元"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]深圳准备就绪 以高水平服务保障APEC盛会"
-        }
-      ]
-    },
-    {
       "sector": "医药",
       "score": 54,
       "week_count": 9,
-      "prev_count": 15,
-      "trend": "+-40%",
+      "prev_count": 14,
+      "trend": "+-36%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -654,11 +621,81 @@
       ]
     },
     {
+      "sector": "黄金",
+      "score": 35,
+      "week_count": 2,
+      "prev_count": 2,
+      "trend": "+0%",
+      "policy_level": "",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600547",
+          "name": "山东黄金",
+          "market": "SH"
+        },
+        {
+          "code": "600489",
+          "name": "中金黄金",
+          "market": "SH"
+        },
+        {
+          "code": "002155",
+          "name": "湖南黄金",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见马来西亚总理"
+        },
+        {
+          "date": "20261116",
+          "title": "[视频]电视专题片《站在历史潮头——习近平主席引领亚太共创美好未来》今晚播出"
+        }
+      ]
+    },
+    {
+      "sector": "银行金融",
+      "score": 34,
+      "week_count": 1,
+      "prev_count": 9,
+      "trend": "+-89%",
+      "policy_level": "财政部",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601398",
+          "name": "工商银行",
+          "market": "SH"
+        },
+        {
+          "code": "600036",
+          "name": "招商银行",
+          "market": "SH"
+        },
+        {
+          "code": "601166",
+          "name": "兴业银行",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261120",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
       "sector": "石油能源",
-      "score": 37,
-      "week_count": 4,
-      "prev_count": 7,
-      "trend": "+-43%",
+      "score": 32,
+      "week_count": 3,
+      "prev_count": 8,
+      "trend": "+-62%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -691,76 +728,6 @@
         {
           "date": "20261115",
           "title": "[视频]国际联播快讯"
-        },
-        {
-          "date": "20261113",
-          "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "房地产",
-      "score": 31,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "央行",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "001979",
-          "name": "招商蛇口",
-          "market": "SZ"
-        },
-        {
-          "code": "600048",
-          "name": "保利发展",
-          "market": "SH"
-        },
-        {
-          "code": "000002",
-          "name": "万科A",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261113",
-          "title": "[视频]今年前10个月社会融资规模新增28.61万亿元"
-        }
-      ]
-    },
-    {
-      "sector": "黄金",
-      "score": 25,
-      "week_count": 1,
-      "prev_count": 2,
-      "trend": "+-50%",
-      "policy_level": "",
-      "intensity_level": "advancing",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600547",
-          "name": "山东黄金",
-          "market": "SH"
-        },
-        {
-          "code": "600489",
-          "name": "中金黄金",
-          "market": "SH"
-        },
-        {
-          "code": "002155",
-          "name": "湖南黄金",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261116",
-          "title": "[视频]电视专题片《站在历史潮头——习近平主席引领亚太共创美好未来》今晚播出"
         }
       ]
     },
