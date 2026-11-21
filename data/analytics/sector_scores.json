@@ -1,5 +1,5 @@
 {
-  "date": "20261120",
+  "date": "20261121",
   "scores": [
     {
       "sector": "数据要素",
@@ -51,11 +51,60 @@
       ]
     },
     {
-      "sector": "AI人工智能",
+      "sector": "新能源汽车",
       "score": 74,
-      "week_count": 32,
-      "prev_count": 7,
-      "trend": "+357%",
+      "week_count": 7,
+      "prev_count": 2,
+      "trend": "+250%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "market": "SZ"
+        },
+        {
+          "code": "002594",
+          "name": "比亚迪",
+          "market": "SZ"
+        },
+        {
+          "code": "688561",
+          "name": "奇安信",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
+        },
+        {
+          "date": "20261117",
+          "title": "[视频]习近平会见智利总统"
+        },
+        {
+          "date": "20261117",
+          "title": "[视频]我国将加快推进再生资源回收体系建设"
+        }
+      ]
+    },
+    {
+      "sector": "AI人工智能",
+      "score": 69,
+      "week_count": 29,
+      "prev_count": 12,
+      "trend": "+142%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -83,6 +132,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261121",
+          "title": "[视频]李强同新加坡总理会谈"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]国内联播快讯"
+        },
+        {
           "date": "20261120",
           "title": "[视频]习近平会见印度尼西亚总统"
         },
@@ -93,23 +150,15 @@
         {
           "date": "20261120",
           "title": "[视频]习近平会见新加坡总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见马来西亚总理"
         }
       ]
     },
     {
       "sector": "新能源",
-      "score": 69,
-      "week_count": 19,
-      "prev_count": 7,
-      "trend": "+171%",
+      "score": 64,
+      "week_count": 17,
+      "prev_count": 9,
+      "trend": "+89%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -137,8 +186,138 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]李强同新加坡总理会谈"
+        },
+        {
           "date": "20261120",
           "title": "[视频]习近平会见印度尼西亚总统"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见泰国总理"
+        }
+      ]
+    },
+    {
+      "sector": "钢铁",
+      "score": 63,
+      "week_count": 2,
+      "prev_count": 1,
+      "trend": "+100%",
+      "policy_level": "国务院",
+      "intensity_level": "intensive",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600019",
+          "name": "宝钢股份",
+          "market": "SH"
+        },
+        {
+          "code": "000708",
+          "name": "中信特钢",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
+          "date": "20261119",
+          "title": "[视频]我国新增34家领航级智能工厂"
+        }
+      ]
+    },
+    {
+      "sector": "消费",
+      "score": 59,
+      "week_count": 10,
+      "prev_count": 9,
+      "trend": "+11%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "market": "SH"
+        },
+        {
+          "code": "000858",
+          "name": "五粮液",
+          "market": "SZ"
+        },
+        {
+          "code": "601888",
+          "name": "中国中免",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]国内联播快讯"
+        },
+        {
+          "date": "20261119",
+          "title": "[视频]习近平对老龄工作作出重要指示强调 深入实施积极应对人口老龄化国家战略 努力让老年人的生活更加幸福美满 李强出席全国老龄工作会议并讲话"
+        },
+        {
+          "date": "20261119",
+          "title": "[视频]我国新增34家领航级智能工厂"
+        },
+        {
+          "date": "20261119",
+          "title": "[视频]联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "农业",
+      "score": 59,
+      "week_count": 22,
+      "prev_count": 16,
+      "trend": "+38%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "600598",
+          "name": "北大荒",
+          "market": "SH"
+        },
+        {
+          "code": "000998",
+          "name": "隆平高科",
+          "market": "SZ"
+        },
+        {
+          "code": "300498",
+          "name": "温氏股份",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]多地秋假激发亲子文旅市场活力"
         },
         {
           "date": "20261120",
@@ -150,7 +329,7 @@
         },
         {
           "date": "20261120",
-          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
+          "title": "[视频]习近平会见马来西亚总理"
         },
         {
           "date": "20261119",
@@ -159,13 +338,57 @@
       ]
     },
     {
-      "sector": "基建投资",
-      "score": 68,
-      "week_count": 23,
-      "prev_count": 17,
-      "trend": "+35%",
+      "sector": "外贸",
+      "score": 59,
+      "week_count": 38,
+      "prev_count": 33,
+      "trend": "+15%",
       "policy_level": "国务院",
-      "intensity_level": "intensive",
+      "intensity_level": "results",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601872",
+          "name": "招商港口",
+          "market": "SH"
+        },
+        {
+          "code": "600018",
+          "name": "上港集团",
+          "market": "SH"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]10月份工业经济总体平稳 发展质量持续提升"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]国际联播快讯"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见澳大利亚总理"
+        },
+        {
+          "date": "20261120",
+          "title": "[视频]习近平会见新加坡总理"
+        }
+      ]
+    },
+    {
+      "sector": "基建投资",
+      "score": 54,
+      "week_count": 19,
+      "prev_count": 21,
+      "trend": "+-10%",
+      "policy_level": "国务院",
+      "intensity_level": "results",
       "is_first": false,
       "stocks": [
         {
@@ -191,6 +414,10 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261121",
+          "title": "[视频]国际联播快讯"
+        },
+        {
           "date": "20261120",
           "title": "[视频]习近平会见马来西亚总理"
         },
@@ -205,210 +432,15 @@
         {
           "date": "20261118",
           "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平迎接美国总统"
-        }
-      ]
-    },
-    {
-      "sector": "新能源汽车",
-      "score": 64,
-      "week_count": 6,
-      "prev_count": 4,
-      "trend": "+50%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "300750",
-          "name": "宁德时代",
-          "market": "SZ"
-        },
-        {
-          "code": "002594",
-          "name": "比亚迪",
-          "market": "SZ"
-        },
-        {
-          "code": "688561",
-          "name": "奇安信",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]习近平会见智利总统"
-        },
-        {
-          "date": "20261117",
-          "title": "[视频]我国将加快推进再生资源回收体系建设"
-        },
-        {
-          "date": "20261115",
-          "title": "[视频]李强会见泰国国王"
-        }
-      ]
-    },
-    {
-      "sector": "外贸",
-      "score": 59,
-      "week_count": 41,
-      "prev_count": 30,
-      "trend": "+37%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601872",
-          "name": "招商港口",
-          "market": "SH"
-        },
-        {
-          "code": "600018",
-          "name": "上港集团",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见澳大利亚总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见新加坡总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见马来西亚总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]李强同澳大利亚总理举行第十一轮中澳总理年度会晤"
-        }
-      ]
-    },
-    {
-      "sector": "农业",
-      "score": 59,
-      "week_count": 23,
-      "prev_count": 16,
-      "trend": "+44%",
-      "policy_level": "国务院",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600598",
-          "name": "北大荒",
-          "market": "SH"
-        },
-        {
-          "code": "000998",
-          "name": "隆平高科",
-          "market": "SZ"
-        },
-        {
-          "code": "300498",
-          "name": "温氏股份",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见澳大利亚总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见泰国总理"
-        },
-        {
-          "date": "20261120",
-          "title": "[视频]习近平会见马来西亚总理"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]习近平主持中俄美元首会晤"
-        }
-      ]
-    },
-    {
-      "sector": "消费",
-      "score": 57,
-      "week_count": 9,
-      "prev_count": 7,
-      "trend": "+29%",
-      "policy_level": "国家发改委",
-      "intensity_level": "results",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600519",
-          "name": "贵州茅台",
-          "market": "SH"
-        },
-        {
-          "code": "000858",
-          "name": "五粮液",
-          "market": "SZ"
-        },
-        {
-          "code": "601888",
-          "name": "中国中免",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261119",
-          "title": "[视频]习近平对老龄工作作出重要指示强调 深入实施积极应对人口老龄化国家战略 努力让老年人的生活更加幸福美满 李强出席全国老龄工作会议并讲话"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]我国新增34家领航级智能工厂"
-        },
-        {
-          "date": "20261119",
-          "title": "[视频]联播快讯"
-        },
-        {
-          "date": "20261118",
-          "title": "[视频]习近平出席亚太经合组织工商领导人峰会开幕式并发表主旨演讲"
-        },
-        {
-          "date": "20261116",
-          "title": "[视频]10月份国民经济运行延续总体平稳向新向优发展态势"
         }
       ]
     },
     {
       "sector": "医药",
       "score": 54,
-      "week_count": 9,
-      "prev_count": 14,
-      "trend": "+-36%",
+      "week_count": 10,
+      "prev_count": 16,
+      "trend": "+-38%",
       "policy_level": "国务院",
       "intensity_level": "results",
       "is_first": false,
@@ -431,6 +463,14 @@
       ],
       "trigger_articles": [
         {
+          "date": "20261121",
+          "title": "[视频]【新思想引领新征程】努力让老年人的生活更加幸福美满"
+        },
+        {
+          "date": "20261121",
+          "title": "[视频]李强同澳大利亚总理共同出席第九届中澳工商界首席执行官圆桌会"
+        },
+        {
           "date": "20261119",
           "title": "[视频]我国新增34家领航级智能工厂"
         },
@@ -441,98 +481,6 @@
         {
           "date": "20261116",
           "title": "[视频]习近平在广东中山考察时强调 深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面"
-        },
-        {
-          "date": "20261115",
-          "title": "[视频]李强同泰国总理共同出席中泰企业家座谈会"
-        },
-        {
-          "date": "20261115",
-          "title": "[视频]守护公平正义 高质量司法护航中国式现代化"
-        }
-      ]
-    },
-    {
-      "sector": "机器人",
-      "score": 51,
-      "week_count": 3,
-      "prev_count": 2,
-      "trend": "+50%",
-      "policy_level": "",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "601689",
-          "name": "拓普集团",
-          "market": "SH"
-        },
-        {
-          "code": "688017",
-          "name": "绿的谐波",
-          "market": "SH"
-        },
-        {
-          "code": "002747",
-          "name": "埃斯顿",
-          "market": "SZ"
-        },
-        {
-          "code": "300124",
-          "name": "汇川技术",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261118",
-          "title": "[视频]八省（市）将开展6G创新发展部省协同试点"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]【建设亚太共同体 促进共同繁荣】创新亚太 携手同行"
-        }
-      ]
-    },
-    {
-      "sector": "半导体",
-      "score": 48,
-      "week_count": 2,
-      "prev_count": 3,
-      "trend": "+-33%",
-      "policy_level": "国务院",
-      "intensity_level": "intensive",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "688981",
-          "name": "中芯国际",
-          "market": "SH"
-        },
-        {
-          "code": "002049",
-          "name": "紫光国微",
-          "market": "SZ"
-        },
-        {
-          "code": "603501",
-          "name": "韦尔股份",
-          "market": "SH"
-        },
-        {
-          "code": "688012",
-          "name": "中微公司",
-          "market": "SH"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261116",
-          "title": "[视频]国内联播快讯"
-        },
-        {
-          "date": "20261114",
-          "title": "[视频]李强同泰国总理会谈"
         }
       ]
     },
@@ -540,8 +488,8 @@
       "sector": "军工",
       "score": 41,
       "week_count": 3,
-      "prev_count": 9,
-      "trend": "+-67%",
+      "prev_count": 8,
+      "trend": "+-62%",
       "policy_level": "",
       "intensity_level": "intensive",
       "is_first": false,
@@ -583,40 +531,86 @@
       ]
     },
     {
-      "sector": "工程机械",
-      "score": 40,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "国家发改委",
-      "intensity_level": "advancing",
+      "sector": "半导体",
+      "score": 36,
+      "week_count": 2,
+      "prev_count": 4,
+      "trend": "+-50%",
+      "policy_level": "",
+      "intensity_level": "intensive",
       "is_first": false,
       "stocks": [
         {
-          "code": "600031",
-          "name": "三一重工",
+          "code": "688981",
+          "name": "中芯国际",
           "market": "SH"
         },
         {
-          "code": "000157",
-          "name": "中联重科",
+          "code": "002049",
+          "name": "紫光国微",
           "market": "SZ"
         },
         {
-          "code": "000425",
-          "name": "徐工机械",
-          "market": "SZ"
+          "code": "603501",
+          "name": "韦尔股份",
+          "market": "SH"
         },
         {
-          "code": "600150",
-          "name": "中国船舶",
+          "code": "688012",
+          "name": "中微公司",
           "market": "SH"
         }
       ],
       "trigger_articles": [
         {
-          "date": "20261114",
-          "title": "[视频]政策发力显效 多项先行指标持续改善"
+          "date": "20261121",
+          "title": "[视频]10月份工业经济总体平稳 发展质量持续提升"
+        },
+        {
+          "date": "20261116",
+          "title": "[视频]国内联播快讯"
+        }
+      ]
+    },
+    {
+      "sector": "机器人",
+      "score": 35,
+      "week_count": 3,
+      "prev_count": 4,
+      "trend": "+-25%",
+      "policy_level": "",
+      "intensity_level": "advancing",
+      "is_first": false,
+      "stocks": [
+        {
+          "code": "601689",
+          "name": "拓普集团",
+          "market": "SH"
+        },
+        {
+          "code": "688017",
+          "name": "绿的谐波",
+          "market": "SH"
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "market": "SZ"
+        },
+        {
+          "code": "300124",
+          "name": "汇川技术",
+          "market": "SZ"
+        }
+      ],
+      "trigger_articles": [
+        {
+          "date": "20261121",
+          "title": "[视频]10月份工业经济总体平稳 发展质量持续提升"
+        },
+        {
+          "date": "20261118",
+          "title": "[视频]八省（市）将开展6G创新发展部省协同试点"
         }
       ]
     },
@@ -694,8 +688,8 @@
       "sector": "石油能源",
       "score": 32,
       "week_count": 3,
-      "prev_count": 8,
-      "trend": "+-62%",
+      "prev_count": 7,
+      "trend": "+-57%",
       "policy_level": "",
       "intensity_level": "results",
       "is_first": false,
@@ -728,34 +722,6 @@
         {
           "date": "20261115",
           "title": "[视频]国际联播快讯"
-        }
-      ]
-    },
-    {
-      "sector": "钢铁",
-      "score": 22,
-      "week_count": 1,
-      "prev_count": 1,
-      "trend": "+0%",
-      "policy_level": "",
-      "intensity_level": "",
-      "is_first": false,
-      "stocks": [
-        {
-          "code": "600019",
-          "name": "宝钢股份",
-          "market": "SH"
-        },
-        {
-          "code": "000708",
-          "name": "中信特钢",
-          "market": "SZ"
-        }
-      ],
-      "trigger_articles": [
-        {
-          "date": "20261119",
-          "title": "[视频]我国新增34家领航级智能工厂"
         }
       ]
     }
