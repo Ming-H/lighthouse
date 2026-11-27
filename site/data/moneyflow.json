@@ -1,34 +1,34 @@
 {
-  "date": "2026-11-26",
-  "trade_date": "2026年11月26日",
+  "date": "2026-11-27",
+  "trade_date": "2026年11月27日",
   "inflow_top3": [
     {
+      "name": "半导体",
+      "amount": 424.0
+    },
+    {
       "name": "通信",
-      "amount": 63.3
+      "amount": 309.5
     },
     {
       "name": "电子元件",
-      "amount": 43.7
-    },
-    {
-      "name": "银行",
-      "amount": 32.9
+      "amount": 163.1
     }
   ],
   "outflow_top3": [
     {
-      "name": "半导体",
-      "amount": -15.3
+      "name": "银行",
+      "amount": -55.8
     },
     {
       "name": "商贸社服",
-      "amount": -8.5
+      "amount": -7.5
     },
     {
-      "name": "非银金融",
-      "amount": -6.6
+      "name": "传媒",
+      "amount": -5.9
     }
   ],
-  "industry_top1": "通信",
-  "concept_top1": "共封装光学(CPO)"
+  "industry_top1": "半导体",
+  "concept_top1": "融资融券"
 }
